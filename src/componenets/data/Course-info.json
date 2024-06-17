@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Robotics",
+    "description": "Welcome to Robotics. Explore the world of machines and automation.",
+    "videoSrc": "/videos/RoboticsVideo.mp4"
+  },
+  {
+    "title": "Art and Craft",
+    "description": "Welcome to Art and Craft. Unleash your creativity with various art forms.",
+    "videoSrc": "/videos/ArtAndCraftVideo.mp4"
+  }
+]

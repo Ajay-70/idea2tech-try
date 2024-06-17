@@ -1,0 +1,7 @@
+@font-face{
+  font-family: Outfit;
+  src:url(/Outfit-Light.ttf);
+}
+.Outfit{
+  font-family: Outfit;
+}

@@ -1,0 +1,38 @@
+.domains{
+  justify-content: center;
+  margin-top: 50px;
+  /* border-bottom: 2px solid black; */
+}
+.domain-img{
+  height: 400px;
+  margin: 30px;
+  width: 20%;
+  
+  
+}
+.img{
+  border-radius: 20px;
+}
+.domain-text{
+  align-items: flex-start; /* Centers vertically */
+  justify-content: center; /* Centers horizontally */
+  flex-direction: column;
+  transition: background-color 0.3s; /* Smooth transition */
+  width: 50%;
+  margin-left: auto;
+  display: flex;
+}
+.domain-btn{
+  background-color: #5D232F;
+  padding:15px ;
+  margin: 50px;
+  color: azure;
+  padding: 13px 50px;
+  align-items: center;
+  border-radius: 25px;
+  transition: 1s;
+  margin-left: auto;
+}
+.domain-btn:hover{
+  box-shadow: 0 5px 10px 10px gray;
+}

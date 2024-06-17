@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Robotics",
+    "imageSrc": "/images/robotics.jpeg",
+    "content": "The Robotics Fundamentals course offers an engaging introduction to the exciting world of robotics. Designed for beginners with a passion for technology and innovation, this course provides a comprehensive overview of the principles, concepts, and applications of robotics. Students will delve into the fundamentals of robotics, exploring topics such as robot anatomy, sensors, actuators, and control systems. Through a combination of theoretical lessons and hands-on lab exercises, students will gain practical skills in robot design, programming, and operation."
+  },
+  {
+    "title": "Artificial Intelligence and Game Building",
+    "imageSrc": "/images/coding.jpeg",
+    "content": "Artificial Intelligence and Game Building course is designed to introduce participants to the fascinating world of AI technology and its applications in game development. In the AI component, participants learn about various AI tools and techniques, including machine learning algorithms, neural networks, natural language processing, and computer vision. They explore the future possibilities of AI and its impact on industries such as healthcare, finance, and transportation. In the game building segment, participants use block coding platforms to create interactive games, learning the basics of game design, programming logic, and problem-solving skills."
+  },
+  {
+    "title": "Art and Crafts",
+    "imageSrc": "/images/Art and crafting.jpeg",
+    "content": "Our Creative Arts Research course is designed to inspire young minds and get creative through hands-on and hands-on activities. This exciting program exposes students to different art forms, techniques, and materials, and creates a fun and supportive environment for artistic expression. Throughout this course, students will explore many art forms, including drawing, painting, sculpture, collage, and more. Each lesson is carefully designed to encourage experimentation, develop skills, and develop individual artistry."
+  },
+  {
+    "title": "3D Modeling and Printing",
+    "imageSrc": "/images/3D modeling.jpeg",
+    "content": "The course on 3D modeling and printing introduces participants to the exciting world of three-dimensional design and fabrication. It begins by elucidating the fundamentals of 3D modeling and printing, covering topics such as the concept of three-dimensional space, modeling techniques, and the process of translating digital designs into physical objects using 3D printing technology. Participants gain insight into the uses and applications of 3D modeling and printing across various industries, including product design, architecture, healthcare, and education. The course then delves into the basics of Tinkercad, a user-friendly online platform for creating 3D models, providing hands-on experience in designing simple objects."
+  },
+  {
+    "title": "Agronomy",
+    "imageSrc": "/images/Agronomy.jpeg",
+    "content": "Introduction to Agronomy offers students an immersive exploration into the fascinating world of agricultural science and crop production. This course provides a comprehensive introduction to the principles, practices, and technologies essential for sustainable and efficient crop cultivation. Through a blend of classroom learning, hands-on fieldwork, and interactive activities, students will gain a deeper understanding of the key concepts and processes involved in modern agriculture."
+  },
+  {
+    "title": "Engineering Basics",
+    "imageSrc": "/images/engineering basics1.jpeg",
+    "content": "Engineering Basics is an immersive journey into the fundamental principles, concepts, and applications of engineering. Designed for students with a curiosity for how things work and a passion for innovation, this course provides a hands-on introduction to various branches of engineering. Throughout the course, students will engage in interactive learning experiences, practical demonstrations, and collaborative projects that showcase the diverse and dynamic field of engineering."
+  },
+  {
+    "title": "Workshops",
+    "imageSrc": "/images/workshops.jpeg",
+    "content": "Our Student Workshops are designed to inspire, educate, and empower young minds through engaging and interactive learning experiences. These workshops offer students the opportunity to explore a wide range of topics, from robotics and coding to art and entrepreneurship, in a fun and supportive environment."
+  },
+  {
+    "title": "Science fair",
+    "imageSrc": "/images/Science fair.jpeg",
+    "content": "Our Student Science Fair is a dynamic and inspiring event that celebrates the creativity, ingenuity, and scientific inquiry of young minds. Designed to showcase student-led research projects, experiments, and innovations, the Science Fair provides an opportunity for students to explore their interests, share their discoveries, and engage with the wider community."
+  }
+]

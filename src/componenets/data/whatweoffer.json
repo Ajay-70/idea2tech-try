@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Robotics",
+      "imageSrc": "/images/robotics.jpeg"
+    },
+    {
+      "title": "Artificial Intelligence and Game Building",
+      "imageSrc": "/images/coding.jpeg"
+    },
+    {
+      "title": "Art and Crafts",
+      "imageSrc": "/images/Art and crafting.jpeg"
+    },
+    {
+      "title": "3D Modeling and Printing",
+      "imageSrc": "/images/3D modeling.jpeg"
+    },
+    {
+      "title": "Agronomy",
+      "imageSrc": "/images/Agronomy.jpeg"
+    },
+    {
+      "title": "Engineering Basics",
+      "imageSrc": "/images/engineering basics1.jpeg"
+    },
+    {
+      "title": "Workshops",
+      "imageSrc": "/images/workshops.jpeg"
+    },
+    {
+      "title": "Science fair",
+      "imageSrc": "/images/Science fair.jpeg"
+    }
+]
