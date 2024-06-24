@@ -1,192 +1,173 @@
 import React from "react";
 import Banners from "../../Banners/Banners";
-import OurMission from "../../OurMission";
 
 function AboutUs() {
   return (
     <div>
-      <div class="flex h-screen justify-center items-center max-w-screen-xl mx-auto">
-        <div class="sm:w-1/2 p-10">
-          <div class="max-w-2xl mx-auto">
-            <div
-              id="default-carousel"
-              class="relative rounded-lg overflow-hidden shadow-lg"
-              data-carousel="static"
-            >
-              {/* <!-- Carousel wrapper --> */}
-              <div class="relative h-150 md:h-96" data-carousel-inner>
-                {/* <!-- Item 1 --> */}
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img
-                    src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-                    class="object-cover w-full h-full"
-                    alt="Slide 1"
-                  />
-                  <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl font-semibold text-white md:text-2xl dark:text-gray-800">
-                    First Slide
-                  </span>
-                </div>
-                {/* <!-- Item 2 --> */}
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img
-                    src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-                    class="object-cover w-full h-full"
-                    alt="Slide 2"
-                  />
-                </div>
-                {/* <!-- Item 3 --> */}
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img
-                    src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-                    class="object-cover w-full h-full"
-                    alt="Slide 3"
-                  />
-                </div>
-              </div>
-              {/* <!-- Slider indicators --> */}
-              <div
-                class="flex absolute bottom-5 left-1/2 z-30 -translate-x-1/2 space-x-2"
-                data-carousel-indicators
-              >
-                <button
-                  type="button"
-                  class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"
-                ></button>
-                <button
-                  type="button"
-                  class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"
-                ></button>
-                <button
-                  type="button"
-                  class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"
-                ></button>
-              </div>
-              {/* <!-- Slider controls --> */}
-              <button
-                type="button"
-                class="flex absolute top-1/2 left-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
-                data-carousel-prev
-              >
-                <svg
-                  class="w-5 h-5 text-gray-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-              </button>
-              <button
-                type="button"
-                class="flex absolute top-1/2 right-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
-                data-carousel-next
-              >
-                <svg
-                  class="w-5 h-5 text-gray-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-          </div>
+      <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
+        {/* Image Column */}
+        <div className="w-full h-64 lg:w-1/2 lg:h-auto">
+          <img
+            className="h-full w-full object-cover"
+            src="/images/aboutus-bg.jpeg"
+            alt="Idea2Tech!"
+          />
         </div>
-        <div class="sm:w-1/2 p-5">
-          <div class="text">
-            <span class="text-gray-500 bold  border-b-2 border-indigo-600 uppercase">
-              Welcome !
-            </span>
-            <h2 class="my-4 font-bold text-3xl sm:text-4xl">
-              <span class="text-indigo-600">At Idea2Tech</span>
-            </h2>
-            <p class="text-gray-700">
-              we are passionate about shaping the future by providing innovative
-              and comprehensive education in the fields of robotics,
-              engineering, artificial intelligence, game development, art &
-              craft, and agronomy. Founded with a vision to inspire and empower
-              the next generation of tech-savvy innovators, we are dedicated to
-              creating hands-on learning experiences that spark curiosity and
-              foster critical thinking.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="bg-gray-100 container text-center my-5 p-8">
-        {/* <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-          good words
-        </h2> */}
+        {/* Close Image Column */}
 
-        <div className="flex flex-wrap items-center mt-20  text-left ">
-          <div className="w-full md:w-3/5 lg:w-1/2 px-4">
-            <div class="mt-12 md:mt-0">
-              <img
-                src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
-                alt="About Us Image"
-                class="object-cover rounded-lg shadow-md"
-              />
-            </div>
-          </div>
-          <div className="w-full md:w-2/5 lg:w-1/2 px-4 r md:text-left lg:pl-12">
-            <div class="order-first md:order-last">
-              <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                Our Mission
-              </h2>
-              <p class="mt-4 text-gray-600 text-lg">
-                Our mission is to bridge the gap between traditional education
-                and the technological advancements of the modern world. We aim
-                to cultivate a learning environment that encourages creativity,
-                innovation, and practical problem-solving skills in students
-                from a young age. By integrating cutting-edge technology and
-                interactive projects into our curriculum, we prepare students
-                for the challenges and opportunities of the future.
-              </p>
-              <div class="mt-8"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="bg-gray-100 container text-center my-5 p-8">
-        <div className="flex flex-wrap items-center mt-20 text-right ">
-          <div className="w-full md:w-3/5 lg:w-1/2 px-4">
-            <img
-              src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
-              alt="About Us Image"
-              class="object-cover rounded-lg shadow-md"
-            />
-          </div>
-          <div className="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first  md:text-left lg:pr-12">
-            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Our Mission
+        {/* Text Column */}
+        <div className="max-w-lg bg-gray-100 border border-2-[#FABF2C] md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:py-10 lg:my-20 lg:ml-20 xl:mt-24 xl:ml-12">
+          {/* Text Wrapper */}
+          <div className="flex flex-col p-12 md:px-16">
+            <h2 className="text-2xl font-medium uppercase text-[#3C9AF5] lg:text-4xl">
+              Idea2Tech!
             </h2>
-            <p class="mt-4 text-gray-600 text-lg">
-              Our mission is to bridge the gap between traditional education and
-              the technological advancements of the modern world. We aim to
-              cultivate a learning environment that encourages creativity,
-              innovation, and practical problem-solving skills in students from
-              a young age. By integrating cutting-edge technology and
-              interactive projects into our curriculum, we prepare students for
-              the challenges and opportunities of the future.
+            <p className="mt-4">
+              At Idea2Tech, we are passionate about shaping the future by
+              providing innovative and comprehensive education in the fields of
+              robotics, engineering, artificial intelligence, game development,
+              art & craft, and agronomy. Founded with a vision to inspire and
+              empower the next generation of tech-savvy innovators, we are
+              dedicated to creating hands-on learning experiences that spark
+              curiosity and foster critical thinking.
             </p>
+            {/* Button Container */}
+            {/* <div className="mt-8">
+              <a
+                href="#"
+                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-green-600 border-solid border-2 border-gray-600 py-4 px-10 hover:bg-green-800 hover:shadow-md md:w-48"
+              >
+                Read More
+              </a>
+            </div> */}
           </div>
+          {/* Close Text Wrapper */}
+        </div>
+        {/* Close Text Column */}
+      </div>
+
+      <div className="max-w-5xl  my-5 mx-auto mt-12 px-4 text-center">
+        <div className="w-full max-w-3xl mx-auto">
+          <h1 className="text-4xl font-bold mt-2 mb-6">Our Services</h1>
+          <p className="px-4 leading-relaxed">
+            Discover a world of educational possibilities with our tailored
+            services for schools. We specialize in installing cutting-edge labs
+            that facilitate learning in Robotics, Artificial Intelligence, Game
+            Building, Arts and Crafts, 3D Modeling and Printing, Agronomy,
+            Engineering Basics, and more. Enhance student engagement with our
+            science fairs and workshops, fostering curiosity and innovation.
+            Additionally, explore our convenient online courses available
+            directly on our website, extending our commitment to accessible and
+            comprehensive education.
+          </p>
         </div>
       </div>
 
-      <OurMission />
-      <div class="relative bg-violet-600">
+      <section className="text-gray-800 body-font">
+        <div className="flex justify-center mt-10 text-4xl font-bold">
+          Why Us?
+        </div>
+        <div className="container px-5 py-12 mx-auto">
+          <div className="flex flex-wrap text-center justify-center">
+            <div className="p-4 md:w-1/4 sm:w-1/2">
+              <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
+                <div className="flex justify-center">
+                  <img
+                    src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp"
+                    className="w-32 mb-3"
+                    alt="hands-on learning"
+                  />
+                </div>
+                <h2 className="title-font font-regular text-2xl text-gray-900">
+                  hands-on learning
+                </h2>
+              </div>
+            </div>
+
+            <div className="p-4 md:w-1/4 sm:w-1/2">
+              <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
+                <div className="flex justify-center">
+                  <img
+                    src="https://image2.jdomni.in/banner/13062021/3E/57/E8/1D6E23DD7E12571705CAC761E7_1623567977295.png?output-format=webp"
+                    className="w-32 mb-3"
+                    alt="Affordable excellence"
+                  />
+                </div>
+                <h2 className="title-font font-regular text-2xl text-gray-900">
+                  Affordable excellence
+                </h2>
+              </div>
+            </div>
+
+            <div className="p-4 md:w-1/4 sm:w-1/2">
+              <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
+                <div className="flex justify-center">
+                  <img
+                    src="https://image3.jdomni.in/banner/13062021/16/7E/7E/5A9920439E52EF309F27B43EEB_1623568010437.png?output-format=webp"
+                    className="w-32 mb-3"
+                    alt="flexible"
+                  />
+                </div>
+                <h2 className="title-font font-regular text-2xl text-gray-900">
+                  flexible
+                </h2>
+              </div>
+            </div>
+
+            <div className="p-4 md:w-1/4 sm:w-1/2">
+              <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
+                <div className="flex justify-center">
+                  <img
+                    src="https://image3.jdomni.in/banner/13062021/EB/99/EE/8B46027500E987A5142ECC1CE1_1623567959360.png?output-format=webp"
+                    className="w-32 mb-3"
+                    alt="student-centric approach"
+                  />
+                </div>
+                <h2 className="title-font font-regular text-2xl text-gray-900">
+                  student-centric approach
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="max-w-xl my-5 mx-auto mt-16 flex w-full flex-col border rounded-lg bg-white p-8">
+        <h2 class="title-font mb-1 text-lg font-medium text-gray-900">
+          Feedback
+        </h2>
+        <p class="mb-5 leading-relaxed text-gray-600">
+          If you had any issues or you liked our product, please share with us!
+        </p>
+        <div class="mb-4">
+          <label for="email" class="text-sm leading-7 text-gray-600">
+            Email
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="w-full rounded border border-gray-300 bg-white py-1 px-3 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="message" class="text-sm leading-7 text-gray-600">
+            Message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            class="h-32 w-full resize-none rounded border border-gray-300 bg-white py-1 px-3 text-base leading-6 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+          ></textarea>
+        </div>
+        <button class="rounded border-0 bg-indigo-500 py-2 px-6 text-lg text-white hover:bg-indigo-600 focus:outline-none">
+          Send
+        </button>
+        <p class="mt-3 text-xs text-gray-500">
+          Feel free to connect with us on social media platforms.
+        </p>
+      </div>
+
+      <div class="relative bg-violet-500">
         <div class="absolute inset-x-0 bottom-0">
           <svg
             viewBox="0 0 224 12"
