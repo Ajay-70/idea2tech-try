@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Navbar.css";
+// import logo from "../../assets/logo.png";
 import logo from "../../assets/logo.png";
 
 function CollapsibleExample() {
@@ -12,9 +13,10 @@ function CollapsibleExample() {
       expand="lg"
       // className="colo bg-[#5D232F]"
       // className="colo bg-[#54C8E0]"
-      className="colo bg-[#FABF2C]"
+      className="colo bg-[#FABF2C] "
+      // className="colo"
     >
-      <Container>
+      <Container className="">
         <Navbar.Brand href="#home">
           <img className="h-12" src={logo} alt="" />
         </Navbar.Brand>

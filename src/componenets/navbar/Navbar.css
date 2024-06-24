@@ -4,12 +4,13 @@
   font-size: 19px;
   font-weight: 800;
   font-weight: 700;
-  border-radius: 25px;
-  transition: 1.5s;
+  /* border-radius: 25px; */
+  transition: 0.3s;
   text-shadow: 2px 2px 2px #000; 
 }
 .nav-compo:hover {
-  background-color: rgba(128, 128, 128, 0.50); 
- border-bottom: 1px solid silver;
+  /* background-color: rgba(128, 128, 128, 0.50);  */
+ /* border-bottom: 1px solid silver; */
+ border-bottom: 5px solid white;
  
 }

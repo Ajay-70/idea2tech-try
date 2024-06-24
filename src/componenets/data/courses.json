@@ -3,36 +3,36 @@
     "domain":"Robotics",
     "title": "Arduino",
     "imageSrc": "/images/courses/Arduino course.jpeg",
-    "content": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "content": "Learn to program and build projects using Arduino microcontrollers, sensors, and actuators for hands-on electronics and coding experience."
   },
   {
     "title": "Raspberry Pi",
     "imageSrc": "/images/courses/Raspberry Pi.jpeg",
-    "content": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "content": "Master using Raspberry Pi for various applications, from home automation to programming and electronics, with hands-on projects."
   },
   {
     "title": "Drone Building",
     "imageSrc": "/images/courses/drone course.jpeg",
-    "content": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "content": " Design, assemble, and program your own drone, understanding the mechanics, electronics, and software"
   },
   {
     "title": "Voice Assistant",
     "imageSrc": "/images/courses/voice assistant.jpeg",
-    "content": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "content": "Create a voice-activated assistant using software and hardware, learning natural language processing and voice recognition technologies."
   },
   {
     "title": "Mobile Controller Device",
     "imageSrc": "/images/courses/mobile controller device.jpeg",
-    "content": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "content": "Develop and program mobile controllers for various applications, integrating with hardware and software for seamless user interaction."
   },
   {
     "title": "3D Modeling",
     "imageSrc": "/images/courses/3D modeling course.jpeg",
-    "content": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "content": "Learn 3D modeling techniques using software to create digital representations of objects for various applications, including 3D printing."
   },
   {
     "title": "3D Printing",
     "imageSrc": "/images/courses/3D printing course.jpeg",
-    "content": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "content": "Understand the principles of 3D printing, from design to execution, and produce physical models using different printing technologies."
   }
 ]

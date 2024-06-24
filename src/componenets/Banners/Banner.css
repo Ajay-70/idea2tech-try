@@ -7,6 +7,7 @@
   justify-content: center; /* Centers horizontally */
   flex-direction: column;
   background-image: linear-gradient(135deg, #FABF2C, #262626, #FABF2C);
+  
   color: white; 
   /* background-color: #e94f6e; */
 }

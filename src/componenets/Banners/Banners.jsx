@@ -4,8 +4,8 @@ import "../Banners/Banner.css";
 const Banners = (props) => {
   console.log(props.button_name);
   return (
-    <div className="bannnner">
-      <h1 className="lg:text-4xl font-bold border-b-2 border-white md:text-2xl sm:text-xl lg:p-3">
+    <div className="bannnner ">
+      <h1 className="lg:text-4xl  font-bold border-b-2 border-white md:text-2xl sm:text-xl lg:p-3">
         {props.name}
       </h1>
       {/* Conditionally render the button based on button_name */}
