@@ -16,8 +16,8 @@ function CollapsibleExample() {
       // className="colo"
     >
       <Container>
-        <Navbar.Brand href="#home">
-          <img className="h-24" src={logo} alt="" />
+        <Navbar.Brand href="/">
+          <img className="h-12" src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
