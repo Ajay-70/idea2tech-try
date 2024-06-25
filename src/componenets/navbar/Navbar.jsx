@@ -2,7 +2,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Navbar.css";
-// import logo from "../../assets/logo.png";
 import logo from "../../assets/logo.png";
 
 function CollapsibleExample() {
@@ -16,9 +15,9 @@ function CollapsibleExample() {
       className="colo bg-[#FABF2C] "
       // className="colo"
     >
-      <Container className="">
+      <Container>
         <Navbar.Brand href="#home">
-          <img className="h-12" src={logo} alt="" />
+          <img className="h-24" src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
