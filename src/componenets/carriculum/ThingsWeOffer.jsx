@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 import roboticsData from "../data/whatweoffer.json";
 import { useNavigate } from "react-router";
 import "./ThingsWeOffer.css";
@@ -12,30 +11,28 @@ function ThingsWeOffer() {
     window.scrollTo(0, 0);
   };
   return (
-    <div>
-      <div className="flex justify-center flex-wrap">
-        {roboticsData.map((data, index) => (
+    <div className="flex justify-center flex-wrap">
+      {roboticsData.map((data, index) => (
+        <div
+          key={index}
+          className="item-container lg:grid-cols-2 px-5 m-6 mb-7 border-spacing-3"
+          onClick={() => handleKnowMore(data.title)}
+        >
           <div
-            key={index}
-            className=" lg:grid-cols-2  md:grid-cols-3 sm:grid-cols-2 px-5 m-6 mb-7 border-spacing-3 "
-            onClick={() => handleKnowMore(data.title)}
+            className="ThingsWeOffer_compo mx-auto"
+            style={{ width: "18rem" }}
           >
-            <div
-              className="ThingsWeOffer_compo mx-auto"
-              style={{ width: "18rem" }}
-            >
-              <img
-                src={data.imageSrc}
-                className="img_compo card-img-top rounded-circle mx-auto"
-                alt={data.title}
-              />
-              <div className="text-center py-2">
-                <p className="fonttext">{data.title}</p>
-              </div>
+            <img
+              src={data.imageSrc}
+              className="img_compo card-img-top rounded-circle mx-auto"
+              alt={data.title}
+            />
+            <div className="text-center py-2">
+              <p className="fonttext">{data.title}</p>
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 }

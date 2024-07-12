@@ -37,10 +37,8 @@ function App() {
               <Banners name="Courses We Offer!" />
               <CoursesWeOffer />
               <Banners name="Our Level-Based Teaching Curriculum" />
-              <Design3 />
+              <Design2 />
               {/* <Design1 /> */}
-
-              {/* <Design2 /> */}
             </div>
           }
         />

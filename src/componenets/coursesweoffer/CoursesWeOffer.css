@@ -1,4 +1,4 @@
-.ThingsWeOffer_compo {
+.CoursesWeOffer {
   display: flex;
   flex-direction: column; /* Change to column */
   justify-content: space-around; /* Optional: Adjust as needed */
@@ -9,8 +9,9 @@
   width: 18rem;
 }
 
+
 @media (max-width: 414px) {
-  .ThingsWeOffer_compo .img_compo {
+  .CoursesWeOffer .img_compo {
     width: 50%;
     height: auto;
   }
@@ -20,4 +21,5 @@
   .ThingsWeOffer_compo {
     flex-wrap: wrap;
   }
+  
 }

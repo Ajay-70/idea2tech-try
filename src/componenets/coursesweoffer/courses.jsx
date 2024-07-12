@@ -1,5 +1,6 @@
 import React from "react";
 import Courses from "../data/courses.json";
+import "./CoursesWeOffer.css";
 
 function CoursesWeOffer() {
   return (
@@ -7,10 +8,10 @@ function CoursesWeOffer() {
       <div className="my-5 flex justify-center flex-wrap ">
         {Courses.map((data, index) => (
           <div key={index} className=" md:w-1/3  mb-4">
-            <div className="mx-auto" style={{ width: "20rem" }}>
+            <div className="CoursesWeOffer mx-auto" style={{ width: "20rem" }}>
               <img
                 src={data.imageSrc}
-                className="card-img-top   rounded-md"
+                className="img_compo card-img-top  rounded-md"
                 alt={data.title}
               />
               <div className="text-center py-2 ">

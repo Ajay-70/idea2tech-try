@@ -11,18 +11,18 @@ function Domains({}) {
     <div>
       {domainsData.map((data, index) => (
         <div key={index}>
-          <div className=" flex domains">
-            <div className="domain-img sm:justify-center items-center">
-              <img className="img " src={data.imageSrc} alt="" />
+          <div className=" domains">
+            <div className="domain-img">
+              <img className="img" src={data.imageSrc} alt="" />
             </div>
-            <div className="domain-text m-10">
-              <h1 className="text-3xl p-4 underline">{data.title}</h1>
+            <div className="domain-text mx-10">
+              <h1 className="text-3xl px-4 underline">{data.title}</h1>
               <p className="text-xl px-4">{data.content}</p>
               <button
                 className="domain-btn"
                 onClick={() => handleKnowMore(data.title)}
               >
-                Know more about {data.title}
+                Know more
               </button>
             </div>
           </div>

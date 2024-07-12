@@ -1,5 +1,4 @@
 import React from "react";
-import BookAnAppintment from "../../forms/BookAnAppintment";
 
 import OurMission from "../../OurMission";
 import BookAMeeting from "../../meeting-Forms/BookAMeeting";
@@ -12,6 +11,7 @@ function Educators() {
             src="/images/oureducators1.png"
             alt="Background Image"
             className="object-cover object-center w-full h-full"
+            style={{}}
           />
         </div>
         <div className="absolute inset-9 flex flex-col md:flex-row text-center items-center justify-between">
@@ -34,21 +34,23 @@ function Educators() {
       </div>
       <OurMission />
 
-      <section class="py-10" id="services">
-        <div class="container mx-auto px-4">
-          <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+      <section className="py-10" id="services">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
             Programs Offered
           </h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img
                 src="/images/robotics-full.jpeg"
                 alt="wheat flour grinding"
-                class="w-full h-64 object-cover"
+                className="w-full h-64 object-cover"
               />
-              <div class="p-6 text-center">
-                <h3 class="text-xl font-medium text-gray-800 mb-2">Robotics</h3>
-                <p class="text-gray-700 text-base">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-medium text-gray-800 mb-2">
+                  Robotics
+                </h3>
+                <p className="text-gray-700 text-base">
                   Our wheat flour grinding service provides fresh, high-quality
                   flour to businesses and individuals in the area. We use
                   state-of-the-art equipment to grind wheat into flour, and we
@@ -56,17 +58,17 @@ function Educators() {
                 </p>
               </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img
                 src="/images/ai full.png"
                 alt="Coffee"
-                class="w-full h-64 object-cover"
+                className="w-full h-64 object-cover"
               />
-              <div class="p-6 text-center">
-                <h3 class="text-xl font-medium text-gray-800 mb-2">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-medium text-gray-800 mb-2">
                   Artificial Intelligence and Game Building
                 </h3>
-                <p class="text-gray-700 text-base">
+                <p className="text-gray-700 text-base">
                   Our gram flour is perfect for a variety of uses, including
                   baking, cooking, and making snacks. It is also a good source
                   of protein and fiber.Our gram flour grinding service is a
@@ -75,17 +77,17 @@ function Educators() {
                 </p>
               </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img
                 src="/images/Art and crafting full.jpeg"
                 alt="Coffee"
-                class="w-full h-64 object-cover"
+                className="w-full h-64 object-cover"
               />
-              <div class="p-6 text-center">
-                <h3 class="text-xl font-medium text-gray-800 mb-2">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-medium text-gray-800 mb-2">
                   Art and Crafts
                 </h3>
-                <p class="text-gray-700 text-base">
+                <p className="text-gray-700 text-base">
                   Our jowar grinding service is a convenient and affordable way
                   to get fresh, high-quality jowar flour. We use
                   state-of-the-art equipment to grind jowar into a fine powder,
@@ -100,17 +102,17 @@ function Educators() {
                 </p>
               </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img
                 src="/images/3D Modeling and Printing full.png"
                 alt="Coffee"
-                class="w-full h-64 object-cover"
+                className="w-full h-64 object-cover"
               />
-              <div class="p-6 text-center">
-                <h3 class="text-xl font-medium text-gray-800 mb-2">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-medium text-gray-800 mb-2">
                   3D Modeling and Printing
                 </h3>
-                <p class="text-gray-700 text-base">
+                <p className="text-gray-700 text-base">
                   We specializes in the production of high-quality chili powder.
                   Our chili powder is made from the finest, freshest chilies,
                   and we use traditional pounding methods to ensure that our
@@ -128,16 +130,20 @@ function Educators() {
               </div>
             </div>
 
-            <div class="bg-white rounded-lg p-0.5 shadow-md overflow-hidden min-h-full">
+            <div className="bg-white rounded-lg p-0.5 shadow-md overflow-hidden min-h-full">
               <img
                 src="/images/Agronomy full.png"
                 alt="Coffee"
-                class="w-full h-64 object-cover rounded-t-lg"
+                className="w-full h-64 object-cover rounded-t-lg"
               />
-              <div class="p-6 bg-white text-center rounded-b-lg md:min-h-full">
-                <h3 class="text-xl font-medium text-gray-800 mb-2">Agronomy</h3>
-                <p class="text-gray-700 text-base">
-                  <span class="font-medium underline">Our speciality is</span>
+              <div className="p-6 bg-white text-center rounded-b-lg md:min-h-full">
+                <h3 className="text-xl font-medium text-gray-800 mb-2">
+                  Agronomy
+                </h3>
+                <p className="text-gray-700 text-base">
+                  <span className="font-medium underline">
+                    Our speciality is
+                  </span>
                   Bappa Flour Mill offers a variety of flavored spaghetti dishes
                   that are sure to tantalize your taste buds. We use only the
                   freshest ingredients Our flavors include: Mango, spinach
@@ -145,17 +151,17 @@ function Educators() {
               </div>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img
                 src="/images/engineering basics full.jpeg"
                 alt="papad"
-                class="w-full h-64 object-cover"
+                className="w-full h-64 object-cover"
               />
-              <div class="p-6 text-center">
-                <h3 class="text-xl font-medium text-gray-800 mb-2">
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-medium text-gray-800 mb-2">
                   Rice Papad
                 </h3>
-                <p class="text-gray-700 text-base">
+                <p className="text-gray-700 text-base">
                   Our company produces high-quality rice papad that is made with
                   the finest ingredients. We use traditional methods to make our
                   papad, which gives it a unique flavor and texture. Our papad
@@ -177,7 +183,7 @@ function Educators() {
         </div>
       </section>
 
-      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+      <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
         Our Level-Based Teaching Curriculum
       </h2>
       <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
@@ -292,7 +298,7 @@ function Educators() {
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
               Lab Setup
             </h2>
 
@@ -529,7 +535,7 @@ function Educators() {
           <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800">
             Our programs typically run for 4 months, with flexible timing to
             adapt to different school needs. We offer various levels to cater to
-            different class groups.
+            different className groups.
           </p>
         </div>
       </section>
