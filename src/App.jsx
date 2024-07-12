@@ -19,8 +19,16 @@ import ContactForm from "./componenets/meeting-Forms/ContactForm";
 import AboutUs from "./componenets/pages/about-us/AboutUs";
 import TryComponent from "./componenets/TryComponent";
 import Educators from "./componenets/pages/for-educators/Educators";
+import MainCarousel from "./componenets/carousel/MainCarousel";
 
 function App() {
+  const homeimages = [
+    "/images/MainCarouselImages/1.jpg",
+    "/images/MainCarouselImages/2.jpg",
+    "/images/MainCarouselImages/3.jpg",
+    "/images/MainCarouselImages/4.jpg",
+    "/images/MainCarouselImages/5.jpg",
+  ];
   return (
     <>
       <Navbar />
@@ -38,6 +46,8 @@ function App() {
               <CoursesWeOffer />
               <Banners name="Our Level-Based Teaching Curriculum" />
               <Design2 />
+              <Banners name="Projects Made by our Students" />
+              <MainCarousel images={homeimages} />
               {/* <Design1 /> */}
             </div>
           }

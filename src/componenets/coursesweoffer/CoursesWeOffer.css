@@ -11,8 +11,12 @@
 
 
 @media (max-width: 414px) {
+  .CoursesWeOffer{
+    display: flex;
+    width: 40%;
+  }
   .CoursesWeOffer .img_compo {
-    width: 50%;
+    width: 70%;
     height: auto;
   }
   .ThingsWeOffer_compo .fonttext {

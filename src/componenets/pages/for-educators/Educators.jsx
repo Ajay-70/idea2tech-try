@@ -11,7 +11,6 @@ function Educators() {
             src="/images/oureducators1.png"
             alt="Background Image"
             className="object-cover object-center w-full h-full"
-            style={{}}
           />
         </div>
         <div className="absolute inset-9 flex flex-col md:flex-row text-center items-center justify-between">

@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px; /* Adjust this value to fit your desired frame height */
+  width: 100%;
+  overflow: hidden; /* Ensure overflow is hidden to maintain the frame */
+}
+
+.carousel-image {
+  height: 100%;
+  width: auto;
+  object-fit: cover; /* Ensure the image covers the frame without distortion */
+}

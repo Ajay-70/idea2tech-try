@@ -28,7 +28,7 @@ function ThingsWeOffer() {
               alt={data.title}
             />
             <div className="text-center py-2">
-              <p className="fonttext">{data.title}</p>
+              <p className="fonttext font-bold">{data.title}</p>
             </div>
           </div>
         </div>

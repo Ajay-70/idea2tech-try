@@ -19,7 +19,7 @@ function Domains({}) {
               <h1 className="text-3xl px-4 underline">{data.title}</h1>
               <p className="text-xl px-4">{data.content}</p>
               <button
-                className="domain-btn"
+                className="domain-btn bg-[#3C9AF5] hover:bg-[#5d6dff]"
                 onClick={() => handleKnowMore(data.title)}
               >
                 Know more

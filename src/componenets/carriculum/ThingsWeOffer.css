@@ -9,9 +9,13 @@
   width: 18rem;
 }
 
+.ThingsWeOffer_compo .fonttext {
+  font-size: larger;
+}
+
 @media (max-width: 414px) {
   .ThingsWeOffer_compo .img_compo {
-    width: 50%;
+    width: 65%;
     height: auto;
   }
   .ThingsWeOffer_compo .fonttext {

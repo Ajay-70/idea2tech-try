@@ -15,7 +15,7 @@ function CoursesWeOffer() {
                 alt={data.title}
               />
               <div className="text-center py-2 ">
-                <p className="text-xl font-bold">{data.title}</p>
+                <p className="lg:text-xl sm:text-l font-bold">{data.title}</p>
               </div>
             </div>
           </div>

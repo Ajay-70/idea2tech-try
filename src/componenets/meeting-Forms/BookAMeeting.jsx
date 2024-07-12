@@ -2,78 +2,23 @@ import React from "react";
 
 function BookAMeeting() {
   function Submit(e) {
-    e.preventDefault();
-
-    // Select the form element using the correct query selector
-    const formEle = document.querySelector("#contactForm"); // Assuming your form has an ID "contactForm"
-
-    // Check if formEle is found and is an HTMLFormElement
-    if (formEle && formEle instanceof HTMLFormElement) {
-      console.log("Submitted");
-
-      const formData = new FormData(formEle);
-
-      // Correct the fetch syntax
-      fetch(
-        "https://script.google.com/macros/s/AKfycbxemuEFRo-18wTQbMPIpHMgWKLRHNSA10hfRwJMY1MvzpL83h9fk2G-80S-hBcrLyM/exec",
-        {
-          method: "POST",
-          body: formData,
-        }
-      )
-        .then((response) => {
-          const contentType = response.headers.get("content-type");
-          if (contentType && contentType.includes("application/json")) {
-            return response.json();
-          } else {
-            return response.text(); // Handle HTML or plain text responses
-          }
-        })
-        .then((data) => {
-          if (typeof data === "string") {
-            console.log("Response:", data);
-          } else {
-            console.log("Success:", data);
-          }
-        })
-        .catch((error) => {
-          console.error("Error:", error);
-        });
-    } else {
-      console.error("Form element not found or not a valid HTMLFormElement");
-    }
+    const formEle = document.querySelector("form");
+    const formDatab = new FormData(formEle);
+    fetch(
+      "https://script.google.com/macros/s/AKfycbxj_FkvvOYmVsIGixc9IpYqGohmNoCudWAIwawdgG-fqu6LdfO4dVqQJLrOc94rWkqMOw/exec",
+      {
+        method: "POST",
+        body: formDatab,
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }
-
-  // Example of adding the event listener to the form
-  document.addEventListener("DOMContentLoaded", () => {
-    const formElement = document.querySelector("#contactForm");
-    if (formElement) {
-      formElement.addEventListener("submit", Submit);
-    } else {
-      console.error("Form element with id 'contactForm' not found");
-    }
-  });
-
-  // Example of adding the event listener to the form
-  document.addEventListener("DOMContentLoaded", () => {
-    const formElement = document.querySelector("#contactForm");
-    if (formElement) {
-      formElement.addEventListener("submit", Submit);
-    } else {
-      console.error("Form element with id 'contactForm' not found");
-    }
-  });
-
-  // Example of adding the event listener to the form
-  document.addEventListener("DOMContentLoaded", () => {
-    const formElement = document.querySelector("#contactForm");
-    if (formElement) {
-      formElement.addEventListener("submit", Submit);
-    } else {
-      console.error("Form element with id 'contactForm' not found");
-    }
-  });
-
   return (
     <div>
       <section className="bg-blue-50 dark:bg-slate-800" id="contact">
@@ -213,7 +158,7 @@ function BookAMeeting() {
                           autoComplete="given-name"
                           placeholder="Your name"
                           className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
-                          name="name"
+                          name="Name"
                         />
                       </div>
                       <div className="mx-0 mb-1 sm:mb-4">
@@ -227,7 +172,7 @@ function BookAMeeting() {
                           autoComplete="email"
                           placeholder="Your email address"
                           className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
-                          name="email"
+                          name="Email"
                         />
                       </div>
                     </div>
@@ -238,7 +183,8 @@ function BookAMeeting() {
                       ></label>
                       <textarea
                         id="textarea"
-                        name="textarea"
+                        name="Message"
+                        type="text"
                         cols="30"
                         rows="5"
                         placeholder="Write your message..."
@@ -248,6 +194,7 @@ function BookAMeeting() {
                   </div>
                   <div className="text-center">
                     <button
+                      name="Name"
                       type="submit"
                       className="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0"
                     >
