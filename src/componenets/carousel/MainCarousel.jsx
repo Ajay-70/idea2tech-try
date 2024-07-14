@@ -17,7 +17,7 @@ const MainCarousel = ({ images }) => {
   return (
     <div className="p-5">
       <AliceCarousel
-        mouseTracking
+        // mouseTracking
         items={items}
         controlsStrategy="alternate"
         disableButtonsControls
