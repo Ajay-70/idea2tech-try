@@ -90,14 +90,14 @@ function Design2() {
                 border: "2px solid transparent", // Hide border on small screens
               }}
             >
-              <h3 className="mb-3 font-bold text-white text-3xl">
+              <h3 className="mb-3 font-bold text-white lg:text-3xl md:text-2xl">
                 {event.title}
               </h3>
               <ul className="list-disc pl-5 ">
                 {event.levels.map((level, levelIndex) => (
                   <li
                     key={levelIndex}
-                    className="text-white text-xl leading-tight"
+                    className="text-white lg:text-xl leading-tight"
                   >
                     <span className="font-bold">{level.split(": ")[0]}:</span>{" "}
                     {level.split(": ")[1]}

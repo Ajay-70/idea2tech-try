@@ -20,6 +20,7 @@ import AboutUs from "./componenets/pages/about-us/AboutUs";
 import TryComponent from "./componenets/TryComponent";
 import Educators from "./componenets/pages/for-educators/Educators";
 import MainCarousel from "./componenets/carousel/MainCarousel";
+import SubscribeNewsletter from "./componenets/newzletter/SubscribeNewsletter";
 
 function App() {
   const homeimages = [
@@ -48,6 +49,7 @@ function App() {
               <Design2 />
               <Banners name="Projects Made by our Students" />
               <MainCarousel images={homeimages} />
+
               {/* <Design1 /> */}
             </div>
           }
@@ -62,7 +64,7 @@ function App() {
         <Route path="/show-interest" element={<ContactForm />} />
         <Route path="/try" element={<TryComponent />} />
       </Routes>
-
+      <SubscribeNewsletter />
       <Footer />
     </>
   );

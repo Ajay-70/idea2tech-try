@@ -2,6 +2,26 @@ import React from "react";
 import Rating from "../rating/Rating";
 
 const ContactForm = () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+    formData.append("Rating", rating);
+
+    const response = await fetch(
+      "https://script.google.com/macros/s/AKfycby7Ru0KztXWaiOeceROXenK-WDiC4lEGdwBZESbVP65rgiSMjdzhNtyL9ss2Q8ILkC_/exec",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    if (response.ok) {
+      alert("Data successfully sent!");
+    } else {
+      alert(`HTTP error! status: ${response.status}`);
+    }
+  };
   return (
     <div className="p-8 mt-8 max-w-lg mx-auto">
       <h1 className="text-5xl border-b-4 p-3 border-indigo-500 text-gray-800 font-bold mb-4">
@@ -9,7 +29,7 @@ const ContactForm = () => {
       </h1>
 
       <h1 className="text-4xl text-gray-800 font-bold mb-4">Contact Form</h1>
-      <form>
+      <form id="ContactForm" onSubmit={handleSubmit}>
         <div className="p-2 w-full">
           <div className="relative">
             <label

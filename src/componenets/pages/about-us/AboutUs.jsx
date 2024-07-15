@@ -40,7 +40,7 @@ function AboutUs() {
         <div className="max-w-lg bg-gray-100 border border-2-[#FABF2C] md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:py-10 lg:my-20 lg:ml-20 xl:mt-24 xl:ml-12">
           {/* Text Wrapper */}
           <div className="flex flex-col p-12 md:px-16">
-            <h2 className="text-2xl font-medium uppercase text-[#3C9AF5] lg:text-4xl">
+            <h2 className="text-3xl font-extrabold uppercase  border-2 border-b-red-500 text-[#3C9AF5] lg:text-4xl">
               Idea2Tech!
             </h2>
             <p className="mt-4">
@@ -81,7 +81,7 @@ function AboutUs() {
         </div>
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap text-center justify-center">
-            <div className="p-4 md:w-1/4 sm:w-1/2">
+            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2">
               <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                 <div className="flex justify-center">
                   <img
@@ -96,7 +96,7 @@ function AboutUs() {
               </div>
             </div>
 
-            <div className="p-4 md:w-1/4 sm:w-1/2">
+            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2">
               <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                 <div className="flex justify-center">
                   <img
@@ -111,7 +111,7 @@ function AboutUs() {
               </div>
             </div>
 
-            <div className="p-4 md:w-1/4 sm:w-1/2">
+            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2">
               <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                 <div className="flex justify-center">
                   <img
@@ -126,7 +126,7 @@ function AboutUs() {
               </div>
             </div>
 
-            <div className="p-4 md:w-1/4 sm:w-1/2">
+            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2">
               <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                 <div className="flex justify-center">
                   <img

@@ -45,7 +45,7 @@
   }
   .domain-img{
     
-    width: 73%;
+    width: 65%;
     padding-bottom: 25px;
     padding-top: 10x;
   }
@@ -56,14 +56,16 @@
     
   }
   .domain-text h1{
-    text-align: center;
-    margin-bottom: 10px;
+   margin-bottom: 20px;
+   text-align: center;
   }
   
   .domain-btn{
     margin-left: auto;
   margin-right: auto;
   }
-
+.domain-content{
+  font-size: small;
+}
   
 }
