@@ -1,0 +1,214 @@
+
+
+[
+  {
+      "id": 1,
+      "name": "IoT-Enabled Automated Shelter System for Crop Protection Against Rain",
+      "code": "MA001"
+  },
+  {
+      "id": 2,
+      "name": "Intelligent Temperature-Regulated Cooling System for Solar Panels",
+      "code": "MA002"
+  },
+  {
+      "id": 3,
+      "name": "Advanced Automated Hydroponic System for Efficient Plant Cultivation",
+      "code": "MA003"
+  },
+  {
+      "id": 4,
+      "name": "Smart Weather Station for Advanced Environmental Monitoring Applications",
+      "code": "MA004"
+  },
+  {
+      "id": 5,
+      "name": "Wheelchair Fall Detection System with SMS and Location Tracking",
+      "code": "MA005"
+  },
+  {
+      "id": 6,
+      "name": "Intelligent Road Safety and Vehicle Accident Prevention System for Mountainous Terrain",
+      "code": "MA006"
+  },
+  {
+      "id": 7,
+      "name": "IoT-Based System for Monitoring and Alerting Flooding Conditions",
+      "code": "MA007"
+  },
+  {
+      "id": 8,
+      "name": "IoT-Enabled Navigation Assistance System for Visually Impaired Individuals",
+      "code": "MA008"
+  },
+  {
+      "id": 9,
+      "name": "Solar Power Automatic Irrigation System",
+      "code": "MA009"
+  },
+  {
+      "id": 10,
+      "name": "Offline Voice Controlled Home Automation System",
+      "code": "MA010"
+  },
+  {
+      "id": 11,
+      "name": "Gas Leakage Detector with SMS and Buzzer Alert System for Immediate Response",
+      "code": "MA011"
+  },
+  {
+      "id": 12,
+      "name": "Home Automation System Using Android Application",
+      "code": "MA012"
+  },
+  {
+      "id": 13,
+      "name": "IoT Based Agriculture Monitoring and Automatic Watering System",
+      "code": "MA013"
+  },
+  {
+      "id": 14,
+      "name": "RFID Based Online Attendance System",
+      "code": "MA014"
+  },
+  {
+      "id": 15,
+      "name": "Alcohol Detection and Automatic Car Engine Locking System",
+      "code": "MA015"
+  },
+  {
+      "id": 16,
+      "name": "RFID Based Smart Parking System",
+      "code": "MA016"
+  },
+  {
+      "id": 17,
+      "name": "Automatic Railway Gate Operating System",
+      "code": "MA017"
+  },
+  {
+      "id": 18,
+      "name": "Automated IOT-Based Fish Tank Maintenance Assistive System",
+      "code": "MA018"
+  },
+  {
+      "id": 19,
+      "name": "IoT-Enabled Innovative System for Accident Detection and Rescue",
+      "code": "MA019"
+  },
+  {
+      "id": 20,
+      "name": "School Bus Live Location Tracking System Using Blynk",
+      "code": "MA020"
+  },
+  {
+      "id": 21,
+      "name": "IOT River Water Quality Monitoring System Using RC Boat",
+      "code": "MA021"
+  },
+  {
+      "id": 22,
+      "name": "IOT Based Colour Detection and Sorting Machine",
+      "code": "MA022"
+  },
+  {
+      "id": 23,
+      "name": "Face Recognition Security Locking System",
+      "code": "MA023"
+  },
+  {
+      "id": 24,
+      "name": "Water Leakage Detection, Monitoring and Control System Using IOT",
+      "code": "MA024"
+  },
+  {
+      "id": 25,
+      "name": "Human Following Robot Using Nodemcu",
+      "code": "MA025"
+  },
+  {
+      "id": 26,
+      "name": "Solar Highway Lighting System with Auto Turn On and Off",
+      "code": "MA026"
+  },
+  {
+      "id": 27,
+      "name": "Voice-Based Wheel Chair Controller for Physically Handicapped",
+      "code": "MA027"
+  },
+  {
+      "id": 28,
+      "name": "Home Automation Control through Voice & Google Assistant",
+      "code": "MA028"
+  },
+  {
+      "id": 29,
+      "name": "Remote Controlled Metal and Landmine Detection Robotic Vehicle",
+      "code": "MA029"
+  },
+  {
+      "id": 30,
+      "name": "Air Quality Monitoring System Using Drone",
+      "code": "MA030"
+  },
+  {
+      "id": 31,
+      "name": "Hand Movement Controlled RC Robot",
+      "code": "MA031"
+  },
+  {
+      "id": 32,
+      "name": "Medical Supplies Delivery Drone",
+      "code": "MA032"
+  },
+  {
+      "id": 33,
+      "name": "Suntracking Solar System with Expanding Mechanism",
+      "code": "MA033"
+  },
+  {
+      "id": 34,
+      "name": "Smart Timer Based Pet Food Feeder System",
+      "code": "MA034"
+  },
+  {
+      "id": 35,
+      "name": "Emergency Hand Crank Power Generator",
+      "code": "MA035"
+  },
+  {
+      "id": 36,
+      "name": "Fingerprint Based Electronic Voting Machine",
+      "code": "MA036"
+  },
+  {
+      "id": 37,
+      "name": "Fingerprint Based ATM Machine with RFID Card",
+      "code": "MA037"
+  },
+  {
+      "id": 38,
+      "name": "Wind and Solar Power Generation System",
+      "code": "MA038"
+  },
+  {
+      "id": 39,
+      "name": "Solar Lake Cleaner Remote Controlled Robot",
+      "code": "MA039"
+  },
+  {
+      "id": 40,
+      "name": "Foot Step Power Generation System",
+      "code": "MA040"
+  },
+  {
+      "id": 41,
+      "name": "Speed Breaker Power Generation System",
+      "code": "MA041"
+  },
+  {
+      "id": 42,
+      "name": "Waste Segregation System for Dry, Wet and Metal Waste",
+      "code": "MA042"
+  }
+]

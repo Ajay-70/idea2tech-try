@@ -10,7 +10,7 @@ const Banners = (props) => {
       </h1>
       {/* Conditionally render the button based on button_name */}
       {props.button_name != null && (
-        <button className="bg-gray-700 hover:bg-[#e94f6e] px-5 text-white font-bold py-2 px-4 rounded-full">
+        <button className="bg-gray-700 hover:bg-[#e94f6e] px-5 text-white font-bold py-2  rounded-full">
           {props.button_name}
         </button>
       )}

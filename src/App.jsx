@@ -21,6 +21,8 @@ import TryComponent from "./componenets/TryComponent";
 import Educators from "./componenets/pages/for-educators/Educators";
 import MainCarousel from "./componenets/carousel/MainCarousel";
 import SubscribeNewsletter from "./componenets/newzletter/SubscribeNewsletter";
+import EngineeringProjects from "./componenets/pages/engineering-projects/EngineeringProjects";
+import ViewEngineeringProjects from "./componenets/pages/engineering-projects/view-projects/ViewEngineeringProjects";
 
 function App() {
   const homeimages = [
@@ -62,6 +64,11 @@ function App() {
         <Route path="/course/:title" element={<CourseInfo />} />
         <Route path="/get-in-touch" element={<BookAMeeting />} />
         <Route path="/show-interest" element={<ContactForm />} />
+        <Route path="/engineering/projects" element={<EngineeringProjects />} />
+        <Route
+          path="/browse-projects-list/:projectType"
+          element={<ViewEngineeringProjects />}
+        />
         <Route path="/try" element={<TryComponent />} />
       </Routes>
       <SubscribeNewsletter />

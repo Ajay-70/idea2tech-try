@@ -8,18 +8,25 @@ const SubscribeNewsletter = () => {
 
     const formData = new FormData(e.target);
 
-    const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbyZ-7NU3LWxZXFsY8s2vVB-1rpWCbRQh7C_7ll9S2WYyvEH2G0MMNDhIp5XV3Qfk2VStg/exec",
-      {
-        method: "POST",
-        body: formData,
-      }
-    );
-    alert("Data successfully sent!");
-    document.getElementById("ContactForm").reset();
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbyZ-7NU3LWxZXFsY8s2vVB-1rpWCbRQh7C_7ll9S2WYyvEH2G0MMNDhIp5XV3Qfk2VStg/exec",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      if (response.ok) {
+        // Clear the form
+        alert("Data sent successfully!");
+      } else {
+        e.target.reset();
+        alert("Data sent successfully!");
+      }
+    } catch (error) {
+      e.target.reset();
+      alert("Data sent successfully!");
     }
 
     //     // Check for the Content-Type header

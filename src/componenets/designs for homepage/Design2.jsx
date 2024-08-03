@@ -33,7 +33,7 @@ function Design2() {
       id: 4,
       title: "Art & Craft",
       levels: [
-        "Level 1: Creative Art & Craftg",
+        "Level 1: Creative Art & Craft",
         "Level 2: Advanced Art Techniques",
         "Level 3: Professional Art Projects",
       ],

@@ -13,7 +13,7 @@
 }
 @media only screen and (max-width: 700px) {
   .bannnner {
-    height: 10vh; /* Increase height for small screens */
+    height: 7vh; /* Increase height for small screens */
     font-size: 14px; /* Adjust font size for better readability */
   }
 }

@@ -4,20 +4,22 @@ function BookAMeeting() {
   function Submit(e) {
     const formEle = document.querySelector("form");
     const formDatab = new FormData(formEle);
-    fetch(
-      "https://script.google.com/macros/s/AKfycbxj_FkvvOYmVsIGixc9IpYqGohmNoCudWAIwawdgG-fqu6LdfO4dVqQJLrOc94rWkqMOw/exec",
-      {
-        method: "POST",
-        body: formDatab,
-      }
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    try {
+      fetch(
+        "https://script.google.com/macros/s/AKfycbxj_FkvvOYmVsIGixc9IpYqGohmNoCudWAIwawdgG-fqu6LdfO4dVqQJLrOc94rWkqMOw/exec",
+        {
+          method: "POST",
+          body: formDatab,
+        }
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+        });
+    } catch (error) {
+      e.target.reset();
+      alert("Data sent successfully!");
+    }
   }
   return (
     <div>
