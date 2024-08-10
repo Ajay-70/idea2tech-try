@@ -7,7 +7,7 @@ const ProjectCard = ({ imageSrc, altText, title, description }) => {
 
   const handleKnowMore = (title) => {
     const projectType = title.toLowerCase().replace(" ", "-");
-    navigate(`/browse-projects-list/${projectType}`);
+    navigate(`/engineering/browse-projects-list/${projectType}`);
   };
 
   return (

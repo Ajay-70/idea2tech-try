@@ -64,12 +64,12 @@ function App() {
         <Route path="/course/:title" element={<CourseInfo />} />
         <Route path="/get-in-touch" element={<BookAMeeting />} />
         <Route path="/show-interest" element={<ContactForm />} />
-        <Route path="/engineering/projects" element={<EngineeringProjects />} />
+        <Route path="/engineering" element={<EngineeringProjects />} />
         <Route
-          path="/browse-projects-list/:projectType"
+          path="/engineering/browse-projects-list/:projectType"
           element={<ViewEngineeringProjects />}
         />
-        <Route path="/try" element={<TryComponent />} />
+        {/* <Route path="/try" element={<TryComponent />} /> */}
       </Routes>
       <SubscribeNewsletter />
       <Footer />

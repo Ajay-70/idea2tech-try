@@ -42,7 +42,7 @@ function CollapsibleExample() {
             <Nav.Link className="nav-compo" href="/for-educators">
               For Educators
             </Nav.Link>
-            <Nav.Link className="nav-compo" href="/engineering/projects">
+            <Nav.Link className="nav-compo" href="/engineering">
               Engineering
             </Nav.Link>
             <Nav.Link className="nav-compo" href="/about-us">

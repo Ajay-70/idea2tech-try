@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import "./ViewEngineeringProjects.css";
 
 // Import the JSON files
 import miniProjectsData from "../../../data/mini-projects-data.json";
@@ -29,9 +30,10 @@ function ViewEngineeringProjects() {
       <table className="table-auto w-full">
         <thead>
           <tr>
-            <th className="px-4 py-2">ID</th>
-            <th className="px-4 py-2">Project Name</th>
-            <th className="px-4 py-2">Code</th>
+            <th className="px-4 capitalize py-2">ID</th>
+            <th className="px-4 capitalize  py-2">Project Name</th>
+            <th className="px-4 capitalize py-2">Code</th>
+            <th className="px-4 capitalize py-2">link</th>
           </tr>
         </thead>
         <tbody>
@@ -40,6 +42,9 @@ function ViewEngineeringProjects() {
               <td className="border px-4 py-2">{item.id}</td>
               <td className="border px-4 py-2">{item.name}</td>
               <td className="border px-4 py-2">{item.code}</td>
+              <td className="border px-4 py-2">
+                <div className="custom-button">View</div>
+              </td>
             </tr>
           ))}
         </tbody>
