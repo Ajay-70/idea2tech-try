@@ -63,7 +63,7 @@ function CourseInfo() {
                   d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
                 />
               </svg>
-              <h3 className="blur-sm px-2"> Babies</h3>
+              <h3 className="blur-sm px-2"> video</h3>
             </a>
 
             <a
@@ -84,7 +84,7 @@ function CourseInfo() {
                   d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
                 />
               </svg>
-              <h3 className="blur-sm px-2"> Babies</h3>
+              <h3 className="blur-sm px-2"> video1</h3>
             </a>
             <a
               href="#"
@@ -104,7 +104,7 @@ function CourseInfo() {
                   d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
                 />
               </svg>
-              <h3 className="blur-sm px-2"> Babies</h3>
+              <h3 className="blur-sm px-2"> video2</h3>
             </a>
             <a
               href="#"
@@ -124,7 +124,7 @@ function CourseInfo() {
                   d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
                 />
               </svg>
-              <h3 className="blur-sm px-2"> Babies</h3>
+              <h3 className="blur-sm px-2"> video3</h3>
             </a>
           </nav>
         </div>
@@ -138,12 +138,20 @@ function CourseInfo() {
               className="relative overflow-hidden bg-white"
               style={{ paddingBottom: "56.25%" }}
             >
-              <iframe
-                className="absolute top-0 left-0 w-full h-full"
-                src={course.videoUrl}
-                title="Course video"
-                allowFullScreen
-              ></iframe>
+              {course.videoUrl ? (
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src={course.videoUrl}
+                  title="Course video"
+                  allowFullScreen
+                ></iframe>
+              ) : (
+                <img
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                  src="/images/default-images/undercontruction.jpg"
+                  alt="Under Construction"
+                />
+              )}
             </div>
             <div className="flex bg-white justify-between">
               <div>

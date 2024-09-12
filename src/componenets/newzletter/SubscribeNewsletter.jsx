@@ -65,12 +65,12 @@ const SubscribeNewsletter = () => {
   return (
     <div className="flex w-screen justify-center items-center">
       <div className="p-6">
-        <div className="flex flex-wrap items-center mx-auto text-left border border-gray-200 rounded bg-gray-300 lg:flex-nowrap p-4 md:p-8 dark:border-gray-700">
+        <div className="flex flex-wrap items-center mx-auto text-left border border-gray-200 rounded bg-gray-300 lg:flex-nowrap p-4 md:p-8 ">
           <div className="flex-1 w-full mb-5 sm:mb-3 md:mb-0 md:pr-5 lg:pr-10 md:w-1/2">
-            <h3 className="mb-2 text-2xl font-bold text-gray-700 dark:text-gray-200">
+            <h3 className="mb-2 text-2xl font-bold text-gray-700">
               Unlock Your Potential with Idea2Tech!
             </h3>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500">
               Subscribe to our newsletter for the latest in innovation,
               creativity, and exclusive insights shaping tomorrow's tech
               leaders.
@@ -85,7 +85,7 @@ const SubscribeNewsletter = () => {
                   id="email"
                   name="Email"
                   placeholder="Enter your email address"
-                  className="flex-1 p-3   placeholder-gray-300 border border-gray-300 rounded-md sm:mr-5 focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                  className="flex-1 p-3   placeholder-gray-300 border border-gray-300 rounded-md sm:mr-5 focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300  "
                   required
                 />
                 <button

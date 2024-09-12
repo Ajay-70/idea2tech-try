@@ -1,0 +1,1260 @@
+{
+    "subdomain": "Ardiuno",
+    "projects": [
+        {
+            "code": "MIIOTA001",
+            "title": "IoT-Enabled Automated Shelter System for Crop Protection Against Rain",
+            "abstract": "This project introduces an IoT-enabled automated shelter system that protects crops from rain. The system uses sensors to detect rain and automatically deploys protective shelters over crops, preventing potential damage.",
+            "key_features": [
+                "Real-time rain detection using weather sensors.",
+                "Automated shelter deployment for crop protection.",
+                "IoT-based monitoring and control via a mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and smart agriculture systems.",
+                "Enhances understanding of automated crop protection and environmental monitoring.",
+                "Ideal for farms and greenhouses to prevent crop damage from unpredictable weather."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "rain sensors",
+                    "motor drivers",
+                    "servo motors (for shelter deployment)",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Solar-powered",
+                    "battery-powered"
+                ],
+                "platform": "IoT-based smart agriculture systems"
+            }
+        },
+        {
+            "code": "MIIOTA002",
+            "imgSrc": "/mini projects/Arduino/3D Scanner.jpg",
+            "title": "3D Scanner",
+            "abstract": "This project allows students to build a 3D scanner using Arduino technology. It captures the physical geometry of objects and translates them into 3D digital models. The scanner uses laser triangulation or structured light for object scanning, providing an affordable and accessible solution for students to explore 3D modeling.",
+            "key_features": [
+                "Converts physical objects into digital 3D models.",
+                "Laser triangulation or structured light technology for accurate scanning.",
+                "Integration with 3D modeling software for viewing and printing."
+            ],
+            "benefits": [
+                "Hands-on learning in 3D scanning technology.",
+                "Enhances understanding of object geometry and digital modeling.",
+                "Prepares students for applications in design, manufacturing, and research."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "laser module or structured light setup",
+                    "stepper motor",
+                    "camera or photodetector"
+                ],
+                "scanning_resolution": "Up to 0.5 mm accuracy",
+                "power_supply": "Standard DC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA003",
+            "imgSrc": "/mini projects/Arduino/Ultrasonic Glasses for Blind.jpeg",
+            "title": "Ultrasonic Glasses for the Blind",
+            "abstract": "This project provides an assistive technology solution for the visually impaired by using ultrasonic sensors to detect obstacles. The Arduino-controlled glasses alert users of nearby objects through vibrations or sound, enhancing mobility and safety for blind individuals.",
+            "key_features": [
+                "Detects obstacles using ultrasonic sensors.",
+                "Provides feedback through vibrations or sound.",
+                "Lightweight and wearable design."
+            ],
+            "benefits": [
+                "Enhances mobility for visually impaired users.",
+                "Provides practical experience in building assistive technologies.",
+                "Increases understanding of sensor integration and real-time feedback systems."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "Arduino microcontroller",
+                    "vibration motor or speaker",
+                    "power supply"
+                ],
+                "detection_range": "2 cm to 4 meters",
+                "power_supply": "Rechargeable battery or USB power"
+            }
+        },
+        {
+            "code": "MIIOTA004",
+            "imgSrc": "/mini projects/Arduino/Arduino Mp3 player using memory card.jpg",
+            "title": "Arduino MP3 Player Using Memory Card",
+            "abstract": "This project introduces students to creating a portable MP3 player using an Arduino and a memory card module. The player reads audio files from a memory card and plays them through a connected speaker, providing a practical and fun introduction to digital audio processing.",
+            "key_features": [
+                "Plays MP3 files from a memory card.",
+                "Simple interface with basic controls (play, pause, skip).",
+                "Compact and portable design."
+            ],
+            "benefits": [
+                "Introduces students to digital audio processing.",
+                "Provides practical experience in building consumer electronics.",
+                "Encourages creative thinking with customizable features."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "SD card module",
+                    "speaker",
+                    "push buttons for control"
+                ],
+                "audio_format": [
+                    "MP3",
+                    "WAV"
+                ],
+                "power_supply": "Battery-powered or USB"
+            }
+        },
+        {
+            "code": "MIIOTA005",
+            "imgSrc": "/mini projects/Arduino/Automatic water dispenser.jpg",
+            "title": "Automatic Timer Water Motor Controller",
+            "abstract": "This project provides an automated solution for controlling a water motor based on a set timer. Using an Arduino and a real-time clock module, students can automate water pumping operations, making it ideal for agricultural and home automation applications.",
+            "key_features": [
+                "Automatic motor control based on a timer.",
+                "Reduces water wastage through scheduled operation.",
+                "Real-time clock module for accurate timing."
+            ],
+            "benefits": [
+                "Hands-on experience in automating water systems.",
+                "Enhances understanding of time-based automation and real-time systems.",
+                "Applicable in agricultural and domestic settings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "real-time clock (RTC) module",
+                    "relay module",
+                    "water pump"
+                ],
+                "timing_accuracy": "Up to 1-second precision",
+                "power_supply": "Standard AC or DC adapters"
+            }
+        },
+        {
+            "code": "MIIOTA006",
+            "imgSrc": "/mini projects/Arduino/Automatic Plant watering system.webp",
+            "title": "Automatic Plant Watering System",
+            "abstract": "This project introduces students to smart irrigation systems by building an automatic plant watering system using Arduino. The system monitors soil moisture levels and waters the plants when necessary, ensuring optimal plant growth without human intervention.",
+            "key_features": [
+                "Automatic watering based on soil moisture.",
+                "Reduces water usage by optimizing watering schedules.",
+                "Low-maintenance solution for plant care."
+            ],
+            "benefits": [
+                "Provides practical experience with sensor integration and automation.",
+                "Enhances understanding of smart agriculture technologies.",
+                "Encourages eco-friendly practices by minimizing water wastage."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "soil moisture sensor",
+                    "water pump",
+                    "relay module"
+                ],
+                "sensor_range": "0-100% soil moisture",
+                "power_supply": "Rechargeable battery or USB power"
+            }
+        },
+        {
+            "code": "MIIOTA007",
+            "title": "Remote Controlled Plant Watering System",
+            "abstract": "This project enables students to create a plant watering system that can be controlled remotely using an IoT platform. The Arduino-based system integrates wireless communication, allowing users to water their plants from anywhere, making it a perfect solution for smart gardening and automation enthusiasts.",
+            "key_features": [
+                "Remotely controlled plant watering via IoT platform.",
+                "Monitors soil moisture and environmental conditions.",
+                "Real-time notifications and status updates."
+            ],
+            "benefits": [
+                "Provides practical experience with IoT and remote control systems.",
+                "Encourages the development of smart home and agriculture applications.",
+                "Increases understanding of wireless communication and automation."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "Wi-Fi/Bluetooth module",
+                    "soil moisture sensor",
+                    "water pump",
+                    "relay module"
+                ],
+                "connectivity": [
+                    "Wi-Fi",
+                    "Bluetooth"
+                ],
+                "power_supply": "Rechargeable battery or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA008",
+            "imgSrc": "/mini projects/Arduino/Bi Directional Visitor Counter.jpg",
+            "title": "Bi-Directional Visitor Counter",
+            "abstract": "This project introduces students to bi-directional counting systems by building an Arduino-based visitor counter. The system uses sensors to count people entering and exiting a space, providing real-time data on occupancy, making it ideal for monitoring foot traffic in various environments.",
+            "key_features": [
+                "Counts visitors entering and exiting a space.",
+                "Differentiates between incoming and outgoing traffic.",
+                "Displays real-time occupancy data."
+            ],
+            "benefits": [
+                "Practical experience in developing data tracking and monitoring systems.",
+                "Enhances understanding of sensor-based counting mechanisms.",
+                "Applicable in various environments such as malls, offices, or events."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "infrared or ultrasonic sensors",
+                    "display module (LCD or LED)",
+                    "power supply"
+                ],
+                "counting_range": "Up to 5 meters",
+                "power_supply": "Battery-powered or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA009",
+            "imgSrc": "/mini projects/Arduino/Piezo Based Welcome Mat.jpg",
+            "title": "Piezo-Based Welcome Mat",
+            "abstract": "This project allows students to create a welcome mat that detects when someone steps on it, triggering a greeting sound or message. The mat uses piezoelectric sensors to detect pressure, making it an interactive and innovative addition to any entrance.",
+            "key_features": [
+                "Detects pressure through piezoelectric sensors.",
+                "Triggers a greeting sound or message when stepped on.",
+                "Customizable with different sounds or messages."
+            ],
+            "benefits": [
+                "Introduces students to piezoelectric sensor technology.",
+                "Provides practical experience with interactive systems.",
+                "Encourages creativity in home automation projects."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Piezoelectric sensor",
+                    "Arduino board",
+                    "speaker",
+                    "power supply"
+                ],
+                "detection_range": "Varies based on applied pressure",
+                "power_supply": "Battery-powered or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA010",
+            "imgSrc": "/mini projects/Arduino/Fire Detection and Alarm.jpg",
+            "title": "Fire Detection and Alarm System",
+            "abstract": "This project provides students with the tools to build a fire detection and alarm system using Arduino. The system monitors the environment for smoke or high temperatures and triggers an alarm when a fire is detected, ensuring safety in residential or commercial spaces.",
+            "key_features": [
+                "Detects fire through smoke and temperature sensors.",
+                "Triggers an audible alarm when fire is detected.",
+                "Can be integrated with IoT for remote monitoring."
+            ],
+            "benefits": [
+                "Hands-on experience in developing safety systems.",
+                "Enhances understanding of sensor integration and alert systems.",
+                "Provides practical knowledge of fire detection mechanisms."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Smoke sensor",
+                    "temperature sensor",
+                    "Arduino board",
+                    "buzzer",
+                    "power supply"
+                ],
+                "detection_range": "Up to 50 meters",
+                "power_supply": "Battery-powered or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA011",
+            "imgSrc": "/mini projects/Arduino/NO Smoking zone Monitoring system.webp",
+            "title": "No Smoking Zone Monitoring System",
+            "abstract": "This project enables students to build a monitoring system that detects smoke in designated no-smoking areas. The Arduino-based system triggers an alarm or sends a notification when smoke is detected, helping to enforce no-smoking regulations in public spaces.",
+            "key_features": [
+                "Monitors no-smoking zones for smoke detection.",
+                "Triggers an alert or sends notifications upon detection.",
+                "Can be integrated with IoT for remote monitoring."
+            ],
+            "benefits": [
+                "Provides practical experience in developing monitoring and alert systems.",
+                "Enhances understanding of safety and regulatory enforcement technologies.",
+                "Helps maintain health and safety standards in public spaces."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Smoke sensor",
+                    "Arduino board",
+                    "buzzer or notification system",
+                    "power supply"
+                ],
+                "detection_range": "Up to 50 meters",
+                "power_supply": "Battery-powered or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA012",
+            "imgSrc": "/mini projects/Arduino/Anti Sleep Alarm for Drivers.webp",
+            "title": "Anti-Sleep Alarm for Drivers",
+            "abstract": "This project helps students develop an anti-sleep alarm system designed to keep drivers alert during long trips. The Arduino-based system monitors the driver's head position using a tilt sensor and triggers an alarm if the head tilts beyond a certain angle, indicating drowsiness.",
+            "key_features": [
+                "Monitors head position using a tilt sensor.",
+                "Triggers an alarm when drowsiness is detected.",
+                "Compact and easy to install in vehicles."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building safety systems for vehicles.",
+                "Enhances understanding of sensor-based monitoring technologies.",
+                "Helps reduce the risk of accidents caused by driver fatigue."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "tilt sensor",
+                    "buzzer",
+                    "power supply"
+                ],
+                "detection_angle": "Adjustable based on sensitivity settings",
+                "power_supply": "Battery-powered or USB"
+            }
+        },
+        {
+            "code": "MIIOTA013",
+            "imgSrc": "/mini projects/Arduino/Mobile Signal Jammer.webp",
+            "title": "Mobile Signal Jammer",
+            "abstract": "This project enables students to build a mobile signal jammer that blocks mobile communication within a specific range. The Arduino-based system generates interference in the mobile frequency bands, making it a practical solution for creating quiet zones in schools, libraries, or meetings.",
+            "key_features": [
+                "Blocks mobile signals within a specific range.",
+                "Adjustable jamming range for different environments.",
+                "Simple and effective design."
+            ],
+            "benefits": [
+                "Provides hands-on experience in radio frequency and communication technologies.",
+                "Enhances understanding of interference mechanisms.",
+                "Offers practical applications in creating quiet zones."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "RF module",
+                    "antenna",
+                    "power supply"
+                ],
+                "jamming_range": "Up to 10 meters (adjustable)",
+                "power_supply": "Battery-powered or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA014",
+            "imgSrc": "/mini projects/Arduino/Lazer Security alert system.webp",
+            "title": "Laser Security Alert System",
+            "abstract": "This project introduces students to building a laser-based security system using Arduino. The system triggers an alarm when the laser beam is interrupted, making it ideal for securing entrances or restricted areas.",
+            "key_features": [
+                "Detects intrusions by monitoring a laser beam.",
+                "Triggers an alarm when the beam is interrupted.",
+                "Adjustable beam range for different environments."
+            ],
+            "benefits": [
+                "Provides practical experience in building security systems.",
+                "Enhances understanding of sensor-based detection technologies.",
+                "Ideal for securing entrances, rooms, or restricted areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Laser module",
+                    "photoresistor or photodiode",
+                    "Arduino board",
+                    "buzzer",
+                    "power supply"
+                ],
+                "detection_range": "Up to 50 meters",
+                "power_supply": "Battery-powered or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA015",
+            "imgSrc": "/mini projects/Arduino/Gas leakage alarm system.jpg",
+            "title": "Gas Leakage Alarm System",
+            "abstract": "This project allows students to create a gas leakage alarm system using Arduino. The system detects hazardous gas levels using a gas sensor and triggers an alarm to alert occupants, ensuring safety in residential or commercial spaces.",
+            "key_features": [
+                "Detects gas leaks using a gas sensor.",
+                "Triggers an alarm when hazardous gas levels are detected.",
+                "Can be integrated with IoT for remote monitoring."
+            ],
+            "benefits": [
+                "Provides hands-on experience in developing safety systems.",
+                "Enhances understanding of gas sensors and environmental monitoring.",
+                "Ideal for ensuring safety in homes, kitchens, or industrial spaces."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Gas sensor (e.g., MQ-2)",
+                    "Arduino board",
+                    "buzzer",
+                    "power supply"
+                ],
+                "detection_range": "200-10,000 ppm (depending on the gas)",
+                "power_supply": "Battery-powered or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA016",
+            "imgSrc": "/mini projects/Arduino/Automatic Plant watering system.webp",
+            "title": "Timer-Based Plant Watering System",
+            "abstract": "This project introduces students to building a plant watering system that operates based on a preset timer. The Arduino-based system automates watering schedules, ensuring plants receive water at regular intervals without human intervention.",
+            "key_features": [
+                "Automates watering schedules based on a preset timer.",
+                "Reduces water wastage by controlling watering times.",
+                "Low-maintenance and easy to install."
+            ],
+            "benefits": [
+                "Provides practical experience with time-based automation systems.",
+                "Enhances understanding of smart irrigation and plant care.",
+                "Encourages eco-friendly water management practices."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "real-time clock (RTC) module",
+                    "water pump",
+                    "relay module",
+                    "power supply"
+                ],
+                "timing_accuracy": "Up to 1-second precision",
+                "power_supply": "Rechargeable battery or AC adapter"
+            }
+        },
+        {
+            "code": "MIIOTA0017",
+            "imgSrc": "/mini projects/Arduino/ID Card Security Locker.webp",
+            "title": "ID Card Security Locker",
+            "abstract": "This project allows students to create a security locker that can be accessed using an RFID ID card. The Arduino-based system reads the ID card and unlocks the locker if the correct card is presented, providing a secure and modern locking solution.",
+            "key_features": [
+                "Unlocks the locker using an RFID ID card.",
+                "Secure and tamper-proof locking mechanism.",
+                "Easy to install and use."
+            ],
+            "benefits": [
+                "Provides practical experience in building RFID-based security systems.",
+                "Enhances understanding of access control technologies.",
+                "Ideal for securing personal belongings in schools, offices, or homes."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "RFID reader",
+                    "Arduino board",
+                    "servo motor for locking mechanism",
+                    "power supply"
+                ],
+                "detection_range": "Up to 5 cm",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0018",
+            "imgSrc": "/mini projects/Arduino/Water level Controller Device.jpg",
+            "title": "Water Level Controller Device",
+            "abstract": "This project helps students build a water level controller that automatically manages the water level in tanks or reservoirs. The Arduino-based system monitors the water level using sensors and activates a pump when needed, ensuring optimal water management.",
+            "key_features": [
+                "Automatically controls water levels in tanks.",
+                "Activates the pump when the water level is low.",
+                "Prevents water overflow and wastage."
+            ],
+            "benefits": [
+                "Provides practical experience in water management automation.",
+                "Enhances understanding of sensor-based control systems.",
+                "Ideal for homes, agriculture, and industrial applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor or float sensor",
+                    "Arduino board",
+                    "relay module",
+                    "water pump",
+                    "power supply"
+                ],
+                "detection_range": "Up to 4 meters",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0019",
+            "imgSrc": "/mini projects/Arduino/Sun tracking Solar Panel system.jpg",
+            "title": "Sun-Tracking Solar Panel System",
+            "abstract": "This project introduces students to building a sun-tracking solar panel system that optimizes the energy output of solar panels by following the sun's movement throughout the day. The Arduino-based system adjusts the panel's position to maximize sunlight exposure.",
+            "key_features": [
+                "Tracks the sun's movement to optimize solar energy output.",
+                "Automatically adjusts the solar panel's position.",
+                "Increases the efficiency of solar energy systems."
+            ],
+            "benefits": [
+                "Provides practical experience in renewable energy systems.",
+                "Enhances understanding of light sensors and automation.",
+                "Ideal for use in solar energy projects and experiments."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Light-dependent resistors (LDR)",
+                    "Arduino board",
+                    "servo motors",
+                    "solar panel",
+                    "power supply"
+                ],
+                "tracking_accuracy": "Based on sensor calibration",
+                "power_supply": [
+                    "Solar-powered",
+                    "Battery-powered"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0020",
+            "imgSrc": "/mini projects/Arduino/Ultrasonic object Detection System.jpg",
+            "title": "Ultrasonic Object Detection System",
+            "abstract": "This project enables students to build an ultrasonic object detection system that can detect objects in its path and measure distances. The Arduino-based system uses ultrasonic sensors to detect obstacles, making it ideal for applications in robotics and automation.",
+            "key_features": [
+                "Detects objects using ultrasonic sensors.",
+                "Measures distances with high accuracy.",
+                "Can be integrated with robotic systems for obstacle avoidance."
+            ],
+            "benefits": [
+                "Provides hands-on experience with sensor-based systems.",
+                "Enhances understanding of ultrasonic technology and distance measurement.",
+                "Ideal for robotics, automation, and security applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "Arduino board",
+                    "display module (optional)",
+                    "power supply"
+                ],
+                "detection_range": "2 cm to 4 meters",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0021",
+            "imgSrc": "/mini projects/Arduino/Mobile Controlled Door Locker.jpeg",
+            "title": "Mobile Controlled Door Locker",
+            "abstract": "This project introduces students to building a door locking system that can be controlled remotely using a mobile app. The Arduino-based system integrates wireless communication to allow users to lock or unlock their door from anywhere, providing a convenient and secure solution.",
+            "key_features": [
+                "Remotely control door locking using a mobile app.",
+                "Secure and convenient access control.",
+                "Wireless communication for remote operation."
+            ],
+            "benefits": [
+                "Provides practical experience in IoT and smart home systems.",
+                "Enhances understanding of wireless communication and access control.",
+                "Ideal for securing homes, offices, or other buildings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino board",
+                    "Bluetooth/Wi-Fi module",
+                    "servo motor for locking mechanism",
+                    "mobile app",
+                    "power supply"
+                ],
+                "connectivity": [
+                    "Bluetooth",
+                    "Wi-Fi"
+                ],
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0022",
+            "imgSrc": "/mini projects/Arduino/Fingerprint Door locker.jpg",
+            "title": "Fingerprint Door Locker",
+            "abstract": "This project allows students to create a fingerprint-based door locking system that provides secure and biometric access control. The Arduino-based system scans fingerprints and unlocks the door when an authorized fingerprint is detected.",
+            "key_features": [
+                "Unlocks the door using fingerprint recognition.",
+                "Secure and tamper-proof locking mechanism.",
+                "Stores multiple authorized fingerprints."
+            ],
+            "benefits": [
+                "Provides hands-on experience in biometric security systems.",
+                "Enhances understanding of fingerprint scanning and recognition technologies.",
+                "Ideal for securing homes, offices, or personal belongings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Fingerprint sensor",
+                    "Arduino board",
+                    "servo motor for locking mechanism",
+                    "power supply"
+                ],
+                "fingerprint_capacity": "Stores multiple fingerprints",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0023",
+            "imgSrc": "/mini projects/Arduino/Rain sensing automatic car wiper.jpg",
+            "title": "Rain-Sensing Automatic Car Wiper",
+            "abstract": "This project helps students build an automatic car wiper system that activates when rain is detected. The Arduino-based system uses a rain sensor to detect rainfall and automatically controls the wiper motor, providing a convenient and hands-free solution for drivers.",
+            "key_features": [
+                "Automatically activates car wipers when rain is detected.",
+                "Hands-free operation for driver convenience.",
+                "Adjustable sensitivity for different rain conditions."
+            ],
+            "benefits": [
+                "Provides practical experience in automotive automation.",
+                "Enhances understanding of sensor-based control systems.",
+                "Improves driver safety by automating wiper operation."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Rain sensor",
+                    "Arduino board",
+                    "wiper motor",
+                    "relay module",
+                    "power supply"
+                ],
+                "detection_range": "Adjustable sensitivity",
+                "power_supply": [
+                    "Battery-powered",
+                    "Car battery"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0024",
+            "imgSrc": "/mini projects/Arduino/Password based door locking system.webp",
+            "title": "Password-Based Door Locking System",
+            "abstract": "This project allows students to build a password-based door locking system that uses a keypad for secure access control. The Arduino-based system unlocks the door when the correct password is entered, providing a simple and effective security solution.",
+            "key_features": [
+                "Unlocks the door using a password entered on a keypad.",
+                "Secure and customizable locking mechanism.",
+                "Easy to install and use."
+            ],
+            "benefits": [
+                "Provides practical experience in security and access control systems.",
+                "Enhances understanding of keypad-based input and password verification.",
+                "Ideal for securing homes, offices, or personal belongings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Keypad",
+                    "Arduino board",
+                    "servo motor for locking mechanism",
+                    "power supply"
+                ],
+                "password_length": "Customizable",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0025",
+            "imgSrc": "/mini projects/Arduino/Radar Using Ultrasonic Sensor.jpg",
+            "title": "Radar Using Ultrasonic Sensor",
+            "abstract": "This project helps students build a radar system that uses ultrasonic sensors to detect the presence and distance of objects. The Arduino-based system displays the detected objects on a screen, mimicking the behavior of a radar system, making it ideal for automation and robotics applications.",
+            "key_features": [
+                "Detects objects using ultrasonic sensors.",
+                "Measures and displays object distance.",
+                "Rotational scanning for comprehensive area coverage."
+            ],
+            "benefits": [
+                "Provides practical experience with radar and sensor technologies.",
+                "Enhances understanding of object detection and distance measurement.",
+                "Ideal for applications in robotics, security, and automation."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "servo motor",
+                    "Arduino board",
+                    "display module",
+                    "power supply"
+                ],
+                "detection_range": "2 cm to 4 meters",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0026",
+            "imgSrc": "/mini projects/Arduino/Colour sorting machine.jpg",
+            "title": "Color Sorting Machine",
+            "abstract": "This project introduces students to building a color sorting machine using an Arduino and a color sensor. The system sorts objects by their color and places them into different bins, providing hands-on experience in automation and robotics.",
+            "key_features": [
+                "Detects object color using a color sensor.",
+                "Automatically sorts objects into bins based on color.",
+                "Efficient and customizable sorting mechanism."
+            ],
+            "benefits": [
+                "Provides hands-on experience with sensor-based automation systems.",
+                "Enhances understanding of color detection and sorting algorithms.",
+                "Applicable in various industries such as manufacturing and recycling."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Color sensor",
+                    "Arduino board",
+                    "servo motors",
+                    "conveyor belt (optional)",
+                    "power supply"
+                ],
+                "sorting_speed": "Adjustable based on motor speed",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0027",
+            "imgSrc": "/mini projects/Arduino/Automatic Parking Gate.jpg",
+            "title": "Automatic Parking Gate",
+            "abstract": "This project enables students to build an automatic parking gate system using Arduino. The system detects the presence of a vehicle using sensors and automatically opens the gate, making it an ideal solution for parking management and security.",
+            "key_features": [
+                "Detects vehicles using sensors.",
+                "Automatically opens and closes the gate.",
+                "Secure and efficient access control for parking lots."
+            ],
+            "benefits": [
+                "Provides practical experience in automation and access control systems.",
+                "Enhances understanding of sensor-based detection and motor control.",
+                "Ideal for parking management in residential or commercial areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic or infrared sensors",
+                    "Arduino board",
+                    "motor for gate operation",
+                    "power supply"
+                ],
+                "detection_range": "Adjustable based on sensor type",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0028",
+            "imgSrc": "/mini projects/Arduino/Water turbidity testing device.jpg",
+            "title": "Water Turbidity Testing Device",
+            "abstract": "This project introduces students to building a water turbidity testing device using Arduino. The system measures the clarity of water using a turbidity sensor, providing valuable data for water quality assessment and environmental monitoring.",
+            "key_features": [
+                "Measures water turbidity using a turbidity sensor.",
+                "Displays turbidity levels in real-time.",
+                "Portable and easy to use for water quality assessment."
+            ],
+            "benefits": [
+                "Provides practical experience in environmental monitoring and sensor technology.",
+                "Enhances understanding of water quality indicators and testing methods.",
+                "Ideal for use in water treatment plants, environmental studies, or educational purposes."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Turbidity sensor",
+                    "Arduino board",
+                    "display module",
+                    "power supply"
+                ],
+                "measurement_range": "0-4000 NTU (Nephelometric Turbidity Units)",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0029",
+            "imgSrc": "/mini projects/Arduino/Alcohol Detection system.webp",
+            "title": "Alcohol Detection System",
+            "abstract": "This project helps students build an alcohol detection system that can detect the presence of alcohol in a person's breath. The Arduino-based system triggers an alert if alcohol is detected, making it an ideal solution for vehicle safety or workplace monitoring.",
+            "key_features": [
+                "Detects alcohol in the air using an alcohol sensor.",
+                "Triggers an alert when alcohol is detected.",
+                "Can be integrated into vehicles or security systems."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building safety and monitoring systems.",
+                "Enhances understanding of sensor technology and alcohol detection mechanisms.",
+                "Ideal for use in vehicle safety, workplaces, or personal monitoring."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Alcohol sensor (e.g., MQ-3)",
+                    "Arduino board",
+                    "buzzer or display module",
+                    "power supply"
+                ],
+                "detection_range": "0.04 mg/L to 4 mg/L",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0030",
+            "title": "Fingerprint-Based Vehicle Starter",
+            "abstract": "This project allows students to create a fingerprint-based vehicle starter system using Arduino. The system enhances vehicle security by starting the engine only when an authorized fingerprint is detected, providing a modern and secure ignition system.",
+            "key_features": [
+                "Starts the vehicle using fingerprint recognition.",
+                "Secure and tamper-proof ignition system.",
+                "Stores multiple authorized fingerprints."
+            ],
+            "benefits": [
+                "Provides practical experience in biometric security systems.",
+                "Enhances understanding of fingerprint scanning and recognition technologies.",
+                "Ideal for improving vehicle security."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Fingerprint sensor",
+                    "Arduino board",
+                    "relay module",
+                    "power supply"
+                ],
+                "fingerprint_capacity": "Stores multiple fingerprints",
+                "power_supply": [
+                    "Battery-powered",
+                    "Car battery"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0031",
+            "imgSrc": "/mini projects/Arduino/Blind walking stick using Ultrasonic sensor.jpg",
+            "title": "Blind Walking Stick Using Ultrasonic Sensor",
+            "abstract": "This project introduces students to building an assistive walking stick for the visually impaired using ultrasonic sensors. The Arduino-based system detects obstacles in the user's path and provides feedback through vibrations or sound, enhancing mobility and safety.",
+            "key_features": [
+                "Detects obstacles using ultrasonic sensors.",
+                "Provides feedback through vibrations or sound.",
+                "Lightweight and portable design."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building assistive technologies.",
+                "Enhances understanding of sensor integration and real-time feedback systems.",
+                "Ideal for improving the mobility and safety of visually impaired individuals."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "Arduino board",
+                    "vibration motor or speaker",
+                    "power supply"
+                ],
+                "detection_range": "2 cm to 4 meters",
+                "power_supply": [
+                    "Rechargeable battery",
+                    "USB power"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0033",
+            "title": "Home Appliance Controller by TV Remote",
+            "abstract": "This project enables students to build a home appliance controller that can be operated using a standard TV remote. The Arduino-based system recognizes IR signals from the remote and controls connected appliances, providing a convenient and smart solution for home automation.",
+            "key_features": [
+                "Controls home appliances using a TV remote.",
+                "Recognizes IR signals and operates connected devices.",
+                "Compatible with various appliances."
+            ],
+            "benefits": [
+                "Provides practical experience in home automation and IR communication.",
+                "Enhances understanding of remote control technologies.",
+                "Ideal for creating smart home solutions with existing remotes."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "IR receiver",
+                    "Arduino board",
+                    "relay module",
+                    "power supply"
+                ],
+                "IR_signal_range": "5-10 meters (depending on remote strength)",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0034",
+            "imgSrc": "/mini projects/Arduino/Electronic Calculator.jfif",
+            "title": "Electronic Calculator",
+            "abstract": "This project introduces students to building a simple electronic calculator using Arduino. The system performs basic arithmetic operations and displays the results on a screen, providing hands-on experience in digital electronics and mathematical computing.",
+            "key_features": [
+                "Performs basic arithmetic operations.",
+                "Simple and easy-to-use keypad input.",
+                "Displays results on an LCD screen."
+            ],
+            "benefits": [
+                "Provides hands-on experience in digital electronics and programming.",
+                "Enhances understanding of arithmetic operations and display interfaces.",
+                "Ideal for educational and personal use as a simple calculator."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Keypad",
+                    "Arduino board",
+                    "LCD display",
+                    "power supply"
+                ],
+                "operation": "Basic arithmetic (addition, subtraction, multiplication, division)",
+                "power_supply": [
+                    "Battery-powered",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0035",
+            "imgSrc": "/mini projects/Arduino/Smart Dustbin.jpg",
+            "title": "Smart Dustbin",
+            "abstract": "This project allows students to create a smart dustbin that automatically opens its lid when someone approaches. The Arduino-based system uses ultrasonic sensors to detect proximity and motor control to operate the lid, making it a hygienic and convenient waste disposal solution.",
+            "key_features": [
+                "Automatically opens the lid when someone approaches.",
+                "Hygienic and touchless operation.",
+                "Compact and easy to install."
+            ],
+            "benefits": [
+                "Provides practical experience in building automation systems.",
+                "Enhances understanding of sensor integration and motor control.",
+                "Ideal for homes, offices, and public spaces to promote hygiene."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "Arduino board",
+                    "servo motor",
+                    "power supply"
+                ],
+                "detection_range": "Adjustable (typically 5-30 cm)",
+                "power_supply": [
+                    "Battery-powered",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0036",
+            "imgSrc": "/mini projects/Arduino/Automatic headlight intensity control system.jpg",
+            "title": "Automatic Headlight Intensity Control System",
+            "abstract": "This project helps students build an automatic headlight intensity control system for vehicles. The Arduino-based system adjusts the brightness of the headlights based on the ambient light conditions, improving visibility and safety for drivers.",
+            "key_features": [
+                "Automatically adjusts headlight brightness based on ambient light.",
+                "Enhances visibility and safety for drivers.",
+                "Compact and easy to integrate into vehicles."
+            ],
+            "benefits": [
+                "Provides practical experience in automotive electronics and sensor systems.",
+                "Enhances understanding of light sensors and automatic control systems.",
+                "Ideal for improving driver safety and visibility in different lighting conditions."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Light-dependent resistor (LDR)",
+                    "Arduino board",
+                    "headlight control module",
+                    "power supply"
+                ],
+                "detection_range": "Adjustable sensitivity based on light conditions",
+                "power_supply": [
+                    "Car battery",
+                    "External power source"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0037",
+            "imgSrc": "/mini projects/Arduino/Vehicle parking sensor system.jpg",
+            "title": "Vehicle Parking Sensor System",
+            "abstract": "This project introduces students to building a vehicle parking sensor system using ultrasonic sensors. The Arduino-based system detects obstacles behind the vehicle and provides feedback to the driver, making parking easier and safer.",
+            "key_features": [
+                "Detects obstacles while parking using ultrasonic sensors.",
+                "Provides feedback through sound or visual indicators.",
+                "Compact and easy to install in vehicles."
+            ],
+            "benefits": [
+                "Provides practical experience in automotive sensor systems.",
+                "Enhances understanding of obstacle detection and feedback mechanisms.",
+                "Ideal for improving parking safety and convenience for drivers."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "Arduino board",
+                    "buzzer or display module",
+                    "power supply"
+                ],
+                "detection_range": "2 cm to 4 meters",
+                "power_supply": [
+                    "Car battery",
+                    "External power source"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0038",
+            "imgSrc": "/mini projects/Arduino/Automatic water dispenser.jpg",
+            "title": "Automatic Water Dispenser",
+            "abstract": "This project allows students to build an automatic water dispenser that uses sensors to detect when a container is placed under the nozzle and dispenses water accordingly. The Arduino-based system is ideal for hands-free operation in homes, offices, or public spaces.",
+            "key_features": [
+                "Automatically dispenses water when a container is detected.",
+                "Hygienic and touchless operation.",
+                "Compact and easy to install."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building automation and sensor systems.",
+                "Enhances understanding of fluid control and sensor integration.",
+                "Ideal for promoting hygiene and convenience in various settings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor or infrared sensor",
+                    "Arduino board",
+                    "water pump",
+                    "relay module",
+                    "power supply"
+                ],
+                "detection_range": "Adjustable based on sensor type",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0039",
+            "imgSrc": "/mini projects/Arduino/DC power generator.png",
+            "title": "DC Power Generator",
+            "abstract": "This project helps students build a simple DC power generator using mechanical energy. The generator converts mechanical energy into electrical energy, providing a practical demonstration of energy conversion principles and renewable energy generation.",
+            "key_features": [
+                "Converts mechanical energy into electrical energy.",
+                "Simple and easy-to-build design.",
+                "Demonstrates the principles of energy conversion."
+            ],
+            "benefits": [
+                "Provides practical experience in renewable energy generation.",
+                "Enhances understanding of mechanical-to-electrical energy conversion.",
+                "Ideal for educational demonstrations or small-scale power generation."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "DC motor (used as a generator)",
+                    "mechanical input (e.g., hand crank)",
+                    "power storage (optional)",
+                    "power supply"
+                ],
+                "output_voltage": "Varies based on mechanical input",
+                "power_supply": "Mechanical energy input"
+            }
+        },
+        {
+            "code": "MIIOTA0040",
+            "title": "Temperature Controlled Fan",
+            "abstract": "This project allows students to build a temperature-controlled fan system that adjusts its speed based on the ambient temperature. The Arduino-based system uses temperature sensors to monitor the environment and control the fan speed accordingly, providing an energy-efficient and comfortable cooling solution.",
+            "key_features": [
+                "Automatically adjusts fan speed based on ambient temperature.",
+                "Energy-efficient cooling solution.",
+                "Easy to integrate with existing fan systems."
+            ],
+            "benefits": [
+                "Provides practical experience in automation and sensor-based control systems.",
+                "Enhances understanding of temperature sensors and automatic control mechanisms.",
+                "Ideal for creating energy-efficient and comfortable cooling solutions."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Temperature sensor (e.g., LM35)",
+                    "Arduino board",
+                    "fan motor",
+                    "power supply"
+                ],
+                "temperature_range": "Adjustable based on sensor sensitivity",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0041",
+            "imgSrc": "/mini projects/Arduino/Solar Power Monitor.jpg",
+            "title": "Solar Power Monitor",
+            "abstract": "This project introduces students to building a solar power monitor that tracks the performance of a solar panel. The Arduino-based system measures the voltage and current generated by the panel and displays the results, providing valuable data for optimizing solar energy usage.",
+            "introduction": "Monitoring the performance of solar panels is essential for optimizing energy generation and usage. This project allows students to build a solar power monitor that measures the voltage and current generated by a solar panel and displays the data on a screen. The Arduino-controlled system helps track the efficiency of the solar panel and provides insights into energy production. This project is ideal for students interested in renewable energy and energy management.",
+            "key_features": [
+                "Monitors solar panel performance by measuring voltage and current.",
+                "Displays real-time data on energy generation.",
+                "Helps optimize solar energy usage."
+            ],
+            "benefits": [
+                "Provides practical experience in renewable energy monitoring.",
+                "Enhances understanding of solar energy systems and performance tracking.",
+                "Ideal for optimizing solar panel efficiency and energy management."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Voltage and current sensors",
+                    "Arduino board",
+                    "solar panel",
+                    "display module",
+                    "power supply"
+                ],
+                "measurement_range": "Based on panel capacity (typically 0-20V, 0-10A)",
+                "power_supply": [
+                    "Solar-powered",
+                    "Battery-powered"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0042",
+            "imgSrc": "/mini projects/Arduino/Pulso oxymeter using Arduino.jpg",
+            "title": "Pulse Oximeter Using Arduino",
+            "abstract": "This project helps students build a pulse oximeter that measures oxygen saturation levels in the blood. The Arduino-based system uses a pulse sensor to detect heart rate and oxygen levels, providing a valuable tool for health monitoring and medical applications.",
+            "introduction": "Pulse oximeters are used to measure the oxygen saturation level in a person's blood, an important indicator of respiratory health. This project introduces students to developing a pulse oximeter using Arduino. The system uses a pulse sensor to detect the heart rate and oxygen levels and displays the results on a screen. This project is ideal for students interested in health monitoring technologies and medical devices.",
+            "key_features": [
+                "Measures oxygen saturation levels and heart rate.",
+                "Provides real-time health monitoring.",
+                "Portable and easy to use."
+            ],
+            "benefits": [
+                "Provides practical experience in developing health monitoring devices.",
+                "Enhances understanding of pulse sensors and biomedical applications.",
+                "Ideal for use in health monitoring, sports, or educational purposes."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Pulse sensor",
+                    "Arduino board",
+                    "display module",
+                    "power supply"
+                ],
+                "measurement_range": {
+                    "heart_rate": "40-240 bpm",
+                    "oxygen_saturation": "70-100% SpO2"
+                },
+                "power_supply": [
+                    "Battery-powered",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0043",
+            "imgSrc": "/mini projects/Arduino/8 segment display Clock.jpg",
+            "title": "8-Segment Display Clock",
+            "abstract": "This project introduces students to building a digital clock using an 8-segment display and Arduino. The system displays the time in hours and minutes and can be customized with features like alarms or timers, providing a hands-on experience in timekeeping and digital electronics.",
+            "introduction": "Digital clocks are common devices used for timekeeping in homes, offices, and schools. This project allows students to build a digital clock using an 8-segment display and Arduino. The system keeps track of the time and displays it in hours and minutes. Students can also customize the clock with additional features like alarms or countdown timers. This project is ideal for students interested in timekeeping and digital electronics.",
+            "key_features": [
+                "Displays time using an 8-segment display.",
+                "Simple and easy-to-build digital clock.",
+                "Customizable with additional features like alarms or timers."
+            ],
+            "benefits": [
+                "Provides practical experience in timekeeping and digital electronics.",
+                "Enhances understanding of display interfaces and real-time clock systems.",
+                "Ideal for educational or personal use as a simple clock."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "8-segment display",
+                    "Arduino board",
+                    "real-time clock (RTC) module",
+                    "power supply"
+                ],
+                "time_format": [
+                    "24-hour",
+                    "12-hour"
+                ],
+                "power_supply": [
+                    "Battery-powered",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0044",
+            "imgSrc": "/mini projects/Arduino/Bicycle speedometer.jpg",
+            "title": "Bicycle Speedometer",
+            "abstract": "This project helps students build a bicycle speedometer that measures the speed and distance traveled. The Arduino-based system uses a hall-effect sensor to detect wheel rotation and calculates the speed, making it a useful tool for cyclists to track their performance.",
+            "introduction": "Bicycle speedometers are used by cyclists to measure their speed and distance traveled. This project introduces students to building a bicycle speedometer that uses a hall-effect sensor to detect the rotation of the bicycle wheel and calculate the speed. The Arduino-controlled system displays the speed and distance on a screen, providing a valuable tool for tracking cycling performance. This project is ideal for students interested in sports technology and sensor systems.",
+            "key_features": [
+                "Measures speed and distance traveled by bicycle.",
+                "Displays real-time data on a screen.",
+                "Compact and easy to install on bicycles."
+            ],
+            "benefits": [
+                "Provides practical experience in developing sports technology devices.",
+                "Enhances understanding of speed measurement and sensor systems.",
+                "Ideal for cyclists to track their performance and distance."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Hall-effect sensor",
+                    "Arduino board",
+                    "display module",
+                    "power supply"
+                ],
+                "speed_range": "Adjustable based on wheel size and rotation speed",
+                "power_supply": [
+                    "Battery-powered",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTA0045",
+            "title": "Automatic Human Detection Staircase Lighting System",
+            "abstract": "This project allows students to build an automatic staircase lighting system that detects human presence using sensors. The Arduino-based system turns on the lights when someone approaches the staircase, providing energy-efficient and smart lighting control.",
+            "introduction": "Automatic lighting systems are used in homes and buildings to enhance convenience and energy efficiency. This project introduces students to developing a human detection staircase lighting system that uses sensors to detect when someone approaches the stairs and automatically turns on the lights. The Arduino-controlled system ensures that the lights are only on when needed, reducing energy consumption and improving safety. This project is ideal for students interested in smart lighting and automation.",
+            "key_features": [
+                "Automatically turns on lights when human presence is detected.",
+                "Energy-efficient and smart lighting control.",
+                "Easy to install on staircases or hallways."
+            ],
+            "benefits": [
+                "Provides practical experience in smart lighting and automation systems.",
+                "Enhances understanding of human detection and energy-efficient control mechanisms.",
+                "Ideal for improving safety and energy savings in homes or buildings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "PIR sensor or ultrasonic sensor",
+                    "Arduino board",
+                    "LED lights",
+                    "power supply"
+                ],
+                "detection_range": "Adjustable based on sensor sensitivity",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        }
+    ]
+}

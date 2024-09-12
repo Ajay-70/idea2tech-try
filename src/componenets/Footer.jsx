@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-i2t.png";
 import "./Footer.css";
 
 export default function App() {
   return (
-    <footer>
+    <footer className="mt-auto">
       <div className="border-t-4 bgoffooter py-4 text-gray-100">
         <div className="container px-4 mx-auto">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="px-4 my-4 w-full xl:w-1/5">
-              <img className="h-12 " src={logo} alt="" />
+              <img className="logo" src={logo} alt="" />
               <p className=" mt-3 text-justify">
                 Ready to bring the excitement of STEM and creative arts
                 education to your Educational Institutions? Contact us today to

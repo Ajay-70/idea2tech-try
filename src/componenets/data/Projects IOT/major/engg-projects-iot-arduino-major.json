@@ -1,0 +1,956 @@
+{
+    "subdomain": "Ardiuno",
+    "projects": [
+        {
+            "code": "MAIOTA001",
+            "imgSrc": "/major projects/Arduino/MAIOTA001.jpg",
+            "title": "Intelligent Temperature-Regulated Cooling System for Solar Panels",
+            "abstract": "This project introduces students to an intelligent cooling system designed to regulate the temperature of solar panels automatically. The system ensures that solar panels operate efficiently by reducing heat buildup, thereby increasing energy output and prolonging panel lifespan.",
+            "key_features": [
+                "Real-time temperature monitoring of solar panels.",
+                "Automated cooling mechanism using fans or water cooling systems.",
+                "Enhances solar panel efficiency and durability."
+            ],
+            "benefits": [
+                "Provides hands-on experience with temperature sensors, automation, and solar energy systems.",
+                "Enhances understanding of renewable energy technologies and cooling systems.",
+                "Ideal for increasing the efficiency of solar energy installations in hot climates."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "temperature sensors (e.g., LM35)",
+                    "relays",
+                    "cooling fans or water pump",
+                    "solar panel"
+                ],
+                "power_supply": [
+                    "Solar-powered",
+                    "battery-powered"
+                ],
+                "platform": "Solar energy systems"
+            }
+        },
+        {
+            "code": "MAIOTA002",
+            "imgSrc": "/major projects/Arduino/MAIOTA002.jpg",
+            "title": "Advanced Automated Hydroponic System for Efficient Plant Cultivation",
+            "abstract": "This project enables students to develop an advanced automated hydroponic system that optimizes plant growth without soil. The system automates water, nutrient, and light delivery, ensuring efficient cultivation in controlled environments.",
+            "key_features": [
+                "Automated water and nutrient delivery based on plant needs.",
+                "Light control for optimal photosynthesis.",
+                "Real-time monitoring of pH levels, temperature, and humidity."
+            ],
+            "benefits": [
+                "Provides practical experience with smart agriculture and IoT.",
+                "Enhances understanding of hydroponics, automation, and plant science.",
+                "Ideal for indoor farming, urban gardening, and sustainable agriculture."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "pH sensor",
+                    "water pumps",
+                    "nutrient reservoirs",
+                    "grow lights",
+                    "temperature and humidity sensors"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "solar-powered"
+                ],
+                "platform": "Hydroponic farming systems"
+            }
+        },
+        {
+            "code": "MAIOTA003",
+            "imgSrc": "/major projects/Arduino/MAIOTA003.jpg",
+            "title": "Intelligent Road Safety and Vehicle Accident Prevention System for Mountainous Terrain",
+            "abstract": "This project introduces an intelligent road safety system designed to prevent vehicle accidents in mountainous terrain. The system monitors road conditions, vehicle speed, and driver behavior, providing real-time alerts and automated braking if necessary.",
+            "key_features": [
+                "Road condition monitoring using sensors (e.g., ultrasonic, LIDAR).",
+                "Automated speed control and braking system.",
+                "Real-time alerts for drivers in hazardous areas."
+            ],
+            "benefits": [
+                "Provides hands-on experience with vehicle safety systems and sensor integration.",
+                "Enhances understanding of accident prevention technologies in challenging environments.",
+                "Ideal for improving road safety in mountainous and remote areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "ultrasonic sensors",
+                    "LIDAR",
+                    "speed control module",
+                    "GPS module"
+                ],
+                "power_supply": [
+                    "Vehicle battery",
+                    "solar-powered"
+                ],
+                "platform": "Vehicle safety systems"
+            }
+        },
+        {
+            "code": "MAIOTA004",
+            "imgSrc": "/major projects/Arduino/MAIOTA004.webp",
+            "title": "Solar Power Automatic Irrigation System",
+            "abstract": "This project enables students to create a solar-powered automatic irrigation system that waters plants based on soil moisture levels. The system optimizes water usage, making it ideal for agriculture in areas with limited water resources.",
+            "key_features": [
+                "Automated irrigation based on real-time soil moisture readings.",
+                "Solar-powered system for sustainable agriculture.",
+                "Water conservation through efficient irrigation scheduling."
+            ],
+            "benefits": [
+                "Provides hands-on experience with renewable energy and smart irrigation.",
+                "Enhances understanding of water conservation and sustainable farming.",
+                "Ideal for agriculture in water-scarce regions and remote areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "soil moisture sensors",
+                    "water pumps",
+                    "solar panel",
+                    "relays"
+                ],
+                "power_supply": [
+                    "Solar-powered"
+                ],
+                "platform": "Smart irrigation systems"
+            }
+        },
+        {
+            "code": "MAIOTA005",
+            "imgSrc": "/major projects/Arduino/MAIOTA005.jpg",
+            "title": "Offline Voice-Controlled Home Automation System",
+            "abstract": "This project introduces students to an offline voice-controlled home automation system using Arduino. The system allows users to control lights, fans, and other appliances using voice commands without an internet connection.",
+            "key_features": [
+                "Offline voice recognition for controlling home appliances.",
+                "Supports multiple voice commands for different devices.",
+                "Easy integration with existing home automation systems."
+            ],
+            "benefits": [
+                "Provides hands-on experience with voice recognition and home automation.",
+                "Enhances understanding of offline speech processing and smart home systems.",
+                "Ideal for home automation in areas with limited or no internet connectivity."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "voice recognition module",
+                    "relays",
+                    "appliances (lights, fans, etc.)"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "battery-powered"
+                ],
+                "platform": "Home automation systems"
+            }
+        },
+        {
+            "code": "MAIOTA006",
+            "imgSrc": "/major projects/Arduino/MAIOTA006.jpeg",
+            "title": "Alcohol Detection and Automatic Car Engine Locking System",
+            "abstract": "This project enables students to develop an alcohol detection system that automatically locks the car engine if alcohol is detected in the driver's breath. The system aims to prevent drunk driving and enhance road safety.",
+            "key_features": [
+                "Real-time alcohol detection using a breathalyzer sensor.",
+                "Automatic engine locking system for safety.",
+                "Alerts and notifications in case of alcohol detection."
+            ],
+            "benefits": [
+                "Provides hands-on experience with safety systems and sensor integration.",
+                "Enhances understanding of alcohol detection and vehicle safety technologies.",
+                "Ideal for preventing drunk driving and improving road safety."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "alcohol sensor (e.g., MQ-3)",
+                    "relays",
+                    "vehicle ignition control module"
+                ],
+                "power_supply": [
+                    "Vehicle battery"
+                ],
+                "platform": "Vehicle safety systems"
+            }
+        },
+        {
+            "code": "MAIOTA007",
+            "imgSrc": "/major projects/Arduino/MAIOTA007.png",
+            "title": "RFID-Based Smart Parking System",
+            "abstract": "This project introduces students to a smart parking system that uses RFID technology for vehicle access control. The system automates the parking process, allowing vehicles to enter and exit parking lots without human intervention.",
+            "key_features": [
+                "RFID-based vehicle access control.",
+                "Automated barrier control for parking entry and exit.",
+                "Real-time parking slot availability tracking."
+            ],
+            "benefits": [
+                "Provides hands-on experience with RFID technology and automation.",
+                "Enhances understanding of smart parking solutions and access control.",
+                "Ideal for automating parking management in commercial or residential areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "RFID reader",
+                    "RFID tags",
+                    "servo motor (for barrier control)",
+                    "sensors"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "battery-powered"
+                ],
+                "platform": "Smart parking systems"
+            }
+        },
+        {
+            "code": "MAIOTA008",
+            "imgSrc": "/major projects/Arduino/MAIOTA008.webp",
+            "title": "Automatic Railway Gate Operating System",
+            "abstract": "This project enables students to create an automatic railway gate operating system using Arduino. The system automatically controls railway gates based on the train's arrival and departure, enhancing railway safety and reducing human error.",
+            "key_features": [
+                "Automated railway gate control using sensors.",
+                "Real-time train detection for accurate gate operation.",
+                "Safety alerts for pedestrians and vehicles near the gate."
+            ],
+            "benefits": [
+                "Provides hands-on experience with automation and railway safety systems.",
+                "Enhances understanding of sensor integration and transportation safety.",
+                "Ideal for improving safety at railway crossings in remote or unmanned areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "IR sensors or ultrasonic sensors",
+                    "servo motor (for gate control)",
+                    "alarms"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "solar-powered"
+                ],
+                "platform": "Railway safety systems"
+            }
+        },
+        {
+            "code": "MAIOTA009",
+            "imgSrc": "/major projects/Arduino/MAIOTA009.png",
+            "title": "Solar Highway Lighting System with Auto Turn On and Off",
+            "abstract": "This project introduces students to a solar-powered highway lighting system that automatically turns on and off based on ambient light conditions. The system provides energy-efficient lighting for highways, reducing electricity costs.",
+            "key_features": [
+                "Solar-powered LED lights for highways.",
+                "Automatic turn on/off based on light sensors.",
+                "Energy-efficient operation with minimal maintenance."
+            ],
+            "benefits": [
+                "Provides hands-on experience with renewable energy and smart lighting systems.",
+                "Enhances understanding of solar energy utilization in public infrastructure.",
+                "Ideal for reducing energy consumption and costs in highway lighting."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "solar panels",
+                    "light sensors (e.g., LDR)",
+                    "LED lights"
+                ],
+                "power_supply": [
+                    "Solar-powered"
+                ],
+                "platform": "Highway lighting systems"
+            }
+        },
+        {
+            "code": "MAIOTA010",
+            "imgSrc": "/major projects/Arduino/MAIOTA010.jpg",
+            "title": "Voice-Based Wheelchair Controller for Physically Handicapped",
+            "abstract": "This project enables students to develop a voice-controlled wheelchair for individuals with physical disabilities. The system allows users to control the wheelchair's movement using voice commands, providing greater mobility and independence.",
+            "key_features": [
+                "Voice-controlled movement for forward, backward, left, and right directions.",
+                "Offline voice recognition for command processing.",
+                "Safety features such as obstacle detection and emergency stop."
+            ],
+            "benefits": [
+                "Provides hands-on experience with assistive technology and voice recognition.",
+                "Enhances understanding of mobility solutions for individuals with disabilities.",
+                "Ideal for improving accessibility and quality of life for wheelchair users."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "voice recognition module",
+                    "motors",
+                    "motor driver",
+                    "obstacle sensors"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Assistive technology for mobility"
+            }
+        },
+        {
+            "code": "MAIOTA011",
+            "imgSrc": "/major projects/Arduino/MAIOTA011.jpg",
+            "title": "Remote-Controlled Metal and Landmine Detection Robotic Vehicle",
+            "abstract": "This project introduces students to a remote-controlled robotic vehicle designed to detect metal objects and landmines. The system is equipped with sensors to locate buried metal objects, making it useful for mine detection and security applications.",
+            "key_features": [
+                "Remote-controlled robotic vehicle with metal detection capabilities.",
+                "Real-time alerts when metal objects or landmines are detected.",
+                "Suitable for hazardous area exploration and security operations."
+            ],
+            "benefits": [
+                "Provides hands-on experience with robotics, sensors, and remote control systems.",
+                "Enhances understanding of metal detection and landmine detection technologies.",
+                "Ideal for security, military, and disaster management applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "metal detection sensor",
+                    "motor driver",
+                    "wireless communication module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Remote-controlled robotics"
+            }
+        },
+        {
+            "code": "MAIOTA012",
+            "imgSrc": "/major projects/Arduino/MAIOTA012.png",
+            "title": "Air Quality Monitoring System Using Drone",
+            "abstract": "This project enables students to develop an air quality monitoring system using a drone. The system collects air quality data such as CO2 levels, particulate matter (PM2.5), and temperature, providing real-time environmental monitoring.",
+            "key_features": [
+                "Air quality sensors mounted on a drone for real-time data collection.",
+                "Wireless data transmission to a ground station for analysis.",
+                "GPS-enabled tracking of air quality across different locations."
+            ],
+            "benefits": [
+                "Provides hands-on experience with drone technology and environmental monitoring.",
+                "Enhances understanding of air quality sensors and data analysis.",
+                "Ideal for monitoring pollution levels in urban, industrial, or remote areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "air quality sensors (e.g., MQ135, PM2.5 sensor)",
+                    "drone",
+                    "GPS module"
+                ],
+                "power_supply": [
+                    "Drone battery"
+                ],
+                "platform": "Environmental monitoring systems"
+            }
+        },
+        {
+            "code": "MAIOTA013",
+            "imgSrc": "/major projects/Arduino/MAIOTA013.jpg",
+            "title": "Hand Movement Controlled RC Robot",
+            "abstract": "This project introduces students to a hand movement-controlled robotic vehicle that responds to gestures. The system uses sensors to detect hand movements, allowing users to control the robot's motion with simple gestures.",
+            "key_features": [
+                "Gesture-based control for forward, backward, left, and right movements.",
+                "Wireless communication between hand gesture sensor and robot.",
+                "Real-time response to hand movements for precise control."
+            ],
+            "benefits": [
+                "Provides hands-on experience with gesture recognition and robotics.",
+                "Enhances understanding of human-computer interaction and sensor integration.",
+                "Ideal for robotics enthusiasts and interactive control applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "accelerometer (e.g., ADXL335)",
+                    "motor driver",
+                    "wireless communication module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Remote-controlled robotics"
+            }
+        },
+        {
+            "code": "MAIOTA014",
+            "imgSrc": "/major projects/Arduino/MAIOTA014.png",
+            "title": "Medical Supplies Delivery Drone",
+            "abstract": "This project enables students to develop a drone for delivering medical supplies to remote or disaster-affected areas. The system automates the delivery process, providing a fast and efficient solution for transporting essential medical items.",
+            "key_features": [
+                "GPS-enabled drone for autonomous delivery of medical supplies.",
+                "Real-time tracking and monitoring of the delivery route.",
+                "Safe and secure delivery mechanism for medical items."
+            ],
+            "benefits": [
+                "Provides hands-on experience with drone technology and logistics automation.",
+                "Enhances understanding of delivery systems for critical supplies in remote areas.",
+                "Ideal for disaster management, healthcare, and emergency response applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "GPS module",
+                    "drone",
+                    "wireless communication module"
+                ],
+                "power_supply": [
+                    "Drone battery"
+                ],
+                "platform": "Logistics and delivery systems"
+            }
+        },
+        {
+            "code": "MAIOTA015",
+            "imgSrc": "/major projects/Arduino/MAIOTA015.jpg",
+            "title": "Sun-Tracking Solar System with Expanding Mechanism",
+            "abstract": "This project introduces students to a sun-tracking solar system with an expanding mechanism that maximizes solar energy absorption. The system automatically adjusts the solar panel's position to track the sun and can expand to increase surface area when needed.",
+            "key_features": [
+                "Sun-tracking mechanism for optimal solar energy absorption.",
+                "Expandable solar panel array for increased energy capture.",
+                "Automated adjustment based on real-time sun position tracking."
+            ],
+            "benefits": [
+                "Provides hands-on experience with solar energy systems and automation.",
+                "Enhances understanding of renewable energy technologies and mechanical design.",
+                "Ideal for maximizing solar energy production in residential or commercial setups."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "light sensors (e.g., LDR)",
+                    "servo motors",
+                    "solar panels",
+                    "expansion mechanism"
+                ],
+                "power_supply": [
+                    "Solar-powered"
+                ],
+                "platform": "Solar energy systems"
+            }
+        },
+        {
+            "code": "MAIOTA016",
+            "title": "Emergency Hand Crank Power Generator",
+            "abstract": "This project enables students to build an emergency power generator using a hand crank mechanism. The system provides a reliable source of electricity during power outages or in remote areas without access to the power grid.",
+            "key_features": [
+                "Hand-crank mechanism for generating electricity.",
+                "Charges small devices like mobile phones, LED lights, or emergency radios.",
+                "Portable and easy to use in emergency situations."
+            ],
+            "benefits": [
+                "Provides hands-on experience with power generation and mechanical energy conversion.",
+                "Enhances understanding of renewable energy and off-grid power solutions.",
+                "Ideal for use in disaster situations, camping, or remote areas without power."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino (optional for monitoring)",
+                    "hand-crank generator",
+                    "rechargeable battery",
+                    "USB ports"
+                ],
+                "power_supply": [
+                    "Hand-crank generated power"
+                ],
+                "platform": "Portable power generation systems"
+            }
+        },
+        {
+            "code": "MAIOTA017",
+            "imgSrc": "/major projects/Arduino/MAIOTA017.jpg",
+            "title": "Fingerprint-Based Electronic Voting Machine",
+            "abstract": "This project introduces students to an electronic voting machine that uses fingerprint authentication for secure voting. The system ensures that only registered voters can cast their votes, and it records the votes electronically for easy counting.",
+            "key_features": [
+                "Fingerprint-based voter authentication for secure voting.",
+                "Electronic vote recording and counting system.",
+                "User-friendly interface for voters."
+            ],
+            "benefits": [
+                "Provides hands-on experience with biometrics, security systems, and voting machines.",
+                "Enhances understanding of secure voting processes and digital elections.",
+                "Ideal for elections in small communities, schools, or organizations."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "fingerprint sensor",
+                    "LCD display",
+                    "buttons",
+                    "EEPROM (for vote storage)"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "battery-powered"
+                ],
+                "platform": "Electronic voting systems"
+            }
+        },
+        {
+            "code": "MAIOTA018",
+            "imgSrc": "/major projects/Arduino/MAIOTA018.jpg",
+            "title": "Fingerprint-Based ATM Machine with RFID Card",
+            "abstract": "This project enables students to develop a fingerprint-based ATM machine with an additional layer of security using RFID cards. The system ensures secure banking transactions by requiring both fingerprint authentication and an RFID card for access.",
+            "key_features": [
+                "Dual authentication using fingerprint sensor and RFID card.",
+                "Secure access to banking functions like withdrawal, deposit, and balance inquiry.",
+                "Automated transaction processing with real-time security alerts."
+            ],
+            "benefits": [
+                "Provides hands-on experience with biometrics, RFID technology, and security systems.",
+                "Enhances understanding of secure financial transactions and access control.",
+                "Ideal for ATM systems with enhanced security features."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "fingerprint sensor",
+                    "RFID reader",
+                    "keypad",
+                    "LCD display"
+                ],
+                "power_supply": [
+                    "AC adapter"
+                ],
+                "platform": "Banking and security systems"
+            }
+        },
+        {
+            "code": "MAIOTA019",
+            "imgSrc": "/major projects/Arduino/MAIOTA019.jpg",
+            "title": "Wind and Solar Power Generation System",
+            "abstract": "This project introduces students to a hybrid power generation system that combines wind and solar energy. The system generates electricity from both sources, providing a reliable and sustainable energy solution.",
+            "key_features": [
+                "Dual power generation using wind turbines and solar panels.",
+                "Automatic switching between wind and solar based on weather conditions.",
+                "Battery storage for continuous power supply."
+            ],
+            "benefits": [
+                "Provides hands-on experience with renewable energy systems and hybrid power solutions.",
+                "Enhances understanding of energy management and sustainable power generation.",
+                "Ideal for off-grid power systems in remote or rural areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "wind turbine",
+                    "solar panels",
+                    "charge controller",
+                    "battery storage"
+                ],
+                "power_supply": [
+                    "Wind and solar energy"
+                ],
+                "platform": "Renewable energy systems"
+            }
+        },
+        {
+            "code": "MAIOTA020",
+            "imgSrc": "/major projects/Arduino/MAIOTA020.png",
+            "title": "Footstep Power Generation System",
+            "abstract": "This project enables students to develop a footstep power generation system that converts human footsteps into electrical energy. The system is ideal for generating power in high-traffic areas such as shopping malls, airports, or train stations.",
+            "key_features": [
+                "Power generation through pressure sensors or piezoelectric transducers.",
+                "Converts kinetic energy from footsteps into electrical energy.",
+                "Stores generated energy for powering small devices or lighting systems."
+            ],
+            "benefits": [
+                "Provides hands-on experience with energy harvesting and renewable energy technologies.",
+                "Enhances understanding of kinetic energy conversion and sustainable power solutions.",
+                "Ideal for public places with high foot traffic to generate green energy."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino (optional for monitoring)",
+                    "piezoelectric sensors",
+                    "rechargeable battery",
+                    "LED lights"
+                ],
+                "power_supply": [
+                    "Kinetic energy from footsteps"
+                ],
+                "platform": "Energy harvesting systems"
+            }
+        },
+        {
+            "code": "MAIOTA021",
+            "imgSrc": "/major projects/Arduino/MAIOTA021.png",
+            "title": "Speed Breaker Power Generation System",
+            "abstract": "This project introduces students to a power generation system that harnesses energy from vehicles passing over speed breakers. The system converts the kinetic energy of vehicles into electrical energy, providing a renewable energy source for streetlights or other local power needs.",
+            "key_features": [
+                "Power generation through mechanical systems embedded in speed breakers.",
+                "Converts kinetic energy from vehicles into electrical energy.",
+                "Stores energy for powering local infrastructure like streetlights."
+            ],
+            "benefits": [
+                "Provides hands-on experience with energy harvesting and mechanical energy conversion.",
+                "Enhances understanding of renewable energy systems and sustainable infrastructure.",
+                "Ideal for urban areas with high vehicle traffic to generate green energy."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino (optional for monitoring)",
+                    "mechanical generator",
+                    "rechargeable battery",
+                    "LED lights"
+                ],
+                "power_supply": [
+                    "Kinetic energy from vehicles"
+                ],
+                "platform": "Energy harvesting systems"
+            }
+        },
+        {
+            "code": "MAIOTA022",
+            "imgSrc": "/major projects/Arduino/MAIOTA022.jpeg",
+            "title": "Waste Segregation System for Dry, Wet, and Metal Waste",
+            "abstract": "This project enables students to develop an automated waste segregation system that separates waste into dry, wet, and metal categories. The system uses sensors to detect and classify waste, making it ideal for recycling and waste management.",
+            "key_features": [
+                "Automated segregation of waste into dry, wet, and metal categories.",
+                "Sensors for detecting different types of waste materials.",
+                "Automated sorting and disposal mechanism for efficient waste management."
+            ],
+            "benefits": [
+                "Provides hands-on experience with sensors, automation, and waste management technologies.",
+                "Enhances understanding of recycling processes and environmental sustainability.",
+                "Ideal for use in homes, schools, and public spaces to promote recycling."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "proximity sensors",
+                    "metal detection sensor",
+                    "servo motors (for sorting)",
+                    "waste bins"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "battery-powered"
+                ],
+                "platform": "Waste management systems"
+            }
+        },
+        {
+            "code": "MAIOTA023",
+            "imgSrc": "/major projects/Arduino/MAIOTA023.jpg",
+            "title": "Mars Rover Surveillance System (Rocker Bogie)",
+            "abstract": "This project introduces students to a Mars rover surveillance system based on the rocker-bogie mechanism, which allows the rover to traverse uneven terrain. The system is designed for exploration and surveillance in challenging environments, similar to planetary rovers.",
+            "key_features": [
+                "Rocker-bogie suspension system for traversing rough terrain.",
+                "Onboard camera for real-time surveillance and data collection.",
+                "Remote control for navigation and data transmission."
+            ],
+            "benefits": [
+                "Provides hands-on experience with robotics, mechanics, and remote control systems.",
+                "Enhances understanding of space exploration technologies and surveillance systems.",
+                "Ideal for planetary exploration simulations or rough terrain exploration."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "motors",
+                    "camera module",
+                    "motor driver",
+                    "wireless communication module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Remote-controlled robotics and exploration systems"
+            }
+        },
+        {
+            "code": "MAIOTA024",
+            "imgSrc": "/major projects/Arduino/MAIOTA024.jpg",
+            "title": "Agriculture Rover for Spraying Pesticides",
+            "abstract": "This project enables students to develop an agriculture rover designed for spraying pesticides in fields. The system automates pesticide spraying, reducing manual labor and ensuring even distribution across crops.",
+            "key_features": [
+                "Autonomous or remote-controlled rover for pesticide spraying.",
+                "Equipped with a spray nozzle and pesticide reservoir.",
+                "Real-time monitoring and control of pesticide application."
+            ],
+            "benefits": [
+                "Provides hands-on experience with agricultural robotics and automation.",
+                "Enhances understanding of smart farming technologies and pesticide management.",
+                "Ideal for large-scale farming operations to improve efficiency and reduce labor costs."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "motors",
+                    "pesticide spray system",
+                    "motor driver",
+                    "wireless communication module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Agricultural robotics"
+            }
+        },
+        {
+            "code": "MAIOTA025",
+            "title": "Agriculture Rover for Cutting Grass",
+            "abstract": "This project introduces students to an agriculture rover designed for cutting grass in fields or lawns. The system automates the grass-cutting process, reducing manual labor and improving efficiency in maintaining large green spaces.",
+            "key_features": [
+                "Autonomous or remote-controlled rover for grass cutting.",
+                "Equipped with rotary blades for efficient grass trimming.",
+                "Real-time monitoring and control of cutting operations."
+            ],
+            "benefits": [
+                "Provides hands-on experience with agricultural robotics and automation.",
+                "Enhances understanding of smart farming technologies and lawn maintenance.",
+                "Ideal for large-scale farming operations, parks, or golf courses."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "motors",
+                    "rotary blades",
+                    "motor driver",
+                    "wireless communication module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Agricultural robotics"
+            }
+        },
+        {
+            "code": "MAIOTA026",
+            "imgSrc": "/major projects/Arduino/MAIOTA026.jpg",
+            "title": "Power Theft Alert System",
+            "abstract": "This project enables students to develop a power theft alert system that detects unauthorized electricity usage. The system monitors power lines and sends real-time alerts when power theft is detected, helping utilities reduce losses.",
+            "key_features": [
+                "Real-time monitoring of power lines for unauthorized usage.",
+                "Automatic alerts to authorities when power theft is detected.",
+                "Data logging for further analysis of theft incidents."
+            ],
+            "benefits": [
+                "Provides hands-on experience with power monitoring and security systems.",
+                "Enhances understanding of electricity theft detection and prevention technologies.",
+                "Ideal for utility companies and power grid management."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "current sensors",
+                    "wireless communication module",
+                    "alarm system"
+                ],
+                "power_supply": [
+                    "AC adapter"
+                ],
+                "platform": "Power monitoring and security systems"
+            }
+        },
+        {
+            "code": "MAIOTA027",
+            "imgSrc": "/major projects/Arduino/MAIOTA027.jpg",
+            "title": "COVID Virus Disinfection Box",
+            "abstract": "This project introduces students to a COVID virus disinfection box that uses UV-C light or disinfectant spray to sanitize objects. The system automatically disinfects items like masks, phones, and keys, providing a convenient solution for personal hygiene.",
+            "key_features": [
+                "Automatic disinfection using UV-C light or disinfectant spray.",
+                "Timer control for optimal disinfection time.",
+                "Portable design for home or office use."
+            ],
+            "benefits": [
+                "Provides hands-on experience with UV-C technology and hygiene systems.",
+                "Enhances understanding of disinfection processes and health safety.",
+                "Ideal for personal or public use in preventing the spread of COVID-19."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "UV-C light or disinfectant spray system",
+                    "timer",
+                    "safety switch"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "battery-powered"
+                ],
+                "platform": "Hygiene and disinfection systems"
+            }
+        },
+        {
+            "code": "MAIOTA028",
+            "imgSrc": "/major projects/Arduino/MAIOTA028.jpg",
+            "title": "Barcode Scan and Price Calculator Trolley",
+            "abstract": "This project enables students to develop a smart shopping trolley equipped with a barcode scanner and price calculator. The system scans items as they are placed in the trolley, calculates the total price, and provides real-time checkout information.",
+            "key_features": [
+                "Barcode scanner for automatic item identification and pricing.",
+                "Real-time price calculation and display on the trolley.",
+                "Integrated checkout system for seamless shopping experience."
+            ],
+            "benefits": [
+                "Provides hands-on experience with barcode scanning and automation.",
+                "Enhances understanding of smart retail technologies and customer experience.",
+                "Ideal for supermarkets and retail stores to improve checkout efficiency."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "barcode scanner",
+                    "LCD display",
+                    "load cell (optional for weight measurement)"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Smart retail systems"
+            }
+        },
+        {
+            "code": "MAIOTA029",
+            "imgSrc": "/major projects/Arduino/MAIOTA029.jpg",
+            "title": "Stop and Go Queue Entry Management System",
+            "abstract": "This project introduces students to a queue management system that automates entry control for people in queues. The system uses sensors to manage the flow of people, allowing entry only when space is available, and controlling crowd density in waiting areas.",
+            "key_features": [
+                "Automatic entry control based on queue length and available space.",
+                "Real-time monitoring of crowd density.",
+                "Visual and audio alerts for queue management."
+            ],
+            "benefits": [
+                "Provides hands-on experience with automation and crowd management systems.",
+                "Enhances understanding of safety protocols in public spaces.",
+                "Ideal for managing queues in banks, hospitals, or event venues."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "ultrasonic sensors",
+                    "motor driver",
+                    "visual and audio indicators"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "battery-powered"
+                ],
+                "platform": "Crowd management systems"
+            }
+        },
+        {
+            "code": "MAIOTA030",
+            "imgSrc": "/major projects/Arduino/MAIOTA030.jpg",
+            "title": "Safety Alert Coat for Coal Miners",
+            "abstract": "This project enables students to develop a safety alert coat for coal miners that monitors environmental conditions and provides real-time alerts for hazards like toxic gases or excessive heat. The system enhances worker safety in hazardous mining environments.",
+            "key_features": [
+                "Real-time monitoring of toxic gases, temperature, and humidity.",
+                "Automatic alerts in case of dangerous conditions.",
+                "Portable and lightweight design for miners' safety."
+            ],
+            "benefits": [
+                "Provides hands-on experience with environmental monitoring and safety systems.",
+                "Enhances understanding of occupational safety in mining and industrial environments.",
+                "Ideal for improving safety standards in coal mining operations."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "gas sensors (e.g., MQ-7)",
+                    "temperature sensors",
+                    "buzzer",
+                    "LED indicators"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Safety and monitoring systems"
+            }
+        },
+        {
+            "code": "MAIOTA031",
+            "imgSrc": "/major projects/Arduino/MAIOTA031.jpg",
+            "title": "Smart Door Theft Alert System",
+            "abstract": "This project introduces students to a smart door theft alert system that monitors door activity and provides real-time alerts in case of unauthorized access. The system enhances home security by detecting break-ins or tampering.",
+            "key_features": [
+                "Real-time door monitoring with sensors for detecting tampering.",
+                "Instant alerts via SMS, email, or sound alarms.",
+                "Remote monitoring and control through a smartphone app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with home security and alert systems.",
+                "Enhances understanding of IoT, sensors, and remote monitoring.",
+                "Ideal for securing homes, offices, or commercial properties."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "magnetic sensors",
+                    "buzzer",
+                    "GSM module (optional for SMS alerts)"
+                ],
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ],
+                "platform": "Home security systems"
+            }
+        },
+        {
+            "code": "MAIOTA032",
+            "imgSrc": "/major projects/Arduino/MAIOTA032.png",
+            "title": "Load-Sensing Seats with Lights and Fan Control",
+            "abstract": "This project enables students to develop a load-sensing system for seats that automatically controls lights and fans based on seat occupancy. The system optimizes energy usage by turning off devices when seats are unoccupied.",
+            "key_features": [
+                "Automatic light and fan control based on seat occupancy.",
+                "Energy-efficient operation by reducing unnecessary power usage.",
+                "Customizable settings for different environments (e.g., classrooms, offices)."
+            ],
+            "benefits": [
+                "Provides hands-on experience with sensors, automation, and energy management.",
+                "Enhances understanding of smart building technologies and energy conservation.",
+                "Ideal for reducing energy consumption in public spaces, offices, or classrooms."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "load sensors",
+                    "relays",
+                    "lights",
+                    "fans"
+                ],
+                "power_supply": [
+                    "AC adapter"
+                ],
+                "platform": "Smart building systems"
+            }
+        },
+        {
+            "code": "MAIOTA033",
+            "imgSrc": "/major projects/Arduino/MAIOTA033.jpg",
+            "title": "Contactless Body Temperature Tracker",
+            "abstract": "This project introduces students to a contactless body temperature tracking system that monitors individuals' temperature without physical contact. The system is designed for use in public spaces to detect fever and prevent the spread of infectious diseases.",
+            "key_features": [
+                "Contactless temperature measurement using infrared sensors.",
+                "Automatic alerts for abnormal temperature readings.",
+                "Real-time monitoring and data logging for health safety."
+            ],
+            "benefits": [
+                "Provides hands-on experience with infrared sensors and health monitoring systems.",
+                "Enhances understanding of contactless technologies and public health safety.",
+                "Ideal for use in airports, offices, schools, and other public spaces."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Arduino",
+                    "infrared temperature sensor (e.g., MLX90614)",
+                    "LCD display",
+                    "buzzer"
+                ],
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ],
+                "platform": "Health monitoring systems"
+            }
+        }
+    ]
+}

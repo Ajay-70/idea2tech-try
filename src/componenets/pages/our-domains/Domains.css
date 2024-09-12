@@ -2,13 +2,16 @@
   justify-content: center;
   margin-top: 18px;
   display: flex;
-  /* border-bottom: 2px solid black; */
+  margin:20px;
+  
+  
 }
 .domain-img{
   height: auto;
   padding-bottom:10px ;
   margin: 0 30px;
   width: 20%;
+  
 }
 .img{
   border-radius: 20px;
@@ -21,21 +24,20 @@
   width: 50%;
   margin-left: auto;
   display: flex;
+  
 }
 .domain-btn{
   
   padding:15px ;
   margin: 50px;
   color: azure;
-  padding: 13px 50px;
+  padding: 13px 50px !important;
   align-items: center;
   border-radius: 25px;
-  transition: 1s;
+  transition: .5s;
   margin-left: auto;
 }
-.domain-btn:hover{
-  box-shadow: 0 5px 10px 10px gray;
-}
+
 
 @media (max-width: 850px) {
   .domains {
@@ -68,4 +70,34 @@
   font-size: small;
 }
   
+}
+
+
+@media (max-width: 414px) {
+
+  .domain-img{
+    
+    width: 80%;
+    padding-bottom: 25px;
+    padding-top: 20x;
+  }
+
+  .domain-text h1{
+    margin-bottom: 5px;
+    text-align: center;
+   }
+
+  .domain-text{
+    width: 100%;}
+  .domain-disc {
+    font-size: small
+  }
+  .domains{
+    justify-content: center;
+    margin-top: 18px;
+    display: flex;
+    margin: 5px;;
+    
+    
+  }
 }

@@ -1,0 +1,442 @@
+{
+    "subdomain": "ESP83266-ESP32",
+    "projects": [
+        {
+            "code": "MIIOTE001",
+            "imgSrc": "/mini projects/ESP32/Health Monitoring System.webp",
+            "title": "Health Monitoring System",
+            "abstract": "This project introduces students to a real-time health monitoring system using ESP32/ESP8266. The system collects vital health parameters such as heart rate, temperature, and oxygen levels, and sends the data to a cloud server via Wi-Fi. This IoT-based solution provides continuous health monitoring, making it ideal for remote healthcare applications.",
+            "key_features": [
+                "Real-time monitoring of vital health parameters.",
+                "Data transmission to a cloud platform via Wi-Fi.",
+                "Remote access to health data for continuous monitoring."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT-based healthcare solutions.",
+                "Enhances understanding of health sensors and cloud integration.",
+                "Ideal for applications in remote healthcare and personal health management."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP32/ESP8266",
+                    "heart rate sensor",
+                    "temperature sensor",
+                    "pulse oximeter",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Rechargeable battery",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE002",
+            "imgSrc": "/mini projects/ESP32/MIIOTE002.webp",
+            "title": "Automatic Timer Water Motor Controller",
+            "abstract": "This project allows students to develop an automatic timer-based water motor controller using ESP32/ESP8266. The system automates water motor operations based on a set timer, with the added benefit of remote control through a smartphone app or web interface.",
+            "key_features": [
+                "Timer-based automation for water motor control.",
+                "Remote control via a smartphone app or web interface.",
+                "IoT-based monitoring for efficient water management."
+            ],
+            "benefits": [
+                "Provides hands-on experience in IoT and smart agriculture solutions.",
+                "Enhances understanding of remote control and timer-based automation.",
+                "Ideal for automating water pumps in homes and agricultural fields."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP32/ESP8266",
+                    "real-time clock (RTC) module",
+                    "relay module",
+                    "water pump",
+                    "power supply"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Standard AC/DC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE003",
+            "title": "Wireless Doorbell Calling System",
+            "abstract": "This project introduces students to a wireless doorbell calling system using ESP32/ESP8266. The system wirelessly connects the doorbell to the receiver, and alerts can be sent to a mobile app, making it a smart IoT-based doorbell solution for homes and offices.",
+            "key_features": [
+                "Wireless communication between doorbell and receiver.",
+                "Mobile notifications for doorbell alerts.",
+                "Smart IoT integration for remote monitoring."
+            ],
+            "benefits": [
+                "Provides practical experience in IoT-based communication systems.",
+                "Enhances understanding of wireless communication and home automation.",
+                "Ideal for homes, offices, and other environments where remote monitoring is needed."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP32/ESP8266",
+                    "push button",
+                    "buzzer",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Battery-powered",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE004",
+            "imgSrc": "/mini projects/ESP32/MIIOTE004.png",
+            "title": "Laser Security Alert System",
+            "abstract": "This project enables students to create a laser security alert system using ESP32/ESP8266. The system detects intrusions by monitoring a laser beam, and alerts can be sent to a mobile app via Wi-Fi, providing a smart security solution for homes or offices.",
+            "key_features": [
+                "Intrusion detection using a laser beam.",
+                "Wi-Fi-based alerts sent to a mobile app.",
+                "Smart security solution for homes, offices, or restricted areas."
+            ],
+            "benefits": [
+                "Provides hands-on experience in IoT-based security systems.",
+                "Enhances understanding of laser detection and remote alerts.",
+                "Ideal for protecting valuable spaces or assets."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Laser module",
+                    "photoresistor or photodiode",
+                    "ESP32/ESP8266",
+                    "buzzer",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE005",
+            "imgSrc": "/mini projects/ESP32/Timer-Based Plant Watering System.webp",
+            "title": "Timer-Based Plant Watering System",
+            "abstract": "This project introduces students to building a timer-based plant watering system using ESP32/ESP8266. The system automates plant watering based on a preset timer and allows for remote monitoring and control through a mobile app or web interface.",
+            "key_features": [
+                "Automated plant watering based on a preset timer.",
+                "Remote monitoring and control via mobile app or web interface.",
+                "Smart irrigation solution for gardens or farms."
+            ],
+            "benefits": [
+                "Provides hands-on experience in IoT-based smart agriculture systems.",
+                "Enhances understanding of timer-based automation and remote control.",
+                "Ideal for optimizing water usage in gardening or agricultural setups."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP32/ESP8266",
+                    "real-time clock (RTC) module",
+                    "relay module",
+                    "water pump",
+                    "power supply"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Rechargeable battery",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE006",
+            "imgSrc": "/mini projects/ESP32/ID card security locker.jpg",
+            "title": "ID Card Security Locker",
+            "abstract": "This project allows students to create a security locker that can be accessed using an RFID ID card. The ESP32/ESP8266-based system reads the ID card, unlocks the locker, and provides remote access and monitoring via IoT platforms.",
+            "key_features": [
+                "Unlocks the locker using an RFID ID card.",
+                "IoT-based remote monitoring and control.",
+                "Secure and customizable access control system."
+            ],
+            "benefits": [
+                "Provides practical experience in IoT and RFID-based security systems.",
+                "Enhances understanding of access control and remote monitoring technologies.",
+                "Ideal for securing valuable items in homes, offices, or schools."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "RFID reader",
+                    "ESP32/ESP8266",
+                    "servo motor for locking mechanism",
+                    "Wi-Fi module",
+                    "power supply"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE007",
+            "imgSrc": "/mini projects/ESP32/MIIOTE007.jpg",
+            "title": "Mobile Controlled Door Locker",
+            "abstract": "This project enables students to create a smart door locking system that can be controlled remotely using a mobile app. The ESP32/ESP8266-based system integrates wireless communication to allow users to lock or unlock their doors from anywhere, providing a convenient and secure solution.",
+            "key_features": [
+                "Remote control of door locks via a mobile app.",
+                "Secure and convenient access control system.",
+                "Wireless communication for remote operation."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and smart home systems.",
+                "Enhances understanding of wireless communication and access control technologies.",
+                "Ideal for securing homes, offices, or personal belongings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP32/ESP8266",
+                    "Wi-Fi module",
+                    "servo motor for locking mechanism",
+                    "power supply"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE008",
+            "imgSrc": "/mini projects/ESP32/Radar using Ultrasonic sensor.webp",
+            "title": "Radar Using Ultrasonic Sensor",
+            "abstract": "This project introduces students to building a radar system using an ultrasonic sensor and ESP32/ESP8266. The system detects objects, measures their distance, and displays the data on a web interface, providing hands-on experience in IoT-based object detection and automation.",
+            "key_features": [
+                "Object detection and distance measurement using an ultrasonic sensor.",
+                "Real-time data display on a web interface.",
+                "IoT-based radar system for remote monitoring."
+            ],
+            "benefits": [
+                "Provides hands-on experience with sensor technology and IoT.",
+                "Enhances understanding of object detection and distance measurement.",
+                "Ideal for applications in robotics, security, and automation."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "ESP32/ESP8266",
+                    "servo motor (for rotating sensor)",
+                    "Wi-Fi module",
+                    "power supply"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE009",
+            "imgSrc": "/mini projects/ESP32/MIIOTE009.jpg",
+            "title": "Real-Time Clock with Alarm",
+            "abstract": "This project allows students to build a real-time clock (RTC) system with an alarm using ESP32/ESP8266. The system keeps track of the time and can trigger alarms at set intervals, with the added benefit of IoT-based remote control and monitoring.",
+            "key_features": [
+                "Real-time clock with alarm functionality.",
+                "IoT-based remote control and monitoring.",
+                "Customizable alarm settings for different applications."
+            ],
+            "benefits": [
+                "Provides hands-on experience with timekeeping and IoT integration.",
+                "Enhances understanding of RTC modules and alarm systems.",
+                "Ideal for smart home applications, office environments, or personal use."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP32/ESP8266",
+                    "real-time clock (RTC) module",
+                    "buzzer",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Battery-powered",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE010",
+            "imgSrc": "/mini projects/ESP32/MIIOTE010.png",
+            "title": "IoT Weather Station",
+            "abstract": "This project introduces students to building an IoT-based weather station using ESP32/ESP8266. The system collects real-time weather data such as temperature, humidity, and atmospheric pressure, and sends the data to a cloud platform for remote monitoring and analysis.",
+            "key_features": [
+                "Real-time weather data collection and monitoring.",
+                "IoT integration for remote access and analysis.",
+                "Customizable to include additional sensors (e.g., rain, wind speed)."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and environmental monitoring systems.",
+                "Enhances understanding of sensor data collection and cloud integration.",
+                "Ideal for personal weather stations, environmental studies, or smart cities."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Temperature sensor",
+                    "humidity sensor",
+                    "pressure sensor",
+                    "ESP32/ESP8266",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Solar-powered",
+                    "Battery-powered"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE011",
+            "imgSrc": "/mini projects/ESP32/MIIOTE011.png",
+            "title": "Smart Dustbin",
+            "abstract": "This project allows students to create a smart dustbin using ESP32/ESP8266. The system automatically opens the lid when someone approaches and sends alerts when the bin is full, providing a hygienic and IoT-enabled waste management solution.",
+            "key_features": [
+                "Automatically opens the lid when someone approaches.",
+                "Sends alerts when the bin is full.",
+                "IoT-enabled waste management system."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and automation systems.",
+                "Enhances understanding of sensor-based control and remote alerts.",
+                "Ideal for promoting hygiene and efficient waste management."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "ESP32/ESP8266",
+                    "servo motor for lid operation",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Rechargeable battery",
+                    "USB"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE012",
+            "imgSrc": "/mini projects/ESP32/MIIOTE012.jpg",
+            "title": "Alerting and Detection of Toxic Gases in Industries Using IoT",
+            "abstract": "This project introduces students to an IoT-based system for detecting and alerting the presence of toxic gases in industrial environments. The ESP32/ESP8266-based system continuously monitors the air for hazardous gases and sends alerts to a cloud platform for real-time monitoring.",
+            "key_features": [
+                "Continuous monitoring of toxic gases in industrial environments.",
+                "Sends real-time alerts to a cloud platform.",
+                "IoT-enabled remote monitoring and control."
+            ],
+            "benefits": [
+                "Provides hands-on experience in IoT-based industrial safety systems.",
+                "Enhances understanding of gas sensors and real-time monitoring.",
+                "Ideal for ensuring safety in factories, refineries, and other industrial settings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Gas sensor (e.g., MQ-2)",
+                    "ESP32/ESP8266",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Rechargeable battery",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE013",
+            "title": "Railways Accident Avoiding System",
+            "abstract": "This project helps students develop a railway accident avoidance system using ESP32/ESP8266. The system monitors railway tracks for obstacles or faults and sends real-time alerts to the control center, ensuring safe train operations.",
+            "key_features": [
+                "Monitors railway tracks for obstacles and faults.",
+                "Sends real-time alerts to the control center.",
+                "IoT-enabled remote monitoring for railway safety."
+            ],
+            "benefits": [
+                "Provides hands-on experience in IoT-based transportation safety systems.",
+                "Enhances understanding of sensor technology and real-time alerts.",
+                "Ideal for ensuring the safety of railway operations and preventing accidents."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Ultrasonic sensor",
+                    "ESP32/ESP8266",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Solar-powered",
+                    "Battery-powered"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE014",
+            "imgSrc": "/mini projects/ESP32/MIIOTE014.jpg",
+            "title": "Timer-Based Pet Feeder",
+            "abstract": "This project introduces students to building a timer-based pet feeder using ESP32/ESP8266. The system dispenses food at set intervals and can be monitored and controlled remotely via a mobile app, providing a convenient and smart pet care solution.",
+            "key_features": [
+                "Automated pet feeding based on a preset timer.",
+                "Remote control and monitoring via a mobile app.",
+                "Smart pet care solution for convenience and reliability."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and automation systems.",
+                "Enhances understanding of timer-based control and remote monitoring.",
+                "Ideal for ensuring pets are fed on time, even when the owner is away."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP32/ESP8266",
+                    "real-time clock (RTC) module",
+                    "servo motor for food dispensing",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Battery-powered",
+                    "AC adapter"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE015",
+            "imgSrc": "/mini projects/ESP32/MIIOTE015.png",
+            "title": "Solar Power Monitor",
+            "abstract": "This project helps students build a solar power monitor using ESP32/ESP8266. The system tracks the performance of a solar panel by measuring voltage and current, and sends the data to a cloud platform for remote monitoring and analysis.",
+            "key_features": [
+                "Tracks solar panel performance by measuring voltage and current.",
+                "Sends real-time data to a cloud platform for remote monitoring.",
+                "IoT-enabled monitoring system for optimizing solar energy usage."
+            ],
+            "benefits": [
+                "Provides hands-on experience with renewable energy and IoT systems.",
+                "Enhances understanding of solar power generation and data analysis.",
+                "Ideal for optimizing the efficiency of solar panels and energy management."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Voltage and current sensors",
+                    "ESP32/ESP8266",
+                    "solar panel",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "Solar-powered",
+                    "Battery-powered"
+                ]
+            }
+        }
+    ]
+}

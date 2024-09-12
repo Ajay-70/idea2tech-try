@@ -23,6 +23,12 @@ import MainCarousel from "./componenets/carousel/MainCarousel";
 import SubscribeNewsletter from "./componenets/newzletter/SubscribeNewsletter";
 import EngineeringProjects from "./componenets/pages/engineering-projects/EngineeringProjects";
 import ViewEngineeringProjects from "./componenets/pages/engineering-projects/view-projects/ViewEngineeringProjects";
+import DomainEngineering from "./componenets/pages/engineering-projects/projectEnggDomains/DomainEngineering";
+import ViewEngineeringProjectsTwo from "./componenets/pages/engineering-projects/view-projects/try/ViewEngineeringProjectsTwo";
+import DetailedProjectView from "./componenets/pages/engineering-projects/view-projects/detailed-project-view/DetailedProjectView";
+import ViewEngineeringProjectsThree from "./componenets/pages/engineering-projects/view-projects/try2/ViewEngineeringProjectsThree";
+
+// import NavbarOne from "./componenets/navbar/navbar-try/NavbarOne.jsx";
 
 function App() {
   const homeimages = [
@@ -35,6 +41,7 @@ function App() {
   return (
     <>
       <Navbar />
+      {/* <NavbarOne /> */}
       <Routes>
         <Route
           path="/"
@@ -49,8 +56,6 @@ function App() {
               <CoursesWeOffer />
               <Banners name="Our Level-Based Teaching Curriculum" />
               <Design2 />
-              <Banners name="Projects Made by our Students" />
-              <MainCarousel images={homeimages} />
 
               {/* <Design1 /> */}
             </div>
@@ -66,9 +71,28 @@ function App() {
         <Route path="/show-interest" element={<ContactForm />} />
         <Route path="/engineering" element={<EngineeringProjects />} />
         <Route
-          path="/engineering/browse-projects-list/:projectType"
-          element={<ViewEngineeringProjects />}
+          path="/engineering/:projectType/domain/:domainType/:filter?"
+          element={<ViewEngineeringProjectsThree />}
         />
+
+        {/* <Route
+          path="/engineering/:projectType/domain/:domainType/"
+          element={<ViewEngineeringProjectsThree />}
+        /> */}
+
+        <Route
+          path="/engineering/:projectType/domains"
+          element={<DomainEngineering />}
+        />
+        {/* <Route
+          path="/engineering/major-projects/domain/iot/project-detailed-view"
+          element={<DetailedProjectView />}
+        /> */}
+        <Route
+          path="/engineering/:projectType/domain/:domainType/:subdomain/:projectTitle"
+          element={<DetailedProjectView />}
+        />
+
         {/* <Route path="/try" element={<TryComponent />} /> */}
       </Routes>
       <SubscribeNewsletter />

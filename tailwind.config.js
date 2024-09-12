@@ -8,7 +8,10 @@ export default {
     extend: {
       fontFamily:{
         Outfit:["Outfit","sans-serif"]
-      }
+      },
+      screens: {
+        'max-[600px]': {'max': '600px'},
+      },
     },
   },
   plugins: [],

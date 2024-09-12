@@ -1,8 +1,10 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo-i2t.png";
 
 function CollapsibleExample() {
   return (
@@ -10,17 +12,11 @@ function CollapsibleExample() {
       data-bs-theme="dark"
       collapseOnSelect
       expand="lg"
-      // className="colo bg-[#5D232F]"
-      // className="colo bg-[#54C8E0]"
-      className="colo bg-[#696969] "
-      // className="colo"
-      style={{
-        backgroundImage: "linear-gradient(135deg, #FABF2C,#696969 , #FABF2C)",
-      }}
+      className="colo bg-[#04182D]"
     >
-      <Container>
+      <Container className="flex">
         <Navbar.Brand href="/">
-          <img className="h-12" src={logo} alt="" />
+          <img className="logo" src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -29,24 +25,23 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link className="nav-compo" href="/">
+            <Nav.Link as={NavLink} exact to="/" className="nav-compo">
               Home
             </Nav.Link>
-            <Nav.Link className="nav-compo" href="/our-domains">
+            <Nav.Link as={NavLink} to="/our-domains" className="nav-compo">
               Our Domains
             </Nav.Link>
-            <Nav.Link className="nav-compo" href="/our-course">
+            <Nav.Link as={NavLink} to="/our-course" className="nav-compo">
               Our Course
             </Nav.Link>
-
-            <Nav.Link className="nav-compo" href="/for-educators">
+            <Nav.Link as={NavLink} to="/for-educators" className="nav-compo">
               For Educators
             </Nav.Link>
-            <Nav.Link className="nav-compo" href="/engineering">
+            <Nav.Link as={NavLink} to="/engineering" className="nav-compo">
               Engineering
             </Nav.Link>
-            <Nav.Link className="nav-compo" href="/about-us">
-              About us
+            <Nav.Link as={NavLink} to="/about-us" className="nav-compo">
+              About Us
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

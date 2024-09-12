@@ -1,3 +1,4 @@
+// ThingsWeOffer.js
 import React from "react";
 import roboticsData from "../data/whatweoffer.json";
 import { useNavigate } from "react-router";
@@ -10,21 +11,19 @@ function ThingsWeOffer() {
     navigate("/domain-course", { state: { title: title } });
     window.scrollTo(0, 0);
   };
+  
   return (
-    <div className="flex justify-center flex-wrap">
+    <div className="content min-[1328px]:px-5">
       {roboticsData.map((data, index) => (
         <div
           key={index}
-          className="item-container lg:grid-cols-2 px-5 m-6 mb-7 border-spacing-3"
+          className="item-container "
           onClick={() => handleKnowMore(data.title)}
         >
-          <div
-            className="ThingsWeOffer_compo mx-auto"
-            style={{ width: "18rem" }}
-          >
+          <div className="ThingsWeOffer_compo ">
             <img
               src={data.imageSrc}
-              className="img_compo card-img-top rounded-circle mx-auto"
+              className="img_compo card-img-top rounded-circle "
               alt={data.title}
             />
             <div className="text-center py-2">

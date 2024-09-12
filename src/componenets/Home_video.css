@@ -5,3 +5,13 @@
     background-color: azure;
   
 }
+
+@media (max-width: 360px) {
+
+  .video-section{
+    
+      
+    
+  }
+
+}

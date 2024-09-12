@@ -1,0 +1,745 @@
+{
+    "subdomain": "ai&ml",
+    "projects": [
+    {
+        "code": "MAAIML001",
+        "title": "Brain Tumor Segmentation and Survival Prediction using UNET and Ensemble Model",
+        "abstract": "This project introduces a brain tumor segmentation and survival prediction system using UNET architecture for segmentation and ensemble models for survival prediction. The system helps in identifying tumor regions in MRI scans and predicting patient survival rates.",
+        "key_features": [
+            "Tumor segmentation from MRI scans using UNET.",
+            "Survival prediction using ensemble learning (Random Forest, Gradient Boosting).",
+            "Data augmentation and preprocessing for improved model accuracy."
+        ],
+        "benefits": [
+            "Provides hands-on experience with medical image processing, segmentation, and predictive modeling.",
+            "Enhances understanding of deep learning in healthcare and ensemble learning techniques.",
+            "Ideal for research in medical imaging, oncology, and predictive healthcare."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "Scikit-learn",
+                "OpenCV",
+                "Pandas"
+            ],
+            "dataset": "Public brain tumor datasets (e.g., BraTS)"
+        }
+    },
+    {
+        "code": "MAAIML002",
+        "title": "Yoga Pose Detection using MediaPipe Framework",
+        "abstract": "This project enables students to develop a yoga pose detection system using the MediaPipe framework. The system detects and classifies various yoga poses using real-time video feed, providing feedback on the accuracy of the poses.",
+        "key_features": [
+            "Real-time pose detection using MediaPipe Pose estimation.",
+            "Classification of yoga poses with accuracy feedback.",
+            "Integration with a mobile app or web interface for user interaction."
+        ],
+        "benefits": [
+            "Provides hands-on experience with pose estimation, computer vision, and fitness applications.",
+            "Enhances understanding of human pose detection and body tracking technologies.",
+            "Ideal for fitness apps, health monitoring, and real-time workout feedback."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "MediaPipe",
+                "OpenCV",
+                "TensorFlow/Keras"
+            ],
+            "dataset": "Custom yoga pose datasets"
+        }
+    },
+    {
+        "code": "MAAIML003",
+        "title": "Biometric Authentication System Using Facial Recognition (Transfer Learning)",
+        "abstract": "This project introduces a biometric authentication system using facial recognition with transfer learning. The system identifies individuals based on facial features and can be integrated into security systems for access control.",
+        "key_features": [
+            "Facial recognition using transfer learning with pre-trained models.",
+            "Secure authentication with real-time face detection and recognition.",
+            "Integration with access control systems for enhanced security."
+        ],
+        "benefits": [
+            "Provides hands-on experience with facial recognition, transfer learning, and security systems.",
+            "Enhances understanding of biometrics, feature extraction, and neural networks.",
+            "Ideal for security applications, smart access control, and biometric authentication."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV",
+                "dlib",
+                "FaceNet"
+            ],
+            "dataset": "Public facial recognition datasets (e.g., LFW, VGGFace2)"
+        }
+    },
+    {
+        "code": "MAAIML004",
+        "title": "Lung Cancer Detection and Classification Using Transfer Learning",
+        "abstract": "This project enables students to develop a lung cancer detection and classification system using transfer learning. The system classifies lung cancer from CT scan images, assisting in early diagnosis and treatment planning.",
+        "key_features": [
+            "Lung cancer detection from CT scans using transfer learning with pre-trained models (e.g., ResNet, Inception).",
+            "Automated classification of cancerous vs. non-cancerous images.",
+            "Data augmentation and model fine-tuning for improved performance."
+        ],
+        "benefits": [
+            "Provides hands-on experience with medical imaging, transfer learning, and cancer detection.",
+            "Enhances understanding of deep learning applications in healthcare and oncology.",
+            "Ideal for research in medical diagnostics and early disease detection."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "Scikit-learn",
+                "OpenCV"
+            ],
+            "dataset": "Public lung cancer datasets (e.g., LIDC-IDRI)"
+        }
+    },
+    {
+        "code": "MAAIML005",
+        "title": "Suicide Detection through NLP using GRU, LSTM, and CNN-LSTM Networks",
+        "abstract": "This project introduces a suicide detection system using NLP and deep learning networks like GRU, LSTM, and CNN-LSTM. The system analyzes text data from social media posts or messages to detect suicidal tendencies and send alerts.",
+        "key_features": [
+            "Text analysis using NLP techniques for detecting suicidal language.",
+            "Deep learning models (GRU, LSTM, CNN-LSTM) for accurate classification.",
+            "Real-time alerts to mental health professionals or emergency contacts."
+        ],
+        "benefits": [
+            "Provides hands-on experience with NLP, sentiment analysis, and mental health applications.",
+            "Enhances understanding of deep learning models for text classification.",
+            "Ideal for suicide prevention programs and mental health monitoring."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "NLTK",
+                "Scikit-learn"
+            ],
+            "dataset": "Custom or public datasets related to mental health and suicide detection"
+        }
+    },
+    {
+        "code": "MAAIML006",
+        "title": "Brain Tumor Detection Using Custom CNN and Transfer Learning Algorithms",
+        "abstract": "This project enables students to develop a brain tumor detection system using custom Convolutional Neural Networks (CNN) and transfer learning algorithms. The system detects tumors from MRI scans, aiding in early diagnosis and treatment.",
+        "key_features": [
+            "Tumor detection from MRI scans using custom CNN and transfer learning.",
+            "Preprocessing techniques like image normalization and data augmentation.",
+            "Classification of tumor types for better treatment planning."
+        ],
+        "benefits": [
+            "Provides hands-on experience with CNNs, transfer learning, and medical imaging.",
+            "Enhances understanding of deep learning applications in healthcare.",
+            "Ideal for research in medical diagnostics and early disease detection."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "dataset": "Public brain tumor datasets (e.g., BraTS)"
+        }
+    },
+    {
+        "code": "MAAIML007",
+        "title": "Sign Language Detection and Text Conversion System",
+        "abstract": "This project introduces a sign language detection and text conversion system using deep learning and computer vision. The system recognizes hand gestures and converts them into text, enabling communication for hearing-impaired individuals.",
+        "key_features": [
+            "Real-time sign language detection using a camera and CNN-based models.",
+            "Text conversion for displaying the recognized signs.",
+            "Integration with speech-to-text for bi-directional communication."
+        ],
+        "benefits": [
+            "Provides hands-on experience with gesture recognition, CNNs, and assistive technology.",
+            "Enhances understanding of human-computer interaction and accessibility solutions.",
+            "Ideal for developing communication aids for the hearing-impaired community."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "dataset": "Public sign language datasets (e.g., ASL dataset)"
+        }
+    },
+    {
+        "code": "MAAIML008",
+        "title": "Eyeball Tracking Mouse Pointer",
+        "abstract": "This project enables students to develop an eyeball tracking system that controls the mouse pointer based on eye movement. The system uses computer vision to track the user's gaze, providing hands-free control of the computer.",
+        "key_features": [
+            "Real-time eye tracking using a camera and computer vision algorithms.",
+            "Mouse pointer control based on gaze direction.",
+            "Customizable sensitivity and calibration settings."
+        ],
+        "benefits": [
+            "Provides hands-on experience with eye-tracking technology, computer vision, and human-computer interaction.",
+            "Enhances understanding of accessibility solutions and hands-free control systems.",
+            "Ideal for assistive technology and innovative user interfaces."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "OpenCV",
+                "Dlib",
+                "PyAutoGUI"
+            ],
+            "dataset": "Custom datasets for eye tracking and gaze estimation"
+        }
+    },
+    {
+        "code": "MAAIML009",
+        "title": "Breast Cancer Detection System",
+        "abstract": "This project introduces a breast cancer detection system using machine learning and deep learning techniques. The system analyzes mammogram images to detect cancerous tissues, assisting in early diagnosis and treatment planning.",
+        "key_features": [
+            "Mammogram image analysis using machine learning models.",
+            "Classification of cancerous and non-cancerous tissues.",
+            "Integration with clinical workflows for improved diagnosis accuracy."
+        ],
+        "benefits": [
+            "Provides hands-on experience with medical imaging, machine learning, and healthcare technology.",
+            "Enhances understanding of early cancer detection and predictive modeling.",
+            "Ideal for research in medical diagnostics and oncology."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV",
+                "Scikit-learn"
+            ],
+            "dataset": "Public breast cancer datasets (e.g., CBIS-DDSM)"
+        }
+    },
+    {
+        "code": "MAAIML010",
+        "title": "Skin Cancer Detection Using CNN",
+        "abstract": "This project enables students to develop a skin cancer detection system using Convolutional Neural Networks (CNN). The system classifies skin lesions as cancerous or non-cancerous, providing a tool for early diagnosis and treatment.",
+        "key_features": [
+            "Skin lesion classification using CNN models.",
+            "Data preprocessing and augmentation for improved model accuracy.",
+            "Integration with telemedicine platforms for remote diagnosis."
+        ],
+        "benefits": [
+            "Provides hands-on experience with CNNs, medical imaging, and healthcare technology.",
+            "Enhances understanding of early disease detection and image classification.",
+            "Ideal for research in dermatology, oncology, and telemedicine."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "dataset": "Public skin cancer datasets (e.g., ISIC dataset)"
+        }
+    },
+    {
+        "code": "MAAIML011",
+        "title": "Salary Prediction using Machine Learning Web App",
+        "abstract": "This project introduces a salary prediction system that estimates an individual's salary based on various features such as education, experience, and location. The system uses machine learning models and is deployed as a web app for user interaction.",
+        "key_features": [
+            "Salary prediction using regression models (e.g., Linear Regression, Random Forest).",
+            "User-friendly web interface for inputting personal details and viewing predictions.",
+            "Data visualization for analyzing salary trends and factors."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, regression models, and web app development.",
+            "Enhances understanding of predictive modeling and data visualization.",
+            "Ideal for career planning, HR analytics, and salary benchmarking."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask/Django for web app)",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Custom or public salary datasets"
+        }
+    },
+    {
+        "code": "MAAIML012",
+        "title": "IMDB Sentiment Analysis Machine Learning",
+        "abstract": "This project enables students to perform sentiment analysis on IMDB movie reviews using machine learning. The system classifies reviews as positive or negative, providing insights into audience sentiment.",
+        "key_features": [
+            "Sentiment classification of IMDB reviews using machine learning models.",
+            "Text preprocessing with NLP techniques for improved accuracy.",
+            "Data visualization of sentiment trends across different movies."
+        ],
+        "benefits": [
+            "Provides hands-on experience with NLP, text classification, and sentiment analysis.",
+            "Enhances understanding of audience feedback analysis and machine learning.",
+            "Ideal for media analytics, movie recommendations, and opinion mining."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "NLTK",
+                "Scikit-learn",
+                "Pandas"
+            ],
+            "dataset": "IMDB movie reviews dataset"
+        }
+    },
+    {
+        "code": "MAAIML013",
+        "title": "Insurance Claim Prediction Machine Learning Project",
+        "abstract": "This project introduces an insurance claim prediction system using machine learning. The system predicts whether an insurance claim will be approved based on various factors such as customer demographics, claim history, and policy details.",
+        "key_features": [
+            "Claim prediction using classification models (e.g., Logistic Regression, Random Forest).",
+            "Feature engineering and data preprocessing for improved accuracy.",
+            "Integration with insurance workflows for automating claim processing."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, feature engineering, and predictive modeling.",
+            "Enhances understanding of insurance analytics and risk management.",
+            "Ideal for automating insurance claim processing and fraud detection."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public insurance claim datasets or custom datasets"
+        }
+    },
+    {
+        "code": "MAAIML0014",
+        "title": "Music Recommendation Based on Facial Expression",
+        "abstract": "This project enables students to develop a music recommendation system that suggests songs based on the user's facial expression. The system uses computer vision to analyze facial emotions and recommends music accordingly.",
+        "key_features": [
+            "Real-time facial expression analysis using computer vision.",
+            "Music recommendation based on detected emotions (e.g., happy, sad).",
+            "Integration with music streaming platforms for personalized playlists."
+        ],
+        "benefits": [
+            "Provides hands-on experience with emotion detection, computer vision, and recommendation systems.",
+            "Enhances understanding of personalized recommendations and user experience design.",
+            "Ideal for music streaming services, emotion-based marketing, and entertainment apps."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "OpenCV",
+                "TensorFlow/Keras",
+                "Spotipy (for Spotify integration)"
+            ],
+            "dataset": "Public facial expression datasets (e.g., FER-2013)"
+        }
+    },
+    {
+        "code": "MAAIML0015",
+        "title": "Employee Attrition Prediction using Machine Learning",
+        "abstract": "This project introduces an employee attrition prediction system using machine learning. The system predicts whether an employee is likely to leave the organization based on factors such as job satisfaction, salary, and work-life balance.",
+        "key_features": [
+            "Attrition prediction using classification models (e.g., Decision Trees, Random Forest).",
+            "Feature engineering and data preprocessing for improved accuracy.",
+            "Data visualization for HR analytics and employee retention strategies."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, HR analytics, and predictive modeling.",
+            "Enhances understanding of employee retention, attrition prediction, and workforce management.",
+            "Ideal for HR departments, workforce planning, and organizational development."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public HR datasets or custom datasets"
+        }
+    },
+    {
+        "code": "MAAIML0016",
+        "title": "Predicting Student Performance Using Machine Learning",
+        "abstract": "This project enables students to predict academic performance using machine learning. The system analyzes various factors such as attendance, study habits, and extracurricular activities to predict student grades.",
+        "key_features": [
+            "Performance prediction using regression models (e.g., Linear Regression, Gradient Boosting).",
+            "Feature engineering for academic data to improve model accuracy.",
+            "Data visualization of student performance trends and factors."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, education analytics, and predictive modeling.",
+            "Enhances understanding of academic performance analysis and student success factors.",
+            "Ideal for schools, universities, and educational institutions to improve student outcomes."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public education datasets or custom datasets"
+        }
+    },
+    {
+        "code": "MAAIML0017",
+        "title": "Road Accident Severity Prediction Using Machine Learning",
+        "abstract": "This project introduces a road accident severity prediction system using machine learning. The system predicts the severity of road accidents based on factors such as weather, traffic conditions, and driver behavior.",
+        "key_features": [
+            "Accident severity prediction using classification models (e.g., SVM, Random Forest).",
+            "Feature engineering for traffic and weather data to improve model accuracy.",
+            "Data visualization for analyzing accident trends and risk factors."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, traffic safety, and predictive modeling.",
+            "Enhances understanding of road safety analytics and accident prevention strategies.",
+            "Ideal for transportation departments, road safety organizations, and insurance companies."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public traffic accident datasets (e.g., UK Road Safety dataset)"
+        }
+    },
+    {
+        "code": "MAAIML0018",
+        "title": "Predicting the Earlier Stages of Alzheimer’s Disease Using Machine Learning",
+        "abstract": "This project enables students to develop a prediction system for the early stages of Alzheimer’s disease using machine learning. The system analyzes medical data, cognitive tests, and MRI scans to detect early signs of the disease.",
+        "key_features": [
+            "Early-stage Alzheimer’s prediction using classification models.",
+            "Data preprocessing and feature selection for medical data.",
+            "Integration with healthcare systems for early diagnosis and intervention."
+        ],
+        "benefits": [
+            "Provides hands-on experience with healthcare analytics, predictive modeling, and early disease detection.",
+            "Enhances understanding of Alzheimer’s disease, cognitive decline, and medical data analysis.",
+            "Ideal for research in neurology, geriatrics, and healthcare innovation."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "TensorFlow/Keras"
+            ],
+            "dataset": "Public Alzheimer’s disease datasets (e.g., ADNI)"
+        }
+    },
+    {
+        "code": "MAAIML0019",
+        "title": "Big Mart Sales Prediction using Machine Learning",
+        "abstract": "This project introduces a sales prediction system for Big Mart stores using machine learning. The system analyzes sales data, product categories, and store features to predict future sales and optimize inventory management.",
+        "key_features": [
+            "Sales prediction using regression models (e.g., Random Forest, XGBoost).",
+            "Feature engineering for product, store, and seasonal data.",
+            "Data visualization for analyzing sales trends and forecasting."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, sales analytics, and predictive modeling.",
+            "Enhances understanding of retail analytics, inventory management, and demand forecasting.",
+            "Ideal for retail stores, supply chain management, and sales optimization."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Big Mart sales dataset from Kaggle"
+        }
+    },
+    {
+        "code": "MAAIML0020",
+        "title": "Liver Cirrhosis Stage Prediction Machine Learning Python Web App",
+        "abstract": "This project enables students to develop a liver cirrhosis stage prediction system using machine learning. The system classifies patients into different stages of cirrhosis based on medical data, helping doctors plan appropriate treatment.",
+        "key_features": [
+            "Cirrhosis stage prediction using classification models (e.g., Decision Trees, Random Forest).",
+            "Medical data preprocessing and feature selection for accurate predictions.",
+            "Web-based interface for healthcare professionals to interact with the system."
+        ],
+        "benefits": [
+            "Provides hands-on experience with medical data analysis, machine learning, and web app development.",
+            "Enhances understanding of liver diseases, healthcare analytics, and predictive modeling.",
+            "Ideal for hospitals, clinics, and research institutions to improve liver disease management."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask/Django for web app)",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public liver disease datasets"
+        }
+    },
+    {
+        "code": "MAAIML0021",
+        "title": "Crime Data Analysis Project in Machine Learning",
+        "abstract": "This project introduces a crime data analysis system using machine learning. The system analyzes crime data to identify patterns, trends, and high-risk areas, providing insights for law enforcement and public safety planning.",
+        "key_features": [
+            "Crime data analysis using clustering and classification models.",
+            "Feature engineering for crime data to identify patterns and trends.",
+            "Data visualization for presenting crime hotspots and risk factors."
+        ],
+        "benefits": [
+            "Provides hands-on experience with data analysis, machine learning, and crime prevention strategies.",
+            "Enhances understanding of crime analytics, public safety, and predictive modeling.",
+            "Ideal for law enforcement agencies, public safety organizations, and urban planners."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public crime datasets (e.g., Chicago crime data)"
+        }
+    },
+    {
+        "code": "MAAIML0022",
+        "title": "Multiple Disease Prediction using Machine Learning",
+        "abstract": "This project enables students to develop a multiple disease prediction system using machine learning. The system predicts the likelihood of various diseases such as diabetes, heart disease, and cancer based on medical data.",
+        "key_features": [
+            "Disease prediction using classification models for multiple diseases.",
+            "Feature engineering and data preprocessing for improved accuracy.",
+            "Integration with healthcare systems for personalized diagnosis and treatment planning."
+        ],
+        "benefits": [
+            "Provides hands-on experience with healthcare analytics, predictive modeling, and medical data analysis.",
+            "Enhances understanding of disease prediction, patient data, and early diagnosis.",
+            "Ideal for hospitals, clinics, and healthcare providers to improve patient care."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public health datasets (e.g., UCI Machine Learning Repository)"
+        }
+    },
+    {
+        "code": "MAAIML0023",
+        "title": "Driver Distraction Prediction Using Deep Learning",
+        "abstract": "This project introduces a driver distraction prediction system using deep learning. The system analyzes driver behavior, facial expressions, and eye movements to detect distractions and prevent accidents.",
+        "key_features": [
+            "Real-time distraction detection using CNNs and facial recognition.",
+            "Integration with in-vehicle systems for driver alerts and notifications.",
+            "Data visualization for analyzing driver behavior and risk factors."
+        ],
+        "benefits": [
+            "Provides hands-on experience with deep learning, computer vision, and road safety analytics.",
+            "Enhances understanding of driver monitoring systems and accident prevention.",
+            "Ideal for automotive industry, fleet management, and road safety organizations."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV",
+                "PyAutoGUI"
+            ],
+            "dataset": "Public driver behavior datasets"
+        }
+    },
+    {
+        "code": "MAAIML0024",
+        "title": "Fake Product Review Detection using Machine Learning",
+        "abstract": "This project enables students to develop a fake product review detection system using machine learning. The system analyzes reviews and identifies fake or deceptive ones, improving the accuracy of product ratings.",
+        "key_features": [
+            "Fake review detection using classification models (e.g., Random Forest, SVM).",
+            "Text preprocessing and feature extraction for accurate classification.",
+            "Integration with e-commerce platforms to filter out fake reviews."
+        ],
+        "benefits": [
+            "Provides hands-on experience with NLP, sentiment analysis, and e-commerce analytics.",
+            "Enhances understanding of fake review detection and online trust management.",
+            "Ideal for e-commerce platforms, product review websites, and consumer protection."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "NLTK",
+                "Scikit-learn",
+                "Pandas"
+            ],
+            "dataset": "Public review datasets (e.g., Amazon reviews dataset)"
+        }
+    },
+    {
+        "code": "MAAIML0025",
+        "title": "Diabetes Prediction using Machine Learning",
+        "abstract": "This project introduces a diabetes prediction system using machine learning. The system predicts the likelihood of diabetes based on medical data such as glucose levels, blood pressure, and BMI, helping in early diagnosis and treatment.",
+        "key_features": [
+            "Diabetes prediction using classification models (e.g., Logistic Regression, Decision Trees).",
+            "Feature engineering for medical data to improve model accuracy.",
+            "Data visualization for analyzing risk factors and trends."
+        ],
+        "benefits": [
+            "Provides hands-on experience with healthcare analytics, predictive modeling, and medical data analysis.",
+            "Enhances understanding of diabetes prevention, diagnosis, and patient care.",
+            "Ideal for hospitals, clinics, and healthcare providers to improve diabetes management."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public diabetes datasets (e.g., Pima Indians Diabetes dataset)"
+        }
+    },
+    {
+        "code": "MAAIML0026",
+        "title": "Heart Disease Prediction using Machine Learning",
+        "abstract": "This project enables students to develop a heart disease prediction system using machine learning. The system predicts the likelihood of heart disease based on medical data such as cholesterol levels, blood pressure, and age.",
+        "key_features": [
+            "Heart disease prediction using classification models (e.g., Random Forest, Logistic Regression).",
+            "Feature engineering and data preprocessing for improved accuracy.",
+            "Integration with healthcare systems for personalized diagnosis and treatment."
+        ],
+        "benefits": [
+            "Provides hands-on experience with healthcare analytics, predictive modeling, and medical data analysis.",
+            "Enhances understanding of heart disease prevention, diagnosis, and patient care.",
+            "Ideal for hospitals, clinics, and healthcare providers to improve heart disease management."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public heart disease datasets (e.g., Cleveland Heart Disease dataset)"
+        }
+    },
+    {
+        "code": "MAAIML0027",
+        "title": "Skin Cancer Detection using Machine Learning",
+        "abstract": "This project introduces a skin cancer detection system using machine learning. The system analyzes skin images to detect cancerous lesions, providing an early diagnosis tool for dermatologists and patients.",
+        "key_features": [
+            "Skin cancer detection using classification models (e.g., CNNs, Random Forest).",
+            "Image preprocessing and data augmentation for improved accuracy.",
+            "Integration with telemedicine platforms for remote diagnosis."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, medical imaging, and healthcare technology.",
+            "Enhances understanding of early disease detection, image classification, and oncology.",
+            "Ideal for research in dermatology, oncology, and telemedicine."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "dataset": "Public skin cancer datasets (e.g., ISIC dataset)"
+        }
+    },
+    {
+        "code": "MAAIML0028",
+        "title": "Hypothyroid Disease Prediction using Machine Learning",
+        "abstract": "This project enables students to develop a hypothyroid disease prediction system using machine learning. The system predicts whether a patient has hypothyroidism based on medical data such as TSH levels, T3, and T4 hormone levels.",
+        "key_features": [
+            "Hypothyroid disease prediction using classification models (e.g., SVM, Decision Trees).",
+            "Feature engineering for medical data to improve model accuracy.",
+            "Integration with healthcare systems for early diagnosis and treatment planning."
+        ],
+        "benefits": [
+            "Provides hands-on experience with healthcare analytics, predictive modeling, and medical data analysis.",
+            "Enhances understanding of thyroid disease prevention, diagnosis, and patient care.",
+            "Ideal for hospitals, clinics, and healthcare providers to improve thyroid disease management."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public hypothyroid disease datasets"
+        }
+    },
+    {
+        "code": "MAAIML0029",
+        "title": "Pneumonia Prediction Using Chest X-ray Image Machine Learning",
+        "abstract": "This project introduces a pneumonia prediction system using machine learning and chest X-ray images. The system detects pneumonia in chest X-rays, assisting in early diagnosis and treatment of respiratory diseases.",
+        "key_features": [
+            "Pneumonia detection from chest X-rays using CNN models.",
+            "Image preprocessing and data augmentation for improved accuracy.",
+            "Integration with healthcare systems for remote diagnosis and telemedicine."
+        ],
+        "benefits": [
+            "Provides hands-on experience with medical imaging, machine learning, and healthcare technology.",
+            "Enhances understanding of early disease detection, image classification, and respiratory diseases.",
+            "Ideal for research in radiology, respiratory medicine, and telemedicine."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "dataset": "Public pneumonia datasets (e.g., Chest X-ray dataset from Kaggle)"
+        }
+    },
+    {
+        "code": "MAAIML0030",
+        "title": "Crop Recommendation using Random Forest Flask Web App",
+        "abstract": "This project enables students to develop a crop recommendation system using machine learning and Random Forest. The system recommends the best crops to plant based on factors such as soil type, weather, and location, and is deployed as a Flask web app.",
+        "key_features": [
+            "Crop recommendation using Random Forest and feature engineering.",
+            "Web-based interface for farmers to input data and receive recommendations.",
+            "Integration with weather APIs for real-time data updates."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, agriculture analytics, and web app development.",
+            "Enhances understanding of smart farming, precision agriculture, and crop yield optimization.",
+            "Ideal for farmers, agricultural researchers, and smart farming applications."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask for web app)",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public crop datasets (e.g., Indian Crop dataset)"
+        }
+    },
+    {
+        "code": "MAAIML0031",
+        "title": "Brain Stroke Prediction using Machine Learning",
+        "abstract": "This project introduces a brain stroke prediction system using machine learning. The system predicts the likelihood of a brain stroke based on medical data such as blood pressure, cholesterol levels, and lifestyle factors, helping in early prevention and treatment.",
+        "key_features": [
+            "Stroke prediction using classification models (e.g., Logistic Regression, Random Forest).",
+            "Feature engineering and data preprocessing for improved accuracy.",
+            "Integration with healthcare systems for personalized diagnosis and prevention."
+        ],
+        "benefits": [
+            "Provides hands-on experience with healthcare analytics, predictive modeling, and medical data analysis.",
+            "Enhances understanding of stroke prevention, diagnosis, and patient care.",
+            "Ideal for hospitals, clinics, and healthcare providers to improve stroke management."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "dataset": "Public stroke prediction datasets"
+        }
+    }
+]}

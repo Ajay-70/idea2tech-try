@@ -4,3 +4,12 @@
   justify-content: center;
   
 }
+
+.courses Card.Img{
+  width: auto;
+}
+@media (max-width: 600px) {
+  .courses .card {
+    max-width: 300px;
+    height: auto;
+  }}

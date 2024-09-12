@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Robotics",
+    "imageSrc": "/images/robotics.jpeg",
+    "content": [
+      "Provides an engaging introduction to the exciting world of robotics, perfect for beginners with a passion for technology and innovation.",
+      "Covers essential topics such as robot anatomy, sensors, actuators, and control systems, giving students a comprehensive overview of the field.",
+      "Combines theoretical lessons with hands-on lab exercises, allowing students to apply their knowledge in practical settings.",
+      "Equips students with practical skills in robot design, programming, and operation, preparing them for further exploration in robotics."
+    ]
+  },
+  {
+    "title": "Artificial Intelligence and Game Building",
+    "imageSrc": "/images/coding.jpeg",
+    "content": [
+      "Introduces participants to the fascinating world of AI technology and its diverse applications in game development.",
+      "Covers AI tools and techniques, including machine learning algorithms, neural networks, natural language processing, and computer vision, providing a strong foundation in AI.",
+      "Explores the future possibilities of AI, examining its impact on industries such as healthcare, finance, and transportation.",
+      "Participants engage in game building using block coding platforms, learning the basics of game design, programming logic, and problem-solving skills through interactive projects."
+    ]
+  },
+  {
+    "title": "Art and Crafts",
+    "imageSrc": "/images/Art and crafting.jpeg",
+    "content": [
+      "Designed to inspire young minds through hands-on and creative activities, encouraging artistic expression and experimentation.",
+      "Exposes students to a wide range of art forms, including drawing, painting, sculpture, collage, and more, fostering a deep appreciation for the arts.",
+      "Each lesson is carefully crafted to help students develop their skills, explore new techniques, and express their unique artistic vision in a supportive environment."
+    ]
+  },
+  {
+    "title": "3D Modeling and Printing",
+    "imageSrc": "/images/3D modeling.jpeg",
+    "content": [
+      "Introduces participants to the exciting world of three-dimensional design and fabrication, providing a solid foundation in 3D modeling and printing.",
+      "Covers fundamental concepts such as three-dimensional space, modeling techniques, and the process of translating digital designs into physical objects using 3D printing technology.",
+      "Explores the applications of 3D modeling and printing across various industries, including product design, architecture, healthcare, and education.",
+      "Participants gain hands-on experience with Tinkercad, a user-friendly online platform for creating 3D models, allowing them to design and print their own simple objects."
+    ]
+  },
+  {
+    "title": "Agronomy",
+    "imageSrc": "/images/Agronomy.jpeg",
+    "content": [
+      "Offers an immersive exploration into the world of agricultural science and crop production, ideal for students interested in sustainable agriculture.",
+      "Provides a comprehensive introduction to the principles, practices, and technologies essential for modern crop cultivation.",
+      "Combines classroom learning with hands-on fieldwork and interactive activities, helping students gain a deep understanding of the key concepts in agriculture.",
+      "Emphasizes the importance of sustainability and efficiency in agriculture, preparing students for future challenges in the field."
+    ]
+  },
+  {
+    "title": "Engineering Basics",
+    "imageSrc": "/images/engineering basics1.jpeg",
+    "content": [
+      "Offers a hands-on introduction to the fundamental principles, concepts, and applications of engineering, perfect for students with a curiosity for how things work.",
+      "Explores various branches of engineering through interactive learning experiences, practical demonstrations, and collaborative projects.",
+      "Encourages innovation and creativity, allowing students to see the diverse and dynamic nature of engineering in real-world applications."
+    ]
+  },
+  {
+    "title": "Workshops",
+    "imageSrc": "/images/workshops.jpeg",
+    "content": [
+      "Provides a series of engaging and interactive workshops designed to inspire, educate, and empower young minds.",
+      "Covers a wide range of topics, including robotics, coding, art, and entrepreneurship, offering students the opportunity to explore new interests and skills.",
+      "Creates a fun and supportive learning environment where students can engage with topics hands-on and develop their knowledge in diverse fields."
+    ]
+  },
+  {
+    "title": "Science Fair",
+    "imageSrc": "/images/Science fair.jpeg",
+    "content": [
+      "A dynamic event designed to celebrate the creativity, ingenuity, and scientific inquiry of young minds through student-led research projects, experiments, and innovations.",
+      "Offers students the opportunity to explore their scientific interests, present their discoveries, and engage with the wider community.",
+      "Encourages a deep understanding of scientific principles and promotes the development of research and presentation skills, fostering a spirit of inquiry and innovation."
+    ]
+  }
+]

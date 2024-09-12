@@ -1,19 +1,50 @@
 .bannnner {
-  height: 20vh;
+  height: 15vh;
   text-align: center;
   display: flex;
   width: 100%;
   align-items: center; /* Centers vertically */
   justify-content: center; /* Centers horizontally */
   flex-direction: column;
-  background-image: linear-gradient(135deg, #FABF2C, #262626, #FABF2C);
+  background-image: linear-gradient(180deg, #04182D,#1a9fb9);
   
   color: white; 
   /* background-color: #e94f6e; */
+
 }
+
+
+@media only screen and (max-width: 1700px) {
+  .bannnner {
+    height: 13vh;}
+}
+
+
 @media only screen and (max-width: 700px) {
   .bannnner {
     height: 7vh; /* Increase height for small screens */
     font-size: 14px; /* Adjust font size for better readability */
   }
 }
+
+
+@media (max-width: 1440px) {
+  .bannnner {
+    height: 13vh;}
+}
+
+@media (max-width: 1280px) {}
+
+
+@media (max-width: 1280px) {}
+
+
+@media (max-width: 360px) {}
+
+@media (max-width: 390px) {}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 393px) {}
+
+@media (max-width: 412px) {}

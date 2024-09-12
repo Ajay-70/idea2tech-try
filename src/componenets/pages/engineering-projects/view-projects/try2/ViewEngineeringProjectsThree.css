@@ -1,0 +1,52 @@
+.custom-button {
+    padding: 9px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    background-color: #3C9AF5;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .custom-button:hover {
+    /* letter-spacing: 3px; */
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  .custom-button:active {
+    /* letter-spacing: 3px; */
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-body {
+    flex: 1;
+  }
+  
+  .card-img {
+    object-fit: cover;
+    height: 200px; /* Adjust the height based on your needs */
+  }
+  

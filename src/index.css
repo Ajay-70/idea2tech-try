@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   font-family: "Outfit", sans-serif;
  
 }
+
+
 .fonttext{
   font-size: 30px;
 }

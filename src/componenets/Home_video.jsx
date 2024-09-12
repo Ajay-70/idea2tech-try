@@ -3,8 +3,8 @@ import React from "react";
 function Home_video() {
   return (
     <div>
-      <section className="m-5 relative   text-center text-white">
-        <div className="overflow-hidden m-5">
+      <section className=" relative   text-center text-white">
+        <div className="overflow-hidden m-3 ">
           <video
             className="object-cover w-full"
             src="/videos/promo.mp4"

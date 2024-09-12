@@ -1,17 +1,116 @@
+/* ThingsWeOffer.css */
 .ThingsWeOffer_compo {
   display: flex;
-  flex-direction: column; /* Change to column */
-  justify-content: space-around; /* Optional: Adjust as needed */
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   cursor: pointer;
   position: relative;
-  width: 18rem;
+  width: 20rem;
+  margin: 30px 0px;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.ThingsWeOffer_compo {
+  flex-wrap: wrap;
+  width: 18rem ;
+}
+/* Media query for 360px screen width */
+@media (max-width: 414px) {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Adjust spacing between items if needed */
+    width: auto !important;
+  }
+
+  .item-container {
+    width: 100%; /* Full width within the grid */
+    margin: 0; /* Remove margin for grid items */
+  }
+  .ThingsWeOffer_compo {
+    margin: 0;
+    padding: 5px;
+  }
+  .ThingsWeOffer_compo .fonttext {
+    font-size: small !important;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 0px; /* Adjust spacing between items if needed */
+  }
+  .ThingsWeOffer_compo {
+    flex-wrap: wrap;
+    width: auto !important;
+    padding: 15px;
+  }
+  .ThingsWeOffer_compo .fonttext {
+    font-size: medium;
+  }
+}
+
+
+
+/* 
 
 .ThingsWeOffer_compo .fonttext {
   font-size: larger;
 }
+
+
+@media (max-width: 1366px) {
+ .ThingsWeOffer_compo {
+    width: 13rem !important; 
+  }
+}*/
+
+@media (max-width: 1440px) {
+  .ThingsWeOffer_compo {
+    width: 17rem ; 
+  }
+}
+
+@media (max-width: 1280px) {
+  .ThingsWeOffer_compo {
+    width: 15rem ; 
+  }
+  .ThingsWeOffer_compo .fonttext {
+    font-size: large;
+  }
+}
+
+
+/* @media (max-width: 360px) {
+  .ThingsWeOffer_compo {
+    
+  }
+} */
+
+/* @media (max-width: 390px) {}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 393px) {}
+
+@media (max-width: 412px) {}
+
+
+
+
+
 
 @media (max-width: 944px) {
   .ThingsWeOffer_compo .img_compo {
@@ -24,4 +123,4 @@
   .ThingsWeOffer_compo {
     flex-wrap: wrap;
   }
-}
+}  */

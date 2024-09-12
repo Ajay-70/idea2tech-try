@@ -1,0 +1,514 @@
+{
+    "subdomain": "Raspberry Pi",
+    "projects": [
+        {
+            "code": "MAIOTR001",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR001.jpg",
+            "title": "Low-Cost Interactive Voice Response (IVR) Device using Raspberry Pi for Automatic Calls and Messages",
+            "abstract": "This project introduces a low-cost Interactive Voice Response (IVR) system using Raspberry Pi. The system automates calls and messages, allowing businesses and individuals to manage customer service, appointment reminders, and other automated responses effectively.",
+            "key_features": [
+                "Automatic call and message handling with pre-recorded responses.",
+                "Customizable IVR menu options for different applications.",
+                "Easy integration with existing phone systems or VoIP services."
+            ],
+            "benefits": [
+                "Provides hands-on experience with telephony, voice response systems, and automation.",
+                "Enhances understanding of customer service automation and Raspberry Pi integration.",
+                "Ideal for small businesses, healthcare services, and automated appointment reminders."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "GSM/VoIP module",
+                    "microphone",
+                    "speaker",
+                    "Python for scripting"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Telephony and IVR systems"
+            }
+        },
+        {
+            "code": "MAIOTR002",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR002.png",
+            "title": "Raspberry Pi Internet Radio and Streaming Station",
+            "abstract": "This project enables students to create an internet radio and streaming station using Raspberry Pi. The system streams music from online sources and allows users to broadcast their own radio station over the internet.",
+            "key_features": [
+                "Stream music from online radio stations or local storage.",
+                "Broadcast your own radio station via the internet.",
+                "User-friendly interface for selecting stations and controlling playback."
+            ],
+            "benefits": [
+                "Provides hands-on experience with media streaming, internet radio, and Raspberry Pi.",
+                "Enhances understanding of online broadcasting and media management.",
+                "Ideal for creating personal radio stations or streaming setups."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "audio output module",
+                    "speakers",
+                    "streaming software (e.g., VLC, Icecast)"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Internet radio and streaming systems"
+            }
+        },
+        {
+            "code": "MAIOTR003",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR003.jpg",
+            "title": "Raspberry Pi-Based Automatic Library Book Management System using Python Flask",
+            "abstract": "This project introduces an automatic library book management system using Raspberry Pi and Python Flask. The system tracks book check-ins and check-outs, manages inventory, and provides real-time data to librarians.",
+            "key_features": [
+                "Automated book check-in/check-out system with barcode/RFID scanning.",
+                "Real-time inventory tracking and management.",
+                "Web-based interface for managing library operations using Python Flask."
+            ],
+            "benefits": [
+                "Provides hands-on experience with Raspberry Pi, web development, and inventory management.",
+                "Enhances understanding of library automation, data management, and Python Flask applications.",
+                "Ideal for schools, universities, and small libraries."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "barcode/RFID scanner",
+                    "Flask web framework",
+                    "database (SQLite or MySQL)"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Library management systems"
+            }
+        },
+        {
+            "code": "MAIOTR004",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR004.png",
+            "title": "Raspberry Pi-Based Biometric Attendance System with Temperature Recorder and Sanitizer Dispenser",
+            "abstract": "This project enables students to develop a biometric attendance system using Raspberry Pi that also records temperature and dispenses hand sanitizer. The system ensures a safe and contactless attendance process, ideal for schools, offices, or healthcare facilities.",
+            "key_features": [
+                "Biometric attendance tracking with fingerprint or facial recognition.",
+                "Integrated temperature recording and hand sanitizer dispenser.",
+                "IoT-enabled monitoring and reporting for remote access."
+            ],
+            "benefits": [
+                "Provides hands-on experience with biometrics, IoT, and safety protocols.",
+                "Enhances understanding of attendance management and health monitoring systems.",
+                "Ideal for ensuring safety in schools, offices, and public spaces during pandemics."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "fingerprint scanner or Pi camera",
+                    "temperature sensor",
+                    "sanitizer dispenser module",
+                    "Wi-Fi module"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Biometric and health monitoring systems"
+            }
+        },
+        {
+            "code": "MAIOTR005",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR005.jpg",
+            "title": "Tomato Sorting Machine using Edge Impulse TinyML on Raspberry Pi",
+            "abstract": "This project introduces an automated tomato sorting machine using Edge Impulse TinyML on Raspberry Pi. The system classifies tomatoes based on their ripeness, size, and quality, making it ideal for agricultural and food processing applications.",
+            "key_features": [
+                "Real-time classification of tomatoes using TinyML on Raspberry Pi.",
+                "Automated sorting mechanism for different categories.",
+                "IoT-based monitoring and reporting via a web dashboard."
+            ],
+            "benefits": [
+                "Provides hands-on experience with TinyML, machine learning, and automation.",
+                "Enhances understanding of smart agriculture and food processing technologies.",
+                "Ideal for improving efficiency in farms, greenhouses, and food industries."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "motor drivers",
+                    "sorting mechanism",
+                    "Edge Impulse TinyML integration"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Smart agriculture and food processing systems"
+            }
+        },
+        {
+            "code": "MAIOTR006",
+            "title": "Raspberry Pi-Based CovAID Electronic Door System",
+            "abstract": "This project enables students to develop an electronic door system using Raspberry Pi that automates entry control based on health monitoring data, such as temperature checks and mask detection. The system enhances safety protocols during pandemics.",
+            "key_features": [
+                "Automated door control based on temperature checks and mask detection.",
+                "Real-time monitoring and alerts via IoT integration.",
+                "Contactless entry for ensuring health safety."
+            ],
+            "benefits": [
+                "Provides hands-on experience with health safety systems, IoT, and automation.",
+                "Enhances understanding of smart access control and pandemic safety measures.",
+                "Ideal for ensuring safe entry in public spaces, offices, and healthcare facilities."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "temperature sensor",
+                    "camera module (for mask detection)",
+                    "motor driver",
+                    "Wi-Fi module"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Health safety and access control systems"
+            }
+        },
+        {
+            "code": "MAIOTR007",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR007.jpg",
+            "title": "Smart Shopping Cart with POS Thermal Printer, Barcode Scanner, 20x4 LCD, and Raspberry Pi",
+            "abstract": "This project introduces a smart shopping cart system using Raspberry Pi that includes a POS thermal printer, barcode scanner, and LCD display. The system automates the checkout process, providing a seamless shopping experience for customers.",
+            "key_features": [
+                "Barcode scanning for automatic price calculation and checkout.",
+                "POS thermal printer for receipt generation.",
+                "20x4 LCD display for displaying product details and total cost."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, retail automation, and Raspberry Pi.",
+                "Enhances understanding of smart shopping solutions and customer experience technologies.",
+                "Ideal for retail stores, supermarkets, and automated checkout systems."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "barcode scanner",
+                    "thermal printer",
+                    "20x4 LCD display",
+                    "motor drivers (optional for cart movement)"
+                ],
+                "power_supply": "Standard AC adapter or battery-powered",
+                "platform": "Retail automation systems"
+            }
+        },
+        {
+            "code": "MAIOTR008",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR008.png",
+            "title": "License Plate Recognition using Raspberry Pi and OpenCV",
+            "abstract": "This project enables students to develop a license plate recognition system using Raspberry Pi and OpenCV. The system captures and processes vehicle license plates for parking management, toll collection, or security applications.",
+            "key_features": [
+                "Real-time license plate recognition using a camera and OpenCV.",
+                "Automatic logging of recognized license plates in a database.",
+                "IoT-based monitoring and reporting for remote access."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision, OpenCV, and Raspberry Pi.",
+                "Enhances understanding of license plate recognition and automation systems.",
+                "Ideal for parking management, toll booths, and security applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "OpenCV software",
+                    "database (SQLite or MySQL)"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Computer vision and security systems"
+            }
+        },
+        {
+            "code": "MAIOTR009",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR009.jpg",
+            "title": "CCTV Motion Detection with Alarm using OpenCV on Raspberry Pi",
+            "abstract": "This project introduces a motion detection system using Raspberry Pi and OpenCV. The system captures video feed from a CCTV camera, detects motion, and triggers an alarm in case of unauthorized movement.",
+            "key_features": [
+                "Real-time motion detection using OpenCV on Raspberry Pi.",
+                "Automatic alarm activation for security alerts.",
+                "IoT-enabled monitoring and remote control via mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with motion detection, computer vision, and security systems.",
+                "Enhances understanding of video processing and automation technologies.",
+                "Ideal for home security, office surveillance, and public safety."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "motion sensors",
+                    "buzzer",
+                    "OpenCV software"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Security and surveillance systems"
+            }
+        },
+        {
+            "code": "MAIOTR010",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR010.jpg",
+            "title": "Gesture-Controlled Video Player using Raspberry Pi and MediaPipe - Play, Pause, and Control Volume using Gestures",
+            "abstract": "This project enables students to create a gesture-controlled video player using Raspberry Pi and MediaPipe. The system allows users to control video playback, volume, and other functions using hand gestures, providing a touchless media experience.",
+            "key_features": [
+                "Gesture-based control for video playback, pause, and volume adjustment.",
+                "Real-time hand gesture recognition using MediaPipe.",
+                "Integration with media players for a seamless user experience."
+            ],
+            "benefits": [
+                "Provides hands-on experience with gesture recognition, MediaPipe, and Raspberry Pi.",
+                "Enhances understanding of human-computer interaction and touchless interfaces.",
+                "Ideal for creating touchless control systems for smart homes and entertainment centers."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "MediaPipe software",
+                    "media player integration"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Touchless media control systems"
+            }
+        },
+        {
+            "code": "MAIOTR011",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR011.jpg",
+            "title": "Raspberry Pi Weather Station: Monitoring Humidity, Temperature, and Pressure over Internet",
+            "abstract": "This project introduces a Raspberry Pi-based weather station that monitors environmental parameters such as humidity, temperature, and atmospheric pressure. The system logs data and provides real-time access to weather conditions over the internet.",
+            "key_features": [
+                "Real-time monitoring of humidity, temperature, and pressure.",
+                "Data logging with cloud storage for historical analysis.",
+                "Remote access to weather data via mobile app or web dashboard."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, environmental monitoring, and data logging.",
+                "Enhances understanding of weather monitoring and data analysis technologies.",
+                "Ideal for personal weather stations, research, and educational purposes."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "temperature and humidity sensors (e.g., DHT11/DHT22)",
+                    "barometric pressure sensor (e.g., BMP180)",
+                    "Wi-Fi module"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "IoT-based weather monitoring systems"
+            }
+        },
+        {
+            "code": "MAIOTR012",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR012.jpg",
+            "title": "Driver Drowsiness Detector and Alerting System using Raspberry Pi and OpenCV",
+            "abstract": "This project enables students to develop a driver drowsiness detection system using Raspberry Pi and OpenCV. The system monitors the driver’s facial features and triggers alerts if signs of drowsiness are detected, enhancing road safety.",
+            "key_features": [
+                "Real-time detection of driver drowsiness using facial recognition and eye tracking.",
+                "Automatic alerts to wake up the driver in case of drowsiness.",
+                "IoT-enabled monitoring and reporting for fleet management."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision, OpenCV, and road safety systems.",
+                "Enhances understanding of driver safety technologies and drowsiness detection.",
+                "Ideal for preventing road accidents and improving fleet safety."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "OpenCV software",
+                    "buzzer",
+                    "IoT integration"
+                ],
+                "power_supply": [
+                    "Standard AC adapter",
+                    "vehicle battery"
+                ],
+                "platform": "Road safety and driver monitoring systems"
+            }
+        },
+        {
+            "code": "MAIOTR013",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR013.jpg",
+            "title": "Social Distancing Detector Using OpenCV and Raspberry Pi",
+            "abstract": "This project introduces a social distancing detector using Raspberry Pi and OpenCV that monitors the distance between people in public spaces. The system triggers alerts if individuals are too close to each other, ensuring adherence to social distancing guidelines.",
+            "key_features": [
+                "Real-time detection of social distancing violations using computer vision.",
+                "Alerts for individuals who do not maintain the recommended distance.",
+                "IoT-based monitoring and reporting via mobile app or web dashboard."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision, OpenCV, and Raspberry Pi.",
+                "Enhances understanding of public safety technologies and pandemic prevention measures.",
+                "Ideal for ensuring social distancing in public spaces, offices, and schools."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "OpenCV software",
+                    "buzzer",
+                    "Wi-Fi module"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Public safety and monitoring systems"
+            }
+        },
+        {
+            "code": "MAIOTR014",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR014.png",
+            "title": "Voice-Controlled Home Automation using Amazon Alexa on Raspberry Pi",
+            "abstract": "This project enables students to create a voice-controlled home automation system using Amazon Alexa and Raspberry Pi. The system allows users to control lights, fans, and other appliances with voice commands through Alexa integration.",
+            "key_features": [
+                "Voice-controlled automation using Amazon Alexa.",
+                "Real-time monitoring and control of home appliances.",
+                "IoT integration for seamless connectivity with smart home devices."
+            ],
+            "benefits": [
+                "Provides hands-on experience with voice recognition, IoT, and smart home automation.",
+                "Enhances understanding of cloud integration, voice control, and user interfaces.",
+                "Ideal for creating modern smart homes with voice-controlled automation."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "relays",
+                    "Amazon Alexa integration",
+                    "Wi-Fi module"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Smart home systems"
+            }
+        },
+        {
+            "code": "MAIOTR015",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR015.jpg",
+            "title": "IoT Raspberry Pi Smart Container with Email Alert and Web Monitoring",
+            "abstract": "This project introduces an IoT-enabled smart container system using Raspberry Pi that monitors the container’s fill level and sends email alerts when it’s time for disposal or refilling. The system provides real-time data via a web dashboard.",
+            "key_features": [
+                "Real-time monitoring of container fill levels using sensors.",
+                "Automatic email alerts for disposal or refilling.",
+                "Web-based dashboard for remote monitoring and control."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, smart containers, and automation systems.",
+                "Enhances understanding of waste management, inventory control, and remote monitoring.",
+                "Ideal for industrial applications, smart kitchens, and waste management."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "ultrasonic sensors",
+                    "Wi-Fi module",
+                    "email alert system"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "IoT-based smart container systems"
+            }
+        },
+        {
+            "code": "MAIOTR016",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR016.jpg",
+            "title": "IoT-Based Raspberry Pi Home Security System with Email Alert",
+            "abstract": "This project enables students to develop a home security system using Raspberry Pi that detects intrusions and sends email alerts to the homeowner. The system enhances home security by monitoring doors, windows, and motion sensors.",
+            "key_features": [
+                "Real-time intrusion detection using motion and proximity sensors.",
+                "Automatic email alerts in case of unauthorized access.",
+                "IoT-enabled monitoring and control via mobile app or web dashboard."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, home security, and email alert systems.",
+                "Enhances understanding of security technologies and real-time alert systems.",
+                "Ideal for securing homes, offices, and commercial properties."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "motion sensors",
+                    "proximity sensors",
+                    "Wi-Fi module",
+                    "email alert system"
+                ],
+                "power_supply": [
+                    "Standard AC adapter",
+                    "battery-powered"
+                ],
+                "platform": "IoT-based security systems"
+            }
+        },
+        {
+            "code": "MAIOTR017",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR017.jpg",
+            "title": "Visitor Monitoring and Security System with Raspberry Pi and Pi Camera",
+            "abstract": "This project introduces a visitor monitoring and security system using Raspberry Pi and Pi Camera that tracks and records visitors at an entrance. The system captures images and logs visitor data for enhanced security and monitoring.",
+            "key_features": [
+                "Real-time visitor monitoring with image capture using Pi Camera.",
+                "Automatic logging of visitor data with timestamps.",
+                "IoT-enabled monitoring and reporting for remote access."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, surveillance, and security systems.",
+                "Enhances understanding of visitor management and access control technologies.",
+                "Ideal for offices, schools, and commercial properties to improve security."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "Pi Camera",
+                    "Wi-Fi module",
+                    "database (SQLite or MySQL)"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Visitor management and security systems"
+            }
+        },
+        {
+            "code": "MAIOTR018",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR018.jpg",
+            "title": "RFID and Raspberry Pi-Based Attendance System",
+            "abstract": "This project enables students to develop an RFID-based attendance system using Raspberry Pi. The system automates attendance tracking by scanning RFID cards and logging the data in a database for easy management and reporting.",
+            "key_features": [
+                "RFID-based attendance tracking for students or employees.",
+                "Real-time logging and reporting of attendance data.",
+                "IoT-enabled monitoring and access via mobile app or web dashboard."
+            ],
+            "benefits": [
+                "Provides hands-on experience with RFID technology, Raspberry Pi, and data management.",
+                "Enhances understanding of automated attendance systems and IoT integration.",
+                "Ideal for schools, offices, and organizations to streamline attendance tracking."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "RFID reader",
+                    "RFID cards",
+                    "Wi-Fi module",
+                    "database (SQLite or MySQL)"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "IoT-based attendance systems"
+            }
+        },
+        {
+            "code": "MAIOTR019",
+            "imgSrc": "/major projects/Raspberry pi/MAIOTR019.jpg",
+            "title": "Electronic Voting Machine using Raspberry Pi",
+            "abstract": "This project introduces an electronic voting machine using Raspberry Pi that securely records and counts votes. The system ensures accuracy and security in elections by providing a user-friendly interface for casting votes.",
+            "key_features": [
+                "Secure electronic voting with Raspberry Pi and touchscreen interface.",
+                "Real-time vote counting and result generation.",
+                "IoT-enabled monitoring and reporting for election officials."
+            ],
+            "benefits": [
+                "Provides hands-on experience with Raspberry Pi, electronic voting, and security systems.",
+                "Enhances understanding of digital elections and secure vote counting.",
+                "Ideal for school elections, small community voting, or organizational polls."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "touchscreen interface",
+                    "buttons",
+                    "database (SQLite or MySQL)"
+                ],
+                "power_supply": "Standard AC adapter",
+                "platform": "Electronic voting systems"
+            }
+        }
+    ]
+}

@@ -58,31 +58,43 @@ function AboutUs() {
         {/* Close Text Column */}
       </div>
 
-      <div className="max-w-5xl  my-5 mx-auto mt-12 px-4 text-center">
+      <div className="mt-5 mb-5 text-center">
         <div className="w-full max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold mt-2 mb-6">Our Services</h1>
           <p className="px-4 leading-relaxed">
-            Discover a world of educational possibilities with our tailored
-            services for schools. We specialize in installing cutting-edge labs
-            that facilitate learning in Robotics, Artificial Intelligence, Game
-            Building, Arts and Crafts, 3D Modeling and Printing, Agronomy,
-            Engineering Basics, and more. Enhance student engagement with our
-            science fairs and workshops, fostering curiosity and innovation.
-            Additionally, explore our convenient online courses available
-            directly on our website, extending our commitment to accessible and
-            comprehensive education.
+            <ul>
+              <li className="p-2">
+                Discover a world of educational possibilities with our tailored
+                services for schools.
+              </li>
+              <li className="p-2">
+                We specialize in installing cutting-edge labs for learning in
+                Robotics, Artificial Intelligence, Game Building, Arts and
+                Crafts, 3D Modeling and Printing, Agronomy, Engineering Basics,
+                and more.
+              </li>
+              <li className="p-2">
+                Enhance student engagement with our science fairs and workshops,
+                fostering curiosity and innovation.
+              </li>
+              <li className="p-2">
+                Explore our convenient online courses available directly on our
+                website, extending our commitment to accessible and
+                comprehensive education.
+              </li>
+            </ul>
           </p>
         </div>
       </div>
 
-      <section className="text-gray-800 body-font">
-        <div className="flex justify-center mt-10 text-4xl font-bold">
+      <section className="text-gray-800  body-font">
+        <div className="flex justify-center  mt-10 text-4xl font-bold">
           Why Us?
         </div>
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap text-center justify-center">
-            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2">
-              <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
+            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2 flex">
+              <div className="px-4 py-6 bg-gray-100 flex flex-col justify-between flex-grow h-full transform transition duration-500 hover:scale-110">
                 <div className="flex justify-center">
                   <img
                     src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp"
@@ -91,13 +103,13 @@ function AboutUs() {
                   />
                 </div>
                 <h2 className="title-font font-regular text-2xl text-gray-900">
-                  hands-on learning
+                  Hands-on learning
                 </h2>
               </div>
             </div>
 
-            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2">
-              <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
+            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2 flex">
+              <div className="px-4 py-6 bg-gray-100 flex flex-col justify-between flex-grow h-full transform transition duration-500 hover:scale-110">
                 <div className="flex justify-center">
                   <img
                     src="https://image2.jdomni.in/banner/13062021/3E/57/E8/1D6E23DD7E12571705CAC761E7_1623567977295.png?output-format=webp"
@@ -111,39 +123,42 @@ function AboutUs() {
               </div>
             </div>
 
-            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2">
-              <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
+            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2 flex">
+              <div className="px-4 py-6 bg-gray-100 flex flex-col justify-between flex-grow h-full transform transition duration-500 hover:scale-110">
                 <div className="flex justify-center">
                   <img
                     src="https://image3.jdomni.in/banner/13062021/16/7E/7E/5A9920439E52EF309F27B43EEB_1623568010437.png?output-format=webp"
                     className="w-32 mb-3"
-                    alt="flexible"
+                    alt="Flexible"
                   />
                 </div>
                 <h2 className="title-font font-regular text-2xl text-gray-900">
-                  flexible
+                  Flexible
                 </h2>
               </div>
             </div>
 
-            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2">
-              <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
+            <div className="p-4 md:w-1/4 hover:cursor-pointer sm:w-1/2 flex">
+              <div className="px-4 py-6 bg-gray-100 flex flex-col justify-between flex-grow h-full transform transition duration-500 hover:scale-110">
                 <div className="flex justify-center">
                   <img
                     src="https://image3.jdomni.in/banner/13062021/EB/99/EE/8B46027500E987A5142ECC1CE1_1623567959360.png?output-format=webp"
                     className="w-32 mb-3"
-                    alt="student-centric approach"
+                    alt="Student-centric approach"
                   />
                 </div>
-                <h2 className="title-font font-regular text-2xl text-gray-900">
-                  student-centric approach
+                <h2 className="title-font font-regular m-0 text-2xl text-gray-900">
+                  Student-centric approach
                 </h2>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div className="max-w-xl my-5 mx-auto mt-16 flex w-full flex-col border rounded-lg bg-white p-8">
+      <div className="flex justify-center capitalize  mt-10 text-4xl font-bold">
+        provide your Feedback
+      </div>
+      <div className=" bg-gray-100 max-w-xl my-5 mx-auto mt-16 flex w-full flex-col border rounded-lg  p-8">
         <h2 className="title-font mb-1 text-lg font-medium text-gray-900">
           Feedback
         </h2>

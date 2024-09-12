@@ -1,10 +1,14 @@
 .ProjectsCard {
   width: 30%;
+  height: 600px;
+  margin: 20px;
 }
 
 .hero-heading {
   max-width: 60%;
   margin: 0 auto;
+  padding: 20px;
+  font-size: xx-large;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,23 +17,83 @@
 
 .hero-content {
   max-width: 60%;
-  margin: 0 auto;
+  margin:0px auto;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-    background: rgba(11, 178, 255, 0.1);
+    background: rgba(109, 198, 240, 0.1);
+}
+.card-heading{
+  font-size: xx-large;
+}
+.card-content{
+  padding: 20px;
 }
 
 .project-cards-container {
+  margin: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1719px) {
+  .ProjectsCard {
+    width: 30%;
+    height: auto;
+    margin: 20px;
+  }
+}
+@media (max-width: 1355px) {
+  .ProjectsCard {
+    width: 80%;
+    height: 600px;
+    margin: 0;
+  }
+}
+
+
+@media (max-width: 414px) {
+
+  .hero-heading {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-content {
+    max-width: 100%;
+    margin:0px auto;
+    padding: 10px;
+    display: flex;
+    font-size: medium;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+      background: rgba(109, 198, 240, 0.1);
+  }
+
   .ProjectsCard {
     width: 100%;
-    
+    height: auto;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
   }
+  .card-content{
+    padding: 10px;
+  }
+.card-disc{
+  font-size: small !important;
+  font-weight: 500 !important;
+}
+.card-heading{
+  font-size: x-large;
+}
+
 }

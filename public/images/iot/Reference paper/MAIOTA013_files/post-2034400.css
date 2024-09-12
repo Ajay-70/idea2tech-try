@@ -1,0 +1,22 @@
+.elementor-kit-2034400{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-8ad7925:#FFFFFF;--e-global-typography-primary-font-family:"Lato";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Lato";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Lato";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Lato";--e-global-typography-accent-font-weight:500;color:#34444C;font-size:18px;font-weight:400;}.elementor-kit-2034400 p{margin-bottom:32px;}.elementor-kit-2034400 a{color:#34444C;}.elementor-kit-2034400 a:hover{color:#000000;}.elementor-kit-2034400 h1{color:#34444C;font-size:36px;font-weight:bold;line-height:45px;}.elementor-kit-2034400 h2{color:#34444C;font-size:28px;font-weight:bold;line-height:35px;}.elementor-kit-2034400 h3{color:#34444C;font-size:24px;font-weight:bold;line-height:35px;}.elementor-kit-2034400 h4{color:#34444C;font-size:20px;font-weight:bold;line-height:35px;}.elementor-kit-2034400 h5{color:#34444C;font-size:18px;font-weight:bold;line-height:35px;}.elementor-kit-2034400 h6{color:#34444C;font-size:16px;font-weight:bold;line-height:35px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1440px;}.e-con{--container-max-width:1440px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-2034400 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.posttitle:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.full-width-content .content {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    max-width:1140px;
+}
+.content-sidebar-wrap {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    max-width:1140px;
+}
+.elementor-section-wrap .entry {
+    border-bottom: 0px;
+    padding: 0px;
+}/* End custom CSS */

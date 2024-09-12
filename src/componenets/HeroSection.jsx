@@ -10,7 +10,7 @@ function HeroSection() {
           <h1 className="font-bebas-neue uppercase text-3xl sm:text-4xl font-black flex flex-col leading-none  text-gray-800">
             Place where we fuel young minds with innovation and creativity.
           </h1>
-          <p className="text-sm sm:text-base text-gray-700 ">
+          <p className="text-sm sm:text-base font-medium text-gray-700 ">
             Step into a world where imagination meets technology. At Idea2Tech,
             we spark innovation and cultivate creativity in every student,
             shaping tomorrow's innovators.

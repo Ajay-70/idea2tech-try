@@ -1,0 +1,563 @@
+{
+    "subdomain": "Python",
+    "projects": [
+    {
+        "code": "MAPYJA001",
+        "title": "Hotel Management System Project in Python",
+        "abstract": "This project introduces a hotel management system using Python that helps in managing hotel operations like room bookings, customer check-ins/check-outs, and staff management. The system provides an easy-to-use interface for managing hotel operations efficiently.",
+        "key_features": [
+            "Room booking, availability checking, and cancellations.",
+            "Customer check-in and check-out management.",
+            "Staff management and reporting."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Python programming, file handling, and database integration.",
+            "Enhances understanding of hotel operations and management.",
+            "Ideal for small hotels, motels, or as a learning project for students."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Tkinter (for GUI)",
+                "SQLite (for database)"
+            ],
+            "platform": "Desktop application"
+        }
+    },
+    {
+        "code": "MAPYJA002",
+        "title": "Bank Management System Project in Python",
+        "abstract": "This project enables students to create a bank management system that handles essential banking operations such as account creation, deposits, withdrawals, and balance inquiries. The system offers a user-friendly interface for both customers and bank staff.",
+        "key_features": [
+            "Account management (creation, deletion, modification).",
+            "Transaction management (deposits, withdrawals, transfers).",
+            "Balance inquiry and mini statements."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Python programming and file/database operations.",
+            "Enhances understanding of banking operations and financial transactions.",
+            "Ideal for educational purposes and simulating real-world banking scenarios."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Tkinter (for GUI)",
+                "SQLite (for database)"
+            ],
+            "platform": "Desktop application"
+        }
+    },
+    {
+        "code": "MAPYJA003",
+        "title": "Movie Rental Shop Management System Project in Python",
+        "abstract": "This project introduces a movie rental shop management system that automates the process of renting movies. The system allows users to search for movies, rent them, and manage returns, providing an efficient way to manage rental operations.",
+        "key_features": [
+            "Movie search, rental, and return management.",
+            "Customer registration and rental history tracking.",
+            "Late fee calculation and inventory management."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Python, file handling, and database operations.",
+            "Enhances understanding of retail operations, inventory management, and rental systems.",
+            "Ideal for small rental shops or educational purposes."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Tkinter (for GUI)",
+                "SQLite (for database)"
+            ],
+            "platform": "Desktop application"
+        }
+    },
+    {
+        "code": "MAPYJA004",
+        "title": "Hotel Management System Python Tkinter GUI",
+        "abstract": "This project is a GUI-based hotel management system developed using Python and Tkinter. The system simplifies hotel management tasks such as room bookings, billing, and customer management, all within an intuitive graphical interface.",
+        "key_features": [
+            "Room booking, billing, and customer management via a GUI.",
+            "Integrated reporting for management purposes.",
+            "User-friendly interface for ease of operation."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Python, Tkinter for GUI development, and database management.",
+            "Enhances understanding of hotel operations and front-desk management.",
+            "Ideal for small hotels, guest houses, or educational projects."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Tkinter (for GUI)",
+                "SQLite (for database)"
+            ],
+            "platform": "Desktop application"
+        }
+    },
+    {
+        "code": "MAPYJA005",
+        "title": "Django Medical Shop Management System",
+        "abstract": "This project introduces a web-based medical shop management system built with Django. The system handles inventory management, sales tracking, and customer billing, ensuring efficient operations for pharmacies and medical shops.",
+        "key_features": [
+            "Real-time inventory management and stock updates.",
+            "Customer billing and invoice generation.",
+            "Admin panel for managing products, categories, and suppliers."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, web development, and e-commerce systems.",
+            "Enhances understanding of inventory management and online sales.",
+            "Ideal for pharmacies, medical shops, or educational projects."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA006",
+        "title": "Online Job Portal Project in Python Django",
+        "abstract": "This project enables students to develop an online job portal where job seekers can apply for jobs, and employers can post job vacancies. The system provides job matching and resume management features to facilitate the recruitment process.",
+        "key_features": [
+            "Job posting, search, and application features for job seekers and employers.",
+            "Resume uploading and profile management for job seekers.",
+            "Admin panel for managing job listings, employers, and job seekers."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, web development, and job recruitment systems.",
+            "Enhances understanding of online job portals and employment matching systems.",
+            "Ideal for building job recruitment platforms or as an educational project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA007",
+        "title": "Covid-19 Hospital Management System in Python Django",
+        "abstract": "This project introduces a hospital management system specifically designed to handle Covid-19 patient management. The system includes features for patient registration, bed management, and real-time tracking of available resources like ventilators and ICU beds.",
+        "key_features": [
+            "Patient registration and Covid-19 status tracking.",
+            "Bed and resource management (ICU, ventilators, oxygen supply).",
+            "Real-time dashboard for monitoring hospital capacity and patient load."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, web development, and healthcare management.",
+            "Enhances understanding of hospital operations during a pandemic.",
+            "Ideal for hospitals, clinics, and healthcare providers managing Covid-19 patients."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA008",
+        "title": "Medical Insurance Cost Prediction Project in Python Flask",
+        "abstract": "This project enables students to build a medical insurance cost prediction system using machine learning. The system predicts the cost of medical insurance based on factors such as age, gender, BMI, and pre-existing conditions, and is deployed as a Flask web app.",
+        "key_features": [
+            "Insurance cost prediction using regression models.",
+            "User-friendly web interface for entering patient data and receiving cost estimates.",
+            "Data visualization for analyzing cost trends and factors."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, Flask web development, and healthcare analytics.",
+            "Enhances understanding of insurance cost prediction and regression modeling.",
+            "Ideal for insurance companies, healthcare providers, or as a learning project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask)",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA009",
+        "title": "Online Banking System Project in Python Django",
+        "abstract": "This project introduces an online banking system built with Django that allows customers to manage their bank accounts, transfer funds, and pay bills online. The system provides a secure platform for performing essential banking operations.",
+        "key_features": [
+            "Account management, fund transfers, and bill payments.",
+            "Transaction history tracking and statement generation.",
+            "Admin panel for managing customer accounts and transactions."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, web development, and banking systems.",
+            "Enhances understanding of online banking operations and secure transactions.",
+            "Ideal for simulating real-world banking systems or as an educational project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA010",
+        "title": "Food Recommendation Based on Your Mood Python Django",
+        "abstract": "This project enables students to develop a food recommendation system that suggests dishes based on the user’s mood. The system uses sentiment analysis and mood detection to recommend food options and is built using Python Django.",
+        "key_features": [
+            "Mood-based food recommendations using sentiment analysis.",
+            "Integration with a recipe database for personalized recommendations.",
+            "User-friendly web interface for entering mood and receiving food suggestions."
+        ],
+        "benefits": [
+            "Provides hands-on experience with sentiment analysis, Django, and recommendation systems.",
+            "Enhances understanding of personalized recommendations and user experience design.",
+            "Ideal for food delivery services, recipe apps, or as a fun project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "NLTK",
+                "Scikit-learn",
+                "Pandas"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA011",
+        "title": "Campus Recruitment Prediction with Source Code Python",
+        "abstract": "This project introduces a campus recruitment prediction system using machine learning. The system predicts which students are likely to be placed in campus recruitment based on their academic performance, skills, and extracurricular activities.",
+        "key_features": [
+            "Recruitment prediction using classification models (e.g., Decision Trees, Random Forest).",
+            "Feature engineering for academic and extracurricular data.",
+            "Data visualization for analyzing placement trends and factors."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, education analytics, and predictive modeling.",
+            "Enhances understanding of campus recruitment processes and student performance analytics.",
+            "Ideal for colleges, universities, and educational institutions."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "platform": "Web application or desktop application"
+        }
+    },
+    {
+        "code": "MAPYJA012",
+        "title": "Drug Recommendation System Based on Sentiment Analysis",
+        "abstract": "This project enables students to develop a drug recommendation system that uses sentiment analysis to suggest medications based on user reviews and feedback. The system analyzes user sentiment to recommend the most effective drugs for specific conditions.",
+        "key_features": [
+            "Sentiment analysis of drug reviews and recommendations.",
+            "Integration with a drug database for personalized suggestions.",
+            "User-friendly web interface for searching and receiving drug recommendations."
+        ],
+        "benefits": [
+            "Provides hands-on experience with sentiment analysis, NLP, and healthcare technology.",
+            "Enhances understanding of personalized healthcare and drug recommendation systems.",
+            "Ideal for healthcare providers, pharmacies, or as a research project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "NLTK",
+                "Scikit-learn",
+                "Pandas"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA013",
+        "title": "Python Django Online Food Ordering System",
+        "abstract": "This project introduces an online food ordering system built with Python Django. The system allows customers to browse menus, place orders, and track delivery status, providing a complete platform for managing food delivery operations.",
+        "key_features": [
+            "Menu browsing, order placement, and delivery tracking.",
+            "Admin panel for managing orders, customers, and restaurant inventory.",
+            "Real-time notifications for order updates and delivery status."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, web development, and e-commerce systems.",
+            "Enhances understanding of online food delivery platforms and customer management.",
+            "Ideal for restaurants, food delivery services, or as a learning project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA014",
+        "title": "Library Management System Django Python",
+        "abstract": "This project enables students to develop a library management system using Django that handles book borrowing, returns, and inventory management. The system provides an easy-to-use interface for librarians and library members.",
+        "key_features": [
+            "Book borrowing, return, and renewal management.",
+            "Inventory tracking and overdue fine calculation.",
+            "Admin panel for managing books, members, and categories."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, web development, and library management.",
+            "Enhances understanding of inventory management and library operations.",
+            "Ideal for schools, universities, or as an educational project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA015",
+        "title": "Python Django College Management System",
+        "abstract": "This project introduces a college management system built with Django that automates academic and administrative operations. The system handles student registrations, course management, attendance tracking, and grade reporting.",
+        "key_features": [
+            "Student registration, course management, and attendance tracking.",
+            "Grade management and report generation.",
+            "Admin panel for managing courses, students, and faculty."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, web development, and education management systems.",
+            "Enhances understanding of academic management and administrative processes.",
+            "Ideal for schools, colleges, and educational institutions."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA016",
+        "title": "Online Voting System in Django",
+        "abstract": "This project enables students to create an online voting system using Django that allows users to vote in elections securely and anonymously. The system provides real-time vote counting and results reporting.",
+        "key_features": [
+            "Secure user authentication and voting.",
+            "Real-time vote counting and results display.",
+            "Admin panel for managing elections, candidates, and voters."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, web development, and security systems.",
+            "Enhances understanding of online voting processes and election management.",
+            "Ideal for school elections, community voting, or as an educational project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA017",
+        "title": "Plant Disease Prediction using CNN Flask Web App",
+        "abstract": "This project introduces a plant disease prediction system that uses Convolutional Neural Networks (CNNs) to analyze images of plants and detect diseases. The system is deployed as a Flask web app, allowing farmers to upload plant images and receive disease diagnoses.",
+        "key_features": [
+            "Plant disease detection using CNN models.",
+            "Image preprocessing and data augmentation for improved accuracy.",
+            "User-friendly web interface for image uploading and receiving diagnoses."
+        ],
+        "benefits": [
+            "Provides hands-on experience with CNNs, Flask web development, and agriculture analytics.",
+            "Enhances understanding of smart farming and early disease detection.",
+            "Ideal for farmers, agricultural researchers, and smart farming applications."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask)",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA018",
+        "title": "Crop Recommendation using Random Forest Flask Web App",
+        "abstract": "This project enables students to develop a crop recommendation system using machine learning and Random Forest. The system recommends the best crops to plant based on factors such as soil type, weather, and location, and is deployed as a Flask web app.",
+        "key_features": [
+            "Crop recommendation using Random Forest and feature engineering.",
+            "Web-based interface for farmers to input data and receive recommendations.",
+            "Integration with weather APIs for real-time data updates."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, agriculture analytics, and web app development.",
+            "Enhances understanding of smart farming, precision agriculture, and crop yield optimization.",
+            "Ideal for farmers, agricultural researchers, and smart farming applications."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask)",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA019",
+        "title": "Online Taxi Booking Python Django with Real-time Map",
+        "abstract": "This project introduces an online taxi booking system built with Python Django that allows users to book taxis, track their ride in real-time using maps, and make payments online. The system offers a complete ride-hailing solution for users and drivers.",
+        "key_features": [
+            "Taxi booking, ride tracking, and fare calculation.",
+            "Real-time map integration for tracking driver location.",
+            "Admin panel for managing drivers, vehicles, and ride history."
+        ],
+        "benefits": [
+            "Provides hands-on experience with Django, map integration, and ride-hailing systems.",
+            "Enhances understanding of transportation logistics and real-time tracking.",
+            "Ideal for ride-hailing services, transportation companies, or as a learning project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Django)",
+            "libraries": [
+                "Django",
+                "Google Maps API",
+                "SQLite/MySQL (for database)"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA020",
+        "title": "Chronic Kidney Disease Prediction Flask Web App",
+        "abstract": "This project enables students to develop a chronic kidney disease prediction system using machine learning. The system predicts the likelihood of chronic kidney disease based on medical data such as blood pressure, glucose levels, and creatinine levels, and is deployed as a Flask web app.",
+        "key_features": [
+            "Chronic kidney disease prediction using classification models.",
+            "Web-based interface for entering patient data and receiving predictions.",
+            "Data visualization for analyzing risk factors and trends."
+        ],
+        "benefits": [
+            "Provides hands-on experience with machine learning, Flask web development, and healthcare analytics.",
+            "Enhances understanding of chronic kidney disease prevention and early diagnosis.",
+            "Ideal for hospitals, clinics, and healthcare providers."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask)",
+            "libraries": [
+                "Scikit-learn",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA021",
+        "title": "Weapon Detection System Using CNN Flask Web App",
+        "abstract": "This project introduces a weapon detection system using Convolutional Neural Networks (CNNs) that analyzes images or video feeds to detect weapons. The system is deployed as a Flask web app, providing real-time security alerts for weapon detection.",
+        "key_features": [
+            "Real-time weapon detection using CNN models.",
+            "Image preprocessing and data augmentation for improved accuracy.",
+            "User-friendly web interface for security monitoring and alerts."
+        ],
+        "benefits": [
+            "Provides hands-on experience with CNNs, Flask web development, and security systems.",
+            "Enhances understanding of real-time object detection and public safety technologies.",
+            "Ideal for security agencies, surveillance systems, and public safety applications."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask)",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA022",
+        "title": "AI-Generated Fake Face and Real Face Detection using Deepfake",
+        "abstract": "This project enables students to develop a system that detects AI-generated fake faces using deep learning techniques. The system analyzes facial features to determine if an image is a deepfake or a real face, helping in combating misinformation and fraud.",
+        "key_features": [
+            "Fake face detection using deep learning and GANs.",
+            "Real-time analysis of facial features to detect deepfakes.",
+            "Integration with online platforms to flag fake content."
+        ],
+        "benefits": [
+            "Provides hands-on experience with deep learning, computer vision, and GANs (Generative Adversarial Networks).",
+            "Enhances understanding of deepfake detection and online security.",
+            "Ideal for social media platforms, news agencies, and cybersecurity applications."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "platform": "Web application or desktop application"
+        }
+    },
+    {
+        "code": "MAPYJA023",
+        "title": "Computer Parts Classification using CNN Web App Project",
+        "abstract": "This project introduces a computer parts classification system that uses Convolutional Neural Networks (CNNs) to classify various computer components such as CPUs, GPUs, and RAM. The system is deployed as a web app, allowing users to upload images of parts and receive classifications.",
+        "key_features": [
+            "Computer part classification using CNN models.",
+            "Image preprocessing and data augmentation for improved accuracy.",
+            "User-friendly web interface for uploading images and receiving classifications."
+        ],
+        "benefits": [
+            "Provides hands-on experience with CNNs, web development, and computer hardware.",
+            "Enhances understanding of image classification and hardware identification.",
+            "Ideal for computer repair shops, e-commerce platforms, or as a learning project."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask)",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "platform": "Web application"
+        }
+    },
+    {
+        "code": "MAPYJA024",
+        "title": "Fruits Freshness Classification using Deep Learning Flask",
+        "abstract": "This project enables students to develop a fruit freshness classification system using deep learning. The system analyzes images of fruits to determine their freshness and is deployed as a Flask web app, allowing users to upload fruit images and receive freshness ratings.",
+        "key_features": [
+            "Fruit freshness classification using CNN models.",
+            "Image preprocessing and data augmentation for improved accuracy.",
+            "User-friendly web interface for uploading images and receiving freshness ratings."
+        ],
+        "benefits": [
+            "Provides hands-on experience with deep learning, Flask web development, and agriculture analytics.",
+            "Enhances understanding of smart farming and food quality control.",
+            "Ideal for supermarkets, food suppliers, and smart farming applications."
+        ],
+        "technical_specifications": {
+            "programming_language": "Python (Flask)",
+            "libraries": [
+                "TensorFlow/Keras",
+                "OpenCV"
+            ],
+            "platform": "Web application"
+        }
+    }
+]}

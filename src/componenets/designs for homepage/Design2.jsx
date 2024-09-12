@@ -58,8 +58,8 @@ function Design2() {
     },
   ];
 
-  const colors = ["#FFD02C", "#4F3BC1", "#FF752B", "#2AAF50", "#3C9AF5"];
-
+  // const colors = ["#FFD02C", "#4F3BC1", "#FF752B", "#2AAF50", "#3C9AF5"];
+  const colors = ["#dfae00", "#4F3BC1", "#FF752B", "#2AAF50", "#3C9AF5"];
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="relative wrap overflow-hidden">

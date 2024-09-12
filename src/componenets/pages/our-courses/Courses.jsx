@@ -34,7 +34,7 @@ function Courses() {
                 <Card.Text>{data.content}</Card.Text>
                 <Button
                   onClick={() => handleKnowMore(data.title)} // Pass a function reference
-                  className="my-4 px-4 border-collapse bg-[#3C9AF5] hover:bg-[#7fb9f3]"
+                  className="my-4 px-4 border-collapse bg-[#3C9AF5] hover:bg-[#5d6dff]"
                 >
                   Know more
                 </Button>

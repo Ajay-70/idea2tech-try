@@ -1,0 +1,911 @@
+{
+    "subdomain": "ESP83266-ESP32",
+    "projects": [
+        {
+            "code": "MAIOTE001",
+            "title": "IoT-Enabled Automated Shelter System for Crop Protection Against Rain",
+            "abstract": "This project introduces an IoT-enabled automated shelter system that protects crops from rain. The system uses sensors to detect rain and automatically deploys protective shelters over crops, preventing potential damage.",
+            "key_features": [
+                "Real-time rain detection using weather sensors.",
+                "Automated shelter deployment for crop protection.",
+                "IoT-based monitoring and control via a mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and smart agriculture systems.",
+                "Enhances understanding of automated crop protection and environmental monitoring.",
+                "Ideal for farms and greenhouses to prevent crop damage from unpredictable weather."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "rain sensors",
+                    "motor drivers",
+                    "servo motors",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Solar-powered",
+                    "battery-powered"
+                ],
+                "platform": "IoT-based smart agriculture systems"
+            }
+        },
+        {
+            "code": "MAIOTE002",
+            "title": "Advanced Automated Hydroponic System for Efficient Plant Cultivation",
+            "abstract": "This project enables students to create an advanced automated hydroponic system using IoT. The system automates the delivery of water, nutrients, and light for efficient plant cultivation in a controlled environment.",
+            "key_features": [
+                "Automated water and nutrient delivery with IoT monitoring.",
+                "Environmental control for light, humidity, and temperature.",
+                "Real-time monitoring and alerts via a mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT-based smart farming.",
+                "Enhances understanding of hydroponics and automated plant cultivation.",
+                "Ideal for urban gardening, commercial greenhouses, and research labs."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "water pumps",
+                    "nutrient reservoirs",
+                    "light sensors",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter",
+                    "solar-powered"
+                ],
+                "platform": "IoT-based hydroponic systems"
+            }
+        },
+        {
+            "code": "MAIOTE003",
+            "imgSrc": "/major projects/ESP32/MAIOTE003.jpg",
+            "title": "Smart Weather Station for Advanced Environmental Monitoring Applications",
+            "abstract": "This project introduces a smart weather station using IoT technology to monitor various environmental parameters such as temperature, humidity, air pressure, and more. The system provides real-time data to users via a web or mobile interface.",
+            "key_features": [
+                "Real-time monitoring of weather parameters (temperature, humidity, pressure, etc.).",
+                "Data logging and analysis through cloud integration.",
+                "Remote access to weather data via mobile app or web dashboard."
+            ],
+            "benefits": [
+                "Provides practical experience with IoT, sensors, and environmental monitoring.",
+                "Enhances understanding of data collection, cloud integration, and weather forecasting.",
+                "Ideal for use in agriculture, research, or personal weather monitoring."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "temperature and humidity sensors (DHT11/DHT22)",
+                    "barometric pressure sensor (BMP180)",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Solar-powered",
+                    "battery-powered"
+                ],
+                "platform": "IoT-based environmental monitoring systems"
+            }
+        },
+        {
+            "code": "MAIOTE004",
+            "imgSrc": "/major projects/ESP32/MAIOTE004.png",
+            "title": "Wheelchair Fall Detection System with SMS and Location Tracking",
+            "abstract": "This project enables students to develop a fall detection system for wheelchairs using IoT. The system detects falls and automatically sends an SMS alert along with the location of the user, enabling prompt assistance.",
+            "key_features": [
+                "Fall detection using accelerometer and gyroscope sensors.",
+                "Real-time SMS alerts with GPS location tracking.",
+                "IoT-enabled monitoring for caregivers and emergency services."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, safety systems, and healthcare technology.",
+                "Enhances understanding of real-time monitoring and emergency response systems.",
+                "Ideal for improving safety for wheelchair users and the elderly."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "accelerometer/gyroscope (e.g., MPU6050)",
+                    "GPS module",
+                    "GSM module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "IoT-based healthcare and safety systems"
+            }
+        },
+        {
+            "code": "MAIOTE005",
+            "imgSrc": "/major projects/ESP32/MAIOTE005.jpeg",
+            "title": "IoT-Based System for Monitoring and Alerting Flooding Conditions",
+            "abstract": "This project introduces an IoT-based system for monitoring and alerting flooding conditions in real-time. The system uses water level sensors to detect rising water levels and sends alerts to authorities and residents to prevent flood damage.",
+            "key_features": [
+                "Real-time water level monitoring with IoT sensors.",
+                "Automatic alerts via SMS, email, or mobile app.",
+                "Cloud-based data logging and flood prediction."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, environmental monitoring, and disaster prevention.",
+                "Enhances understanding of flood monitoring, alert systems, and cloud integration.",
+                "Ideal for flood-prone areas to provide early warnings and reduce damage."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "water level sensors",
+                    "Wi-Fi module",
+                    "GSM module"
+                ],
+                "power_supply": [
+                    "Solar-powered",
+                    "battery-powered"
+                ],
+                "platform": "IoT-based flood monitoring systems"
+            }
+        },
+        {
+            "code": "MAIOTE006",
+            "imgSrc": "/major projects/ESP32/MAIOTE006.png",
+            "title": "IoT-Enabled Navigation Assistance System for Visually Impaired Individuals",
+            "abstract": "This project enables students to create a navigation assistance system for visually impaired individuals using IoT. The system provides real-time guidance through voice commands and obstacle detection to help users navigate safely.",
+            "key_features": [
+                "Real-time obstacle detection and avoidance.",
+                "Voice-guided navigation using GPS and IoT integration.",
+                "Remote monitoring for caregivers via mobile app."
+            ],
+            "benefits": [
+                " Provides hands-on experience with IoT, GPS, and assistive technology.",
+                "Enhances understanding of navigation systems for individuals with disabilities.",
+                "Ideal for improving mobility and safety for visually impaired individuals."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32, ultrasonic sensors, GPS module, voice output module, Wi-Fi module."
+                ],
+                "power_supply": [
+                    "Supply: Battery-powered."
+                ],
+                "platform": "IoT-based assistive technology."
+            }
+        },
+        {
+            "code": "MAIOTE007",
+            "title": "Solar Power Automatic Irrigation System",
+            "abstract": "This project introduces a solar-powered automatic irrigation system using IoT technology. The system waters plants based on soil moisture levels, ensuring efficient water usage in agriculture.",
+            "key_features": [
+                "Automated irrigation based on real-time soil moisture data.",
+                "Solar-powered system for sustainable agriculture.",
+                "Remote monitoring and control via a mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and renewable energy for agriculture.",
+                "Enhances understanding of water conservation and sustainable farming.",
+                "Ideal for remote farming areas with limited water resources."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "soil moisture sensors",
+                    "water pump",
+                    "solar panel",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Solar-powered"
+                ],
+                "platform": "IoT-based smart irrigation systems."
+            }
+        },
+        {
+            "code": "MAIOTE008",
+            "imgSrc": "/major projects/ESP32/MAIOTE008.png",
+            "title": "Offline Voice-Controlled Home Automation System",
+            "abstract": "This project enables students to develop an offline voice-controlled home automation system using ESP8266/ESP32. The system allows users to control lights, fans, and other appliances using voice commands without an internet connection.",
+            "key_features": [
+                "Offline voice recognition for controlling home appliances.",
+                "Supports multiple voice commands for different devices.",
+                "Integrates with existing home automation systems."
+            ],
+            "benefits": [
+                "Provides hands-on experience with voice recognition and home automation.",
+                "Enhances understanding of offline speech processing and smart home systems.",
+                "Ideal for home automation in areas with limited or no internet connectivity."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "voice recognition module",
+                    "relays",
+                    "appliances (lights, fans, etc.)"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "Offline home automation systems."
+            }
+        },
+        {
+            "code": "MAIOTE009",
+            "imgSrc": "/major projects/ESP32/MAIOTE009.jpg",
+            "title": "Gas Leakage Detector with SMS and Buzzer Alert System for Immediate Response",
+            "abstract": "This project introduces a gas leakage detection system using IoT technology. The system detects gas leaks and sends SMS alerts to users while activating a buzzer for immediate response, ensuring safety in homes and industries.",
+            "key_features": [
+                "Real-time gas leakage detection using sensors.",
+                "Immediate SMS alerts and buzzer activation.",
+                "IoT-based remote monitoring and control via mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, safety systems, and sensor integration.",
+                "Enhances understanding of gas detection and emergency response technologies.",
+                "Ideal for preventing gas-related accidents in homes, industries, and public spaces."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "gas sensor (e.g., MQ-2)",
+                    "buzzer",
+                    "GSM module (for SMS alerts)"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based safety systems."
+            }
+        },
+        {
+            "code": "MAIOTE010",
+            "imgSrc": "/major projects/ESP32/MAIOTE010.jpg",
+            "title": "Home Automation System Using Android Application",
+            "abstract": "This project enables students to develop a home automation system controlled via an Android application. The system allows users to remotely control lights, fans, and other appliances using their smartphones.",
+            "key_features": [
+                "Remote control of home appliances via Android app.",
+                "Real-time status monitoring of connected devices.",
+                "Integration with existing home automation setups."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, mobile app development, and smart home systems.",
+                "Enhances understanding of remote control technologies and user interfaces.",
+                "Ideal for creating smart homes with convenient control over appliances."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "relays",
+                    "Wi-Fi module",
+                    "Android app"
+                ],
+                "power_supply": [
+                    "AC adapter"
+                ],
+                "platform": "Smart home systems."
+            }
+        },
+        {
+            "code": "MAIOTE011",
+            "imgSrc": "/major projects/ESP32/MAIOTE011.jpg",
+            "title": "IoT-Based Agriculture Monitoring and Automatic Watering System",
+            "abstract": "This project introduces an IoT-based agriculture monitoring and automatic watering system. The system monitors soil moisture, temperature, and humidity, and automatically waters the crops when necessary, ensuring efficient water usage.",
+            "key_features": [
+                "Real-time monitoring of soil moisture, temperature, and humidity.",
+                "Automated irrigation based on sensor data.",
+                "IoT-based control and alerts via mobile app or web dashboard."
+            ],
+            "benefits": [
+                "Provides practical experience with IoT, smart farming, and automation.",
+                "Enhances understanding of precision agriculture and water conservation.",
+                "Ideal for improving efficiency in farming operations and reducing water waste."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "soil moisture sensors",
+                    "temperature and humidity sensors",
+                    "water pump",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Solar-powered or battery-powered"
+                ],
+                "platform": "IoT-based smart farming systems."
+            }
+        },
+        {
+            "code": "MAIOTE012",
+            "imgSrc": "/major projects/ESP32/MAIOTE012.png",
+            "title": "RFID-Based Online Attendance System",
+            "abstract": "This project enables students to develop an RFID-based online attendance system using IoT technology. The system records attendance by scanning RFID cards and sends the data to a cloud server for easy tracking and reporting.",
+            "key_features": [
+                "RFID-based attendance tracking for students or employees.",
+                "Cloud-based storage of attendance records for easy access.",
+                "Real-time monitoring and reporting via mobile app or web interface."
+            ],
+            "benefits": [
+                "Provides hands-on experience with RFID technology and cloud integration.",
+                "Enhances understanding of attendance management systems and IoT solutions.",
+                "Ideal for schools, offices, and organizations to automate attendance tracking."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "RFID reader",
+                    "RFID cards",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based attendance systems."
+            }
+        },
+        {
+            "code": "MAIOTE013",
+            "imgSrc": "/major projects/ESP32/MAIOTE013.png",
+            "title": "Automated IoT-Based Fish Tank Maintenance Assistive System",
+            "abstract": "This project introduces an IoT-based system for automating fish tank maintenance. The system monitors water quality, temperature, and feeding schedules, providing alerts and automated control for a healthy aquatic environment.",
+            "key_features": [
+                "Real-time monitoring of water quality, temperature, and pH levels.",
+                "Automated feeding system and water filtration.",
+                "IoT-based alerts and control via mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and smart aquaculture systems.",
+                "Enhances understanding of water quality monitoring and automation.",
+                "Ideal for aquarium enthusiasts and commercial fish farming."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "water quality sensors (pH, temperature)",
+                    "automatic feeder",
+                    "water pump",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based fish tank maintenance systems."
+            }
+        },
+        {
+            "code": "MAIOTE014",
+            "imgSrc": "/major projects/ESP32/MAIOTE014.png",
+            "title": "IoT-Enabled Innovative System for Accident Detection and Rescue",
+            "abstract": "This project enables students to develop an IoT-based system for accident detection and rescue operations. The system detects vehicle accidents and automatically sends alerts to emergency services with the location of the accident.",
+            "key_features": [
+                "Real-time accident detection using impact sensors and accelerometers.",
+                "Automatic alerts to emergency services with GPS location.",
+                "IoT-based monitoring for real-time updates on rescue operations."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, safety systems, and rescue operations.",
+                "Enhances understanding of accident detection, emergency response, and GPS tracking.",
+                "Ideal for improving road safety and reducing emergency response times."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "accelerometer/gyroscope (e.g., MPU6050)",
+                    "GPS module",
+                    "GSM module"
+                ],
+                "power_supply": [
+                    "Vehicle battery or solar-powered"
+                ],
+                "platform": "IoT-based safety and rescue systems."
+            }
+        },
+        {
+            "code": "MAIOTE015",
+            "title": "School Bus Live Location Tracking System Using Blynk",
+            "abstract": "This project introduces a school bus tracking system that uses IoT technology to provide live location updates via the Blynk app. The system ensures that parents and school administrators can track the bus's real-time location for safety and efficiency.",
+            "key_features": [
+                "Real-time GPS tracking of school buses.",
+                "Live updates and alerts via the Blynk app.",
+                "Remote monitoring for parents and school authorities."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, GPS tracking, and mobile app integration.",
+                "Enhances understanding of transportation safety and real-time monitoring.",
+                "Ideal for schools to ensure the safety and punctuality of school buses."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "GPS module",
+                    "Blynk app",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Vehicle battery or solar-powered"
+                ],
+                "platform": "IoT-based transportation safety systems."
+            }
+        },
+        {
+            "code": "MAIOTE016",
+            "imgSrc": "/major projects/ESP32/MAIOTE016.jpg",
+            "title": "IoT River Water Quality Monitoring System Using RC Boat",
+            "abstract": "This project enables students to create an IoT-based system for monitoring river water quality using a remote-controlled (RC) boat. The system collects water quality data such as pH, turbidity, and temperature and sends it to a cloud server for analysis.",
+            "key_features": [
+                "Real-time water quality monitoring from a mobile RC boat.",
+                "Wireless data transmission to a cloud platform for remote analysis.",
+                "GPS-enabled tracking of water quality across different locations."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, environmental monitoring, and RC technology.",
+                "Enhances understanding of water quality assessment and remote sensing.",
+                "Ideal for monitoring pollution levels in rivers, lakes, or other water bodies."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "water quality sensors (pH, turbidity)",
+                    "RC boat",
+                    "GPS module",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "IoT-based environmental monitoring systems."
+            }
+        },
+        {
+            "code": "MAIOTE017",
+            "imgSrc": "/major projects/ESP32/MAIOTE017.jpg",
+            "title": "IoT-Based Color Detection and Sorting Machine",
+            "abstract": "This project introduces an IoT-based color detection and sorting machine that automates the process of sorting objects based on their color. The system uses color sensors to detect and sort items into different categories, ideal for manufacturing and industrial applications.",
+            "key_features": [
+                "Real-time color detection and sorting of objects.",
+                "IoT-based monitoring and control via mobile app or web dashboard.",
+                "Automated sorting mechanism for industrial applications."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, sensors, and automation systems.",
+                "Enhances understanding of industrial automation and color detection technologies.",
+                "Ideal for manufacturing, packaging, and quality control applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "color sensors (e.g., TCS3200)",
+                    "motor drivers",
+                    "sorting mechanism",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based industrial automation systems."
+            }
+        },
+        {
+            "code": "MAIOTE018",
+            "imgSrc": "/major projects/ESP32/MAIOTE018.jpg",
+            "title": "Face Recognition Security Locking System",
+            "abstract": "This project enables students to develop a face recognition security locking system using IoT technology. The system uses a camera to recognize authorized faces and automatically unlocks doors, providing a secure and convenient access control solution.",
+            "key_features": [
+                "Face recognition for secure access control.",
+                "Real-time monitoring and control via IoT integration.",
+                "Remote access and alerts via mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, facial recognition, and security systems.",
+                "Enhances understanding of biometrics and access control technologies.",
+                "Ideal for securing homes, offices, or commercial properties."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "camera module",
+                    "face recognition software",
+                    "motor driver",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based security systems."
+            }
+        },
+        {
+            "code": "MAIOTE019",
+            "imgSrc": "/major projects/ESP32/MAIOTE019.jpg",
+            "title": "Water Leakage Detection, Monitoring, and Control System Using IoT",
+            "abstract": "This project introduces a water leakage detection system that uses IoT technology to monitor and control water leaks in real-time. The system detects leaks, sends alerts, and automatically shuts off the water supply to prevent damage.",
+            "key_features": [
+                "Real-time water leakage detection using sensors.",
+                "IoT-based alerts and remote control via mobile app.",
+                "Automatic shutoff of the water supply to prevent damage."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, water management, and safety systems.",
+                "Enhances understanding of water conservation and leak detection technologies.",
+                "Ideal for preventing water damage in homes, offices, and public buildings."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "water leakage sensors",
+                    "solenoid valve",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based water management systems."
+            }
+        },
+        {
+            "code": "MAIOTE020",
+            "imgSrc": "/major projects/ESP32/MAIOTE020.jpg",
+            "title": "Human-Following Robot Using NodeMCU",
+            "abstract": "This project enables students to create a human-following robot using NodeMCU (ESP8266/ESP32). The robot detects and follows a person, making it ideal for applications such as personal assistants or automated delivery systems.",
+            "key_features": [
+                "Real-time human detection and following.",
+                "Wireless control and monitoring via IoT integration.",
+                "Safe and precise navigation around obstacles."
+            ],
+            "benefits": [
+                "Provides hands-on experience with robotics, IoT, and human-computer interaction.",
+                "Enhances understanding of autonomous navigation and sensor integration.",
+                "Ideal for creating personal robots for home or commercial use."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "ultrasonic sensors",
+                    "motor driver",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "IoT-based robotics."
+            }
+        },
+        {
+            "code": "MAIOTE021",
+            "imgSrc": "/major projects/ESP32/MAIOTE021.jpg",
+            "title": "Voice-Based Wheelchair Controller for Physically Handicapped",
+            "abstract": "This project introduces a voice-controlled wheelchair system using IoT technology. The system allows users to control the wheelchair’s movement using voice commands, providing increased independence for physically handicapped individuals.",
+            "key_features": [
+                "Voice-controlled movement for forward, backward, left, and right directions.",
+                "Real-time voice recognition and IoT integration.",
+                "Safety features such as obstacle detection and emergency stop."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, voice recognition, and assistive technology.",
+                "Enhances understanding of mobility solutions for individuals with disabilities.",
+                "Ideal for improving accessibility and quality of life for wheelchair users."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "voice recognition module",
+                    "motor drivers",
+                    "obstacle sensors",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "IoT-based assistive technology."
+            }
+        },
+        {
+            "code": "MAIOTE022",
+            "imgSrc": "/major projects/ESP32/MAIOTE022.png",
+            "title": "Home Automation Control Through Voice & Google Assistant",
+            "abstract": "This project enables students to create a home automation system that is controlled via voice commands through Google Assistant. The system allows users to control lights, fans, and other appliances using voice commands for a hands-free experience.",
+            "key_features": [
+                "Voice-controlled automation using Google Assistant.",
+                "Real-time monitoring and control of home appliances.",
+                "IoT integration for seamless connectivity with smart home devices."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, voice recognition, and smart home automation.",
+                "Enhances understanding of cloud integration, voice control, and user interfaces.",
+                "Ideal for creating modern smart homes with hands-free control."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "relays",
+                    "Google Assistant integration",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "Smart home systems."
+            }
+        },
+        {
+            "code": "MAIOTE023",
+            "imgSrc": "/major projects/ESP32/MAIOTE023.png",
+            "title": "Smart Timer-Based Pet Food Feeder System",
+            "abstract": "This project introduces a smart pet food feeder system that uses IoT technology to automatically dispense food at scheduled times. The system ensures that pets are fed on time, even when their owners are not at home.",
+            "key_features": [
+                "Automatic pet food dispensing based on a timer.",
+                "IoT-based remote control and monitoring via mobile app.",
+                "Customizable feeding schedules for different pets."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, automation, and pet care technology.",
+                "Enhances understanding of smart feeding systems and time-based automation.",
+                "Ideal for pet owners who want to ensure timely feeding while away from home."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "servo motor (for dispensing)",
+                    "timer module",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based pet care systems."
+            }
+        },
+        {
+            "code": "MAIOTE024",
+            "imgSrc": "/major projects/ESP32/MAIOTE024.png",
+            "title": "Solar Lake Cleaner Remote Controlled Robot",
+            "abstract": "This project introduces a solar-powered, remote-controlled robot designed to clean lakes and water bodies by removing debris and pollutants. The robot uses IoT technology for real-time monitoring and control, ensuring efficient cleaning operations without environmental impact.",
+            "key_features": [
+                "Solar-powered for sustainable operation.",
+                "Remote control for navigation and cleaning tasks.",
+                "Real-time monitoring and control via a mobile app or web dashboard."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, robotics, and solar power.",
+                "Enhances understanding of environmental cleanup technologies and renewable energy systems.",
+                "Ideal for cleaning and maintaining lakes, ponds, and other water bodies."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "solar panel",
+                    "motors",
+                    "water pumps",
+                    "debris collection system",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Solar-powered"
+                ],
+                "platform": "Environmental cleanup and maintenance systems."
+            }
+        },
+        {
+            "code": "MAIOTE025",
+            "title": "Human-Following Smart Shopping Trolley",
+            "abstract": "This project enables students to develop a human-following smart shopping trolley using IoT technology. The trolley autonomously follows the user, making shopping easier by automatically carrying items and freeing the user’s hands.",
+            "key_features": [
+                "Human-following capability using sensors and IoT integration.",
+                "Real-time obstacle detection and avoidance.",
+                "Remote control and monitoring via a mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with robotics, IoT, and smart shopping systems.",
+                "Enhances understanding of human-computer interaction and autonomous navigation.",
+                "Ideal for creating a more convenient and efficient shopping experience."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "ultrasonic sensors",
+                    "motor drivers",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "Smart shopping systems."
+            }
+        },
+        {
+            "code": "MAIOTE026",
+            "imgSrc": "/major projects/ESP32/MAIOTE026.png",
+            "title": "IoT-Based Patient Monitoring System",
+            "abstract": "This project introduces an IoT-based patient monitoring system that continuously tracks vital signs such as heart rate, temperature, and oxygen levels. The system sends real-time data to healthcare providers and alerts them in case of abnormalities.",
+            "key_features": [
+                "Real-time monitoring of patient vital signs using IoT sensors.",
+                "Automatic alerts for critical conditions via SMS or mobile app.",
+                "Cloud-based data storage for remote monitoring and analysis."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, healthcare technology, and remote monitoring.",
+                "Enhances understanding of medical data collection and emergency alert systems.",
+                "Ideal for hospitals, clinics, and home healthcare to improve patient care."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "heart rate sensor",
+                    "temperature sensor",
+                    "oxygen sensor",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "IoT-based healthcare systems."
+            }
+        },
+        {
+            "code": "MAIOTE027",
+            "imgSrc": "/major projects/ESP32/MAIOTE027.jpg",
+            "title": "Greenhouse Monitoring and Control System Using IoT",
+            "abstract": "This project enables students to develop a smart greenhouse monitoring and control system using IoT technology. The system monitors temperature, humidity, and soil moisture levels, automatically adjusting the environment to optimize plant growth.",
+            "key_features": [
+                "Real-time monitoring of greenhouse conditions with IoT sensors.",
+                "Automated control of temperature, humidity, and irrigation.",
+                "Remote monitoring and control via mobile app or web dashboard."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, smart agriculture, and automation systems.",
+                "Enhances understanding of precision agriculture and environmental control.",
+                "Ideal for improving efficiency and productivity in greenhouses."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "temperature and humidity sensors",
+                    "soil moisture sensors",
+                    "water pump",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or solar-powered"
+                ],
+                "platform": "IoT-based smart agriculture systems."
+            }
+        },
+        {
+            "code": "MAIOTE028",
+            "title": "IoT-Based Coal Mine Safety Monitoring and Alerting System",
+            "abstract": "This project introduces an IoT-based safety monitoring system for coal mines that tracks hazardous conditions such as toxic gases, temperature, and humidity. The system sends real-time alerts to workers and supervisors to prevent accidents and improve safety.",
+            "key_features": [
+                "Real-time monitoring of toxic gases (e.g., methane, carbon monoxide), temperature, and humidity.",
+                "Automatic alerts in case of hazardous conditions via SMS or mobile app.",
+                "IoT-based data logging for safety analysis and reporting."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, safety systems, and environmental monitoring.",
+                "Enhances understanding of coal mine safety and worker protection technologies.",
+                "Ideal for improving safety standards and reducing accidents in mining operations."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "gas sensors (e.g., MQ-7)",
+                    "temperature and humidity sensors",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "IoT-based safety systems."
+            }
+        },
+        {
+            "code": "MAIOTE029",
+            "imgSrc": "/major projects/ESP32/MAIOTE029.jpg",
+            "title": "Safety Alert Coat for Coal Miners",
+            "abstract": "This project enables students to develop a safety alert coat for coal miners that monitors environmental conditions and provides real-time alerts for hazards like toxic gases or excessive heat. The system enhances worker safety in hazardous mining environments.",
+            "key_features": [
+                "Real-time monitoring of toxic gases, temperature, and humidity.",
+                "Automatic alerts in case of dangerous conditions.",
+                "Portable and wearable design for coal miners' safety."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, wearable technology, and safety systems.",
+                "Enhances understanding of occupational safety in mining and industrial environments.",
+                "Ideal for improving safety standards and reducing risks in coal mining operations."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "gas sensors (e.g., MQ-7)",
+                    "temperature sensors",
+                    "buzzer",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "IoT-based wearable safety systems."
+            }
+        },
+        {
+            "code": "MAIOTE030",
+            "title": "IoT Prison Break Monitoring and Alert System",
+            "abstract": "This project introduces an IoT-based prison break monitoring and alert system that detects unauthorized movements and potential escape attempts. The system uses sensors to monitor prison perimeters and sends real-time alerts to authorities.",
+            "key_features": [
+                "Real-time monitoring of prison perimeters using motion and proximity sensors.",
+                "Automatic alerts for unauthorized movements or escape attempts via SMS or mobile app.",
+                "Remote monitoring and control via IoT integration."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, security systems, and monitoring technologies.",
+                "Enhances understanding of prison security and escape prevention.",
+                "Ideal for improving security in prisons and detention facilities."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "motion sensors",
+                    "proximity sensors",
+                    "Wi-Fi module",
+                    "GSM module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based security systems."
+            }
+        },
+        {
+            "code": "MAIOTE031",
+            "imgSrc": "/major projects/ESP32/MAIOTE031.png",
+            "title": "Spy Robot with Night Vision System",
+            "abstract": "This project enables students to develop a spy robot equipped with a night vision camera for surveillance in low-light conditions. The robot is controlled remotely and can transmit live video feed, making it ideal for security and reconnaissance applications.",
+            "key_features": [
+                "Remote-controlled robot with night vision camera for surveillance.",
+                "Real-time video transmission to a mobile app or web dashboard.",
+                "IoT-based monitoring and control for remote operations."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, robotics, and surveillance systems.",
+                "Enhances understanding of night vision technology and remote monitoring.",
+                "Ideal for security, reconnaissance, and law enforcement applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "night vision camera module",
+                    "motor driver",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Battery-powered"
+                ],
+                "platform": "IoT-based surveillance systems."
+            }
+        },
+        {
+            "code": "MAIOTE032",
+            "imgSrc": "/major projects/ESP32/MAIOTE032.jpg",
+            "title": "IoT-Based Security System with Voice Message",
+            "abstract": "This project introduces an IoT-based security system that detects intrusions and sends voice messages to alert users. The system uses sensors to monitor doors and windows and provides real-time alerts to enhance home security.",
+            "key_features": [
+                "Real-time intrusion detection using motion and proximity sensors.",
+                "Automatic voice message alerts in case of unauthorized access.",
+                "IoT-based remote monitoring and control via mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT, home security, and voice messaging systems.",
+                "Enhances understanding of security technologies and real-time alert systems.",
+                "Ideal for securing homes, offices, and commercial properties."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "motion sensors",
+                    "proximity sensors",
+                    "voice message module",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "AC adapter or battery-powered"
+                ],
+                "platform": "IoT-based security systems."
+            }
+        }
+    ]
+}

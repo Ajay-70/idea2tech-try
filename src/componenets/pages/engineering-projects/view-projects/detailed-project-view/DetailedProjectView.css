@@ -1,0 +1,89 @@
+.hero-image{
+ display: flex;
+ justify-content: center;
+}
+.project-title{
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.onlyimage{
+  width: 50%;
+  height: 400px;
+  object-fit: cover
+}
+
+.project-disc {
+  padding-top: 40px;
+  width: 50%;
+  text-align: left; /* Center the text */
+  margin: 0 auto; /* Center the entire element */
+  font-size: larger;
+}
+/* Ensure the parent container is a flex container */
+
+/* Container style to center content */
+.center-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  
+  text-align: center; /* Centers text inside the container */
+  padding-top: 60px; /* Optional: Add padding around the container */
+}
+
+/* Style for the heading */
+.fill-form {
+  width: 60%; /* Adjust width as needed */
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+
+
+
+@media (max-width: 414px) {
+.project-title{
+  font-size: large;
+  font-weight: 700;
+}
+.onlyimage{
+  width: 80%;
+  height: 250px;
+  object-fit: cover
+}
+.project-disc {
+  padding-top: 40px;
+  width: 80%;
+  text-align: left; /* Center the text */
+  margin: 0 auto; /* Center the entire element */
+  font-size: small;
+}
+
+  .fill-form {
+    width: 90%; /* Adjust width as needed */
+    font-size: larger;
+    font-weight: 600;
+  }
+  
+
+}
+
+@media (max-width: 820px) {
+  .project-title{
+    font-size: large;
+    font-weight: 700;
+  }
+  .onlyimage{
+    width: 70%;
+    height: 250px;
+    object-fit: cover
+  }
+  .project-disc {
+    padding-top: 40px;
+    width: 70%;
+    text-align: left; /* Center the text */
+    margin: 0 auto; /* Center the entire element */
+    font-size: small;
+  }
+  }

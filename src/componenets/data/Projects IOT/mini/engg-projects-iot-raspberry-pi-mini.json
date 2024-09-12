@@ -1,0 +1,358 @@
+{
+    "subdomain": "Raspberry Pi",
+    "projects": [
+        {
+            "code": "MIIOTE001",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR001.jpg",
+            "title": "Real-Time Temperature and Humidity Monitoring Webserver with Raspberry Pi Pico",
+            "abstract": "This project introduces students to building a real-time temperature and humidity monitoring web server using Raspberry Pi Pico. The system collects data from sensors and serves the information on a web interface, making it accessible from any device with internet connectivity.",
+            "key_features": [
+                "Real-time temperature and humidity monitoring.",
+                "Web interface for remote data access.",
+                "Compact and energy-efficient solution using Raspberry Pi Pico."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and web-based monitoring systems.",
+                "Enhances understanding of sensor integration, web servers, and data visualization.",
+                "Ideal for applications in home automation, smart agriculture, or industrial monitoring."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi Pico",
+                    "DHT11 or DHT22 temperature and humidity sensor",
+                    "Wi-Fi module (e.g., ESP8266)"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "USB",
+                    "battery-powered"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE002",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR002.jpg",
+            "title": "Temperature Data Logger using Raspberry Pi Pico",
+            "abstract": "This project allows students to build a temperature data logger using Raspberry Pi Pico. The system collects temperature data over time and stores it in a file or database, making it useful for monitoring and analyzing temperature trends.",
+            "key_features": [
+                "Collects temperature data over time and stores it for analysis.",
+                "Supports file or database storage for long-term data logging.",
+                "Compact and low-power solution using Raspberry Pi Pico."
+            ],
+            "benefits": [
+                "Provides hands-on experience with data logging and sensor integration.",
+                "Enhances understanding of long-term data collection and storage methods.",
+                "Ideal for monitoring environmental conditions in various applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi Pico",
+                    "temperature sensor (e.g., DS18B20)",
+                    "microSD card module (optional)"
+                ],
+                "data_storage": "CSV file or database (e.g., SQLite)",
+                "power_supply": [
+                    "USB",
+                    "battery-powered"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE003",
+            "title": "RFID-Based Door Lock System using Raspberry Pi",
+            "abstract": "This project introduces students to building an RFID-based door lock system using Raspberry Pi. The system provides secure access control by unlocking the door when a valid RFID card is detected, making it ideal for homes, offices, or other secure environments.",
+            "key_features": [
+                "Unlocks the door using RFID cards.",
+                "Secure and customizable access control system.",
+                "Easy to install in homes, offices, or secure areas."
+            ],
+            "benefits": [
+                "Provides hands-on experience with RFID technology and security systems.",
+                "Enhances understanding of access control mechanisms and Raspberry Pi integration.",
+                "Ideal for securing doors in homes, offices, or other environments."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "RFID reader (e.g., RC522)",
+                    "servo motor or electronic lock"
+                ],
+                "connectivity": "Local control or remote control via IoT",
+                "power_supply": [
+                    "AC adapter",
+                    "battery-powered"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE004",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR004.jpg",
+            "title": "Raspberry Pi Zero W to Block Ads",
+            "abstract": "This project enables students to build a network-wide ad blocker using Raspberry Pi Zero W. The system blocks ads across all devices connected to the network, providing an uninterrupted browsing experience and improving security by preventing access to malicious ad content.",
+            "key_features": [
+                "Blocks ads across all devices connected to the network.",
+                "Improves browsing speed and security by filtering malicious ads.",
+                "Compact and low-power solution using Raspberry Pi Zero W."
+            ],
+            "benefits": [
+                "Provides practical experience with network security and content filtering.",
+                "Enhances understanding of DNS-based ad blocking and network management.",
+                "Ideal for improving the online experience in homes, schools, or offices."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi Zero W",
+                    "microSD card"
+                ],
+                "software": "Pi-hole or similar DNS-based ad-blocking software",
+                "power_supply": "Micro USB"
+            }
+        },
+        {
+            "code": "MIIOTE005",
+            "title": "Object Classification using Edge Impulse TinyML on Raspberry Pi",
+            "abstract": "This project helps students build an object classification system using Edge Impulse TinyML on Raspberry Pi. The system classifies objects in real-time using machine learning models deployed on the Raspberry Pi, making it an ideal solution for edge computing and IoT applications.",
+            "key_features": [
+                "Real-time object classification using TinyML.",
+                "Edge computing for fast and efficient processing without cloud dependency.",
+                "Customizable models trained with Edge Impulse."
+            ],
+            "benefits": [
+                "Provides hands-on experience with TinyML, machine learning, and edge computing.",
+                "Enhances understanding of object classification, model deployment, and IoT integration.",
+                "Ideal for robotics, automation, and security applications."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "microSD card"
+                ],
+                "software": [
+                    "Edge Impulse TinyML",
+                    "TensorFlow Lite"
+                ],
+                "power_supply": "USB power"
+            }
+        },
+        {
+            "code": "MIIOTE006",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR006.jpg",
+            "title": "Raspberry Pi Based Emotion Recognition using OpenCV, TensorFlow, and Keras",
+            "abstract": "This project introduces students to building an emotion recognition system using Raspberry Pi, OpenCV, TensorFlow, and Keras. The system detects facial expressions and classifies emotions in real-time, providing valuable insights into human behavior and applications in smart environments.",
+            "key_features": [
+                "Real-time emotion recognition using deep learning models.",
+                "Facial expression analysis with OpenCV and TensorFlow.",
+                "Applicable in smart environments, security, or interactive systems."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision and deep learning.",
+                "Enhances understanding of emotion recognition, facial feature detection, and Raspberry Pi integration.",
+                "Ideal for smart home systems, security applications, or human-computer interaction."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "microSD card"
+                ],
+                "software": [
+                    "OpenCV",
+                    "TensorFlow",
+                    "Keras"
+                ],
+                "power_supply": "USB power"
+            }
+        },
+        {
+            "code": "MIIOTE007",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR007.jpg",
+            "title": "Hand Gesture Recognition using Raspberry Pi and OpenCV",
+            "abstract": "This project enables students to build a hand gesture recognition system using Raspberry Pi and OpenCV. The system recognizes specific hand gestures and translates them into commands, making it an ideal solution for touchless control and human-computer interaction.",
+            "key_features": [
+                "Real-time hand gesture recognition using computer vision.",
+                "Touchless control for smart devices and systems.",
+                "Customizable gestures for different commands."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision and gesture recognition.",
+                "Enhances understanding of image processing, feature detection, and touchless control systems.",
+                "Ideal for applications in smart home control, robotics, and human-computer interaction."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "microSD card"
+                ],
+                "software": "OpenCV, custom gesture recognition algorithms",
+                "power_supply": "USB power"
+            }
+        },
+        {
+            "code": "MIIOTE008",
+            "title": "Age and Gender Classification using OpenCV and Deep Learning on Raspberry Pi",
+            "abstract": "This project introduces students to building an age and gender classification system using Raspberry Pi, OpenCV, and deep learning. The system analyzes facial features to predict the age and gender of individuals in real-time, making it useful for security, retail, or demographic analysis applications.",
+            "key_features": [
+                "Real-time age and gender classification using deep learning.",
+                "Facial feature analysis with OpenCV and TensorFlow/Keras.",
+                "Applicable in security, retail, and demographic analysis."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision and deep learning models.",
+                "Enhances understanding of age and gender classification, facial detection, and Raspberry Pi integration.",
+                "Ideal for applications in security, retail analytics, or demographic studies."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "microSD card"
+                ],
+                "software": [
+                    "OpenCV",
+                    "TensorFlow",
+                    "Keras"
+                ],
+                "power_supply": "USB power"
+            }
+        },
+        {
+            "code": "MIIOTE009",
+            "title": "Face Mask Detection using Raspberry Pi and OpenCV",
+            "abstract": "This project helps students build a face mask detection system using Raspberry Pi and OpenCV. The system detects whether individuals are wearing face masks and can trigger alerts for non-compliance, making it useful for public safety in places like schools, offices, or public transportation.",
+            "key_features": [
+                "Real-time face mask detection using computer vision.",
+                "Triggers alerts for non-compliance with mask-wearing rules.",
+                "Applicable in public safety, schools, offices, and public transportation."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision and public safety systems.",
+                "Enhances understanding of face detection, mask recognition, and Raspberry Pi integration.",
+                "Ideal for ensuring public safety in high-traffic areas."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "microSD card"
+                ],
+                "software": [
+                    "OpenCV",
+                    "TensorFlow/Keras (optional for deep learning)"
+                ],
+                "power_supply": "USB power"
+            }
+        },
+        {
+            "code": "MIIOTE010",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR010.jpg",
+            "title": "QR Code Scanner using Raspberry Pi and OpenCV",
+            "abstract": "This project introduces students to building a QR code scanner using Raspberry Pi and OpenCV. The system scans and decodes QR codes in real-time, making it useful for various applications such as inventory management, access control, and information retrieval.",
+            "key_features": [
+                "Real-time QR code scanning and decoding.",
+                "Applicable in inventory management, access control, and digital payments.",
+                "Customizable for various use cases."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision and QR code processing.",
+                "Enhances understanding of image recognition, barcode scanning, and Raspberry Pi integration.",
+                "Ideal for applications in logistics, security, and automation."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "microSD card"
+                ],
+                "software": [
+                    "OpenCV",
+                    "ZBar or pyzbar for QR code decoding"
+                ],
+                "power_supply": "USB power"
+            }
+        },
+        {
+            "code": "MIIOTE011",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR011.jpg",
+            "title": "Crowd Size Estimation Using OpenCV and Raspberry Pi",
+            "abstract": "This project helps students build a crowd size estimation system using Raspberry Pi and OpenCV. The system analyzes live camera feed to estimate the number of people in a given area, making it useful for public safety, event management, or traffic monitoring.",
+            "key_features": [
+                "Real-time crowd size estimation using computer vision.",
+                "Applicable in public safety, event management, and traffic monitoring.",
+                "Provides valuable insights for crowd control and management."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision and crowd detection.",
+                "Enhances understanding of image processing, object detection, and Raspberry Pi integration.",
+                "Ideal for applications in public safety, event planning, and smart city management."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "camera module",
+                    "microSD card"
+                ],
+                "software": [
+                    "OpenCV",
+                    "TensorFlow/Keras (optional for deep learning-based detection)"
+                ],
+                "power_supply": "USB power"
+            }
+        },
+        {
+            "code": "MIIOTE012",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR012.jpg",
+            "title": "IoT-Based Raspberry Pi Smart Energy Monitor",
+            "abstract": "This project enables students to build an IoT-based smart energy monitor using Raspberry Pi. The system tracks energy consumption in real-time and sends the data to a cloud platform for remote monitoring and analysis, making it useful for optimizing energy usage in homes or industries.",
+            "key_features": [
+                "Real-time energy consumption monitoring.",
+                "IoT-based system for remote data access and analysis.",
+                "Helps optimize energy usage and reduce costs."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and energy monitoring systems.",
+                "Enhances understanding of power measurement, cloud integration, and data analysis.",
+                "Ideal for applications in smart homes, industries, and energy management."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "energy monitoring sensor (e.g., CT sensor)",
+                    "Wi-Fi module"
+                ],
+                "connectivity": "Wi-Fi",
+                "power_supply": [
+                    "AC adapter",
+                    "battery-powered"
+                ]
+            }
+        },
+        {
+            "code": "MIIOTE013",
+            "imgSrc": "/mini projects/Raspberry pi/MIIOTR013.jpg",
+            "title": "Raspberry Pi Based Obstacle Avoiding Robot using Ultrasonic Sensor",
+            "abstract": "This project introduces students to building an obstacle-avoiding robot using Raspberry Pi and ultrasonic sensors. The robot detects obstacles in its path and autonomously navigates around them, making it ideal for robotics, automation, and AI applications.",
+            "key_features": [
+                "Autonomous obstacle avoidance using ultrasonic sensors.",
+                "Real-time navigation adjustments for safe movement.",
+                "Applicable in robotics, automation, and AI experiments."
+            ],
+            "benefits": [
+                "Provides hands-on experience with robotics, sensor integration, and autonomous systems.",
+                "Enhances understanding of obstacle detection, path planning, and Raspberry Pi programming.",
+                "Ideal for robotics competitions, automation projects, and AI research."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "Raspberry Pi",
+                    "ultrasonic sensors",
+                    "motor driver",
+                    "DC motors"
+                ],
+                "connectivity": "Local control or remote control via IoT (optional)",
+                "power_supply": "Battery-powered"
+            }
+        }
+    ]
+}

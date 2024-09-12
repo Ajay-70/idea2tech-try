@@ -1,0 +1,533 @@
+{
+    "subdomain": "ai&ml",
+    "projects": [
+        {
+            "code": "MIAIML001",
+            "imgSrc": "/mini projects/AI&ML/MIAIML001.webp",
+            "title": "IoT-Enabled Automated Shelter System for Crop Protection Against Rain",
+            "abstract": "This project introduces an IoT-enabled automated shelter system that protects crops from rain. The system uses sensors to detect rain and automatically deploys protective shelters over crops, preventing potential damage.",
+            "key_features": [
+                "Real-time rain detection using weather sensors.",
+                "Automated shelter deployment for crop protection.",
+                "IoT-based monitoring and control via a mobile app."
+            ],
+            "benefits": [
+                "Provides hands-on experience with IoT and smart agriculture systems.",
+                "Enhances understanding of automated crop protection and environmental monitoring.",
+                "Ideal for farms and greenhouses to prevent crop damage from unpredictable weather."
+            ],
+            "technical_specifications": {
+                "components": [
+                    "ESP8266/ESP32",
+                    "rain sensors",
+                    "motor drivers",
+                    "servo motors (for shelter deployment)",
+                    "Wi-Fi module"
+                ],
+                "power_supply": [
+                    "Solar-powered",
+                    "battery-powered"
+                ],
+                "platform": "IoT-based smart agriculture systems"
+            }
+        },
+        {
+            "code": "MIAIML002",
+            "title": "Biometric Authentication System Using Fingerprint (CNN)",
+            "abstract": "This project introduces students to a biometric authentication system using fingerprint recognition. The system employs Convolutional Neural Networks (CNNs) to accurately classify fingerprint patterns, providing a secure and efficient authentication method for access control.",
+            "dataset": "The system uses publicly available fingerprint datasets like FVC2000 or other fingerprint datasets for training and evaluation.",
+            "model_architecture": "A CNN model is built to recognize fingerprint patterns, with layers designed for feature extraction and classification. The architecture includes convolutional, pooling, and fully connected layers.",
+            "training_process": "The model is trained on labeled fingerprint data, using backpropagation and an optimizer like Adam. Data augmentation techniques are applied to enhance the model's robustness.",
+            "application_areas": [
+                "Secure access control in offices and homes.",
+                "Personal identification in banking and government sectors.",
+                "Enhancing security in mobile devices."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "OpenCV"
+                ],
+                "dataset": "FVC2000 or similar fingerprint datasets"
+            }
+        },
+        {
+            "code": "MIAIML003",
+            "imgSrc": "/mini projects/AI&ML/MIAIML003.webp",
+            "title": "Amazon Reviews Sentiment Analysis using LSTM",
+            "abstract": "This project enables students to perform sentiment analysis on Amazon reviews using a Long Short-Term Memory (LSTM) network. The system classifies reviews as positive, negative, or neutral, helping businesses understand customer sentiment.",
+            "dataset": "Amazon product reviews dataset, which includes reviews and associated sentiments, is used for training and testing.",
+            "model_architecture": "An LSTM model is used to process sequential data (text) and capture long-term dependencies in review texts, allowing for accurate sentiment classification.",
+            "training_process": "The model is trained on preprocessed review text data, with techniques such as tokenization, embedding layers, and sentiment labels. Word embeddings like GloVe or Word2Vec are used for better representation.",
+            "application_areas": [
+                "Sentiment analysis for e-commerce platforms.",
+                "Customer feedback analysis for businesses.",
+                "Social media sentiment tracking."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "NLTK"
+                ],
+                "dataset": "Amazon Reviews Dataset"
+            }
+        },
+        {
+            "code": "MIAIML004",
+            "title": "Fake News Detection System Using CNN-LSTM Hybrid Model",
+            "abstract": "This project introduces a hybrid CNN-LSTM model for detecting fake news. The system processes news articles and predicts their authenticity, addressing the growing challenge of misinformation in digital media.",
+            "dataset": "The Fake News dataset, such as the FakeNewsNet dataset, is used for training and validation.",
+            "model_architecture": "A hybrid CNN-LSTM model is designed to first extract features from the news text (CNN) and then capture the sequence of words (LSTM) to classify news articles as real or fake.",
+            "training_process": "The model is trained on labeled news data, with text preprocessing techniques like tokenization, embedding, and padding. Regularization methods are applied to prevent overfitting.",
+            "application_areas": [
+                "Identifying fake news on social media platforms.",
+                "Ensuring the credibility of news content for news agencies.",
+                "Educational purposes to understand misinformation detection."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "NLTK"
+                ],
+                "dataset": "FakeNewsNet, LIAR dataset"
+            }
+        },
+        {
+            "code": "MIAIML005",
+            "imgSrc": "/mini projects/AI&ML/MIAIML005.gif",
+            "title": "Object Detection Python Machine Learning Web App",
+            "abstract": "This project allows students to create a web application for object detection using machine learning. The system detects and classifies objects in real-time using a pre-trained model like YOLO (You Only Look Once) or SSD (Single Shot Detector).",
+            "dataset": "Pre-trained models on COCO (Common Objects in Context) dataset are used, and custom datasets can be added for specific object detection tasks.",
+            "model_architecture": "YOLO or SSD models are implemented for object detection, with a focus on real-time performance and high accuracy.",
+            "web_integration": "The object detection model is integrated into a web application using frameworks like Flask or Django, allowing users to upload images or videos and view detected objects.",
+            "application_areas": [
+                "Real-time object detection for surveillance systems.",
+                "Object detection in e-commerce for product identification.",
+                "Automated quality control in manufacturing."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "OpenCV",
+                    "TensorFlow/Keras",
+                    "Flask/Django"
+                ],
+                "dataset": "COCO, custom datasets"
+            }
+        },
+        {
+            "code": "MIAIML006",
+            "title": "Kidney Stones Classification using CNN",
+            "abstract": "This project introduces students to a medical image classification system that detects kidney stones using Convolutional Neural Networks (CNNs). The system classifies ultrasound or CT images into categories based on the presence and type of kidney stones.",
+            "dataset": "Publicly available medical datasets with labeled kidney stone images, such as ultrasound or CT scan data, are used for training and validation.",
+            "model_architecture": "A CNN model is designed for image classification, focusing on extracting relevant features from medical images and classifying them into categories.",
+            "training_process": "The model is trained on medical image data, with techniques such as data augmentation, image preprocessing, and cross-validation. The model is fine-tuned for better accuracy and generalization.",
+            "application_areas": [
+                "Assisting radiologists in detecting kidney stones.",
+                "Automated diagnosis in healthcare systems.",
+                "Research in medical image analysis and AI in healthcare."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "OpenCV"
+                ],
+                "dataset": "Ultrasound or CT scan datasets"
+            }
+        },
+        {
+            "code": "MIAIML007",
+            "title": "Face Recognition Security System using OpenCV",
+            "abstract": "This project enables students to build a face recognition security system using OpenCV. The system identifies and verifies individuals based on their facial features, providing a secure and efficient access control solution.",
+            "dataset": "Custom datasets with labeled face images are used for training the recognition model.",
+            "model_architecture": "The system uses OpenCV's Haar Cascades or DNN-based face detection models for identifying faces. Feature extraction and comparison are done using algorithms like LBPH (Local Binary Patterns Histograms) or deep learning-based embeddings.",
+            "training_process": "The system is trained on labeled face images, and a classifier is used to recognize and verify individuals based on their facial features.",
+            "application_areas": [
+                "Secure access control for homes and offices.",
+                "Face recognition in mobile devices.",
+                "Enhancing security in public spaces and businesses."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "OpenCV",
+                    "TensorFlow/Keras (for deep learning-based recognition)"
+                ],
+                "dataset": "Custom face datasets"
+            }
+        },
+        {
+            "code": "MIAIML008",
+            "imgSrc": "/mini projects/AI&ML/MIAIML008.jpeg",
+            "title": "Mask Detection System using OpenCV",
+            "abstract": "This project introduces students to a face mask detection system using OpenCV. The system detects whether individuals are wearing masks and can trigger alerts for non-compliance, making it ideal for public safety in places like schools, offices, or public transportation.",
+            "dataset": "Mask detection datasets, such as the MaskedFace-Net dataset, are used for training and validation.",
+            "model_architecture": "The system uses a deep learning model for face detection and classification of mask presence. OpenCV is employed for real-time image processing and mask detection.",
+            "training_process": "The model is trained on labeled face images with and without masks. Data augmentation and regularization techniques are applied to improve the model's performance.",
+            "application_areas": [
+                "Public safety monitoring in schools, offices, and public transport.",
+                "Real-time mask detection for automated entry systems.",
+                "Ensuring compliance with mask mandates in public places."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "OpenCV",
+                    "TensorFlow/Keras"
+                ],
+                "dataset": "MaskedFace-Net, custom mask detection datasets"
+            }
+        },
+        {
+            "code": "MIAIML009",
+            "title": "AI Chatbot",
+            "abstract": "This project allows students to create an AI chatbot that can engage in natural language conversations with users. The chatbot uses Natural Language Processing (NLP) and machine learning techniques to understand and respond to user queries.",
+            "dataset": "Datasets like Cornell Movie Dialogs Corpus or custom conversation datasets are used for training the chatbot.",
+            "model_architecture": "The chatbot uses NLP models like Seq2Seq, Transformers, or pre-trained language models like GPT (Generative Pre-trained Transformer) for understanding and generating human-like responses.",
+            "training_process": "The chatbot is trained on dialogue data using supervised learning techniques, with tokenization, embedding, and attention mechanisms for better conversational flow.",
+            "application_areas": [
+                "Customer service automation in businesses.",
+                "Personal assistant applications for home automation.",
+                "Educational chatbots for tutoring and learning."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "NLTK",
+                    "Hugging Face Transformers"
+                ],
+                "dataset": "Cornell Movie Dialogs Corpus, custom conversation datasets"
+            }
+        },
+        {
+            "code": "MIAIML010",
+            "imgSrc": "/mini projects/AI&ML/MIAIML010.png",
+            "title": "Highway Road Lane Detection System",
+            "abstract": "This project enables students to build a highway road lane detection system using computer vision. The system detects road lanes in real-time, assisting drivers or autonomous vehicles in lane keeping.",
+            "key_features": [
+                "Real-time lane detection using computer vision.",
+                "Edge detection and Hough Transform techniques.",
+                "Optional use of deep learning models for complex scenarios."
+            ],
+            "benefits": [
+                "Improves driver assistance systems.",
+                "Enhances autonomous driving capabilities.",
+                "Contributes to traffic monitoring and safety."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "OpenCV",
+                    "TensorFlow/Keras (optional)"
+                ],
+                "dataset": "Lane detection datasets"
+            }
+        },
+        {
+            "code": "MIAIML011",
+            "title": "Animal Species Prediction",
+            "abstract": "This project introduces students to an animal species prediction system using machine learning. The system classifies images of animals into different species, making it useful for wildlife conservation, educational purposes, or animal identification.",
+            "key_features": [
+                "Classifies animal images into species categories.",
+                "Uses CNN models for accurate predictions.",
+                "Supports transfer learning for improved performance."
+            ],
+            "benefits": [
+                "Aids in wildlife conservation and species tracking.",
+                "Provides educational tools for learning about different species.",
+                "Facilitates animal identification for research."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "OpenCV"
+                ],
+                "dataset": "iNaturalist, custom wildlife datasets"
+            }
+        },
+        {
+            "code": "MIAIML012",
+            "title": "Text to Speech Converter for Dumb People",
+            "abstract": "This project enables students to build a text-to-speech (TTS) converter to assist individuals who are unable to speak. The system converts text inputs into speech, providing a voice for communication.",
+            "key_features": [
+                "Converts text inputs into natural-sounding speech.",
+                "Supports customization for different languages and voices.",
+                "Uses models like Google's TTS or Tacotron 2."
+            ],
+            "benefits": [
+                "Assists individuals with speech impairments.",
+                "Provides educational tools for language learning.",
+                "Can be integrated into personal assistants and smart devices."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "gTTS",
+                    "TensorFlow/Keras"
+                ],
+                "dataset": "Pre-trained TTS models"
+            }
+        },
+        {
+            "code": "MIAIML013",
+            "title": "Speech to Text Converter for Deaf People",
+            "abstract": "This project introduces students to building a speech-to-text (STT) converter that assists individuals with hearing impairments by converting spoken language into text in real-time.",
+            "key_features": [
+                "Real-time conversion of speech to text.",
+                "Uses STT models like Google's Speech-to-Text API or DeepSpeech.",
+                "Optimized for performance and accuracy."
+            ],
+            "benefits": [
+                "Supports individuals with hearing impairments.",
+                "Provides real-time transcription for meetings or lectures.",
+                "Facilitates voice-controlled applications."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "SpeechRecognition",
+                    "DeepSpeech"
+                ],
+                "dataset": "Pre-trained STT models"
+            }
+        },
+        {
+            "code": "MIAIML014",
+            "imgSrc": "/mini projects/AI&ML/MIAIML014.png",
+            "title": "Hand Gesture Recognition",
+            "abstract": "This project allows students to create a hand gesture recognition system using machine learning. The system detects and classifies hand gestures, providing a touchless interface for controlling devices or applications.",
+            "key_features": [
+                "Detects and classifies hand gestures using computer vision.",
+                "Utilizes CNNs and keypoint detection techniques.",
+                "Supports touchless control of devices."
+            ],
+            "benefits": [
+                "Enables touchless control for smart home devices.",
+                "Enhances human-computer interaction in VR/AR environments.",
+                "Provides assistive technology for individuals with disabilities."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "OpenCV",
+                    "TensorFlow/Keras"
+                ],
+                "dataset": "Hand gesture recognition datasets"
+            }
+        },
+        {
+            "code": "MIAIML015",
+            "title": "Language Translator for Travelers",
+            "abstract": "This project introduces students to building a real-time language translation system using deep learning. The system translates spoken or written language into another language, providing a valuable tool for travelers.",
+            "key_features": [
+                "Real-time language translation.",
+                "Uses NLP models like Google's Translate API or Transformers.",
+                "Supports multiple languages."
+            ],
+            "benefits": [
+                "Facilitates communication for travelers in foreign countries.",
+                "Provides real-time translation services for businesses and education.",
+                "Can be integrated into mobile apps and personal assistants."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "Hugging Face Transformers",
+                    "Google Translate API"
+                ],
+                "dataset": "Pre-trained language models"
+            }
+        },
+        {
+            "code": "MIAIML016",
+            "title": "Deepfake Detection System",
+            "abstract": "This project introduces students to building a deepfake detection system using deep learning. The system detects whether a video has been manipulated using deepfake techniques, addressing the growing concern of media authenticity.",
+            "key_features": [
+                "Detects deepfake manipulations in video frames.",
+                "Uses deep learning models like CNNs or RNNs.",
+                "Addresses issues of media authenticity and digital forensics."
+            ],
+            "benefits": [
+                "Enhances media authenticity verification.",
+                "Supports security and surveillance applications.",
+                "Contributes to research in AI ethics and digital forensics."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "OpenCV"
+                ],
+                "dataset": "Deepfake Detection Challenge Dataset"
+            }
+        },
+        {
+            "code": "MIAIML017",
+            "title": "Gender Recognition Using Face Data",
+            "abstract": "This project enables students to build a gender recognition system using facial image data. The system classifies individuals as male or female based on their facial features, providing a tool for demographic analysis and security.",
+            "key_features": [
+                "Classifies gender based on facial features.",
+                "Uses CNNs for facial analysis.",
+                "Trained on labeled face datasets."
+            ],
+            "benefits": [
+                "Supports demographic analysis in marketing and research.",
+                "Enhances security and surveillance systems.",
+                "Facilitates personalization in e-commerce and UX design."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "OpenCV"
+                ],
+                "dataset": "Labeled face datasets"
+            }
+        },
+        {
+            "code": "MIAIML018",
+            "title": "Gender Recognition Using Voice",
+            "abstract": "This project introduces students to building a gender recognition system using voice data. The system classifies speakers as male or female based on their voice characteristics, making it useful for demographic analysis and speech applications.",
+            "key_features": [
+                "Classifies gender based on voice characteristics.",
+                "Uses RNNs or CNNs for voice analysis.",
+                "Trained on labeled voice datasets."
+            ],
+            "benefits": [
+                "Enhances demographic analysis in call centers.",
+                "Supports personalization in virtual assistants.",
+                "Facilitates research in speech processing and linguistics."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "Librosa"
+                ],
+                "dataset": "VoxCeleb, custom voice datasets"
+            }
+        },
+        {
+            "code": "MIAIML019",
+            "title": "Artificial Intelligence Project: Chess Game (Python)",
+            "abstract": "This project allows students to create an AI-powered chess game using Python. The system plays chess against human opponents by making intelligent moves based on AI algorithms, providing a challenging and interactive gaming experience.",
+            "key_features": [
+                "Uses Minimax and Alpha-Beta pruning algorithms.",
+                "Can be enhanced with machine learning techniques.",
+                "Provides an interactive gaming experience."
+            ],
+            "benefits": [
+                "Promotes AI-based gaming for entertainment and education.",
+                "Facilitates research in AI strategy and decision-making.",
+                "Develops intelligent game agents for board games."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "Python-Chess",
+                    "Pygame"
+                ],
+                "dataset": "Pre-defined chess rules and strategies"
+            }
+        },
+        {
+            "code": "MIAIML020",
+            "title": "Artificial Intelligence Project: Handwritten Digits Recognition",
+            "abstract": "This project introduces students to building a handwritten digit recognition system using machine learning. The system classifies handwritten digits from images, providing a valuable tool for digitizing handwritten data.",
+            "key_features": [
+                "Classifies handwritten digits using CNNs.",
+                "Trained on the MNIST dataset.",
+                "Utilizes data augmentation and regularization techniques."
+            ],
+            "benefits": [
+                "Aids in digitizing handwritten data.",
+                "Supports optical character recognition (OCR) applications.",
+                "Contributes to research in computer vision and pattern recognition."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "TensorFlow/Keras",
+                    "OpenCV"
+                ],
+                "dataset": "MNIST"
+            }
+        },
+        {
+            "code": "MIAIML021",
+            "title": "Fake News Detection Using Machine Learning",
+            "abstract": "This project enables students to build a fake news detection system using traditional machine learning algorithms. The system classifies news articles as real or fake based on textual features, addressing the issue of misinformation.",
+            "key_features": [
+                "Classifies news articles as real or fake.",
+                "Uses algorithms like Naive Bayes, SVM, or Random Forest.",
+                "Employs NLP techniques like TF-IDF or Word2Vec."
+            ],
+            "benefits": [
+                "Helps in detecting misinformation on social media.",
+                "Ensures credibility of news content.",
+                "Educational tool for understanding text classification."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "Scikit-learn",
+                    "NLTK"
+                ],
+                "dataset": "FakeNewsNet, LIAR dataset"
+            }
+        },
+        {
+            "code": "MIAIML022",
+            "title": "Used Car Price Prediction Using Machine Learning",
+            "abstract": "This project introduces students to building a used car price prediction system using machine learning. The system predicts the price of used cars based on various factors such as make, model, year, mileage, and condition.",
+            "key_features": [
+                "Predicts used car prices based on various factors.",
+                "Uses regression algorithms like Linear Regression, Random Forest, or Gradient Boosting.",
+                "Involves feature engineering and hyperparameter tuning."
+            ],
+            "benefits": [
+                "Assists buyers and sellers in estimating used car prices.",
+                "Provides analytics for car dealerships and online platforms.",
+                "Supports research in predictive modeling."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "Scikit-learn",
+                    "Pandas"
+                ],
+                "dataset": "Used car sales datasets"
+            }
+        },
+        {
+            "code": "MIAIML023",
+            "title": "Credit Card Fraud Detection Using Machine Learning",
+            "abstract": "This project enables students to build a credit card fraud detection system using machine learning. The system identifies fraudulent transactions based on transaction data, helping financial institutions reduce fraud.",
+            "key_features": [
+                "Detects fraudulent transactions using machine learning.",
+                "Uses classification algorithms like Random Forest, SVM, or Neural Networks.",
+                "Involves feature engineering, oversampling, and model tuning."
+            ],
+            "benefits": [
+                "Enhances fraud detection for financial institutions.",
+                "Supports research in anomaly detection and security.",
+                "Improves security in online transactions."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": [
+                    "Scikit-learn",
+                    "Pandas",
+                    "TensorFlow/Keras (optional)"
+                ],
+                "dataset": "Credit card fraud datasets"
+            }
+        }
+    ]
+}

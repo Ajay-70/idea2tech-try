@@ -1,0 +1,25 @@
+/* Add these styles to your CSS file */
+.flex.courses {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap onto multiple lines if needed */
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 1rem; /* Adjust margin as needed */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* Ensure card is full height */
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

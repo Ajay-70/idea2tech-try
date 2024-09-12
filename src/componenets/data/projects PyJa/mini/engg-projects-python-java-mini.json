@@ -1,0 +1,926 @@
+{
+    "subdomain": "Python",
+    "projects": [
+        {
+            "code": "MIPYJA001",
+            "title": "Contact Management System in Python",
+            "abstract": "This project introduces students to a contact management system developed using Python. The system allows users to store, manage, and retrieve contact details, providing a simple yet effective solution for personal or small business use.",
+            "key_features": [
+                "Add, edit, delete, and search contacts.",
+                "Store contact details such as name, phone number, email, and address.",
+                "Simple and user-friendly command-line interface."
+            ],
+            "benefits": [
+                "Provides hands-on experience with file handling and data management in Python.",
+                "Enhances understanding of basic CRUD (Create, Read, Update, Delete) operations.",
+                "Ideal for learning Python programming and database interaction."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "None (uses built-in file handling)",
+                "database": "CSV file or SQLite (optional for enhanced functionality)",
+                "platform": "Command-line interface"
+            }
+        },
+        {
+            "code": "MIPYJA002",
+            "title": "Ludo Game Project in Python",
+            "abstract": "This project enables students to develop a digital version of the classic board game Ludo using Python. The game simulates the traditional Ludo experience, allowing multiple players to play on a single machine.",
+            "key_features": [
+                "Multiplayer functionality with up to 4 players.",
+                "Simple graphical user interface (GUI) using Tkinter or Pygame.",
+                "Implements standard Ludo rules and mechanics."
+            ],
+            "benefits": [
+                "Provides practical experience in game development with Python.",
+                "Enhances understanding of GUI programming and event handling.",
+                "Ideal for beginners interested in game design and programming."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Tkinter or Pygame",
+                "platform": "Desktop application"
+            }
+        },
+        {
+            "code": "MIPYJA003",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA003.png",
+            "title": "Complaint Management System Project in Python",
+            "abstract": "This project introduces students to a complaint management system built using Python. The system allows users to file complaints, track the status, and manage resolutions, making it ideal for organizations or customer service departments.",
+            "key_features": [
+                "User registration and login functionality.",
+                "File and track complaints with status updates.",
+                "Admin panel for managing and resolving complaints."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building a complete management system.",
+                "Enhances understanding of user authentication, form handling, and CRUD operations.",
+                "Ideal for learning Python with a focus on real-world applications."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Tkinter or Django (for web-based interface)",
+                "database": "SQLite or MySQL",
+                "platform": "Desktop or web application"
+            }
+        },
+        {
+            "code": "MIPYJA004",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA004.jpg",
+            "title": "Pharmacy Management System Project in Python",
+            "abstract": "This project enables students to develop a pharmacy management system using Python. The system helps manage inventory, process sales, and handle customer details, providing an efficient solution for small to medium-sized pharmacies.",
+            "key_features": [
+                "Manage drug inventory, sales, and purchases.",
+                "Customer management with prescription tracking.",
+                "Generate invoices and sales reports."
+            ],
+            "benefits": [
+                "Provides practical experience in managing inventory and sales data.",
+                "Enhances understanding of database management and Python programming.",
+                "Ideal for small pharmacy businesses and retail management."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Tkinter or Django (for web-based interface)",
+                "database": "SQLite or MySQL",
+                "platform": "Desktop or web application"
+            }
+        },
+        {
+            "code": "MIPYJA005",
+            "title": "Student Management System Project in Python",
+            "abstract": "This project introduces students to a student management system developed in Python. The system allows administrators to manage student data, including registration, attendance, grades, and personal information.",
+            "key_features": [
+                "Student registration and record management.",
+                "Attendance tracking and grade management.",
+                "Admin dashboard for managing student information."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building a comprehensive management system.",
+                "Enhances understanding of database operations and user interface design.",
+                "Ideal for educational institutions to manage student information."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Tkinter or Django (for web-based interface)",
+                "database": "SQLite or MySQL",
+                "platform": "Desktop or web application"
+            }
+        },
+        {
+            "code": "MIPYJA006",
+            "title": "ATM Software Python Project",
+            "abstract": "This project allows students to create an ATM simulation software using Python. The system simulates ATM operations such as balance inquiry, cash withdrawal, and deposit, providing a practical experience in financial application development.",
+            "key_features": [
+                "Simulate ATM operations like withdrawal, deposit, and balance inquiry.",
+                "User authentication with PIN validation.",
+                "Transaction history tracking."
+            ],
+            "benefits": [
+                "Provides hands-on experience in simulating financial transactions.",
+                "Enhances understanding of user authentication and secure data handling.",
+                "Ideal for learning Python programming with a focus on financial applications."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "None (uses built-in Python functions)",
+                "database": "SQLite (optional for transaction history)",
+                "platform": "Command-line interface"
+            }
+        },
+        {
+            "code": "MIPYJA007",
+            "title": "GST Billing Project in Python Django",
+            "abstract": "This project introduces students to a GST billing system developed using Python and Django. The system calculates Goods and Services Tax (GST) on sales and generates invoices, making it suitable for small businesses in countries where GST is applicable.",
+            "key_features": [
+                "Calculate GST on products and services.",
+                "Generate and print GST-compliant invoices.",
+                "Manage customer details and transaction records."
+            ],
+            "benefits": [
+                "Provides hands-on experience with Django for web development.",
+                "Enhances understanding of billing systems and tax calculations.",
+                "Ideal for small businesses in managing GST-compliant billing."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA008",
+            "title": "Online Book Store Project in Python Django",
+            "abstract": "This project enables students to create an online bookstore using Python and Django. The system allows users to browse, search, and purchase books, providing a complete e-commerce solution for book sales.",
+            "key_features": [
+                "User registration and login functionality.",
+                "Browse, search, and purchase books online.",
+                "Admin panel for managing books, orders, and customers."
+            ],
+            "benefits": [
+                "Provides practical experience in building e-commerce websites.",
+                "Enhances understanding of web development, databases, and payment processing.",
+                "Ideal for online bookstores and digital retailing."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA009",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA009.jpg",
+            "title": "Image to Cartoon Python OpenCV Machine Learning",
+            "abstract": "This project introduces students to an image processing application that converts images to cartoon-style pictures using Python and OpenCV. The system uses filters and edge detection techniques to achieve the cartoon effect.",
+            "key_features": [
+                "Convert images to cartoon-style graphics.",
+                "Apply various filters for enhancing the cartoon effect.",
+                "Save and share the cartoonized images."
+            ],
+            "benefits": [
+                "Provides hands-on experience with image processing and OpenCV.",
+                "Enhances understanding of filters, edge detection, and image transformation techniques.",
+                "Ideal for creative projects in digital art and photography."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "OpenCV, NumPy",
+                "platform": "Desktop application"
+            }
+        },
+        {
+            "code": "MIPYJA010",
+            "title": "Weather Forecast Project in Python Django",
+            "abstract": "This project allows students to develop a weather forecasting web application using Python and Django. The system fetches real-time weather data from APIs and displays the forecast to users based on their location.",
+            "key_features": [
+                "Fetch and display real-time weather data.",
+                "Support for multiple locations and cities.",
+                "User-friendly interface with visual weather representations."
+            ],
+            "benefits": [
+                "Provides hands-on experience in working with APIs and web development.",
+                "Enhances understanding of data integration, web scraping, and user interface design.",
+                "Ideal for educational purposes or as a utility application."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "apis": "OpenWeatherMap API or similar",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA011",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA011.jpg",
+            "title": "Django School Management System Project",
+            "abstract": "This project introduces students to a comprehensive school management system built using Python and Django. The system helps manage student records, classes, attendance, and grades, making it suitable for educational institutions.",
+            "key_features": [
+                "Manage student registration, attendance, and grades.",
+                "Admin dashboard for managing teachers, classes, and timetables.",
+                "Parent and student portals for accessing information."
+            ],
+            "benefits": [
+                "Provides hands-on experience with Django in building complex web applications.",
+                "Enhances understanding of database management, user authentication, and role-based access.",
+                "Ideal for schools and educational institutions to streamline administrative tasks."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA012",
+            "title": "Handwritten Digit Recognition Python Flask",
+            "abstract": "This project enables students to create a web application for handwritten digit recognition using Python and Flask. The system uses a trained machine learning model to classify digits written by users on a web interface.",
+            "key_features": [
+                "Recognize handwritten digits in real-time.",
+                "Simple and interactive web interface for digit input.",
+                "Display predictions and accuracy metrics."
+            ],
+            "benefits": [
+                "Provides hands-on experience in machine learning and web development.",
+                "Enhances understanding of CNNs, Flask, and deployment of ML models.",
+                "Ideal for educational tools and digit recognition applications."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Flask",
+                "libraries": "TensorFlow/Keras, OpenCV",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA013",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA013.webp",
+            "title": "Vehicle Number Plate Detection Deep Learning Project",
+            "abstract": "This project introduces students to a vehicle number plate detection system using deep learning. The system detects and recognizes vehicle license plates from images or video feeds, making it suitable for security and traffic management.",
+            "key_features": [
+                "Detect and recognize vehicle number plates.",
+                "Real-time processing of video feeds or static images.",
+                "Output the detected license plate text for further processing."
+            ],
+            "benefits": [
+                "Provides hands-on experience with deep learning and computer vision.",
+                "Enhances understanding of object detection, text recognition, and video processing.",
+                "Ideal for applications in traffic monitoring, security, and automation."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "TensorFlow/Keras, OpenCV",
+                "dataset": "Public number plate datasets (e.g., ANPR dataset)",
+                "platform": "Desktop or web application"
+            }
+        },
+        {
+            "code": "MIPYJA014",
+            "title": "User Management System Python Django Project",
+            "abstract": "This project enables students to develop a user management system using Python and Django. The system manages user registration, login, profile updates, and role-based access control, making it suitable for web applications with user accounts.",
+            "key_features": [
+                "User registration, login, and password recovery.",
+                "Role-based access control for different user types.",
+                "Profile management and account settings."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building authentication systems with Django.",
+                "Enhances understanding of user management, security, and role-based access.",
+                "Ideal for web applications that require user accounts and access control."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA015",
+            "title": "Blog Website Project Using Python Django",
+            "abstract": "This project introduces students to a blog website developed using Python and Django. The system allows users to write, publish, and manage blog posts, providing a complete content management system (CMS) for bloggers.",
+            "key_features": [
+                "User registration, login, and profile management.",
+                "Create, edit, and delete blog posts with rich-text formatting.",
+                "Comment system for user engagement."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building content management systems with Django.",
+                "Enhances understanding of web development, user-generated content, and databases.",
+                "Ideal for bloggers, content creators, and small businesses."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA016",
+            "title": "Air Quality Index Prediction Using PM 2.5 Value (Machine Learning)",
+            "abstract": "This project enables students to develop an air quality index (AQI) prediction system using machine learning. The system predicts AQI based on PM2.5 values and other environmental factors, providing insights into air pollution levels.",
+            "key_features": [
+                "Predict AQI based on PM2.5 and other environmental factors.",
+                "Use machine learning models like Linear Regression, Random Forest, or XGBoost.",
+                "Analyze air quality trends and patterns."
+            ],
+            "benefits": [
+                "Provides hands-on experience in machine learning and environmental data analysis.",
+                "Enhances understanding of predictive modeling and real-time data analysis.",
+                "Ideal for research in air quality and environmental monitoring."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Scikit-learn, Pandas, Matplotlib",
+                "dataset": "Public air quality datasets (e.g., UCI Machine Learning Repository)",
+                "platform": "Desktop or web application"
+            }
+        },
+        {
+            "code": "MIPYJA017",
+            "title": "SMS Spam Detection Machine Learning Project with Source Code",
+            "abstract": "This project introduces students to an SMS spam detection system using machine learning. The system classifies incoming messages as spam or ham (not spam) based on their content, helping users avoid unwanted or harmful messages.",
+            "key_features": [
+                "Classify incoming messages as spam or ham.",
+                "Apply NLP techniques like TF-IDF or Word2Vec for feature extraction.",
+                "Use algorithms like Naive Bayes, Logistic Regression, or Random Forest."
+            ],
+            "benefits": [
+                "Provides hands-on experience with machine learning and NLP.",
+                "Enhances understanding of text classification and feature extraction.",
+                "Ideal for spam filtering in SMS and email applications."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Scikit-learn, NLTK",
+                "dataset": "SMS Spam Collection dataset"
+            }
+        },
+        {
+            "code": "MIPYJA018",
+            "title": "Fraud Detection on Bank Payments Machine Learning Project",
+            "abstract": "This project enables students to develop a fraud detection system for bank payments using machine learning. The system identifies fraudulent transactions based on transaction patterns, helping financial institutions reduce fraud.",
+            "key_features": [
+                "Detect fraudulent transactions based on patterns.",
+                "Use classification algorithms like Random Forest, XGBoost, or Neural Networks.",
+                "Apply feature engineering and anomaly detection techniques."
+            ],
+            "benefits": [
+                "Provides hands-on experience with fraud detection and machine learning.",
+                "Enhances understanding of classification algorithms and anomaly detection.",
+                "Ideal for financial institutions and payment platforms."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Scikit-learn, Pandas, TensorFlow/Keras (optional)",
+                "dataset": "Kaggle Credit Card Fraud Detection dataset"
+            }
+        },
+        {
+            "code": "MIPYJA019",
+            "title": "Old Book Sell and Buy Project in Python Django",
+            "abstract": "This project introduces students to an online platform for selling and buying used books using Python and Django. The system allows users to list old books for sale, browse available books, and purchase them, providing a complete marketplace solution for books.",
+            "key_features": [
+                "User registration, login, and profile management.",
+                "List and browse used books for sale.",
+                "Integrated payment gateway for purchasing books."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building e-commerce platforms with Django.",
+                "Enhances understanding of web development, databases, and online marketplaces.",
+                "Ideal for creating a second-hand book marketplace for students and book lovers."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA020",
+            "title": "Python Django File Sharing Project",
+            "abstract": "This project enables students to develop a file-sharing platform using Python and Django. The system allows users to upload, share, and manage files securely, making it suitable for personal or business use.",
+            "key_features": [
+                "User registration, login, and profile management.",
+                "Upload and share files with other users or publicly.",
+                "Secure file storage and access management."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building file-sharing systems with Django.",
+                "Enhances understanding of web development, file management, and security.",
+                "Ideal for creating a secure file-sharing platform for personal or professional use."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA021",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA021.jpg",
+            "title": "Online Examination System Project in Django",
+            "abstract": "This project introduces students to an online examination system developed using Django. The system allows administrators to create exams, and students can take exams online, with automatic grading and result generation.",
+            "key_features": [
+                "Create and manage exams with multiple question types (MCQ, descriptive).",
+                "Automatic grading for objective-type questions.",
+                "Student registration, login, and result viewing."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building educational applications with Django.",
+                "Enhances understanding of exam management, grading automation, and student data handling.",
+                "Ideal for educational institutions to facilitate online assessments."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA022",
+            "title": "Online Assignment Submission Project in Django",
+            "abstract": "This project enables students to develop an online assignment submission system using Django. The system allows students to submit assignments online, and teachers can review and grade the submissions.",
+            "key_features": [
+                "Student registration, login, and profile management.",
+                "Assignment submission with file upload support.",
+                "Teacher dashboard for reviewing and grading assignments."
+            ],
+            "benefits": [
+                "Provides practical experience in building educational management systems with Django.",
+                "Enhances understanding of file handling, user roles, and grading workflows.",
+                "Ideal for schools and universities to manage assignment submissions and grading."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA023",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA023.png",
+            "title": "Hostel Management System Python Django",
+            "abstract": "This project introduces students to a hostel management system developed using Python and Django. The system helps manage hostel accommodations, including room allocations, payments, and resident details.",
+            "key_features": [
+                "Manage hostel room allocations and resident details.",
+                "Track payments and generate receipts.",
+                "Admin dashboard for managing rooms, residents, and finances."
+            ],
+            "benefits": [
+                "Provides hands-on experience with Django for building management systems.",
+                "Enhances understanding of room allocation, payment tracking, and reporting.",
+                "Ideal for hostel administrators to manage daily operations efficiently."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA024",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA024.png",
+            "title": "Bus Reservation System Project Python Django",
+            "abstract": "This project enables students to develop a bus reservation system using Django. The system allows users to book bus tickets online, check seat availability, and manage reservations.",
+            "key_features": [
+                "User registration, login, and profile management.",
+                "Book bus tickets, view seat availability, and manage reservations.",
+                "Admin panel for managing buses, routes, and bookings."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building booking systems with Django.",
+                "Enhances understanding of reservation management, seat allocation, and payment integration.",
+                "Ideal for bus operators and travel agencies to manage reservations online."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA025",
+            "title": "Loan Defaulter Prediction Machine Learning",
+            "abstract": "This project introduces students to a loan defaulter prediction system using machine learning. The system predicts the likelihood of loan default based on various customer features such as income, loan amount, and credit history.",
+            "key_features": [
+                "Predict the likelihood of loan default based on customer features.",
+                "Use algorithms like Random Forest, Logistic Regression, or XGBoost.",
+                "Apply feature engineering and model tuning."
+            ],
+            "benefits": [
+                "Provides hands-on experience with predictive modeling and risk assessment.",
+                "Enhances understanding of machine learning algorithms and feature selection.",
+                "Ideal for financial institutions for risk management and credit scoring."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Scikit-learn, Pandas, NumPy",
+                "dataset": "Loan data (e.g., from Kaggle)"
+            }
+        },
+        {
+            "code": "MIPYJA026",
+            "title": "Loan Eligibility Prediction Python Machine Learning",
+            "abstract": "This project enables students to develop a loan eligibility prediction system using machine learning. The system predicts whether a loan applicant is eligible for a loan based on features such as income, employment status, and credit score.",
+            "key_features": [
+                "Predict loan eligibility based on applicant features.",
+                "Use classification algorithms like Logistic Regression, Decision Trees, or Neural Networks.",
+                "Apply feature selection and cross-validation techniques."
+            ],
+            "benefits": [
+                "Provides hands-on experience with credit scoring and predictive modeling.",
+                "Enhances understanding of classification algorithms and feature engineering.",
+                "Ideal for automating loan eligibility checks and improving approval processes."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Scikit-learn, Pandas",
+                "dataset": "Loan eligibility datasets"
+            }
+        },
+        {
+            "code": "MIPYJA027",
+            "title": "Live Face Mask Detection Project Using Python",
+            "abstract": "This project introduces students to a real-time face mask detection system using Python. The system uses computer vision to detect whether individuals are wearing face masks and can trigger alerts for non-compliance.",
+            "key_features": [
+                "Real-time detection of face masks using computer vision.",
+                "Use deep learning models for face detection and mask classification.",
+                "Employ OpenCV for video processing and TensorFlow/Keras for model deployment."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision and real-time detection systems.",
+                "Enhances understanding of deep learning models and video processing.",
+                "Ideal for public safety monitoring and compliance enforcement."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "OpenCV, TensorFlow/Keras",
+                "dataset": "MaskedFace-Net, custom mask detection datasets"
+            }
+        },
+        {
+            "code": "MIPYJA028",
+            "title": "Online Gym Management System in Python Django",
+            "abstract": "This project enables students to create an online gym management system using Django. The system helps manage gym memberships, class schedules, and trainer profiles, providing a complete solution for gym owners and members.",
+            "key_features": [
+                "Manage gym memberships, payments, and renewals.",
+                "Class scheduling and booking for gym members.",
+                "Trainer profiles and class management."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building management systems with Django.",
+                "Enhances understanding of membership management, scheduling, and payments.",
+                "Ideal for gyms and fitness centers to manage operations efficiently."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA029",
+            "title": "Book Recommendation System Project Machine Learning",
+            "abstract": "This project introduces students to a book recommendation system using machine learning. The system recommends books to users based on their reading history, preferences, and ratings.",
+            "key_features": [
+                "Recommend books based on user reading history and preferences.",
+                "Use collaborative filtering or content-based filtering techniques.",
+                "Apply matrix factorization and clustering algorithms."
+            ],
+            "benefits": [
+                "Provides hands-on experience with recommendation systems and user preference modeling.",
+                "Enhances understanding of collaborative filtering and matrix factorization.",
+                "Ideal for personalized recommendations in online bookstores and digital libraries."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Scikit-learn, Pandas, Surprise (for collaborative filtering)",
+                "dataset": "Book-Crossing, Goodreads datasets"
+            }
+        },
+        {
+            "code": "MIPYJA030",
+            "title": "NLP Spelling Correction Python Machine Learning",
+            "abstract": "This project enables students to develop a spelling correction system using Natural Language Processing (NLP) and machine learning. The system corrects spelling errors in text input, making it useful for applications like word processors, chatbots, and search engines.",
+            "key_features": [
+                "Correct spelling errors in text input using NLP techniques.",
+                "Use n-grams, edit distance, or deep learning models like Seq2Seq.",
+                "Fine-tune pre-trained language models like BERT for better performance."
+            ],
+            "benefits": [
+                "Provides hands-on experience with NLP and spelling correction.",
+                "Enhances understanding of language modeling and error correction techniques.",
+                "Ideal for improving text input accuracy in various applications."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "NLTK, Hugging Face Transformers",
+                "dataset": "Custom spelling correction datasets or text corpora"
+            }
+        },
+        {
+            "code": "MIPYJA031",
+            "title": "Forest Wildfire Detection from Satellite Images",
+            "abstract": "This project introduces students to a forest wildfire detection system using satellite imagery and machine learning. The system detects and predicts wildfires based on satellite images, helping in disaster management and prevention.",
+            "key_features": [
+                "Detect and predict wildfires using satellite imagery.",
+                "Use deep learning models like CNNs for image analysis.",
+                "Apply image preprocessing techniques like normalization and data augmentation."
+            ],
+            "benefits": [
+                "Provides hands-on experience with satellite imagery and disaster management.",
+                "Enhances understanding of deep learning models for image detection.",
+                "Ideal for early wildfire detection and environmental monitoring."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "TensorFlow/Keras, OpenCV",
+                "dataset": "MODIS or other satellite image datasets"
+            }
+        },
+        {
+            "code": "MIPYJA032",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA032.webp",
+            "title": "Tomato Leaf Disease Prediction (CNN Python Flask)",
+            "abstract": "This project enables students to develop a tomato leaf disease prediction system using deep learning. The system identifies and classifies tomato plant diseases based on leaf images, helping farmers and gardeners protect their crops.",
+            "key_features": [
+                "Classify tomato leaf diseases based on images.",
+                "Use Convolutional Neural Networks (CNNs) for disease classification.",
+                "Deploy the model using Flask for web-based access."
+            ],
+            "benefits": [
+                "Provides hands-on experience with deep learning and plant disease detection.",
+                "Enhances understanding of image classification and web deployment.",
+                "Ideal for farmers and gardeners to monitor and protect crops."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Flask",
+                "libraries": "TensorFlow/Keras, OpenCV",
+                "dataset": "PlantVillage"
+            }
+        },
+        {
+            "code": "MIPYJA033",
+            "title": "Online Gas Booking Project in Python Django",
+            "abstract": "This project introduces students to an online gas booking system using Django. The system allows customers to book gas cylinders online, manage bookings, and track deliveries.",
+            "key_features": [
+                "User registration, login, and profile management.",
+                "Online gas cylinder booking and delivery tracking.",
+                "Admin panel for managing bookings and customer details."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building e-commerce platforms with Django.",
+                "Enhances understanding of booking systems, customer management, and delivery tracking.",
+                "Ideal for gas agencies to manage bookings and deliveries efficiently."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA034",
+            "title": "Automated Answer Grading System (Machine Learning)",
+            "abstract": "This project enables students to develop an automated answer grading system using machine learning. The system grades descriptive answers based on key phrases and patterns, providing an efficient solution for teachers and examiners.",
+            "key_features": [
+                "Automated grading of descriptive answers based on key phrases and patterns.",
+                "Use of NLP techniques and machine learning algorithms like SVM or LSTM.",
+                "Text preprocessing with tokenization and TF-IDF for feature extraction."
+            ],
+            "benefits": [
+                "Provides hands-on experience in automated grading and NLP-based assessment.",
+                "Enhances understanding of machine learning models and text processing techniques.",
+                "Ideal for educational institutions and large-scale examination systems."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Scikit-learn, NLTK, TensorFlow/Keras",
+                "dataset": "Custom answer grading datasets"
+            }
+        },
+        {
+            "code": "MIPYJA035",
+            "title": "Fire Detection Using Surveillance Camera (Web App)",
+            "abstract": "This project introduces students to a fire detection system using surveillance cameras and computer vision. The system detects fires in real-time by analyzing video feeds from surveillance cameras, helping in early fire prevention and safety.",
+            "key_features": [
+                "Real-time fire detection using CNN models.",
+                "Video processing with OpenCV.",
+                "Web application deployment for monitoring and alerts."
+            ],
+            "benefits": [
+                "Provides hands-on experience with computer vision and real-time fire detection.",
+                "Enhances understanding of video analysis and CNN models.",
+                "Ideal for smart building systems and disaster management."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "OpenCV, TensorFlow/Keras",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA036",
+            "title": "Rainfall Prediction Using Logistic Regression (Flask Web App)",
+            "abstract": "This project enables students to develop a rainfall prediction system using logistic regression and Python Flask. The system predicts the likelihood of rainfall based on historical weather data and presents the results on a web interface.",
+            "key_features": [
+                "Rainfall probability prediction using logistic regression.",
+                "Web interface for displaying predictions.",
+                "Historical weather data analysis."
+            ],
+            "benefits": [
+                "Provides hands-on experience with predictive modeling and web deployment.",
+                "Enhances understanding of logistic regression and weather forecasting.",
+                "Ideal for agricultural planning and climate research."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Flask",
+                "libraries": "Scikit-learn, Pandas",
+                "dataset": "Public weather datasets"
+            }
+        },
+        {
+            "code": "MIPYJA037",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA037.webp",
+            "title": "AI Healthcare Chatbot Project (Python)",
+            "abstract": "This project introduces students to an AI-based healthcare chatbot developed using Python. The chatbot assists users in diagnosing symptoms, providing health advice, and answering common medical queries.",
+            "key_features": [
+                "Symptom diagnosis and health advice through AI.",
+                "Use of NLP techniques and pre-trained models like GPT-3 or Rasa.",
+                "Training on medical datasets for improved accuracy."
+            ],
+            "benefits": [
+                "Provides hands-on experience with AI chatbots and healthcare assistance.",
+                "Enhances understanding of NLP and medical data processing.",
+                "Ideal for integration into telemedicine platforms and health apps."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "NLTK, Rasa, OpenAI GPT (optional)",
+                "dataset": "Medical datasets or pre-trained language models"
+            }
+        },
+        {
+            "code": "MIPYJA038",
+            "title": "AI Mental Health Chatbot Project (Python)",
+            "abstract": "This project enables students to develop an AI chatbot that provides mental health support. The chatbot engages users in conversations, offers mental health resources, and provides emotional support based on user input.",
+            "key_features": [
+                "Mental health support and emotional guidance through AI.",
+                "Use of NLP and machine learning models for understanding user emotions.",
+                "Training on mental health conversation datasets for accurate responses."
+            ],
+            "benefits": [
+                "Provides hands-on experience with mental health support chatbots.",
+                "Enhances understanding of NLP and emotional analysis.",
+                "Ideal for mental health apps and online therapy platforms."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "NLTK, Rasa, TensorFlow/Keras (optional)",
+                "dataset": "Mental health conversation datasets"
+            }
+        },
+        {
+            "code": "MIPYJA039",
+            "title": "Doctors Appointment System Django Project",
+            "abstract": "This project introduces students to a doctor’s appointment booking system developed using Django. The system allows patients to book appointments online, and doctors can manage their schedules and patient records.",
+            "key_features": [
+                "Patient registration, login, and appointment booking.",
+                "Doctor dashboard for managing appointments and patient details.",
+                "Admin panel for managing doctors, patients, and schedules."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building appointment and management systems with Django.",
+                "Enhances understanding of scheduling, patient management, and notifications.",
+                "Ideal for clinics, hospitals, and healthcare providers."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA040",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA040.jpg",
+            "title": "Online Pizza Ordering System in Python Django",
+            "abstract": "This project enables students to create an online pizza ordering system using Django. The system allows users to place orders for pizza online, customize their orders, and manage delivery details.",
+            "key_features": [
+                "User registration, login, and profile management.",
+                "Order customization with different pizza sizes, toppings, and drinks.",
+                "Admin panel for managing orders, customers, and inventory."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building e-commerce platforms with Django.",
+                "Enhances understanding of order management, payment integration, and inventory tracking.",
+                "Ideal for restaurants and food delivery businesses."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA041",
+            "title": "Online Hotel Reservation System Project in Python Django",
+            "abstract": "This project introduces students to an online hotel reservation system using Django. The system allows users to search for hotels, book rooms, and manage reservations, providing a complete solution for hotel management.",
+            "key_features": [
+                "Search and book hotel rooms online.",
+                "Manage reservations and payments.",
+                "Admin dashboard for managing hotels, rooms, and bookings."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building hotel management systems with Django.",
+                "Enhances understanding of reservation management, payment processing, and user roles.",
+                "Ideal for hotels, resorts, and travel agencies."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA042",
+            "title": "Online Loan Management System Project in Python Django",
+            "abstract": "This project enables students to develop an online loan management system using Django. The system manages loan applications, payments, and interest calculations, providing a complete solution for financial institutions.",
+            "key_features": [
+                "Manage loan applications, approvals, and payments.",
+                "Track loan balances, interest, and repayment schedules.",
+                "Admin panel for managing customers and loan details."
+            ],
+            "benefits": [
+                "Provides hands-on experience in building financial management systems with Django.",
+                "Enhances understanding of loan management, interest calculation, and payment tracking.",
+                "Ideal for banks, lending platforms, and microfinance institutions."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "framework": "Django",
+                "database": "SQLite or MySQL",
+                "platform": "Web application"
+            }
+        },
+        {
+            "code": "MIPYJA043",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA043.jpg",
+            "title": "Image-Based Bird Species Identification Using Machine Learning",
+            "abstract": "This project introduces students to a bird species identification system using machine learning. The system classifies images of birds into different species, making it useful for wildlife conservation, birdwatching, and research.",
+            "key_features": [
+                "Classify bird species based on images using CNNs.",
+                "Transfer learning with pre-trained models like ResNet or Inception.",
+                "Application in wildlife conservation and birdwatching."
+            ],
+            "benefits": [
+                "Provides hands-on experience with image classification and transfer learning.",
+                "Enhances understanding of CNN models and bird species identification.",
+                "Ideal for wildlife research and smart camera systems."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "TensorFlow/Keras, OpenCV",
+                "dataset": "CUB-200 or similar bird image datasets"
+            }
+        },
+        {
+            "code": "MIPYJA044",
+            "imgSrc": "/mini projects/Python and Java/MIPYJA044.png",
+            "title": "Alternative Medicine Recommendation System (Machine Learning)",
+            "abstract": "This project enables students to develop a recommendation system for alternative medicine using machine learning. The system recommends alternative treatments based on user input, providing a personalized approach to healthcare.",
+            "key_features": [
+                "Recommend alternative treatments based on user symptoms.",
+                "Use collaborative filtering or content-based filtering techniques.",
+                "NLP techniques for processing user symptoms and matching treatments."
+            ],
+            "benefits": [
+                "Provides hands-on experience with recommendation systems and personalized medicine.",
+                "Enhances understanding of collaborative filtering and NLP techniques.",
+                "Ideal for health apps and wellness platforms."
+            ],
+            "technical_specifications": {
+                "programming_language": "Python",
+                "libraries": "Scikit-learn, NLTK, Pandas",
+                "dataset": "Alternative medicine datasets"
+            }
+        }
+    ]
+}

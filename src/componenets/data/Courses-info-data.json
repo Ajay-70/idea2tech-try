@@ -1,6 +1,6 @@
 [
   {
-    "course":"Arduino",
+    "course": "Arduino",
     "courseTitle": "Welcome to Arduino Course",
     "welcomeMessage": "Raising tomorrow's leaders.",
     "videoUrl": "/videos/Arduino Animation Funal Video.mp4",
@@ -26,10 +26,9 @@
     }
   },
   {
-    "course":"Raspberry Pi",
+    "course": "Raspberry Pi",
     "courseTitle": "Welcome to Raspberry Pi Course",
     "welcomeMessage": "Raising tomorrow's leaders.",
-    "videoUrl": "/videos/Arduino Animation Funal Video.mp4",
     "sections": [
       {
         "title": "Introduction",
@@ -52,10 +51,9 @@
     }
   },
   {
-    "course":"Drone Building",
+    "course": "Drone Building",
     "courseTitle": "Welcome to Drone Building Course",
     "welcomeMessage": "Raising tomorrow's leaders.",
-    "videoUrl": "/videos/Arduino Animation Funal Video.mp4",
     "sections": [
       {
         "title": "Introduction",
@@ -78,10 +76,9 @@
     }
   },
   {
-    "course":"Voice Assistant",
+    "course": "Voice Assistant",
     "courseTitle": "Welcome to Voice Assistant Course",
     "welcomeMessage": "Raising tomorrow's leaders.",
-    "videoUrl": "/videos/Arduino Animation Funal Video.mp4",
     "sections": [
       {
         "title": "Introduction",
@@ -104,10 +101,9 @@
     }
   },
   {
-    "course":"Mobile Controller Device",
+    "course": "Mobile Controller Device",
     "courseTitle": "Welcome to Mobile Controller Device Course",
     "welcomeMessage": "Raising tomorrow's leaders.",
-    "videoUrl": "/videos/Arduino Animation Funal Video.mp4",
     "sections": [
       {
         "title": "Introduction",
@@ -130,10 +126,9 @@
     }
   },
   {
-    "course":"3D Modeling",
+    "course": "3D Modeling",
     "courseTitle": "Welcome to 3D Modeling Course",
     "welcomeMessage": "Raising tomorrow's leaders.",
-    "videoUrl": "/videos/Arduino Animation Funal Video.mp4",
     "sections": [
       {
         "title": "Introduction",
@@ -156,10 +151,9 @@
     }
   },
   {
-    "course":"3D Printing",
+    "course": "3D Printing",
     "courseTitle": "Welcome to 3D Printing Course",
     "welcomeMessage": "Raising tomorrow's leaders.",
-    "videoUrl": "/videos/Arduino Animation Funal Video.mp4",
     "sections": [
       {
         "title": "Introduction",

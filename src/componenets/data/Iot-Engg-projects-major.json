@@ -1,0 +1,698 @@
+[
+  {
+    "imageSrc": "",
+    "projectName": "Intelligent Temperature-Regulated Cooling System for Solar Panels",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project focuses on developing an intelligent cooling system for solar panels to maintain optimal operating temperatures. By utilizing temperature sensors and an automated cooling mechanism, the system ensures that solar panels operate efficiently and extend their lifespan. The project will cover the integration of sensors, cooling mechanisms, and control systems using Arduino, providing practical insights into energy efficiency and automated systems."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Advanced Automated Hydroponic System for Efficient Plant Cultivation",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Advanced Automated Hydroponic System project aims to optimize plant growth by automating the hydroponic cultivation process. This system will manage nutrient delivery, pH levels, and lighting conditions to create an ideal growing environment. Using Arduino, you'll develop a system that monitors and adjusts environmental parameters in real-time, learning about automated agriculture and hydroponics."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Intelligent Road Safety and Vehicle Accident Prevention System for Mountainous Terrain",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project involves creating an intelligent system to enhance road safety in mountainous regions. It will utilize sensors to detect road conditions, vehicle proximity, and potential hazards, providing real-time alerts to drivers. The system aims to reduce accidents by integrating Arduino with safety sensors and alert mechanisms, offering insights into road safety technologies and accident prevention."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Solar Power Automatic Irrigation System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Solar Power Automatic Irrigation System project focuses on developing a sustainable irrigation solution powered by solar energy. This system automates watering schedules based on soil moisture levels and sunlight conditions, optimizing water usage for agricultural applications. By integrating Arduino with solar power and irrigation controls, you'll gain experience in sustainable technology and automated irrigation systems."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Offline Voice Controlled Home Automation System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project aims to create a voice-controlled home automation system that operates offline. Utilizing voice recognition technology and Arduino, the system will control various home appliances, providing a hands-free and user-friendly experience. The project will explore voice recognition integration and home automation, enhancing convenience and accessibility in smart home environments."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Alcohol Detection and Automatic Car Engine Locking System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Alcohol Detection and Automatic Car Engine Locking System project focuses on enhancing vehicle safety by integrating an alcohol detection sensor with an engine locking mechanism. If alcohol is detected beyond a certain threshold, the system will automatically lock the car engine, preventing impaired driving. This project will involve sensor integration, control systems, and safety measures using Arduino."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "RFID Based Smart Parking System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The RFID Based Smart Parking System project aims to simplify parking management using RFID technology. The system will automatically detect and register vehicle entries and exits, providing real-time parking availability information. By integrating RFID tags and Arduino, you'll develop a smart parking solution that enhances efficiency and convenience in parking management."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Automatic Railway Gate Operating System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project involves creating an automatic railway gate operating system that enhances railway safety. The system will use sensors to detect approaching trains and automatically close or open the railway gates. By leveraging Arduino for sensor integration and gate control, you'll gain experience in railway safety systems and automation technologies."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Solar Highway Lighting System with Auto Turn On and Off",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Solar Highway Lighting System project focuses on developing an energy-efficient lighting system for highways powered by solar energy. The system will automatically turn the lights on and off based on ambient light conditions. Using Arduino, you'll integrate solar panels, light sensors, and control mechanisms to create a sustainable and automated lighting solution for highways."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Voice-Based Wheelchair Controller for Physically Handicapped",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project aims to develop a voice-controlled wheelchair system to assist physically handicapped individuals. The system will use voice commands to control wheelchair movements, providing greater independence and mobility. By integrating voice recognition technology with Arduino, you'll create a user-friendly control system for enhanced mobility assistance."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Remote Controlled Metal and Landmine Detection Robotic Vehicle",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Remote Controlled Metal and Landmine Detection Robotic Vehicle project involves creating a robot capable of detecting metals and landmines from a safe distance. Using Arduino for control and detection systems, the robot will assist in hazardous environment navigation and landmine detection, providing valuable experience in robotics and safety technology."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Air Quality Monitoring System Using Drone",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project focuses on developing a drone-based air quality monitoring system to assess environmental conditions from above. The system will use sensors to measure air quality parameters and transmit data to a central monitoring station. By integrating Arduino with drone technology, you'll gain experience in environmental monitoring and drone-based data collection."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Hand Movement Controlled RC Robot",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Hand Movement Controlled RC Robot project involves creating a robot that responds to hand movements for remote control. Using sensors and Arduino, the robot will translate hand gestures into movement commands, offering a novel approach to remote control and robotics. This project will explore gesture recognition and robotic control technologies."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Medical Supplies Delivery Drone",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project aims to develop a drone system for delivering medical supplies to remote or hard-to-reach locations. The system will integrate GPS for navigation and a delivery mechanism for supplies. By using Arduino for control and automation, you'll gain experience in drone technology and logistics solutions."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Suntracking Solar System with Expanding Mechanism",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Suntracking Solar System project involves developing a solar panel system that tracks the sun's movement to maximize energy absorption. The system will include an expanding mechanism to adjust panel angles and optimize solar exposure. Using Arduino, you'll integrate sensors and motors to create a dynamic and efficient solar energy system."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Emergency Hand Crank Power Generator",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project focuses on creating a hand-crank power generator for emergency situations. The generator will produce electrical power through manual cranking, providing a reliable energy source during power outages. By integrating Arduino with the generator mechanism, you'll gain experience in energy generation and emergency preparedness solutions."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Fingerprint Based Electronic Voting Machine",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Fingerprint Based Electronic Voting Machine project aims to develop a secure voting system using fingerprint recognition. The system will authenticate voters and record votes electronically, enhancing voting security and accuracy. By integrating fingerprint sensors with Arduino, you'll explore biometric authentication and electronic voting technologies."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Fingerprint Based ATM Machine with RFID Card",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project involves creating an ATM machine that combines fingerprint recognition and RFID card technology for secure transactions. The system will authenticate users through biometric and RFID verification, ensuring secure access to banking services. Using Arduino, you'll develop a sophisticated security system for ATM operations."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Wind and Solar Power Generation System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Wind and Solar Power Generation System project focuses on creating a hybrid energy system that combines wind and solar power sources. The system will manage energy generation and storage from both sources, optimizing power output. By using Arduino for control and monitoring, you'll gain experience in renewable energy technologies and hybrid systems."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Foot Step Power Generation System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project involves developing a power generation system that converts footstep energy into electrical power. The system will harness energy from footsteps to charge batteries or power small devices. Using Arduino, you'll integrate piezoelectric materials and energy storage mechanisms to create a practical and innovative energy solution."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Speed Breaker Power Generation System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Speed Breaker Power Generation System project focuses on generating electricity from the mechanical energy of vehicles passing over speed breakers. The system will capture and convert kinetic energy into electrical power. By using Arduino for monitoring and control, you'll explore energy harvesting technologies and innovative power generation methods."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Waste Segregation System for Dry, Wet, and Metal Waste",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project aims to develop an automated waste segregation system that classifies waste into dry, wet, and metal categories. The system will use sensors and Arduino to identify and sort different types of waste, improving recycling and waste management efficiency. You'll gain experience in waste sorting technologies and automated systems."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Mars Rover Surveillance System (Rocker Boogie)",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Mars Rover Surveillance System project involves creating a robotic rover for exploring and surveilling planetary surfaces. The rover will be equipped with sensors and a surveillance system for remote operation and data collection. Using Arduino, you'll develop a rover capable of navigating and monitoring in challenging environments."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Agriculture Rover for Spraying Pesticides",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project focuses on developing a robotic rover designed for automated pesticide spraying in agricultural fields. The rover will use sensors to navigate and apply pesticides efficiently. By integrating Arduino with spraying mechanisms and navigation systems, you'll gain insights into agricultural automation and pest management."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Agriculture Rover for Cutting Grass",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Agriculture Rover for Cutting Grass project involves creating a robotic rover for automated grass cutting in fields. The rover will use sensors and cutting mechanisms to perform the task efficiently. Using Arduino, you'll develop a system that combines robotics and agricultural maintenance, offering practical solutions for field management."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Power Theft Alert System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project aims to develop a system for detecting and alerting power theft. The system will use sensors to monitor electrical usage and detect anomalies indicative of theft. By integrating Arduino with alert mechanisms, you'll create a system that enhances electrical grid security and theft prevention."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Covid Virus Disinfection Box",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Covid Virus Disinfection Box project involves creating a disinfection box using UV-C light or other methods to sanitize objects and surfaces. The system will be designed to handle various items, providing a practical solution for reducing virus transmission. Using Arduino, you'll integrate disinfection mechanisms and control systems to ensure effective sanitation."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Barcode Scan and Price Calculator Trolley",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project focuses on developing a shopping trolley equipped with a barcode scanner and price calculator. The trolley will scan barcodes of items, calculate the total price, and display it on a screen. By integrating Arduino with scanning and calculation modules, you'll create a user-friendly shopping assistant."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Stop and Go Queue Entry Management System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Stop and Go Queue Entry Management System project aims to manage and control queues in various settings. The system will use sensors and displays to guide people in a queue, optimizing entry and exit processes. Using Arduino for control and management, you'll develop a system that enhances queue management efficiency."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Safety Alert Coat for Coal Miners",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project involves creating a safety alert coat for coal miners, equipped with sensors to detect hazardous conditions such as gas leaks or high temperatures. The coat will provide alerts to the wearer, enhancing safety in mining environments. Using Arduino, you'll integrate sensors and alert systems to improve worker safety."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Smart Door Theft Alert System",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Smart Door Theft Alert System project focuses on enhancing home security by developing a system that detects and alerts unauthorized door access. The system will use sensors and Arduino to monitor door activity and provide alerts in case of suspicious behavior, improving home security."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Load Sensing Seats with Lights and Fans Control",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "This project aims to create load-sensing seats that automatically adjust lighting and fan settings based on occupancy. The system will use sensors to detect seat usage and control lighting and fans accordingly. By integrating Arduino with load sensors and control mechanisms, you'll develop a responsive and efficient seating management system."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Contactless Body Temperature Tracker",
+    "projectDomain": "IoT",
+    "subDomain": "Arduino",
+    "description": "The Contactless Body Temperature Tracker project involves developing a system to measure and monitor body temperature without physical contact. The system will use infrared sensors to detect temperature and provide real-time data. Using Arduino, you'll create a system suitable for health monitoring and safety applications."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Enabled Automated Shelter System for Crop Protection Against Rain",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project focuses on developing an automated shelter system for crops to protect them from rain. The system will use sensors to detect weather conditions and deploy a shelter as needed. By integrating ESP8266/ESP32 with weather sensors and control mechanisms, you'll create a smart solution for crop protection."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Advanced Automated Hydroponic System for Efficient Plant Cultivation",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Advanced Automated Hydroponic System project aims to enhance plant growth by automating the hydroponic cultivation process. This system will manage nutrient delivery, pH levels, and lighting conditions using ESP8266/ESP32, creating an ideal growing environment and providing practical insights into automated agriculture."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Smart Weather Station for Advanced Environmental Monitoring Applications",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Smart Weather Station project involves creating a system to monitor environmental parameters such as temperature, humidity, and pressure. Using ESP8266/ESP32, the station will provide real-time data and analysis, offering valuable insights for weather forecasting and environmental monitoring."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Wheelchair Fall Detection System with SMS and Location Tracking",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project aims to develop a fall detection system for wheelchairs that sends SMS alerts and tracks the location of the fall. The system will use sensors to detect falls and ESP8266/ESP32 for communication and location tracking, providing safety and support for wheelchair users."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based System for Monitoring and Alerting Flooding Conditions",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The IoT-Based Flooding Monitoring System project focuses on detecting and alerting flooding conditions using sensors and ESP8266/ESP32. The system will monitor water levels and send alerts in case of potential flooding, helping in early warning and disaster management."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Enabled Navigation Assistance System for Visually Impaired Individuals",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves creating a navigation assistance system for visually impaired individuals using IoT technology. The system will use ESP8266/ESP32 for real-time guidance and obstacle detection, enhancing mobility and independence for visually impaired users."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Solar Power Automatic Irrigation System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Solar Power Automatic Irrigation System project aims to combine solar energy with automatic irrigation for efficient water management in agriculture. Using ESP8266/ESP32, the system will monitor soil moisture levels and control irrigation based on real-time data, providing an eco-friendly solution for crop irrigation."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Offline Voice Controlled Home Automation System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing an offline voice-controlled home automation system. The system will use ESP8266/ESP32 to control home devices based on voice commands without needing an internet connection, offering privacy and convenience in smart home management."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Gas Leakage Detector with SMS and Buzzer Alert System for Immediate Response",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Gas Leakage Detector project aims to identify gas leaks and provide immediate alerts using SMS and a buzzer. Using ESP8266/ESP32, the system will detect gas presence, send notifications, and activate alerts for quick response and safety."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Home Automation System Using Android Application",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project focuses on creating a home automation system controlled via an Android application. Using ESP8266/ESP32, the system will enable remote management of home devices through a mobile app, providing a convenient and user-friendly interface for smart home control."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Agriculture Monitoring and Automatic Watering System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The IoT-Based Agriculture Monitoring and Automatic Watering System project aims to monitor and manage agricultural environments using IoT technology. Using ESP8266/ESP32, the system will track crop conditions and automatically water based on real-time data, optimizing water usage and crop growth."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "RFID-Based Online Attendance System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing an RFID-based online attendance system. Using ESP8266/ESP32, the system will track attendance through RFID tags and update records online, streamlining attendance management and offering real-time monitoring capabilities."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Automated IoT-Based Fish Tank Maintenance Assistive System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Automated IoT-Based Fish Tank Maintenance Assistive System project aims to simplify fish tank care by automating maintenance tasks. Using ESP8266/ESP32, the system will monitor water quality, temperature, and other parameters, providing automated solutions for maintaining a healthy aquatic environment."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Enabled Innovative System for Accident Detection and Rescue",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project focuses on creating an IoT-enabled system for detecting accidents and providing rescue operations. Using ESP8266/ESP32, the system will detect accidents, send alerts, and assist in rescue operations, enhancing safety and emergency response."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "School Bus Live Location Tracking System Using Blynk",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The School Bus Live Location Tracking System project involves developing a system to track the live location of school buses using Blynk. Using ESP8266/ESP32, the system will provide real-time tracking and notifications to parents and school administrators, enhancing school transportation management."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT River Water Quality Monitoring System Using RC Boat",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project aims to monitor river water quality using an RC boat equipped with sensors. Using ESP8266/ESP32, the system will collect water quality data and transmit it for analysis, providing insights into environmental health and water safety."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Colour Detection and Sorting Machine",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The IoT-Based Colour Detection and Sorting Machine project involves creating a system to detect and sort objects based on their color. Using ESP8266/ESP32, the system will automate the sorting process, offering practical applications in manufacturing and sorting industries."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Face Recognition Security Locking System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project aims to develop a security locking system that uses face recognition for access control. Using ESP8266/ESP32, the system will provide secure and automated access based on facial recognition, enhancing security in various applications."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Water Leakage Detection, Monitoring, and Control System Using IoT",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Water Leakage Detection, Monitoring, and Control System project focuses on identifying and managing water leaks using IoT technology. Using ESP8266/ESP32, the system will detect leaks, provide real-time monitoring, and control water flow to prevent damage and wastage."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Human Following Robot Using NodeMCU",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing a robot that follows humans using NodeMCU. The robot will use sensors to track and follow individuals, providing a practical application for personal assistance and interaction. Using ESP8266/ESP32, the robot will be designed for responsive and accurate following."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Voice-Based Wheel Chair Controller for Physically Handicapped",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Voice-Based Wheelchair Controller project focuses on creating a system that allows physically handicapped individuals to control a wheelchair using voice commands. Using ESP8266/ESP32, the system will interpret voice commands to control wheelchair movement, enhancing mobility and independence."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Home Automation Control Through Voice & Google Assistant",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing a home automation system controlled through voice commands and Google Assistant integration. Using ESP8266/ESP32, the system will allow users to manage home devices using voice commands, offering convenience and smart home functionality."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Smart Timer Based Pet Food Feeder System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Smart Timer-Based Pet Food Feeder System project aims to automate pet feeding based on a programmed schedule. Using ESP8266/ESP32, the system will dispense food at specified times, ensuring pets are fed regularly without manual intervention."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Solar Lake Cleaner Remote Controlled Robot",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing a remote-controlled robot designed to clean lakes using solar power. The robot will use ESP8266/ESP32 for control and navigation, providing an eco-friendly solution for maintaining clean water bodies."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Human Following Smart Shopping Trolley",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Human Following Smart Shopping Trolley project focuses on creating a shopping trolley that follows the user through a store. Using ESP8266/ESP32, the trolley will use sensors to track and follow the user, offering a convenient and innovative shopping experience."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Patient Monitoring System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing a patient monitoring system that uses IoT technology to track and record health parameters. Using ESP8266/ESP32, the system will monitor vital signs and provide real-time data to healthcare providers, improving patient care and monitoring."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Greenhouse Monitoring and Control System Using IoT",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Greenhouse Monitoring and Control System project focuses on managing greenhouse environments using IoT technology. Using ESP8266/ESP32, the system will monitor conditions such as temperature, humidity, and light, and control greenhouse systems to optimize plant growth."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Smart Helmet with Safety Features",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing a smart helmet equipped with safety features like collision detection and GPS tracking. Using ESP8266/ESP32, the helmet will provide real-time safety alerts and tracking, enhancing protection for users in hazardous environments."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Smart Home Automation System with ESP32",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Smart Home Automation System project focuses on creating an advanced home automation system using ESP32. The system will allow for comprehensive control and monitoring of home devices, integrating various sensors and control mechanisms for a fully automated smart home experience."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Automated IoT-Based Fish Tank Maintenance Assistive System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Automated IoT-Based Fish Tank Maintenance Assistive System project aims to simplify fish tank care by automating maintenance tasks. Using ESP8266/ESP32, the system will monitor water quality, temperature, and other parameters, providing automated solutions for maintaining a healthy aquatic environment."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Energy Meter with Real-Time Monitoring",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing an IoT-based energy meter for real-time monitoring of energy consumption. Using ESP8266/ESP32, the system will track energy usage and provide real-time data and analytics, helping users manage and optimize their energy consumption."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Advanced Security System with Facial Recognition",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Advanced Security System with Facial Recognition project focuses on creating a sophisticated security system using facial recognition technology. Using ESP8266/ESP32, the system will enhance security by controlling access based on facial recognition, offering high-level protection."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Enabled Smart Street Lighting System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing a smart street lighting system using IoT technology. Using ESP8266/ESP32, the system will control street lights based on real-time data such as ambient light levels and traffic conditions, optimizing energy usage and improving street safety."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Smart Parking System with Real-Time Space Availability",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Smart Parking System project focuses on creating a system that monitors and manages parking space availability in real-time. Using ESP8266/ESP32, the system will provide real-time data on parking space availability, helping drivers find and manage parking efficiently."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Automated IoT-Based Fish Tank Maintenance Assistive System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Automated IoT-Based Fish Tank Maintenance Assistive System project aims to simplify fish tank care by automating maintenance tasks. Using ESP8266/ESP32, the system will monitor water quality, temperature, and other parameters, providing automated solutions for maintaining a healthy aquatic environment."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Meter for Utility Monitoring",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing a smart meter for monitoring utility consumption such as electricity, water, or gas. Using ESP8266/ESP32, the system will provide real-time data on usage, helping users manage and optimize their utility consumption efficiently."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Voice-Activated Home Automation System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The Voice-Activated Home Automation System project focuses on creating a smart home system controlled through voice commands. Using ESP8266/ESP32, the system will allow users to control various home devices using voice recognition, providing convenience and enhancing user interaction."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "Automated Smart Plant Irrigation System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing an automated irrigation system for plants. Using ESP8266/ESP32, the system will monitor soil moisture levels and control irrigation based on real-time data, ensuring efficient water usage and optimal plant growth."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Enabled Smart Security Camera System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The IoT-Enabled Smart Security Camera System project focuses on creating a smart security camera system that provides real-time video surveillance and alerts. Using ESP8266/ESP32, the system will offer advanced security features such as motion detection and remote access."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Home Energy Management System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing an IoT-based energy management system for smart homes. Using ESP8266/ESP32, the system will monitor and control energy usage of home devices, providing insights into energy consumption and helping optimize efficiency."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Waste Management System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The IoT-Based Smart Waste Management System project aims to optimize waste management processes using IoT technology. Using ESP8266/ESP32, the system will monitor waste levels, provide alerts for collection, and help manage waste disposal efficiently."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Traffic Management System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project involves developing a smart traffic management system that uses IoT technology to optimize traffic flow. Using ESP8266/ESP32, the system will monitor traffic conditions, manage signals, and provide real-time updates to improve traffic management and reduce congestion."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Agricultural Monitoring System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The IoT-Based Smart Agricultural Monitoring System project aims to enhance agricultural practices through real-time monitoring. Using ESP8266/ESP32, the system will track various environmental parameters and provide actionable insights to optimize farming practices."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Water Quality Monitoring System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project focuses on developing a smart water quality monitoring system that uses IoT technology to assess water quality. Using ESP8266/ESP32, the system will provide real-time data on water parameters, helping ensure safe and clean water for various applications."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Indoor Plant Monitoring System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The IoT-Based Smart Indoor Plant Monitoring System project involves creating a system to monitor indoor plants' health and needs. Using ESP8266/ESP32, the system will track parameters such as soil moisture and light levels, providing insights and automation for indoor plant care."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Air Quality Monitoring System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "This project aims to develop a smart air quality monitoring system using IoT technology. Using ESP8266/ESP32, the system will measure air quality parameters and provide real-time data and alerts, helping manage and improve air quality in various environments."
+  },
+  {
+    "imageSrc": "",
+    "projectName": "IoT-Based Smart Greenhouse System",
+    "projectDomain": "IoT",
+    "subDomain": "ESP8266 / ESP32",
+    "description": "The IoT-Based Smart Greenhouse System project involves creating a smart greenhouse system using IoT technology. Using ESP8266/ESP32, the system will monitor and control environmental conditions within the greenhouse, optimizing plant growth and resource usage."
+  },
+
+  {
+      "imageSrc": "",
+      "projectName": "Low-Cost Interactive Voice Response (IVR) Device using Raspberry Pi for Automatic Calls and Messages",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves developing a low-cost Interactive Voice Response (IVR) device using Raspberry Pi. The system will automate calls and messages, providing an efficient communication solution for various applications like customer service and emergency alerts."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Raspberry Pi Internet Radio and Streaming Station",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The Raspberry Pi Internet Radio and Streaming Station project focuses on creating a digital radio and streaming station using Raspberry Pi. This system will allow users to stream and listen to internet radio stations, offering a customizable and portable audio solution."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Raspberry Pi based Automatic Library Book Management System using Python Flask",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves developing an automatic library book management system using Raspberry Pi and Python Flask. The system will track and manage library books, providing an automated solution for book lending, returning, and inventory management."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Raspberry Pi based Biometric Attendance System with Temperature Recorder and Sanitizer Dispenser",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The Raspberry Pi Biometric Attendance System project focuses on creating a system that records attendance using biometric data. The system will also monitor body temperature and dispense sanitizer, enhancing health and safety measures in environments like offices and schools."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Tomato Sorting Machine using Edge Impulse TinyML on Raspberry Pi",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves developing a tomato sorting machine using Edge Impulse TinyML on Raspberry Pi. The system will sort tomatoes based on size, color, and ripeness, providing an automated solution for agriculture and food processing industries."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Raspberry Pi based CovAID Electronic Door System",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The Raspberry Pi CovAID Electronic Door System project aims to develop a contactless door control system to reduce the spread of viruses. The system will use Raspberry Pi to monitor and control door access, integrating health checks like temperature scanning for enhanced safety."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Smart Shopping Cart with POS Thermal Printer, Barcode Scanner, 20x4 LCD and Raspberry Pi",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves creating a smart shopping cart equipped with a POS thermal printer, barcode scanner, and LCD display using Raspberry Pi. The system will streamline the shopping experience by automating billing and providing real-time information on purchases."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "License Plate Recognition using Raspberry Pi and OpenCV",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The License Plate Recognition project focuses on developing a system to recognize vehicle license plates using Raspberry Pi and OpenCV. The system will capture and process images of license plates, providing an automated solution for parking management and law enforcement."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "CCTV Motion Detection with Alarm using OpenCV on Raspberry Pi",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves creating a CCTV system with motion detection and alarm features using Raspberry Pi and OpenCV. The system will monitor for motion and trigger alarms when suspicious activity is detected, enhancing security in homes and businesses."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Gesture Controlled Video Player using Raspberry Pi and MediaPipe - Play, Pause and Control Volume using Gestures",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The Gesture Controlled Video Player project aims to create a video player that responds to hand gestures. Using Raspberry Pi and MediaPipe, the system will allow users to control video playback and volume, offering a hands-free and interactive media experience."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Raspberry Pi Weather Station: Monitoring Humidity, Temperature and Pressure over Internet",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves developing a weather station using Raspberry Pi that monitors humidity, temperature, and pressure. The system will provide real-time weather data over the internet, offering an accessible and cost-effective solution for environmental monitoring."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Driver Drowsiness Detector and Alerting System using Raspberry Pi and OpenCV",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The Driver Drowsiness Detector project focuses on creating a system to detect and alert drivers when they show signs of drowsiness. Using Raspberry Pi and OpenCV, the system will monitor facial expressions and eye movements, providing timely alerts to prevent accidents."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Social Distancing Detector Using OpenCV and Raspberry Pi",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves developing a social distancing detector using OpenCV and Raspberry Pi. The system will monitor and ensure that individuals maintain appropriate social distancing in public spaces, providing alerts when the distance is breached."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Voice controlled Home automation using Amazon Alexa on Raspberry Pi",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The Voice-Controlled Home Automation project focuses on creating a smart home system using Raspberry Pi and Amazon Alexa. The system will allow users to control home devices through voice commands, providing a convenient and efficient way to manage home automation."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "IoT Raspberry Pi Smart Container with Email Alert and Web Monitoring",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves developing a smart container system using Raspberry Pi, capable of sending email alerts and allowing web monitoring. The system will monitor container contents, providing real-time data and alerts to ensure proper management and usage."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "IOT based Raspberry Pi Home Security System with Email Alert",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The Raspberry Pi Home Security System project focuses on creating a home security system with email alert capabilities. Using IoT technology and Raspberry Pi, the system will monitor for security breaches and send real-time alerts, enhancing home safety."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Visitor Monitoring and Security System with Raspberry Pi and Pi Camera",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves developing a visitor monitoring and security system using Raspberry Pi and a Pi Camera. The system will capture images and monitor visitors, providing an automated solution for managing and securing entrances in buildings and homes."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "RFID and Raspberry Pi Based Attendance System",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "The RFID and Raspberry Pi Based Attendance System project focuses on developing an attendance management system using RFID technology. The system will record and manage attendance data automatically, offering a streamlined and accurate solution for organizations."
+    },
+    {
+      "imageSrc": "",
+      "projectName": "Electronic Voting Machine using Raspberry Pi",
+      "projectDomain": "IoT",
+      "subDomain": "Raspberry Pi",
+      "description": "This project involves creating an electronic voting machine using Raspberry Pi. The system will provide a secure and user-friendly platform for casting votes electronically, enhancing the efficiency and integrity of the voting process."
+    }
+  
+  
+]
