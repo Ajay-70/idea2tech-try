@@ -2,6 +2,7 @@ import React from "react";
 import OurMission from "../../OurMission";
 import BookAMeeting from "../../meeting-Forms/BookAMeeting";
 import MainCarousel from "../../carousel/MainCarousel";
+import { Link } from "react-router-dom";
 import "./Educators";
 
 const Educators = () => {
@@ -19,12 +20,12 @@ const Educators = () => {
               We believe in partnering with educators to empower the next
               generation of innovators.
             </p>
-            <a
-              href="/get-in-touch"
+            <Link
+              to="/get-in-touch"
               className="px-6 py-3 bg-[#3C9AF5] font-medium rounded-full hover:bg-[#5d6dff] text-white transition duration-200"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
 
           <div

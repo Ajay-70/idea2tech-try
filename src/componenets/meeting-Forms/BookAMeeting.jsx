@@ -44,7 +44,7 @@ function BookAMeeting() {
       const result = await response.text(); // Adjust for text response
 
       if (result.trim() === "success") {
-        toast.success("Data added to the sheet successfully");
+        toast.success("Thanks for submitting! Our team will reach out soon.");
         setFormData({
           fullName: "",
           phoneNumber: "",

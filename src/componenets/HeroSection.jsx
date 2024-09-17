@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -16,14 +17,12 @@ function HeroSection() {
             shaping tomorrow's innovators.
           </p>
           <div className="flex mt-8">
-            <a
-              href="/get-in-touch"
-              // className="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400"
-              // className="uppercase py-2 px-4 rounded-lg bg-[#FABF2C] border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400"
+            <Link
+              to="/get-in-touch"
               className="uppercase py-2 px-4 rounded-lg bg-[#3C9AF5] border-2 border-transparent text-white text-md mr-4 hover:bg-[#5d6dff]"
             >
               Book a Meeting
-            </a>
+            </Link>
           </div>
         </div>
         <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">

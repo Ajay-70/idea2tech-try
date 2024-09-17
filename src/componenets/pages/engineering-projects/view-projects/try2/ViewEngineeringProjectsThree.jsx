@@ -133,6 +133,7 @@ function ViewEngineeringProjectsThree() {
         state: { project, domainType },
       }
     );
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const handleFilterChange = (selected) => {

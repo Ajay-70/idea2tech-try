@@ -40,7 +40,7 @@ const SubscribeNewsletter = () => {
       const result = await response.text(); // Adjust for text response
 
       if (result.trim() === "success") {
-        toast.success("Data added to the sheet successfully");
+        toast.success("You've successfully enrolled in our newsletter");
         setFormData({
           email: "", // Clear the form after success
         });

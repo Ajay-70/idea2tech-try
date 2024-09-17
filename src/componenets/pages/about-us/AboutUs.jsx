@@ -42,7 +42,7 @@ function AboutUs() {
       const result = await response.text(); // Adjust for text response
 
       if (result.trim() === "success") {
-        toast.success("Data added to the sheet successfully");
+        toast.success("feedback submitted successfully");
         setFormData({
           fullName: "",
           emailAddress: "",
@@ -251,10 +251,7 @@ function AboutUs() {
           >
             Send
           </button>
-          <p className="mt-3 text-xs text-gray-500">
-            Chicharrones blog helvetica normcore iceland tousled brook viral
-            artisan.
-          </p>
+          <p className="mt-3 text-xs text-gray-500">thank you for Feedback</p>
         </form>
       </div>
     </div>

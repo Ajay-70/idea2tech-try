@@ -149,7 +149,7 @@ export default function App() {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/idea2tech.sm1/"
+                href="https://www.instagram.com/idea_2_tech/"
                 target="_blank"
                 name="instagram"
                 className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400"
@@ -166,7 +166,7 @@ export default function App() {
                 </svg>
               </a>
               <a
-                href="https://www.youtube.com/@idea2tech"
+                href="https://www.youtube.com/@idea2tech-f7o"
                 target="_blank"
                 className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400"
               >
