@@ -19,7 +19,7 @@ function DomainCourse() {
 
   return (
     <div>
-      <section className="dark:bg-white dark:text-gray-800">
+      <section className=" ">
         <div className="container max-w-6xl p-6 text-lg mx-auto space-y-6 sm:space-y-12">
           <h1 className=" text-5xl text-center border-b-4 ">
             {courseData.title}
@@ -27,18 +27,18 @@ function DomainCourse() {
           <img
             src={courseData.image}
             alt=""
-            className="onlyimage w-full  h-[60rem rounded-lg sm:h-96 lg:col-span-7 dark:bg-gray-500"
+            className="onlyimage w-full  h-[60rem rounded-lg sm:h-96 lg:col-span-7 "
           />
 
           <p className="text-xl m-8 center-tb">{courseData.description}</p>
           <a
             rel="noopener noreferrer"
-            className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50"
+            className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 "
           >
             <img
               src={courseData.outcomesImage}
               alt=""
-              className="object-contain w-full h-[40rem] lg:px-4 sm:h-[50rem] lg:col-span-7 dark:bg-gray-500 flex items-center justify-center"
+              className="object-contain w-full h-[40rem] lg:px-4 sm:h-[50rem] lg:col-span-7  flex items-center justify-center"
             />
 
             <div className="p-6 text-xl space-y-2 lg:col-span-5">
@@ -55,7 +55,7 @@ function DomainCourse() {
           </a>
           <a
             rel="noopener noreferrer"
-            className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50"
+            className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 "
           >
             <div className="p-6 space-y-2 lg:col-span-5">
               <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
@@ -71,7 +71,7 @@ function DomainCourse() {
             <img
               src={courseData.skillsImage}
               alt=""
-              className="object-contain w-full h-[40rem] lg:px-4 sm:h-[50rem] lg:col-span-7 dark:bg-gray-500 flex items-center justify-center"
+              className="object-contain w-full h-[40rem] lg:px-4 sm:h-[50rem] lg:col-span-7  flex items-center justify-center"
             />
           </a>
           <p>
@@ -83,7 +83,7 @@ function DomainCourse() {
           <div className="flex justify-center">
             <button
               type="button"
-              className="px-6 py-3 text-xl bold rounded-md hover:underline  dark:bg-stone-800 dark:text-gray-400"
+              className="px-6 py-3 text-xl bold rounded-md hover:underline "
             >
               Online Courses Coming Soon...
             </button>

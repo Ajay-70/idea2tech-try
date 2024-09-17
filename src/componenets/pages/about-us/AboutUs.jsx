@@ -1,30 +1,64 @@
-import React from "react";
-import Banners from "../../Banners/Banners";
+import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify"; // Import toast and ToastContainer
+import "react-toastify/dist/ReactToastify.css"; // Import toast styles
 
 function AboutUs() {
-  function Submit(e) {
-    e.preventDefault(); // Prevent default form submission
-    const formEle = document.querySelector("form");
-    const formDatab = new FormData(formEle);
+  const [formData, setFormData] = useState({
+    fullName: "",
+    emailAddress: "",
+    message: "",
+  });
 
-    fetch(
-      "https://script.google.com/macros/s/AKfycbwEvepFhjk_m5tEMbkT6ibuukuGjprTd_9dZWI__07qQkTU7ZeWx0cD8jNktpy8il9R/exec",
-      {
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const url =
+      "https://script.google.com/macros/s/AKfycby5AGHxKxllJgSXtUscaFlbh82aKFr7gajKWwDLyTDV3zCUNviWUOLSrGzQXg8KXifM/exec";
+
+    // Convert formData to URL-encoded format
+    const formBody = Object.keys(formData)
+      .map(
+        (key) =>
+          encodeURIComponent(key) + "=" + encodeURIComponent(formData[key])
+      )
+      .join("&");
+
+    try {
+      const response = await fetch(url, {
         method: "POST",
-        body: formDatab,
-      }
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(error);
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded", // URL-encoded content type
+        },
+        body: formBody,
       });
-  }
+
+      const result = await response.text(); // Adjust for text response
+
+      if (result.trim() === "success") {
+        toast.success("Data added to the sheet successfully");
+        setFormData({
+          fullName: "",
+          emailAddress: "",
+          message: "",
+        }); // Clear the form after success
+      } else {
+        toast.error("Error: " + result);
+      }
+    } catch (error) {
+      toast.error("Network error: " + error.message);
+    }
+  };
 
   return (
     <div>
+      <ToastContainer /> {/* Add ToastContainer here */}
       <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
         {/* Image Column */}
         <div className="w-full h-64 lg:w-1/2 lg:h-auto">
@@ -40,7 +74,7 @@ function AboutUs() {
         <div className="max-w-lg bg-gray-100 border border-2-[#FABF2C] md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:py-10 lg:my-20 lg:ml-20 xl:mt-24 xl:ml-12">
           {/* Text Wrapper */}
           <div className="flex flex-col p-12 md:px-16">
-            <h2 className="text-3xl font-extrabold uppercase  text-[#3C9AF5] lg:text-4xl">
+            <h2 className="text-3xl font-extrabold uppercase text-[#3C9AF5] lg:text-4xl">
               Idea2Tech!
             </h2>
             <p className="mt-4">
@@ -57,7 +91,6 @@ function AboutUs() {
         </div>
         {/* Close Text Column */}
       </div>
-
       <div className="mt-5 mb-5 text-center">
         <div className="w-full max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold mt-2 mb-6">Our Services</h1>
@@ -86,9 +119,8 @@ function AboutUs() {
           </p>
         </div>
       </div>
-
-      <section className="text-gray-800  body-font">
-        <div className="flex justify-center  mt-10 text-4xl font-bold">
+      <section className="text-gray-800 body-font">
+        <div className="flex justify-center mt-10 text-4xl font-bold">
           Why Us?
         </div>
         <div className="container px-5 py-12 mx-auto">
@@ -99,7 +131,7 @@ function AboutUs() {
                   <img
                     src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp"
                     className="w-32 mb-3"
-                    alt="hands-on learning"
+                    alt="Hands-on learning"
                   />
                 </div>
                 <h2 className="title-font font-regular text-2xl text-gray-900">
@@ -155,29 +187,50 @@ function AboutUs() {
           </div>
         </div>
       </section>
-      <div className="flex justify-center capitalize  mt-10 text-4xl font-bold">
-        provide your Feedback
+      <div className="flex justify-center capitalize mt-10 text-4xl font-bold">
+        Provide Your Feedback
       </div>
-      <div className=" bg-gray-100 max-w-xl my-5 mx-auto mt-16 flex w-full flex-col border rounded-lg  p-8">
+      <div className="bg-gray-100 max-w-xl my-5 mx-auto mt-16 flex w-full flex-col border rounded-lg p-8">
         <h2 className="title-font mb-1 text-lg font-medium text-gray-900">
           Feedback
         </h2>
         <p className="mb-5 leading-relaxed text-gray-600">
           If you had any issues or you liked our product, please share with us!
         </p>
-        <form className="form" onSubmit={(e) => Submit(e)}>
-          <div className="mb-4">
-            <label htmlFor="email" className="text-sm leading-7 text-gray-600">
+        <form className="form" onSubmit={handleSubmit}>
+          <div className="mb-2">
+            <label
+              htmlFor="fullName"
+              className="text-sm leading-7 text-gray-600"
+            >
+              Name
+            </label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              value={formData.fullName}
+              onChange={handleChange}
+              className="w-full rounded border border-gray-300 bg-white py-1 px-3 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+            />
+          </div>
+          <div className="mb-2">
+            <label
+              htmlFor="emailAddress"
+              className="text-sm leading-7 text-gray-600"
+            >
               Email
             </label>
             <input
               type="email"
-              id="email"
-              name="Email"
+              id="emailAddress"
+              name="emailAddress"
+              value={formData.emailAddress}
+              onChange={handleChange}
               className="w-full rounded border border-gray-300 bg-white py-1 px-3 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
             />
           </div>
-          <div className="mb-4">
+          <div className="mb-2">
             <label
               htmlFor="message"
               className="text-sm leading-7 text-gray-600"
@@ -186,7 +239,9 @@ function AboutUs() {
             </label>
             <textarea
               id="message"
-              name="Message"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
               className="h-32 w-full resize-none rounded border border-gray-300 bg-white py-1 px-3 text-base leading-6 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
             ></textarea>
           </div>

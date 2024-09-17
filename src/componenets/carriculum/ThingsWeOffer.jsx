@@ -9,9 +9,9 @@ function ThingsWeOffer() {
 
   const handleKnowMore = (title) => {
     navigate("/domain-course", { state: { title: title } });
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
-  
+
   return (
     <div className="content min-[1328px]:px-5">
       {roboticsData.map((data, index) => (
@@ -27,7 +27,7 @@ function ThingsWeOffer() {
               alt={data.title}
             />
             <div className="text-center py-2">
-              <p className="fonttext font-bold">{data.title}</p>
+              <p className="lg:text-xl sm:text-l font-bold">{data.title}</p>
             </div>
           </div>
         </div>

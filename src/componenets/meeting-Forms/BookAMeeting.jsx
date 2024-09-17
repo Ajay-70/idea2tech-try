@@ -1,39 +1,83 @@
-import React from "react";
+import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify"; // Import toast and ToastContainer
+import "react-toastify/dist/ReactToastify.css"; // Import toast styles
 
 function BookAMeeting() {
-  function Submit(e) {
-    const formEle = document.querySelector("form");
-    const formDatab = new FormData(formEle);
-    try {
-      fetch(
-        "https://script.google.com/macros/s/AKfycbxj_FkvvOYmVsIGixc9IpYqGohmNoCudWAIwawdgG-fqu6LdfO4dVqQJLrOc94rWkqMOw/exec",
-        {
-          method: "POST",
-          body: formDatab,
-        }
+  const [formData, setFormData] = useState({
+    fullName: "",
+    phoneNumber: "",
+    emailAddress: "",
+    organisationName: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const url =
+      "https://script.google.com/macros/s/AKfycbw4cQQJKBO-XisvKfAOEeYxlvVWNgfTlFsH5kpvEN-DhsI2Xy0YgAxySsNZOqM9Fy3x/exec";
+
+    // Convert formData to URL-encoded format
+    const formBody = Object.keys(formData)
+      .map(
+        (key) =>
+          encodeURIComponent(key) + "=" + encodeURIComponent(formData[key])
       )
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-        });
+      .join("&");
+
+    try {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded", // URL-encoded content type
+        },
+        body: formBody,
+      });
+
+      const result = await response.text(); // Adjust for text response
+
+      if (result.trim() === "success") {
+        toast.success("Data added to the sheet successfully");
+        setFormData({
+          fullName: "",
+          phoneNumber: "",
+          emailAddress: "",
+          organisationName: "",
+          message: "",
+        }); // Clear the form after success
+      } else {
+        toast.error("Error: " + result);
+      }
     } catch (error) {
-      e.target.reset();
-      alert("Data sent successfully!");
+      toast.error("Network error: " + error.message);
     }
-  }
+  };
+
   return (
     <div>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <section className="bg-blue-50 dark:bg-slate-800" id="contact">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="mb-4">
             <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-              <p className="text-base mb-4 font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-200">
-                Contact
-              </p>
-              <h2 className="font-heading mb-4 border-b-2 p-2 border-indigo-500  font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
-                Get in Touch
-              </h2>
-              <h2 className=" mb-4 font-semibold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
+              <h2 className="mb-4 font-semibold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
                 Book a Meeting
               </h2>
               <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400"></p>
@@ -72,10 +116,11 @@ function BookAMeeting() {
                         Our Address
                       </h3>
                       <p className="text-gray-600 dark:text-slate-400">
-                        Idea2tech solutions, ECIL , Hyderabad
+                        Idea2tech solutions, Plot no : 57, Krishna Nagar, Road
+                        no : 12, NFC Road, Moula-Ali, Hyderabad
                       </p>
                       <p className="text-gray-600 dark:text-slate-400">
-                        Telangana - 500062
+                        Telangana - 500040
                       </p>
                     </div>
                   </li>
@@ -103,7 +148,7 @@ function BookAMeeting() {
                         Contact
                       </h3>
                       <p className="text-gray-600 dark:text-slate-400">
-                        Mobile: +91-9032310773
+                        Mobile: +91-9032310773, +91 8121369684
                       </p>
                       <p className="text-gray-600 dark:text-slate-400">
                         Mail: info@idea2tech.com
@@ -143,52 +188,95 @@ function BookAMeeting() {
                 </ul>
               </div>
               <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
-                <h2 className="mb-4 text-2xl font-bold dark:text-white">
+                <h2 className="mt-1 text-2xl font-bold dark:text-white">
                   Ready to Get Started?
                 </h2>
-                <form id="contactForm" onSubmit={(e) => Submit(e)}>
+                <form id="contactForm" onSubmit={handleSubmit}>
                   <div className="mb-6">
                     <div className="mx-0 mb-1 sm:mb-4">
-                      <div className="mx-0 mb-1 sm:mb-4">
-                        <label
-                          htmlFor="name"
-                          className="pb-1 text-xs uppercase tracking-wider"
-                        ></label>
-                        <input
-                          type="text"
-                          id="name"
-                          autoComplete="given-name"
-                          placeholder="Your name"
-                          className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
-                          name="Name"
-                        />
-                      </div>
-                      <div className="mx-0 mb-1 sm:mb-4">
-                        <label
-                          htmlFor="email"
-                          className="pb-1 text-xs uppercase tracking-wider"
-                        ></label>
-                        <input
-                          type="email"
-                          id="email"
-                          autoComplete="email"
-                          placeholder="Your email address"
-                          className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
-                          name="Email"
-                        />
-                      </div>
+                      <label
+                        htmlFor="name"
+                        className="pb-1 text-xs uppercase tracking-wider"
+                      >
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        autoComplete="given-name"
+                        placeholder="Your name"
+                        value={formData.fullName}
+                        onChange={handleChange}
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        name="fullName"
+                      />
+                    </div>
+                    <div className="mx-0 mb-1 sm:mb-4">
+                      <label
+                        htmlFor="email"
+                        className="pb-1 text-xs uppercase tracking-wider"
+                      >
+                        Email
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        autoComplete="email"
+                        placeholder="Your email address"
+                        value={formData.emailAddress}
+                        onChange={handleChange}
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        name="emailAddress"
+                      />
+                    </div>
+                    <div className="mx-0 mb-1 sm:mb-4">
+                      <label
+                        htmlFor="phone"
+                        className="pb-1 text-xs uppercase tracking-wider"
+                      >
+                        Phone Number
+                      </label>
+                      <input
+                        type="text"
+                        name="phoneNumber"
+                        id="phone"
+                        placeholder="Enter your phone number"
+                        value={formData.phoneNumber}
+                        onChange={handleChange}
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                      />
+                    </div>
+                    <div className="mx-0 mb-1 sm:mb-4">
+                      <label
+                        htmlFor="organisation"
+                        className="pb-1 text-xs uppercase tracking-wider"
+                      >
+                        Organisation
+                      </label>
+                      <input
+                        type="text"
+                        name="organisationName"
+                        id="organisation"
+                        placeholder="Organisation Name"
+                        value={formData.organisationName}
+                        onChange={handleChange}
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                      />
                     </div>
                     <div className="mx-0 mb-1 sm:mb-4">
                       <label
                         htmlFor="textarea"
                         className="pb-1 text-xs uppercase tracking-wider"
-                      ></label>
+                      >
+                        Message
+                      </label>
                       <textarea
                         id="textarea"
-                        name="Message"
-                        type="text"
+                        name="message"
                         cols="30"
                         rows="5"
+                        value={formData.message}
+                        onChange={handleChange}
                         placeholder="Write your message..."
                         className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
                       ></textarea>
@@ -196,7 +284,6 @@ function BookAMeeting() {
                   </div>
                   <div className="text-center">
                     <button
-                      name="Name"
                       type="submit"
                       className="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0"
                     >

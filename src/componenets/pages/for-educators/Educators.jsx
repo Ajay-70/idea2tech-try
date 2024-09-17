@@ -9,28 +9,30 @@ const Educators = () => {
     <div>
       {/* Hero Section */}
       <div className="relative w-full h-[620px]" id="home">
-        <div className="absolute inset-0 opacity-70">
-          <img
-            src="/images/oureducators1.png"
-            alt="Background Image"
-            className="object-cover object-center w-full h-full"
-          />
-        </div>
-        <div className="absolute inset-9 flex flex-col md:flex-row text-center items-center justify-between">
-          <div className="md:w-1/2 mb-4 md:mb-0">
+        <div className="absolute inset-0 opacity-70 bg-gray-900"></div>
+        <div className="relative flex flex-col md:flex-row h-full">
+          <div className="w-full md:w-1/2 flex flex-col items-center justify-center p-6 opacity-90 bg-[#D8A31D]">
             <h1 className="text-gray-900 font-bold text-4xl md:text-5xl leading-tight mb-2">
               Welcome Educators!
             </h1>
-            <p className="font-bold text-gray-700 text-xl mb-8 mt-4">
+            <p className="font-bold  text-xl mb-8 mt-4">
               We believe in partnering with educators to empower the next
               generation of innovators.
             </p>
             <a
-              href="#contactUs"
+              href="/get-in-touch"
               className="px-6 py-3 bg-[#3C9AF5] font-medium rounded-full hover:bg-[#5d6dff] text-white transition duration-200"
             >
               Contact Us
             </a>
+          </div>
+
+          <div
+            className="w-full md:w-1/2 h-full bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: "url('/images/oureducators.jpg')" }}
+          >
+            {/* Optional: If you prefer to use an <img> tag */}
+            {/* <img src="/images/oureducators.jpg" alt="Our Educators" className="w-full h-full object-cover" /> */}
           </div>
         </div>
       </div>
@@ -80,7 +82,7 @@ const Educators = () => {
           {levelData.map((level) => (
             <div
               key={level.id}
-              className="rounded-md bg-neutral-900/10 p-8 text-center shadow"
+              className="rounded-md bg-neutral-900/10 p-8 text-center shadow cursor-pointer duration-500 hover:scale-110"
             >
               <div
                 className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border"

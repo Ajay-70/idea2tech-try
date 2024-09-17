@@ -123,13 +123,14 @@ function ViewEngineeringProjectsTwo() {
   }, [projectType, domainType, selectedSubdomain]);
 
   const handleKnowMore = (project) => {
-    navigate(
-      `/engineering/${domainType}/${encodeURIComponent(project.title)}`,
-      {
-        state: { project, domainType },
-      }
-    );
-    window.scrollTo(0, 0); // Scroll to the top of the page
+    const url = `/engineering/${domainType}/${encodeURIComponent(
+      project.title
+    )}`;
+    const newTab = window.open(url, "_blank"); // Open the URL in a new tab
+
+    if (newTab) {
+      newTab.focus(); // Bring the new tab into focus
+    }
   };
 
   const fullProjectType = `${projectType}/domain/${domainType}`;

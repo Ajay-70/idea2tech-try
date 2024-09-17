@@ -1,13 +1,13 @@
 [
   {
     "domain": "IOT",
-    "title": "IOT (Arduino, ESP8266/ESP32, and Raspberry Pi)",
+    "title": "IOT Projects",
     "imageSrc": "/images/default-images/iot.jpg",
     "content": "Learn to program and build projects using Arduino microcontrollers, sensors, and actuators for hands-on electronics and coding experience."
   },
   {
     "domain": "AI&ML",
-    "title": "AI & ML (Artificial intelligance and Machine Learning)",
+    "title": "AI & ML Projects",
     "imageSrc": "/mini projects/AI&ML/Common image 1.png",
     "content": "Master using Raspberry Pi for various applications, from home automation to programming and electronics, with hands-on projects."
   },

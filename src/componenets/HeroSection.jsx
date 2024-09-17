@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <div className="  flex relative z-20 lg:h-screen items-center overflow-hidden">
       <div className="container mx-auto px-6 flex relative py-16">
-        <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
+        <div className="sm:w-2/3 lg:w-2/5 hero-text flex flex-col relative z-20">
           <span className="w-20 h-2 bg-gray-800  mb-12"></span>
           <h1 className="font-bebas-neue uppercase text-3xl sm:text-4xl font-black flex flex-col leading-none  text-gray-800">
             Place where we fuel young minds with innovation and creativity.

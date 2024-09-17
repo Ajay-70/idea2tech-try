@@ -2,6 +2,17 @@
   width: 30%;
   height: 600px;
   margin: 20px;
+  padding: 20px;
+  border: solid 2px rgb(209, 206, 206);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.proj-img{
+  height: 300px;
+  width:100%;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .hero-heading {
@@ -11,8 +22,7 @@
   font-size: xx-large;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+ 
 }
 
 .hero-content {
@@ -83,7 +93,7 @@
     width: 100%;
     height: auto;
     padding-bottom: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .card-content{
     padding: 10px;

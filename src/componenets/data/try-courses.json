@@ -98,26 +98,6 @@
     "skillsImage": "images/3D modelingandprinting3.jpeg"
   },
   {
-    "title": "Science fair",
-    "description": "The course on 3D modeling and printing introduces participants to the exciting world of three-dimensional design and fabrication. It begins by elucidating the fundamentals of 3D modeling and printing, covering topics such as the concept of three-dimensional space, modeling techniques, and the process of translating digital designs into physical objects using 3D printing technology. Participants gain insight into the uses and applications of 3D modeling and printing across various industries, including product design, architecture, healthcare, and education. The course then delves into the basics of Tinkercad, a user-friendly online platform for creating 3D models, providing hands-on experience in designing simple objects.",
-    "skills": [
-      "3D modeling skills: Participants develop skills in conceptualizing and creating three-dimensional models using digital design software. They learn techniques for manipulating shapes, creating complex geometries, and refining details to achieve desired outcomes.",
-      "3D printing skills: Engaging in 3D printing familiarizes participants with the process of preparing digital models for printing, selecting appropriate printing parameters, and operating 3D printers effectively to produce physical prototypes.",
-      "Creativity and problem-solving: The course encourages creativity and problem-solving skills by challenging participants to envision and design solutions to real-world problems using 3D modeling and printing technologies.",
-      "Technical proficiency: Participants acquire technical proficiency in using Tinkercad, including navigating the interface, manipulating objects, and applying basic design principles to create 3D models."
-    ],
-    "outcomes": [
-      "Proficiency in 3D modeling: Individuals gain proficiency in creating three-dimensional models using digital design software, enabling them to visualize and communicate ideas effectively in a virtual environment.",
-      "Understanding of 3D printing: Engaging in 3D printing enhances participants' understanding of the capabilities and limitations of additive manufacturing technology, empowering them to leverage 3D printing for rapid prototyping and production.",
-      "Practical application of Tinkercad: Participants learn to apply the principles of 3D modeling through hands-on experience with Tinkercad, acquiring the skills needed to create simple 3D models for personal or professional projects.",
-      "Innovation and creativity: The course fosters innovation and creativity by providing a platform for participants to explore and experiment with different design ideas, materials, and printing techniques in the context of 3D modeling and printing."
-    ],
-    "overall_insights": "The 3D modeling and printing course offers a comprehensive introduction to the principles, techniques, and applications of three-dimensional design and fabrication. Participants not only develop practical skills in 3D modeling and printing but also cultivate creativity, problem-solving, and technical proficiency. By gaining hands-on experience with Tinkercad and exploring the uses of 3D printing across various industries, individuals are empowered to unleash their creativity and innovate in the realm of three-dimensional design and manufacturing.",
-    "image": "images/sciencefair1.png",
-    "outcomesImage": "images/sciencefair2.jpeg",
-    "skillsImage": "images/sciencefair3.jpeg"
-  },
-  {
     "title": "Workshops",
     "description": "The course on 3D modeling and printing introduces participants to the exciting world of three-dimensional design and fabrication. It begins by elucidating the fundamentals of 3D modeling and printing, covering topics such as the concept of three-dimensional space, modeling techniques, and the process of translating digital designs into physical objects using 3D printing technology. Participants gain insight into the uses and applications of 3D modeling and printing across various industries, including product design, architecture, healthcare, and education. The course then delves into the basics of Tinkercad, a user-friendly online platform for creating 3D models, providing hands-on experience in designing simple objects.",
     "skills": [
@@ -173,8 +153,8 @@
       "Inspiration and Learning: The event inspires attendees to explore new scientific and technological fields, fostering a culture of curiosity and continuous learning."
     ],
     "overall_insights": "The Science Fair serves as a dynamic platform for showcasing student projects and introducing innovative advancements from our team. By presenting their work and engaging with cutting-edge technologies, participants and attendees alike are encouraged to explore new ideas, enhance their skills, and contribute to the ever-evolving landscape of science and technology. The event promotes creativity, research, and communication, making it a valuable experience for all involved.",
-    "image": "images/science_fair.jpeg",
-    "outcomesImage": "images/science_fair_outcomes.jpeg",
-    "skillsImage": "images/science_fair_skills.jpeg"
+    "image": "images/sciencefair1.png",
+    "outcomesImage": "images/sciencefair2.jpeg",
+    "skillsImage": "images/sciencefair3.jpeg"
   }
 ]

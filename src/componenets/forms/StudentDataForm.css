@@ -1,0 +1,14 @@
+.text-input{
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+
+  
+@media only screen and (max-width: 414px) {
+    .text-input{
+        padding: 10px;
+        margin-bottom: 2px;
+    }
+    
+}

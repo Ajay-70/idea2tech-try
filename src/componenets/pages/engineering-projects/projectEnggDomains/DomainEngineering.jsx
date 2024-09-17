@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CoursesData from "../../../data/Projects-Domains.json";
+import { Padding } from "@mui/icons-material";
 
 function DomainEngineering() {
   const { projectType } = useParams();
@@ -11,17 +12,17 @@ function DomainEngineering() {
   const handleKnowMore = (title) => {
     const domainType = title.toLowerCase().replace(/\s+/g, "-"); // Replace spaces with dashes
     navigate(`/engineering/${projectType}/domain/${domainType}`);
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const sty = {
-    width: "400px",
-    padding: "25px",
-    height: "600px",
+    width: "350px",
+
+    height: "470px",
   };
   const sty1 = {
     width: "400px",
-
-    height: "500px",
+    height: "250px",
   };
 
   return (

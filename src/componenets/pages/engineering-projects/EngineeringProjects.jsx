@@ -8,11 +8,12 @@ const ProjectCard = ({ imageSrc, altText, title, description }) => {
   const handleKnowMore = (title) => {
     const projectType = title.toLowerCase().replace(" ", "-");
     navigate(`/engineering/${projectType}/domains`);
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   return (
     <div className="ProjectsCard card-details  shadow-lg">
-      <img className="w-full h-80" src={imageSrc} alt={altText} />
+      <img className="proj-img" src={imageSrc} alt={altText} />
       <div className="card-content py-1">
         <div className="font-bold card-heading underline mb-1">{title}</div>
         <p className="text-gray-700 card-disc font-normal text-base">
@@ -36,12 +37,10 @@ function EngineeringProjects() {
         Build Real-World Projects With idea2tech
       </h1>
       <p className="hero-content text-center font-medium ">
-        "At Idea2tech, we provide specialized mini and major project services
-        tailored for engineering students. Our mission is to support and guide
-        students through their project journey, helping them develop practical
-        skills and achieve academic excellence. With hands-on assistance and
-        expert advice, we ensure that students are well-prepared for real-world
-        challenges and success."
+        "At Idea2Tech, we offer tailored mini and major project services for
+        engineering students. Our mission is to guide students in developing
+        practical skills and achieving academic success with hands-on support
+        and expert advice, preparing them for real-world challenges."
       </p>
       <div className="project-cards-container flex flex-wrap  justify-center items-center">
         <ProjectCard

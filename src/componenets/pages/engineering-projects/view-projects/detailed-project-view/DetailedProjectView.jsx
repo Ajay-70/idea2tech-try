@@ -1,26 +1,27 @@
 import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router";
 import "./DetailedProjectView.css";
 import StudentDataForm from "../../../../forms/StudentDataForm";
-import { useLocation } from "react-router";
+import PackageInclusions from "../../../../designs for homepage/PackageInclusions";
+
+// Import project JSON files
 import majorProjectsEsp32Data from "../../../../data/Projects IOT/major/engg-projects-iot-esp-major.json";
 import majorProjectsArdiunoData from "../../../../data/Projects IOT/major/engg-projects-iot-arduino-major.json";
 import majorProjectsRasspberryData from "../../../../data/Projects IOT/major/engg-projects-iot-raspberry-pi-major.json";
 import majorProjectsAiMlData from "../../../../data/projects aiml/major/engg-projects-ai-ml-major.json";
 import majorProjectsJavaPythonData from "../../../../data/projects PyJa/major/engg-projects-python-java-major.json";
-
 import miniProjectsEsp32Data from "../../../../data/Projects IOT/mini/engg-projects-iot-esp-mini.json";
 import miniProjectsArdiunoData from "../../../../data/Projects IOT/mini/engg-projects-iot-arduino-mini.json";
 import miniProjectsRasspberryData from "../../../../data/Projects IOT/mini/engg-projects-iot-raspberry-pi-mini.json";
 import miniProjectsAiMlData from "../../../../data/projects aiml/mini/engg-projects-ai-ml-mini.json";
 import miniProjectsJavaPythonData from "../../../../data/projects PyJa/mini/engg-projects-python-java-mini.json";
-import PackageInclusions from "../../../../designs for homepage/PackageInclusions";
 
 // Data source mapping
 const majorProjectsData = {
   iot: {
     Ardiuno: majorProjectsArdiunoData,
-    "ESP83266-ESP32": majorProjectsEsp32Data,
-    "Raspberry Pi": majorProjectsRasspberryData,
+    "ESP8266-ESP32": majorProjectsEsp32Data,
+    "Raspberry-Pi": majorProjectsRasspberryData,
   },
   "ai&ml": majorProjectsAiMlData,
   "python-and-java": majorProjectsJavaPythonData,
@@ -29,8 +30,8 @@ const majorProjectsData = {
 const miniProjectsData = {
   iot: {
     Ardiuno: miniProjectsArdiunoData,
-    "ESP83266-ESP32": miniProjectsEsp32Data,
-    "Raspberry Pi": miniProjectsRasspberryData,
+    "ESP8266-ESP32": miniProjectsEsp32Data,
+    "Raspberry-Pi": miniProjectsRasspberryData,
   },
   "ai&ml": miniProjectsAiMlData,
   "python-and-java": miniProjectsJavaPythonData,
@@ -81,20 +82,22 @@ function renderTechSpecItem(key, value) {
 
 function DetailedProjectView() {
   const location = useLocation();
-  const [project, setProject] = useState(location.state?.project || {});
-  const [loading, setLoading] = useState(!location.state?.project);
+  const [project, setProject] = useState({});
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const getProjectDataFromUrl = () => {
-      if (location.state?.project) return;
+      if (location.state?.project) {
+        setProject(location.state.project);
+        setLoading(false);
+        return;
+      }
 
       const urlParts = location.pathname
         .split("/")
         .filter((part) => part.length > 0);
-      console.log(urlParts.length);
-
-      if (urlParts.length < 7) {
+      if (urlParts.length < 6) {
         setError("URL format is incorrect");
         setLoading(false);
         return;
@@ -102,10 +105,11 @@ function DetailedProjectView() {
 
       const projectType = urlParts[1]; // 'major-projects' or 'mini-projects'
       const domain = urlParts[3]; // 'iot', 'ai&ml', 'python-and-java'
-      const technology = decodeURIComponent(urlParts[4]); // 'Ardiuno', 'ESP83266-ESP32', etc.
+      const technology = decodeURIComponent(urlParts[4]); // 'Ardiuno', 'ESP8266-ESP32', etc.
       const projectTitle = decodeURIComponent(urlParts.slice(5).join(" ")); // Project title
 
-      // Determine the data source based on projectType
+      console.log({ projectType, domainType, subdomain, projectTitle });
+
       const projectData =
         projectType === "major-projects" ? majorProjectsData : miniProjectsData;
       const domainData = projectData[domain];
@@ -124,7 +128,6 @@ function DetailedProjectView() {
         return;
       }
 
-      // Find the project by title
       const foundProject = techData.find((p) => p.title === projectTitle);
 
       if (foundProject) {
@@ -146,13 +149,12 @@ function DetailedProjectView() {
     return <div>Error: {error}</div>;
   }
 
-  // Extract technical specifications for easier handling
   const techSpecs = project.technical_specifications || {};
 
   return (
     <div className="detail-project-view">
       {/* Project Title */}
-      <h1 className="capitalize project-title  pb-2 border-b-4 m-5 text-center">
+      <h1 className="capitalize project-title pb-2 border-b-4 m-5 text-center">
         {project.title}
       </h1>
 
@@ -161,9 +163,8 @@ function DetailedProjectView() {
         <img
           className="onlyimage mt-4"
           src={
-            project.imgSrc
-              ? project.imgSrc
-              : `/images/default-images/${project.subdomain || "default"}.jpg`
+            project.imgSrc ||
+            `/images/default-images/${project.subdomain || "default"}.jpg`
           }
           alt={`Image for project: ${project.title}`}
         />
@@ -171,14 +172,14 @@ function DetailedProjectView() {
 
       {/* Project Details */}
       <div className="project-disc">
-        <h2 className="font-bold ">Abstract:</h2>
+        <h2 className="font-bold">Abstract:</h2>
         <p>{project.abstract}</p>
         <br />
 
         {/* Key Features */}
         {project.key_features?.length > 0 && (
           <>
-            <h2 className="font-bold ">Key Features:</h2>
+            <h2 className="font-bold">Key Features:</h2>
             <ul className="list-disc">
               {project.key_features.map((feature, index) => (
                 <li key={index}>{feature}</li>
@@ -203,7 +204,7 @@ function DetailedProjectView() {
         {Object.keys(techSpecs).length > 0 && (
           <>
             <h2 className="font-bold py-2">Technical Specifications:</h2>
-            <ul className="list-disc ">
+            <ul className="list-disc">
               {Object.entries(techSpecs).map(([key, value]) =>
                 renderTechSpecItem(key, value)
               )}
@@ -214,15 +215,15 @@ function DetailedProjectView() {
 
       {/* Student Data Form */}
       <PackageInclusions />
-      <div class="center-container">
-        <h1 class="fill-form">
-          “Transform Your Ideas into Reality!<br></br> Just a Quick Form, and
-          <br></br>
-          Our Team Will Be in Touch Shortly to Help You Get Started.”
+      <div className="center-container">
+        <h1 className="fill-form">
+          “Transform Your Ideas into Reality!
+          <br /> Just a Quick Form, and
+          <br /> Our Team Will Be in Touch Shortly to Help You Get Started.”
         </h1>
       </div>
 
-      <StudentDataForm />
+      <StudentDataForm code={project.code} title={project.title} />
     </div>
   );
 }
