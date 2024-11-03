@@ -20,7 +20,7 @@ const ProjectCard = ({ imageSrc, altText, title, description }) => {
           {description}
         </p>
         <button
-          className="inline-block w-auto text-center min-w-[200px] px-6 my-1 mb-2 py-3 text-white transition-all rounded-md shadow-xl sm:w-auto bg-[#3C9AF5] hover:bg-[#5d6dff]  hover:shadow-2xl  hover:-translate-y-px"
+          className="inline-block button_card text-center min-w-[200px] text-white transition-all rounded-md shadow-xl  bg-[#3C9AF5] hover:bg-[#5d6dff]  hover:shadow-2xl  hover:-translate-y-px"
           onClick={() => handleKnowMore(title)}
         >
           Browse Projects Domains
@@ -45,15 +45,27 @@ function EngineeringProjects() {
       <div className="project-cards-container flex flex-wrap  justify-center items-center">
         <ProjectCard
           imageSrc="/images/eng-projects.jpeg"
-          altText="mini projects"
-          title="Mini Projects"
-          description="Mini projects are designed to give students a hands-on experience with smaller-scale projects that typically span a shorter duration. These projects help students develop their practical skills, apply theoretical knowledge, and get a taste of real-world problem-solving. Ideal for those looking to enhance their understanding of core concepts and build a strong foundation."
+          altText="Electronics"
+          title="Electronics"
+          description="Explore projects with circuits, microcontrollers, sensors, and IoT, offering hands-on experience for practical skills"
+        />
+         <ProjectCard
+          imageSrc="/images/eng-projects.jpeg"
+          altText="Electrical"
+          title="Electrical"
+          description="Hands-on projects in design, automation, and robotics to develop practical skills for real-world mechanical systems."
+        />
+         <ProjectCard
+          imageSrc="/images/eng-projects.jpeg"
+          altText="Software"
+          title="Software"
+          description="Work on app development, AI, and machine learning projects, enhancing coding abilities for complex software solutions."
         />
         <ProjectCard
           imageSrc="/images/eng-projects-major.jpeg"
-          altText="major projects"
-          title="Major Projects"
-          description="Major projects are comprehensive, large-scale projects that often involve in-depth research, extensive development, and detailed documentation. These projects are intended to simulate real-world industry challenges, providing students with valuable experience in project management, teamwork, and advanced technical skills."
+          altText="Mechanical"
+          title="Mechanical"
+          description="Focus on power systems, renewable energy, and smart grids through projects that address real-world challenges."
         />
       </div>
     </div>

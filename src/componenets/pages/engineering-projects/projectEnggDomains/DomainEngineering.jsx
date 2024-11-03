@@ -3,27 +3,30 @@ import { useParams, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CoursesData from "../../../data/Projects-Domains.json";
-import { Padding } from "@mui/icons-material";
 
 function DomainEngineering() {
   const { projectType } = useParams();
-  const navigate = useNavigate(); // Use useNavigate to get the navigate function
+  const navigate = useNavigate();
 
   const handleKnowMore = (title) => {
-    const domainType = title.toLowerCase().replace(/\s+/g, "-"); // Replace spaces with dashes
-    navigate(`/engineering/${projectType}/domain/${domainType}`);
+    const domainType = title.toLowerCase().replace(/\s+/g, "-");
+    navigate(`/engineering/${projectType}/${domainType}`);
     window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const sty = {
     width: "350px",
-
     height: "470px",
   };
   const sty1 = {
     width: "400px",
     height: "250px",
   };
+
+  // Filter CoursesData based on the projectType
+  const filteredCourses = CoursesData.filter(
+    (data) => data.projectType === projectType.toLowerCase()
+  );
 
   return (
     <div className="main">
@@ -34,7 +37,7 @@ function DomainEngineering() {
         Domains
       </h2>
       <div className="flex courses">
-        {CoursesData.map((data, index) => (
+        {filteredCourses.map((data, index) => (
           <div key={index} className="p-8">
             <Card style={sty}>
               <Card.Img variant="top" style={sty1} src={data.imageSrc} />
@@ -42,7 +45,7 @@ function DomainEngineering() {
                 <Card.Title>{data.title}</Card.Title>
                 <Card.Text>{data.content}</Card.Text>
                 <Button
-                  onClick={() => handleKnowMore(data.domain)} // Pass a function reference
+                  onClick={() => handleKnowMore(data.domain)}
                   className="mt-4 px-4 border-collapse bg-[#3C9AF5] hover:bg-[#5d6dff]"
                 >
                   Browse Projects Now

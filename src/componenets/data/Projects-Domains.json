@@ -1,20 +1,74 @@
 [
   {
-    "domain": "IOT",
-    "title": "IOT Projects",
-    "imageSrc": "/images/default-images/iot.jpg",
-    "content": "Learn to program and build projects using Arduino microcontrollers, sensors, and actuators for hands-on electronics and coding experience."
+    "title": "IOT & Embedded Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "IOT & Embedded Projects",
+    "projectType": "electronics"
   },
   {
-    "domain": "AI&ML",
+    "title": "MATLAB Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "MATLAB Projects",
+    "projectType": "electronics"
+  },
+  {
+    "title": "Micro Controller Based Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Micro Controller Based Projects",
+    "projectType": "electrical"
+  }, {
+    "title": "Non Micro Controller Based Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Non Micro Controller Based Projects",
+    "projectType": "electrical"
+  }, {
+    "title": "Python Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Python Projects",
+    "projectType": "software"
+  }, {
+    "title": "Java Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Java Projects",
+    "projectType": "software"
+  }, {
     "title": "AI & ML Projects",
-    "imageSrc": "/mini projects/AI&ML/Common image 1.png",
-    "content": "Master using Raspberry Pi for various applications, from home automation to programming and electronics, with hands-on projects."
-  },
-  {
-    "domain": "Python and Java",
-    "title": "Python and Java Projects",
-    "imageSrc": "/images/default-images/java-python.jpg",
-    "content": " Design, assemble, and program your own drone, understanding the mechanics, electronics, and software"
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "AI & ML Projects",
+    "projectType": "software"
+  }, {
+    "title": "Automobile Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Automobile Projects",
+    "projectType": "mechanical"
+  }, {
+    "title": "Manufacturing Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Manufacturing Projects",
+    "projectType": "mechanical"
+  }, {
+    "title": "Automated & Pneumatics Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Automated & Pneumatics Projects",
+    "projectType": "mechanical"
+  }, {
+    "title": "Agricultural Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Agricultural Projects",
+    "projectType": "mechanical"
+  }, {
+    "title": "Robotics & Mechatronics Projects",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "Robotics & Mechatronics Projects",
+    "projectType": "mechanical"
+  }, {
+    "title": "POWER GENERATION",
+    "imageSrc": "path/to/software-engineering-image.jpg",
+    "domain": "POWER GENERATION",
+    "projectType": "mechanical"
   }
+
+ 
+
+  
 ]

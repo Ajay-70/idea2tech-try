@@ -71,9 +71,10 @@ function App() {
         <Route path="/show-interest" element={<ContactForm />} />
         <Route path="/engineering" element={<EngineeringProjects />} />
         <Route
-          path="/engineering/:projectType/domain/:domainType/:filter?"
-          element={<ViewEngineeringProjectsThree />}
-        />
+  path="/engineering/:projectType/:domainType/:subdomain?/:subSubdomain?"
+  element={<ViewEngineeringProjectsThree />}
+/>
+
 
         {/* <Route
           path="/engineering/:projectType/domain/:domainType/"
