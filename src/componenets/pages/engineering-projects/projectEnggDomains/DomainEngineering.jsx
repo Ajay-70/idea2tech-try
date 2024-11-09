@@ -16,7 +16,7 @@ function DomainEngineering() {
 
   const sty = {
     width: "350px",
-    height: "470px",
+    height: "400px",
   };
   const sty1 = {
     width: "400px",

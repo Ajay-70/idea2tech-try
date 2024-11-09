@@ -36,33 +36,28 @@ function EngineeringProjects() {
       <h1 className="hero-heading text-center  font-bold ">
         Build Real-World Projects With idea2tech
       </h1>
-      <p className="hero-content text-center font-medium ">
-        "At Idea2Tech, we offer tailored mini and major project services for
-        engineering students. Our mission is to guide students in developing
-        practical skills and achieving academic success with hands-on support
-        and expert advice, preparing them for real-world challenges."
-      </p>
+
       <div className="project-cards-container flex flex-wrap  justify-center items-center">
         <ProjectCard
-          imageSrc="/images/eng-projects.jpeg"
+          imageSrc="/domain-images/Electronics.png"
           altText="Electronics"
           title="Electronics"
           description="Explore projects with circuits, microcontrollers, sensors, and IoT, offering hands-on experience for practical skills"
         />
-         <ProjectCard
-          imageSrc="/images/eng-projects.jpeg"
+        <ProjectCard
+          imageSrc="/domain-images/Electrical.png"
           altText="Electrical"
           title="Electrical"
           description="Hands-on projects in design, automation, and robotics to develop practical skills for real-world mechanical systems."
         />
-         <ProjectCard
-          imageSrc="/images/eng-projects.jpeg"
+        <ProjectCard
+          imageSrc="/domain-images/Software.png"
           altText="Software"
           title="Software"
           description="Work on app development, AI, and machine learning projects, enhancing coding abilities for complex software solutions."
         />
         <ProjectCard
-          imageSrc="/images/eng-projects-major.jpeg"
+          imageSrc="/domain-images/Mechanical.png"
           altText="Mechanical"
           title="Mechanical"
           description="Focus on power systems, renewable energy, and smart grids through projects that address real-world challenges."

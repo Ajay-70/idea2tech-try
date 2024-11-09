@@ -1,74 +1,80 @@
 [
   {
     "title": "IOT & Embedded Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/IOT.png",
     "domain": "IOT & Embedded Projects",
     "projectType": "electronics"
   },
   {
     "title": "MATLAB Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/Matlab.png",
     "domain": "MATLAB Projects",
     "projectType": "electronics"
   },
   {
     "title": "Micro Controller Based Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/microcontroller.webp",
     "domain": "Micro Controller Based Projects",
     "projectType": "electrical"
-  }, {
+  },
+  {
     "title": "Non Micro Controller Based Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/non microcontroller.jpg",
     "domain": "Non Micro Controller Based Projects",
     "projectType": "electrical"
-  }, {
+  },
+  {
     "title": "Python Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/Python.png",
     "domain": "Python Projects",
     "projectType": "software"
-  }, {
+  },
+  {
     "title": "Java Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/Java.png",
     "domain": "Java Projects",
     "projectType": "software"
-  }, {
+  },
+  {
     "title": "AI & ML Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/AI, ML, DL.png",
     "domain": "AI & ML Projects",
     "projectType": "software"
-  }, {
+  },
+  {
     "title": "Automobile Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/Automobile.jpg",
     "domain": "Automobile Projects",
     "projectType": "mechanical"
-  }, {
+  },
+  {
     "title": "Manufacturing Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/Manufacturing.png",
     "domain": "Manufacturing Projects",
     "projectType": "mechanical"
-  }, {
+  },
+  {
     "title": "Automated & Pneumatics Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/Automated & Pneumatics Projects-m.jpg",
     "domain": "Automated & Pneumatics Projects",
     "projectType": "mechanical"
-  }, {
+  },
+  {
     "title": "Agricultural Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/Agricultural.png",
     "domain": "Agricultural Projects",
     "projectType": "mechanical"
-  }, {
+  },
+  {
     "title": "Robotics & Mechatronics Projects",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/Robotics & Mechatronics.png",
     "domain": "Robotics & Mechatronics Projects",
     "projectType": "mechanical"
-  }, {
+  },
+  {
     "title": "POWER GENERATION",
-    "imageSrc": "path/to/software-engineering-image.jpg",
+    "imageSrc": "/sub-domain-images/power generation.jpg",
     "domain": "POWER GENERATION",
     "projectType": "mechanical"
   }
-
- 
-
-  
 ]
